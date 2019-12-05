@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <url value="http://uk-koeln.de/fhir/StructureDefinition/Observation/nNGM/ihc" />
+  <name value="IhcObservation" />
+  <title value="IHC Observation" />
+  <status value="draft" />
+  <fhirVersion value="4.0.0" />
+  <mapping>
+    <identity value="workflow" />
+    <uri value="http://hl7.org/fhir/workflow" />
+    <name value="Workflow Pattern" />
+  </mapping>
+  <mapping>
+    <identity value="sct-concept" />
+    <uri value="http://snomed.info/conceptdomain" />
+    <name value="SNOMED CT Concept Domain Binding" />
+  </mapping>
+  <mapping>
+    <identity value="v2" />
+    <uri value="http://hl7.org/v2" />
+    <name value="HL7 v2 Mapping" />
+  </mapping>
+  <mapping>
+    <identity value="rim" />
+    <uri value="http://hl7.org/v3" />
+    <name value="RIM Mapping" />
+  </mapping>
+  <mapping>
+    <identity value="w5" />
+    <uri value="http://hl7.org/fhir/fivews" />
+    <name value="FiveWs Pattern Mapping" />
+  </mapping>
+  <mapping>
+    <identity value="sct-attr" />
+    <uri value="http://snomed.org/attributebinding" />
+    <name value="SNOMED CT Attribute Binding" />
+  </mapping>
+  <kind value="resource" />
+  <abstract value="false" />
+  <type value="Observation" />
+  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Observation" />
+  <derivation value="constraint" />
+  <differential>
+    <element id="Observation.extension">
+      <path value="Observation.extension" />
+      <slicing>
+        <discriminator>
+          <type value="value" />
+          <path value="url" />
+        </discriminator>
+        <rules value="open" />
+      </slicing>
+    </element>
+    <element id="Observation.extension:FallID">
+      <path value="Observation.extension" />
+      <sliceName value="FallID" />
+      <type>
+        <code value="Extension" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/workflow-episodeOfCare" />
+      </type>
+    </element>
+    <element id="Observation.extension:FallID.value[x].identifier">
+      <path value="Observation.extension.value[x].identifier" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Observation.status">
+      <path value="Observation.status" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Observation.category">
+      <path value="Observation.category" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Observation.category.coding.system">
+      <path value="Observation.category.coding.system" />
+      <fixedUri value="http://terminology.hl7.org/CodeSystem/observation-category" />
+    </element>
+    <element id="Observation.category.coding.code">
+      <path value="Observation.category.coding.code" />
+      <patternCode value="laboratory" />
+    </element>
+    <element id="Observation.code">
+      <path value="Observation.code" />
+      <mustSupport value="true" />
+      <binding>
+        <strength value="required" />
+        <valueSet value="http://uk-koeln.de/fhir/ValueSet/nNGM/molpatho/obs-ihc" />
+      </binding>
+    </element>
+    <element id="Observation.effective[x]">
+      <path value="Observation.effective[x]" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Observation.value[x]">
+      <path value="Observation.value[x]" />
+      <min value="1" />
+      <type>
+        <code value="CodeableConcept" />
+      </type>
+      <mustSupport value="true" />
+      <binding>
+        <strength value="required" />
+        <valueSet value="http://loinc.org/vs/LL1971-2" />
+      </binding>
+    </element>
+    <element id="Observation.method">
+      <path value="Observation.method" />
+      <min value="1" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Observation.method.coding.system">
+      <path value="Observation.method.coding.system" />
+      <fixedUri value="http://ncit.nci.nih.gov" />
+    </element>
+    <element id="Observation.method.coding.code">
+      <path value="Observation.method.coding.code" />
+      <patternCode value="C23020" />
+    </element>
+    <element id="Observation.specimen">
+      <path value="Observation.specimen" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Observation.specimen.identifier">
+      <path value="Observation.specimen.identifier" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Observation.component">
+      <path value="Observation.component" />
+      <slicing>
+        <discriminator>
+          <type value="pattern" />
+          <path value="code" />
+        </discriminator>
+        <rules value="open" />
+      </slicing>
+      <mustSupport value="true" />
+    </element>
+    <element id="Observation.component:phaenotyp">
+      <path value="Observation.component" />
+      <sliceName value="phaenotyp" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Observation.component:phaenotyp.code.coding.system">
+      <path value="Observation.component.code.coding.system" />
+      <fixedUri value="http://uk-koeln.de/fhir/CodeSystem/nNGM/molpatho/obs-component-codes" />
+    </element>
+    <element id="Observation.component:phaenotyp.code.coding.code">
+      <path value="Observation.component.code.coding.code" />
+      <patternCode value="phaenotyp" />
+    </element>
+    <element id="Observation.component:phaenotyp.value[x]">
+      <path value="Observation.component.value[x]" />
+      <type>
+        <code value="CodeableConcept" />
+      </type>
+      <binding>
+        <strength value="required" />
+        <valueSet value="http://uk-koeln.de/fhir/CodeSystem/nNGM/molpatho/obs-cphaenotyp" />
+      </binding>
+    </element>
+    <element id="Observation.component:antikoerper">
+      <path value="Observation.component" />
+      <sliceName value="antikoerper" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Observation.component:antikoerper.code.coding.system">
+      <path value="Observation.component.code.coding.system" />
+      <fixedUri value="http://uk-koeln.de/fhir/CodeSystem/nNGM/molpatho/obs-component-codes" />
+    </element>
+    <element id="Observation.component:antikoerper.code.coding.code">
+      <path value="Observation.component.code.coding.code" />
+      <patternCode value="antikoerper" />
+    </element>
+    <element id="Observation.component:antikoerper.value[x]">
+      <path value="Observation.component.value[x]" />
+      <min value="1" />
+      <type>
+        <code value="CodeableConcept" />
+      </type>
+    </element>
+    <element id="Observation.component:hersteller">
+      <path value="Observation.component" />
+      <sliceName value="hersteller" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Observation.component:hersteller.code.coding.system">
+      <path value="Observation.component.code.coding.system" />
+      <fixedUri value="http://uk-koeln.de/fhir/CodeSystem/nNGM/molpatho/obs-component-codes" />
+    </element>
+    <element id="Observation.component:hersteller.code.coding.code">
+      <path value="Observation.component.code.coding.code" />
+      <patternCode value="hersteller" />
+    </element>
+    <element id="Observation.component:hersteller.value[x]">
+      <path value="Observation.component.value[x]" />
+      <type>
+        <code value="CodeableConcept" />
+      </type>
+    </element>
+    <element id="Observation.component:sop">
+      <path value="Observation.component" />
+      <sliceName value="sop" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Observation.component:sop.code.coding.system">
+      <path value="Observation.component.code.coding.system" />
+      <fixedUri value="http://uk-koeln.de/fhir/CodeSystem/nNGM/molpatho/obs-component-codes" />
+    </element>
+    <element id="Observation.component:sop.value[x]">
+      <path value="Observation.component.value[x]" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="Observation.component:standort">
+      <path value="Observation.component" />
+      <sliceName value="standort" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Observation.component:standort.code.coding.system">
+      <path value="Observation.component.code.coding.system" />
+      <fixedUri value="http://uk-koeln.de/fhir/CodeSystem/nNGM/molpatho/obs-component-codes" />
+    </element>
+    <element id="Observation.component:standort.code.coding.code">
+      <path value="Observation.component.code.coding.code" />
+      <patternCode value="standort" />
+    </element>
+    <element id="Observation.component:standort.value[x]">
+      <path value="Observation.component.value[x]" />
+      <type>
+        <code value="string" />
+      </type>
+    </element>
+  </differential>
+</StructureDefinition>
