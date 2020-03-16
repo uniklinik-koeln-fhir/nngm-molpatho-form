@@ -1,0 +1,42 @@
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+    ]
+  },
+  "url": "http://uk-koeln.de/fhir/ValueSet/obs-methods",
+  "version": "1.0.0",
+  "name": "ObservationMethods",
+  "title": "Observation Methods",
+  "status": "active",
+  "experimental": false,
+  "date": "2020-03-16",
+  "publisher": "Uniklinik Köln",
+  "description": "Dieses ValueSet enthält die Untersuchungsmethoden der Malpatho Formulare nNGM ",
+  "compose": {
+    "include": [
+      {
+        "system": "https://ncit.nci.nih.gov/",
+        "concept": [
+          {
+            "code": "C23020",
+            "display": "Immunohistochemistry Staining Method"
+          },
+          {
+            "code": "C23022",
+            "display": "In Situ Hybridization Staining Method"
+          }
+          {
+            "code": "C17563",
+            "display": "Fluorescence In Situ Hybridization"
+          }
+          {
+            "code": "C101293",
+            "display": "Next Generation Sequencing"
+          }
+        ]
+      }
+    ]
+  }
+}

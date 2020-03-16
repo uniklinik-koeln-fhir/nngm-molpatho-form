@@ -1,0 +1,32 @@
+{
+  "resourceType": "CodeSystem",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+    ]
+  },
+  "url": "http://ncit.nci.nih.gov",
+  "version": "1.0.0",
+  "name": "NCIThesaurus",
+  "title": "NCIThesaurus",
+  "status": "final",
+  "experimental": false,
+  "publisher": "Uniklinik Köln",
+  "description": "NCIThesaurus",
+  "copyright": "National Cancer Institute (NIH)",
+  "content": "partial",
+  "concept": [
+    {
+      "code": "C80488",
+      "display": "Expression"
+    },
+    {
+      "code": "C28510",
+      "display": "Fusion Gene"
+    },
+    {
+      "code": "C25418",
+      "display": "Amplification"
+    }
+  ]
+}
