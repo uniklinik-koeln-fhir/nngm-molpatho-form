@@ -5,31 +5,67 @@
       "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
     ]
   },
-  "url": "http://uk-koeln.de/fhir/ValueSet/phenotypes",
+  "url": "http://uk-koeln.de/fhir/ValueSet/obs-codes",
   "version": "1.0.0",
-  "name": "NngmPhenotypes",
-  "title": "nNGM Phenotypes",
+  "name": "MolpathoObservationCodes",
+  "title": "Molpatho Observation Codes",
   "status": "active",
   "experimental": false,
   "date": "2020-03-16",
   "publisher": "Uniklinik Köln",
-  "description": "Dieses ValueSet enthält die Phenotype Codes der Molpatho Formulare nNGM",
+  "description": "Dieses ValueSet enthält die Observation  Codes der Molpatho Formulare nNGM",
   "compose": {
     "include": [
       {
         "system": "https://ncit.nci.nih.gov/",
         "concept": [
           {
-            "code": "C80488",
-            "display": "Expression"
+            "code": "C96445",
+            "display": "KRT7 wt Allele"
           },
           {
-            "code": "C28510",
-            "display": "Fusion Gene"
+            "code": "C104651",
+            "display": "MIB1 Gene"
           },
           {
-            "code": "C25418",
-            "display": "Amplification"
+            "code": "C126467",
+            "display": "NAPA wt Allele"
+          },
+          {
+            "code": "C20511",
+            "display": "Interleukin-9"
+          },
+          {
+            "code": "C101146",
+            "display": "Synaptophysin"
+          },
+          {
+            "code": "C107622",
+            "display": "TTF1 Gene"
+          },
+          {
+            "code": "C81946",
+            "display": "ALK Fusion Protein Expression"
+          },
+          {
+            "code": "C43532",
+            "display": "c-MET Gene Amplification"
+          },
+          {
+            "code": "C128554",
+            "display": "PD-L1 Positive"
+          },
+          {
+            "code": "C131069",
+            "display": "RET Fusion Positive"
+          },
+          {
+            "code": "C131071",
+            "display": "ROS1 Fusion Positive"
+          },
+          {
+            "code": "C20195",
+            "display": "Gene Fusion"
           }
         ]
       }

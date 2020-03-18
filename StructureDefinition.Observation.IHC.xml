@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <url value="http://uk-koeln.de/fhir/StructureDefinition/Observation/nNGM/vorbefund-ngs" />
-  <name value="MolekularerVorbefundNGS" />
-  <title value="Molekularer Vorbefund NGS" />
-  <status value="draft" />
+  <url value="http://uk-koeln.de/fhir/StructureDefinition/Observation/ihc" />
+  <name value="IHCObservation" />
+  <title value="Molekularer IHC Befund" />
+  <status value="active" />
   <fhirVersion value="4.0.1" />
   <mapping>
     <identity value="workflow" />
@@ -95,7 +95,7 @@
       <mustSupport value="true" />
       <binding>
         <strength value="required" />
-        <valueSet value="http://uk-koeln.de/fhir/ValueSet/nNGM/molpatho/obs-codes-vorbefund-ngs" />
+        <valueSet value="http://uk-koeln.de/fhir/ValueSet/obs-codes" />
       </binding>
     </element>
     <element id="Observation.value[x]">
@@ -113,7 +113,7 @@
       <mustSupport value="true" />
       <binding>
         <strength value="required" />
-        <valueSet value="http://uk-koeln.de/fhi/nNGM/molpatho/act-nonact-na" />
+        <valueSet value="http://loinc.org/vs/LL2451-4" />
       </binding>
     </element>
     <element id="Observation.method">
@@ -124,6 +124,7 @@
         <valueCode value="4.0.0" />
       </extension>
       <path value="Observation.method" />
+      <min value="1" />
       <mustSupport value="true" />
     </element>
     <element id="Observation.method.coding.system">
@@ -144,17 +145,7 @@
         <valueCode value="4.0.0" />
       </extension>
       <path value="Observation.method.coding.code" />
-      <patternCode value="C101293" />
-    </element>
-    <element id="Observation.specimen">
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
-        <valueCode value="normative" />
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
-        <valueCode value="4.0.0" />
-      </extension>
-      <path value="Observation.specimen" />
-      <mustSupport value="true" />
+      <patternCode value="C23020" />
     </element>
     <element id="Observation.component">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
@@ -167,13 +158,12 @@
       <slicing>
         <discriminator>
           <type value="pattern" />
-          <path value="code" />
+          <path value="code.coding" />
         </discriminator>
         <rules value="open" />
       </slicing>
-      <mustSupport value="true" />
     </element>
-    <element id="Observation.component:gene-studied">
+    <element id="Observation.component:antikoerper">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
         <valueCode value="normative" />
       </extension>
@@ -181,11 +171,9 @@
         <valueCode value="4.0.0" />
       </extension>
       <path value="Observation.component" />
-      <sliceName value="gene-studied" />
-      <max value="1" />
-      <mustSupport value="true" />
+      <sliceName value="antikoerper" />
     </element>
-    <element id="Observation.component:gene-studied.code.coding.system">
+    <element id="Observation.component:antikoerper.code.coding.system">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
         <valueCode value="normative" />
       </extension>
@@ -193,9 +181,9 @@
         <valueCode value="4.0.0" />
       </extension>
       <path value="Observation.component.code.coding.system" />
-      <fixedUri value="http://loinc.org" />
+      <fixedUri value="http://ncit.nci.nih.gov" />
     </element>
-    <element id="Observation.component:gene-studied.code.coding.code">
+    <element id="Observation.component:antikoerper.code.coding.code">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
         <valueCode value="normative" />
       </extension>
@@ -203,9 +191,9 @@
         <valueCode value="4.0.0" />
       </extension>
       <path value="Observation.component.code.coding.code" />
-      <patternCode value="48018-6" />
+      <patternCode value="C16295" />
     </element>
-    <element id="Observation.component:gene-studied.value[x]">
+    <element id="Observation.component:antikoerper.value[x]">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
         <valueCode value="normative" />
       </extension>
@@ -213,74 +201,9 @@
         <valueCode value="4.0.0" />
       </extension>
       <path value="Observation.component.value[x]" />
-      <min value="1" />
       <type>
         <code value="CodeableConcept" />
       </type>
-      <binding>
-        <strength value="required" />
-        <valueSet value="http://uk-koeln.de/fhir/ValueSet/nNGM/molpatho/ref-sequences" />
-      </binding>
-    </element>
-    <element id="Observation.component:amino-acid-chg">
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
-        <valueCode value="normative" />
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
-        <valueCode value="4.0.0" />
-      </extension>
-      <path value="Observation.component" />
-      <sliceName value="amino-acid-chg" />
-      <max value="1" />
-      <mustSupport value="true" />
-    </element>
-    <element id="Observation.component:amino-acid-chg.code">
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
-        <valueCode value="normative" />
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
-        <valueCode value="4.0.0" />
-      </extension>
-      <path value="Observation.component.code" />
-      <mustSupport value="true" />
-    </element>
-    <element id="Observation.component:amino-acid-chg.code.coding.system">
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
-        <valueCode value="normative" />
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
-        <valueCode value="4.0.0" />
-      </extension>
-      <path value="Observation.component.code.coding.system" />
-      <fixedUri value="http://loinc.org" />
-    </element>
-    <element id="Observation.component:amino-acid-chg.code.coding.code">
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
-        <valueCode value="normative" />
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
-        <valueCode value="4.0.0" />
-      </extension>
-      <path value="Observation.component.code.coding.code" />
-      <patternCode value="48005-3" />
-    </element>
-    <element id="Observation.component:amino-acid-chg.value[x]">
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
-        <valueCode value="normative" />
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
-        <valueCode value="4.0.0" />
-      </extension>
-      <path value="Observation.component.value[x]" />
-      <min value="1" />
-      <type>
-        <code value="CodeableConcept" />
-      </type>
-      <mustSupport value="true" />
-      <binding>
-        <strength value="required" />
-        <valueSet value="http://hl7.org/fhir/uv/genomics-reporting/ValueSet/hgvs" />
-      </binding>
     </element>
   </differential>
 </StructureDefinition>

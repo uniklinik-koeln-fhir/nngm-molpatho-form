@@ -9,7 +9,7 @@
   "version": "1.0.0",
   "name": "03Klassifikation",
   "title": "0-3+ Klassifikation",
-  "status": "final",
+  "status": "active",
   "experimental": false,
   "publisher": "Uniklinik Köln",
   "description": "CodeSystem: 0, 1+, 2+, 3+",

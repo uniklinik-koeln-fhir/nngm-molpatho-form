@@ -1,0 +1,24 @@
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+    ]
+  },
+  "url": "http://uk-koeln.de/fhir/ValueSet/hersteller-molpatho",
+  "version": "1.0.0",
+  "name": "HerstellerMolPatho",
+  "title": "Hersteller MolPatho",
+  "status": "active",
+  "experimental": false,
+  "date": "2020-03-16",
+  "publisher": "Uniklinik Köln",
+  "description": "Hersteller MolPatho (Antikoerper, Kits, Assays)",
+  "compose": {
+    "include": [
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/hersteller-molpatho"
+      }
+    ]
+  }
+}

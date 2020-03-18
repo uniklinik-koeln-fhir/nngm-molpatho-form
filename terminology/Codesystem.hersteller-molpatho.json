@@ -1,0 +1,100 @@
+{
+  "resourceType": "CodeSystem",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+    ]
+  },
+  "url": "http://uk-koeln.de/fhir/CodeSystem/hersteller-molpatho",
+  "version": "1.0.0",
+  "name": "HerstellerMolPatho",
+  "title": "Hersteller MolPatho",
+  "status": "active",
+  "experimental": false,
+  "publisher": "Uniklinik Köln",
+  "description": "Hersteller MolPatho (Antikoerper, Kits, Assays)",
+  "copyright": "Uniklinik Köln",
+  "content": "complete",
+  "concept": [
+    {
+      "code": "Dako_Agilent",
+      "display": "Dako Agilent"
+    },
+    {
+      "code": "Cell_Marque",
+      "display": "Cell Marque"
+    },
+    {
+      "code": "Progen",
+      "display": "Progen"
+    },
+    {
+      "code": "Zytomed_System",
+      "display": "Zytomed System"
+    },
+    {
+      "code": "Roche_Ventana",
+      "display": "Roche Ventana"
+    },
+    {
+      "code": "Abcam",
+      "display": "Abcam"
+    },
+    {
+      "code": "Roche",
+      "display": "Roche"
+    },
+    {
+      "code": "Novacastra-Leica",
+      "display": "Novacastra-Leica"
+    },
+    {
+      "code": "Biocare_Medical",
+      "display": "Biocare Medical"
+    },
+    {
+      "code": "Bio_SB",
+      "display": "Bio SB"
+    },
+    {
+      "code": "DCS_-_BioGenex",
+      "display": "DCS - BioGenex"
+    },
+    {
+      "code": "Thermo_Fisher",
+      "display": "Thermo Fisher"
+    },
+    {
+      "code": "Zytovision",
+      "display": "Zytovision"
+    },
+    {
+      "code": "Abbott",
+      "display": "Abbott"
+    },
+    {
+      "code": "Illumina",
+      "display": "Illumina"
+    },
+    {
+      "code": "Qiagen",
+      "display": "Qiagen"
+    },
+    {
+      "code": "Cell_Signaling",
+      "display": "Cell Signaling"
+    },
+    {
+      "code": "Leica",
+      "display": "Leica"
+    },
+    {
+      "code": "LMU",
+      "display": "LMU"
+    },
+    {
+      "code": "Epitomics_(Generon)",
+      "display": "Epitomics (Generon)"
+    }
+  ]
+}
