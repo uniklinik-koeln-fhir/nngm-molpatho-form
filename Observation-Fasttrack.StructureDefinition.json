@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
-  "url": "http://uk-koeln.de/fhir/StructureDefinition/Observation/ish",
-  "name": "IshObservation",
+  "url": "http://uk-koeln.de/fhir/StructureDefinition/Observation/fasttrack",
+  "name": "FasttrackObservation",
   "title": "ISH/FISH Befund",
   "status": "active",
   "date": "2020-03-17",
@@ -162,7 +162,7 @@
         "mustSupport": true,
         "binding": {
           "strength": "required",
-          "valueSet": "http://uk-koeln.de/fhir/ValueSet/obs-codes"
+          "valueSet": "http://uk-koeln.de/fhir/ValueSet/fasttrack-obs-codes"
         }
       },
       {
@@ -217,7 +217,7 @@
         "mustSupport": true,
         "binding": {
           "strength": "required",
-          "valueSet": "http://loinc.org/vs/LL2451-4"
+          "valueSet": "http://uk-koeln.de/fhir/ValueSet/fasttrack-value-codes"
         }
       },
       {
@@ -297,7 +297,7 @@
           }
         ],
         "path": "Observation.method.coding.code",
-        "patternCode": "C23022"
+        "patternCode": "C101293"
       },
       {
         "id": "Observation.specimen",
@@ -339,7 +339,7 @@
         "mustSupport": true
       },
       {
-        "id": "Observation.component:phaenotyp",
+        "id": "Observation.component:assay",
         "extension": [
           {
             "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
@@ -351,12 +351,12 @@
           }
         ],
         "path": "Observation.component",
-        "sliceName": "phaenotyp",
+        "sliceName": "assay",
         "max": "1",
         "mustSupport": true
       },
       {
-        "id": "Observation.component:phaenotyp.code.coding.system",
+        "id": "Observation.component:assay.code.coding.system",
         "extension": [
           {
             "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
@@ -371,7 +371,7 @@
         "fixedUri": "http://ncit.nci.nih.gov"
       },
       {
-        "id": "Observation.component:phaenotyp.code.coding.code",
+        "id": "Observation.component:assay.code.coding.code",
         "extension": [
           {
             "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
@@ -383,81 +383,10 @@
           }
         ],
         "path": "Observation.component.code.coding.code",
-        "patternCode": "C16977"
+        "patternCode": "C60819"
       },
       {
-        "id": "Observation.component:phaenotyp.value[x]",
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-            "valueCode": "normative"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-            "valueCode": "4.0.0"
-          }
-        ],
-        "path": "Observation.component.value[x]",
-        "min": 1,
-        "type": [
-          {
-            "code": "CodeableConcept"
-          }
-        ],
-        "binding": {
-          "strength": "required",
-          "valueSet": "http://uk-koeln.de/fhir/ValueSet/phenotypes"
-        }
-      },
-      {
-        "id": "Observation.component:kit",
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-            "valueCode": "normative"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-            "valueCode": "4.0.0"
-          }
-        ],
-        "path": "Observation.component",
-        "sliceName": "kit",
-        "max": "1",
-        "mustSupport": true
-      },
-      {
-        "id": "Observation.component:kit.code.coding.system",
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-            "valueCode": "normative"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-            "valueCode": "4.0.0"
-          }
-        ],
-        "path": "Observation.component.code.coding.system",
-        "fixedUri": "http://ncit.nci.nih.gov"
-      },
-      {
-        "id": "Observation.component:kit.code.coding.code",
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-            "valueCode": "normative"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-            "valueCode": "4.0.0"
-          }
-        ],
-        "path": "Observation.component.code.coding.code",
-        "patternCode": "C42793"
-      },
-      {
-        "id": "Observation.component:kit.value[x]",
+        "id": "Observation.component:assay.value[x]",
         "extension": [
           {
             "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
@@ -477,7 +406,7 @@
         ],
         "binding": {
           "strength": "extensible",
-          "valueSet": "http://uk-koeln.de/fhir/ValueSet/ish-fish-kits"
+          "valueSet": "http://uk-koeln.de/fhir/CodeSystem/fasttrack-assays"
         }
       },
       {
@@ -686,7 +615,7 @@
         ]
       },
       {
-        "id": "Observation.component:pos-tumor-zellen",
+        "id": "Observation.component:dna-chg",
         "extension": [
           {
             "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
@@ -698,12 +627,11 @@
           }
         ],
         "path": "Observation.component",
-        "sliceName": "pos-tumor-zellen",
-        "max": "1",
+        "sliceName": "dna-chg",
         "mustSupport": true
       },
       {
-        "id": "Observation.component:pos-tumor-zellen.code.coding.system",
+        "id": "Observation.component:dna-chg.code.coding.system",
         "extension": [
           {
             "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
@@ -715,10 +643,10 @@
           }
         ],
         "path": "Observation.component.code.coding.system",
-        "fixedUri": "http://ncit.nci.nih.gov"
+        "fixedUri": "http://loinc.org"
       },
       {
-        "id": "Observation.component:pos-tumor-zellen.code.coding.code",
+        "id": "Observation.component:dna-chg.code.coding.code",
         "extension": [
           {
             "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
@@ -730,10 +658,10 @@
           }
         ],
         "path": "Observation.component.code.coding.code",
-        "patternCode": "C70460"
+        "patternCode": "48004-6"
       },
       {
-        "id": "Observation.component:pos-tumor-zellen.value[x]",
+        "id": "Observation.component:dna-chg.value[x]",
         "extension": [
           {
             "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
@@ -748,83 +676,12 @@
         "min": 1,
         "type": [
           {
-            "code": "CodeableConcept"
-          }
-        ],
-        "binding": {
-          "strength": "required",
-          "valueSet": "http://uk-koeln.de/fhir/ValueSet/0-3+-klassifikation"
-        }
-      },
-      {
-        "id": "Observation.component:polysomie",
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-            "valueCode": "normative"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-            "valueCode": "4.0.0"
-          }
-        ],
-        "path": "Observation.component",
-        "sliceName": "polysomie",
-        "max": "1",
-        "mustSupport": true
-      },
-      {
-        "id": "Observation.component:polysomie.code.coding.system",
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-            "valueCode": "normative"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-            "valueCode": "4.0.0"
-          }
-        ],
-        "path": "Observation.component.code.coding.system",
-        "fixedUri": "http://ncit.nci.nih.gov"
-      },
-      {
-        "id": "Observation.component:polysomie.code.coding.code",
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-            "valueCode": "normative"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-            "valueCode": "4.0.0"
-          }
-        ],
-        "path": "Observation.component.code.coding.code",
-        "patternCode": "C36331"
-      },
-      {
-        "id": "Observation.component:polysomie.value[x]",
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-            "valueCode": "normative"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-            "valueCode": "4.0.0"
-          }
-        ],
-        "path": "Observation.component.value[x]",
-        "min": 1,
-        "type": [
-          {
-            "code": "Ratio"
+            "code": "string"
           }
         ]
       },
       {
-        "id": "Observation.component:amplification-level",
+        "id": "Observation.component:amino-acid-chg",
         "extension": [
           {
             "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
@@ -836,11 +693,11 @@
           }
         ],
         "path": "Observation.component",
-        "sliceName": "amplification-level",
+        "sliceName": "amino-acid-chg",
         "mustSupport": true
       },
       {
-        "id": "Observation.component:amplification-level.code.coding.system",
+        "id": "Observation.component:amino-acid-chg.code.coding.system",
         "extension": [
           {
             "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
@@ -852,10 +709,10 @@
           }
         ],
         "path": "Observation.component.code.coding.system",
-        "fixedUri": "http://uk-koeln.de/fhir/CodeSystem/tbd-codes"
+        "fixedUri": "http://loinc.org"
       },
       {
-        "id": "Observation.component:amplification-level.code.coding.code",
+        "id": "Observation.component:amino-acid-chg.code.coding.code",
         "extension": [
           {
             "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
@@ -867,10 +724,10 @@
           }
         ],
         "path": "Observation.component.code.coding.code",
-        "patternCode": "amplification-level"
+        "patternCode": "48005-3"
       },
       {
-        "id": "Observation.component:amplification-level.value[x]",
+        "id": "Observation.component:amino-acid-chg.value[x]",
         "extension": [
           {
             "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
@@ -885,13 +742,9 @@
         "min": 1,
         "type": [
           {
-            "code": "CodeableConcept"
+            "code": "string"
           }
-        ],
-        "binding": {
-          "strength": "extensible",
-          "valueSet": "http://uk-koeln.de/fhir/ValueSet/high-medium-low"
-        }
+        ]
       }
     ]
   }

@@ -61,8 +61,8 @@
       "display": "DCS - BioGenex"
     },
     {
-      "code": "Thermo_Fisher",
-      "display": "Thermo Fisher"
+      "code": "Thermo_Fisher_Scientific",
+      "display": "Thermo Fisher Scientific"
     },
     {
       "code": "Zytovision",
@@ -95,6 +95,14 @@
     {
       "code": "Epitomics_(Generon)",
       "display": "Epitomics (Generon)"
+    },
+    {
+      "code": "Diacarta",
+      "display": "Diacarta"
+    },
+    {
+      "code": "Beckman_Coulter",
+      "display": "Beckman Coulter"
     }
   ]
 }

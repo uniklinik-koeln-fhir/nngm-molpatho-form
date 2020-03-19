@@ -1,0 +1,38 @@
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+    ]
+  },
+  "url": "http://uk-koeln.de/fhir/ValueSet/fasttrack-value-codes",
+  "version": "1.0.0",
+  "name": "FasttrackObservationValueCodes",
+  "title": "Fasttrack Observation Value Codes",
+  "status": "active",
+  "experimental": false,
+  "date": "2020-03-16",
+  "publisher": "Uniklinik Köln",
+  "description": "Fasttrack Observation Value Codes",
+  "compose": {
+    "include": [
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/tbd-codes",
+        "concept": [
+          {
+            "code": "aktivierende-Mutation",
+            "display": "aktivierende Mutation"
+          },
+          {
+            "code": "keine-aktivierende-Mutation",
+            "display": "keine aktivierende Mutation"
+          },
+          {
+            "code": "nicht-auswertbar",
+            "display": "nicht auswertbar"
+          }
+        ]
+      }
+    ]
+  }
+}
