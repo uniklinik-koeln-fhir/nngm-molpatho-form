@@ -5,7 +5,7 @@
       "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
     ]
   },
-  "url": "http://uk-koeln.de/fhir/ValueSet/fasttrack-value-codes",
+  "url": "http://uk-koeln.de/fhir/ValueSet/act_non_act_na-value-codes",
   "version": "1.0.0",
   "name": "FasttrackObservationValueCodes",
   "title": "Fasttrack Observation Value Codes",
