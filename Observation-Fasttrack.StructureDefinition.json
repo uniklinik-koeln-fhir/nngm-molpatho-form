@@ -2,10 +2,10 @@
   "resourceType": "StructureDefinition",
   "url": "http://uk-koeln.de/fhir/StructureDefinition/Observation/fasttrack",
   "name": "FasttrackObservation",
-  "title": "ISH/FISH Befund",
+  "title": "Fast Track",
   "status": "active",
   "date": "2020-03-17",
-  "fhirVersion": "4.0.1",
+  "fhirVersion": "4.0.0",
   "mapping": [
     {
       "identity": "workflow",
