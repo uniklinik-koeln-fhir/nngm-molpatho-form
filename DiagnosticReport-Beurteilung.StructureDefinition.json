@@ -1,0 +1,164 @@
+{
+  "resourceType": "StructureDefinition",
+  "url": "http://uk-koeln.de/fhir/StructureDefinition/Observation/beurteilung",
+  "name": "Beurteilung",
+  "status": "draft",
+  "date": "2020-03-17",
+  "fhirVersion": "4.0.1",
+  "mapping": [
+    {
+      "identity": "workflow",
+      "uri": "http://hl7.org/fhir/workflow",
+      "name": "Workflow Pattern"
+    },
+    {
+      "identity": "v2",
+      "uri": "http://hl7.org/v2",
+      "name": "HL7 v2 Mapping"
+    },
+    {
+      "identity": "rim",
+      "uri": "http://hl7.org/v3",
+      "name": "RIM Mapping"
+    },
+    {
+      "identity": "w5",
+      "uri": "http://hl7.org/fhir/fivews",
+      "name": "FiveWs Pattern Mapping"
+    }
+  ],
+  "kind": "resource",
+  "abstract": false,
+  "type": "DiagnosticReport",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/DiagnosticReport",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "DiagnosticReport.extension",
+        "path": "DiagnosticReport.extension",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "url"
+            }
+          ],
+          "rules": "open"
+        }
+      },
+      {
+        "id": "DiagnosticReport.extension:fallId",
+        "path": "DiagnosticReport.extension",
+        "sliceName": "fallId",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://hl7.org/fhir/StructureDefinition/workflow-episodeOfCare"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "DiagnosticReport.status",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+            "valueCode": "normative"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
+            "valueCode": "4.0.0"
+          }
+        ],
+        "path": "DiagnosticReport.status",
+        "mustSupport": true
+      },
+      {
+        "id": "DiagnosticReport.code",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+            "valueCode": "normative"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
+            "valueCode": "4.0.0"
+          }
+        ],
+        "path": "DiagnosticReport.code",
+        "mustSupport": true
+      },
+      {
+        "id": "DiagnosticReport.issued",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+            "valueCode": "normative"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
+            "valueCode": "4.0.0"
+          }
+        ],
+        "path": "DiagnosticReport.issued",
+        "mustSupport": true
+      },
+      {
+        "id": "DiagnosticReport.performer",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+            "valueCode": "normative"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
+            "valueCode": "4.0.0"
+          }
+        ],
+        "path": "DiagnosticReport.performer",
+        "mustSupport": true
+      },
+      {
+        "id": "DiagnosticReport.conclusion",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+            "valueCode": "normative"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
+            "valueCode": "4.0.0"
+          }
+        ],
+        "path": "DiagnosticReport.conclusion",
+        "mustSupport": true
+      },
+      {
+        "id": "DiagnosticReport.conclusionCode",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+            "valueCode": "normative"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
+            "valueCode": "4.0.0"
+          }
+        ],
+        "path": "DiagnosticReport.conclusionCode",
+        "binding": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
+              "valueString": "AdjunctDiagnosis"
+            }
+          ],
+          "strength": "required",
+          "valueSet": "http://loinc.org/vs/LL361-7"
+        }
+      }
+    ]
+  }
+}
