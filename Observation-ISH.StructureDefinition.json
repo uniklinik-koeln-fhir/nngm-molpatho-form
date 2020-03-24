@@ -5,7 +5,7 @@
   "title": "ISH/FISH Befund",
   "status": "active",
   "date": "2020-03-17",
-  "fhirVersion": "4.0.1",
+  "fhirVersion": "4.0.0",
   "mapping": [
     {
       "identity": "workflow",
