@@ -1,0 +1,79 @@
+{
+  "resourceType": "ConceptMap",
+  "title": "amplification",
+  "status": "draft",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "email"
+        }
+      ]
+    },
+    {
+      "telecom": [
+        {
+          "system": "email"
+        }
+      ]
+    }
+  ],
+  "group": [
+    {
+      "element": [
+        {
+          "target": [
+            {
+              "code": "LA9193-9",
+              "equivalence": "equivalent"
+            }
+          ],
+          "code": "Amplifikation high-level"
+        },
+        {
+          "target": [
+            {
+              "code": "LA8982-6",
+              "equivalence": "equivalent"
+            }
+          ],
+          "code": "Amplifikation intermediate-level"
+        },
+        {
+          "target": [
+            {
+              "code": "LA32-8",
+              "equivalence": "equivalent"
+            }
+          ],
+          "code": "negativ"
+        },
+        {
+          "target": [
+            {
+              "code": "LA14100-4",
+              "equivalence": "equivalent"
+            }
+          ],
+          "code": "nicht auswertbar"
+        },
+        {
+          "target": [
+            {
+              "code": "LA893-4"
+            }
+          ],
+          "code": "Amplifikation low-level"
+        }
+      ]
+    }
+  ],
+  "url": "http://uk-koeln.de/fhir/ConceptMap/high-medium-low",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>amplification</h2><tt>http://uk-koeln.de/fhir/ConceptMap/high-medium-low</tt></div>"
+  },
+  "sourceCanonical": "CTSMolpatho",
+  "targetCanonical": "http://uk-koeln.de/fhir/ValueSet/high-medium-low",
+  "name": "Amplification"
+}
