@@ -1,0 +1,318 @@
+{
+  "resourceType": "StructureDefinition",
+  "url": "http://uk-koeln.de/fhir/StructureDefinition/Observation/histologie",
+  "name": "HistologieObservation",
+  "title": "Histologie",
+  "status": "active",
+  "fhirVersion": "4.0.0",
+  "mapping": [
+    {
+      "identity": "workflow",
+      "uri": "http://hl7.org/fhir/workflow",
+      "name": "Workflow Pattern"
+    },
+    {
+      "identity": "sct-concept",
+      "uri": "http://snomed.info/conceptdomain",
+      "name": "SNOMED CT Concept Domain Binding"
+    },
+    {
+      "identity": "v2",
+      "uri": "http://hl7.org/v2",
+      "name": "HL7 v2 Mapping"
+    },
+    {
+      "identity": "rim",
+      "uri": "http://hl7.org/v3",
+      "name": "RIM Mapping"
+    },
+    {
+      "identity": "w5",
+      "uri": "http://hl7.org/fhir/fivews",
+      "name": "FiveWs Pattern Mapping"
+    },
+    {
+      "identity": "sct-attr",
+      "uri": "http://snomed.org/attributebinding",
+      "name": "SNOMED CT Attribute Binding"
+    }
+  ],
+  "kind": "resource",
+  "abstract": false,
+  "type": "Observation",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Observation",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Observation.extension",
+        "path": "Observation.extension",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "url"
+            }
+          ],
+          "rules": "open"
+        }
+      },
+      {
+        "id": "Observation.extension:episodeOfCare",
+        "path": "Observation.extension",
+        "sliceName": "episodeOfCare",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://hl7.org/fhir/StructureDefinition/workflow-episodeOfCare"
+            ]
+          }
+        ],
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.status",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-display-hint",
+            "valueString": "default: final"
+          }
+        ],
+        "path": "Observation.status",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.category",
+        "path": "Observation.category",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.code",
+        "path": "Observation.code",
+        "mustSupport": true,
+        "binding": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
+              "valueString": "ObservationCode"
+            }
+          ],
+          "strength": "required",
+          "valueSet": "http://uk-koeln.de/fhir/ValueSet/icd-o-3-histologie"
+        }
+      },
+      {
+        "id": "Observation.subject",
+        "path": "Observation.subject",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.issued",
+        "path": "Observation.issued",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.value[x]",
+        "path": "Observation.value[x]",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ],
+        "mustSupport": true,
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://uk-koeln.de/fhir/ValueSet/cancer-base/grading"
+        }
+      },
+      {
+        "id": "Observation.interpretation",
+        "path": "Observation.interpretation",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.bodySite",
+        "path": "Observation.bodySite",
+        "mustSupport": true,
+        "binding": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
+              "valueString": "BodySite"
+            }
+          ],
+          "strength": "required",
+          "valueSet": "http://uk-koeln.de/fhir/ValueSet/icd-o-3-bodysite"
+        }
+      },
+      {
+        "id": "Observation.method",
+        "path": "Observation.method",
+        "mustSupport": false
+      },
+      {
+        "id": "Observation.specimen",
+        "path": "Observation.specimen",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.component",
+        "path": "Observation.component",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "pattern",
+              "path": "code"
+            }
+          ],
+          "rules": "open"
+        },
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.component:wachtumsmusterBeiAdenokarzinomLepidisch",
+        "path": "Observation.component",
+        "sliceName": "wachtumsmusterBeiAdenokarzinomLepidisch",
+        "max": "1"
+      },
+      {
+        "id": "Observation.component:wachtumsmusterBeiAdenokarzinomLepidisch.code.coding.system",
+        "path": "Observation.component.code.coding.system",
+        "fixedUri": "urn:oid:2.16.840.1.113883.6.43.1"
+      },
+      {
+        "id": "Observation.component:wachtumsmusterBeiAdenokarzinomLepidisch.code.coding.code",
+        "path": "Observation.component.code.coding.code",
+        "fixedCode": "8250/3"
+      },
+      {
+        "id": "Observation.component:wachtumsmusterBeiAdenokarzinomLepidisch.value[x]",
+        "path": "Observation.component.value[x]",
+        "min": 1,
+        "type": [
+          {
+            "code": "Quantity"
+          }
+        ]
+      },
+      {
+        "id": "Observation.component:wachtumsmusterBeiAdenokarzinomAzinaer",
+        "path": "Observation.component",
+        "sliceName": "wachtumsmusterBeiAdenokarzinomAzinaer",
+        "max": "1"
+      },
+      {
+        "id": "Observation.component:wachtumsmusterBeiAdenokarzinomAzinaer.code.coding.system",
+        "path": "Observation.component.code.coding.system",
+        "fixedUri": "urn:oid:2.16.840.1.113883.6.43.1"
+      },
+      {
+        "id": "Observation.component:wachtumsmusterBeiAdenokarzinomAzinaer.code.coding.code",
+        "path": "Observation.component.code.coding.code",
+        "fixedCode": "8551/3"
+      },
+      {
+        "id": "Observation.component:wachtumsmusterBeiAdenokarzinomAzinaer.value[x]",
+        "path": "Observation.component.value[x]",
+        "min": 1,
+        "type": [
+          {
+            "code": "Quantity"
+          }
+        ]
+      },
+      {
+        "id": "Observation.component:wachtumsmusterBeiAdenokarzinomPapilaer",
+        "path": "Observation.component",
+        "sliceName": "wachtumsmusterBeiAdenokarzinomPapilaer",
+        "max": "1"
+      },
+      {
+        "id": "Observation.component:wachtumsmusterBeiAdenokarzinomPapilaer.code.coding.system",
+        "path": "Observation.component.code.coding.system",
+        "fixedUri": "urn:oid:2.16.840.1.113883.6.43.1"
+      },
+      {
+        "id": "Observation.component:wachtumsmusterBeiAdenokarzinomPapilaer.code.coding.code",
+        "path": "Observation.component.code.coding.code",
+        "fixedCode": "8260/3"
+      },
+      {
+        "id": "Observation.component:wachtumsmusterBeiAdenokarzinomPapilaer.value[x]",
+        "path": "Observation.component.value[x]",
+        "min": 1,
+        "type": [
+          {
+            "code": "Quantity"
+          }
+        ]
+      },
+      {
+        "id": "Observation.component:wachtumsmusterBeiAdenokarzinomMikropapilaer",
+        "path": "Observation.component",
+        "sliceName": "wachtumsmusterBeiAdenokarzinomMikropapilaer",
+        "max": "1"
+      },
+      {
+        "id": "Observation.component:wachtumsmusterBeiAdenokarzinomMikropapilaer.code.coding.system",
+        "path": "Observation.component.code.coding.system",
+        "fixedUri": "urn:oid:2.16.840.1.113883.6.43.1"
+      },
+      {
+        "id": "Observation.component:wachtumsmusterBeiAdenokarzinomMikropapilaer.code.coding.code",
+        "path": "Observation.component.code.coding.code",
+        "fixedCode": "8265/3"
+      },
+      {
+        "id": "Observation.component:wachtumsmusterBeiAdenokarzinomMikropapilaer.value[x]",
+        "path": "Observation.component.value[x]",
+        "min": 1,
+        "type": [
+          {
+            "code": "Quantity"
+          }
+        ]
+      },
+      {
+        "id": "Observation.component:wachtumsmusterBeiAdenokarzinomSolide",
+        "path": "Observation.component",
+        "sliceName": "wachtumsmusterBeiAdenokarzinomSolide",
+        "max": "1"
+      },
+      {
+        "id": "Observation.component:wachtumsmusterBeiAdenokarzinomSolide.code",
+        "path": "Observation.component.code",
+        "binding": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
+              "valueString": "ObservationCode"
+            }
+          ],
+          "strength": "required"
+        }
+      },
+      {
+        "id": "Observation.component:wachtumsmusterBeiAdenokarzinomSolide.code.coding.system",
+        "path": "Observation.component.code.coding.system",
+        "fixedUri": "urn:oid:2.16.840.1.113883.6.43.1"
+      },
+      {
+        "id": "Observation.component:wachtumsmusterBeiAdenokarzinomSolide.code.coding.code",
+        "path": "Observation.component.code.coding.code",
+        "fixedCode": "8230/3"
+      },
+      {
+        "id": "Observation.component:wachtumsmusterBeiAdenokarzinomSolide.value[x]",
+        "path": "Observation.component.value[x]",
+        "min": 1,
+        "type": [
+          {
+            "code": "Quantity"
+          }
+        ]
+      }
+    ]
+  }
+}

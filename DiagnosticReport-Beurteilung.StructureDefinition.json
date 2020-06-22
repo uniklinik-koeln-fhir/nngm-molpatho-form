@@ -48,9 +48,11 @@
         }
       },
       {
-        "id": "DiagnosticReport.extension:fallId",
+        "id": "DiagnosticReport.extension:episodeOfCare",
         "path": "DiagnosticReport.extension",
-        "sliceName": "fallId",
+        "sliceName": "episodeOfCare",
+        "min": 0,
+        "max": "*",
         "type": [
           {
             "code": "Extension",
@@ -91,21 +93,6 @@
         "mustSupport": true
       },
       {
-        "id": "DiagnosticReport.issued",
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-            "valueCode": "normative"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-            "valueCode": "4.0.0"
-          }
-        ],
-        "path": "DiagnosticReport.issued",
-        "mustSupport": true
-      },
-      {
         "id": "DiagnosticReport.performer",
         "extension": [
           {
@@ -118,6 +105,21 @@
           }
         ],
         "path": "DiagnosticReport.performer",
+        "mustSupport": true
+      },
+      {
+        "id": "DiagnosticReport.performer.reference",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+            "valueCode": "normative"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
+            "valueCode": "4.0.0"
+          }
+        ],
+        "path": "DiagnosticReport.performer.reference",
         "mustSupport": true
       },
       {
@@ -148,6 +150,7 @@
           }
         ],
         "path": "DiagnosticReport.conclusionCode",
+        "mustSupport": true,
         "binding": {
           "extension": [
             {

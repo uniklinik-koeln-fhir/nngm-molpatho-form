@@ -60,16 +60,6 @@
       },
       {
         "id": "Observation.extension:episodeOfCare",
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-            "valueCode": "normative"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-            "valueCode": "4.0.0"
-          }
-        ],
         "path": "Observation.extension",
         "sliceName": "episodeOfCare",
         "type": [
@@ -86,14 +76,6 @@
         "id": "Observation.status",
         "extension": [
           {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-            "valueCode": "normative"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-            "valueCode": "4.0.0"
-          },
-          {
             "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-display-hint",
             "valueString": "default: final"
           }
@@ -103,61 +85,21 @@
       },
       {
         "id": "Observation.category",
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-            "valueCode": "normative"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-            "valueCode": "4.0.0"
-          }
-        ],
         "path": "Observation.category",
         "mustSupport": true
       },
       {
         "id": "Observation.category.coding.system",
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-            "valueCode": "normative"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-            "valueCode": "4.0.0"
-          }
-        ],
         "path": "Observation.category.coding.system",
         "fixedUri": "http://terminology.hl7.org/CodeSystem/observation-category"
       },
       {
         "id": "Observation.category.coding.code",
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-            "valueCode": "normative"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-            "valueCode": "4.0.0"
-          }
-        ],
         "path": "Observation.category.coding.code",
         "patternCode": "laboratory"
       },
       {
         "id": "Observation.code",
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-            "valueCode": "normative"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-            "valueCode": "4.0.0"
-          }
-        ],
         "path": "Observation.code",
         "mustSupport": true,
         "binding": {
@@ -167,46 +109,16 @@
       },
       {
         "id": "Observation.subject",
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-            "valueCode": "normative"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-            "valueCode": "4.0.0"
-          }
-        ],
         "path": "Observation.subject",
         "mustSupport": true
       },
       {
         "id": "Observation.issued",
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-            "valueCode": "normative"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-            "valueCode": "4.0.0"
-          }
-        ],
         "path": "Observation.issued",
         "mustSupport": true
       },
       {
         "id": "Observation.value[x]",
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-            "valueCode": "normative"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-            "valueCode": "4.0.0"
-          }
-        ],
         "path": "Observation.value[x]",
         "min": 1,
         "type": [
@@ -222,31 +134,11 @@
       },
       {
         "id": "Observation.interpretation",
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-            "valueCode": "normative"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-            "valueCode": "4.0.0"
-          }
-        ],
         "path": "Observation.interpretation",
         "mustSupport": true
       },
       {
         "id": "Observation.interpretation.coding",
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-            "valueCode": "normative"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-            "valueCode": "4.0.0"
-          }
-        ],
         "path": "Observation.interpretation.coding",
         "binding": {
           "strength": "extensible",
@@ -255,77 +147,32 @@
       },
       {
         "id": "Observation.method",
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-            "valueCode": "normative"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-            "valueCode": "4.0.0"
-          }
-        ],
         "path": "Observation.method",
         "min": 1,
         "mustSupport": true
       },
       {
         "id": "Observation.method.coding.system",
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-            "valueCode": "normative"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-            "valueCode": "4.0.0"
-          }
-        ],
         "path": "Observation.method.coding.system",
         "fixedUri": "http://ncit.nci.nih.gov"
       },
       {
         "id": "Observation.method.coding.code",
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-            "valueCode": "normative"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-            "valueCode": "4.0.0"
-          }
-        ],
         "path": "Observation.method.coding.code",
         "patternCode": "C17563"
       },
       {
         "id": "Observation.specimen",
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-            "valueCode": "normative"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-            "valueCode": "4.0.0"
-          }
-        ],
         "path": "Observation.specimen",
         "mustSupport": true
       },
       {
+        "id": "Observation.specimen.id",
+        "path": "Observation.specimen.id",
+        "mustSupport": true
+      },
+      {
         "id": "Observation.component",
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-            "valueCode": "normative"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-            "valueCode": "4.0.0"
-          }
-        ],
         "path": "Observation.component",
         "slicing": {
           "discriminator": [
@@ -340,16 +187,6 @@
       },
       {
         "id": "Observation.component:phaenotyp",
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-            "valueCode": "normative"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-            "valueCode": "4.0.0"
-          }
-        ],
         "path": "Observation.component",
         "sliceName": "phaenotyp",
         "max": "1",
@@ -357,46 +194,16 @@
       },
       {
         "id": "Observation.component:phaenotyp.code.coding.system",
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-            "valueCode": "normative"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-            "valueCode": "4.0.0"
-          }
-        ],
         "path": "Observation.component.code.coding.system",
         "fixedUri": "http://ncit.nci.nih.gov"
       },
       {
         "id": "Observation.component:phaenotyp.code.coding.code",
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-            "valueCode": "normative"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-            "valueCode": "4.0.0"
-          }
-        ],
         "path": "Observation.component.code.coding.code",
         "patternCode": "C16977"
       },
       {
         "id": "Observation.component:phaenotyp.value[x]",
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-            "valueCode": "normative"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-            "valueCode": "4.0.0"
-          }
-        ],
         "path": "Observation.component.value[x]",
         "min": 1,
         "type": [
@@ -411,16 +218,6 @@
       },
       {
         "id": "Observation.component:kit",
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-            "valueCode": "normative"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-            "valueCode": "4.0.0"
-          }
-        ],
         "path": "Observation.component",
         "sliceName": "kit",
         "max": "1",
@@ -428,46 +225,16 @@
       },
       {
         "id": "Observation.component:kit.code.coding.system",
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-            "valueCode": "normative"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-            "valueCode": "4.0.0"
-          }
-        ],
         "path": "Observation.component.code.coding.system",
         "fixedUri": "http://ncit.nci.nih.gov"
       },
       {
         "id": "Observation.component:kit.code.coding.code",
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-            "valueCode": "normative"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-            "valueCode": "4.0.0"
-          }
-        ],
         "path": "Observation.component.code.coding.code",
         "patternCode": "C42793"
       },
       {
         "id": "Observation.component:kit.value[x]",
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-            "valueCode": "normative"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-            "valueCode": "4.0.0"
-          }
-        ],
         "path": "Observation.component.value[x]",
         "min": 1,
         "type": [
@@ -482,16 +249,6 @@
       },
       {
         "id": "Observation.component:hersteller",
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-            "valueCode": "normative"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-            "valueCode": "4.0.0"
-          }
-        ],
         "path": "Observation.component",
         "sliceName": "hersteller",
         "max": "1",
@@ -499,46 +256,16 @@
       },
       {
         "id": "Observation.component:hersteller.code.coding.system",
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-            "valueCode": "normative"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-            "valueCode": "4.0.0"
-          }
-        ],
         "path": "Observation.component.code.coding.system",
         "fixedUri": "http://ncit.nci.nih.gov"
       },
       {
         "id": "Observation.component:hersteller.code.coding.code",
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-            "valueCode": "normative"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-            "valueCode": "4.0.0"
-          }
-        ],
         "path": "Observation.component.code.coding.code",
-        "fixedCode": "C25392"
+        "patternCode": "C25392"
       },
       {
         "id": "Observation.component:hersteller.value[x]",
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-            "valueCode": "normative"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-            "valueCode": "4.0.0"
-          }
-        ],
         "path": "Observation.component.value[x]",
         "min": 1,
         "type": [
@@ -548,21 +275,15 @@
         ],
         "binding": {
           "strength": "extensible",
-          "valueSet": "http://uk-koeln.de/fhir/ValueSet/hersteller-molpatho"
+          "valueSet": "http://uk-koeln.de/fhir/ValueSet/ergebnis"
         }
       },
       {
+        "id": "Observation.component:hersteller.code",
+        "path": "Observation.component.code"
+      },
+      {
         "id": "Observation.component:sop",
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-            "valueCode": "normative"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-            "valueCode": "4.0.0"
-          }
-        ],
         "path": "Observation.component",
         "sliceName": "sop",
         "max": "1",
@@ -570,46 +291,16 @@
       },
       {
         "id": "Observation.component:sop.code.coding.system",
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-            "valueCode": "normative"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-            "valueCode": "4.0.0"
-          }
-        ],
         "path": "Observation.component.code.coding.system",
         "fixedUri": "http://ncit.nci.nih.gov"
       },
       {
         "id": "Observation.component:sop.code.coding.code",
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-            "valueCode": "normative"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-            "valueCode": "4.0.0"
-          }
-        ],
         "path": "Observation.component.code.coding.code",
         "patternCode": "C48443"
       },
       {
         "id": "Observation.component:sop.value[x]",
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-            "valueCode": "normative"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-            "valueCode": "4.0.0"
-          }
-        ],
         "path": "Observation.component.value[x]",
         "min": 1,
         "type": [
@@ -620,16 +311,6 @@
       },
       {
         "id": "Observation.component:standort",
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-            "valueCode": "normative"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-            "valueCode": "4.0.0"
-          }
-        ],
         "path": "Observation.component",
         "sliceName": "standort",
         "max": "1",
@@ -637,46 +318,16 @@
       },
       {
         "id": "Observation.component:standort.code.coding.system",
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-            "valueCode": "normative"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-            "valueCode": "4.0.0"
-          }
-        ],
         "path": "Observation.component.code.coding.system",
         "fixedUri": "http://ncit.nci.nih.gov"
       },
       {
         "id": "Observation.component:standort.code.coding.code",
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-            "valueCode": "normative"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-            "valueCode": "4.0.0"
-          }
-        ],
         "path": "Observation.component.code.coding.code",
         "patternCode": "C25341"
       },
       {
         "id": "Observation.component:standort.value[x]",
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-            "valueCode": "normative"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-            "valueCode": "4.0.0"
-          }
-        ],
         "path": "Observation.component.value[x]",
         "min": 1,
         "type": [
@@ -687,16 +338,6 @@
       },
       {
         "id": "Observation.component:pos-tumor-zellen",
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-            "valueCode": "normative"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-            "valueCode": "4.0.0"
-          }
-        ],
         "path": "Observation.component",
         "sliceName": "pos-tumor-zellen",
         "max": "1",
@@ -704,46 +345,16 @@
       },
       {
         "id": "Observation.component:pos-tumor-zellen.code.coding.system",
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-            "valueCode": "normative"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-            "valueCode": "4.0.0"
-          }
-        ],
         "path": "Observation.component.code.coding.system",
         "fixedUri": "http://ncit.nci.nih.gov"
       },
       {
         "id": "Observation.component:pos-tumor-zellen.code.coding.code",
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-            "valueCode": "normative"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-            "valueCode": "4.0.0"
-          }
-        ],
         "path": "Observation.component.code.coding.code",
         "patternCode": "C70460"
       },
       {
         "id": "Observation.component:pos-tumor-zellen.value[x]",
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-            "valueCode": "normative"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-            "valueCode": "4.0.0"
-          }
-        ],
         "path": "Observation.component.value[x]",
         "min": 1,
         "type": [
@@ -754,16 +365,6 @@
       },
       {
         "id": "Observation.component:polysomie",
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-            "valueCode": "normative"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-            "valueCode": "4.0.0"
-          }
-        ],
         "path": "Observation.component",
         "sliceName": "polysomie",
         "max": "1",
@@ -771,46 +372,16 @@
       },
       {
         "id": "Observation.component:polysomie.code.coding.system",
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-            "valueCode": "normative"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-            "valueCode": "4.0.0"
-          }
-        ],
         "path": "Observation.component.code.coding.system",
         "fixedUri": "http://ncit.nci.nih.gov"
       },
       {
         "id": "Observation.component:polysomie.code.coding.code",
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-            "valueCode": "normative"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-            "valueCode": "4.0.0"
-          }
-        ],
         "path": "Observation.component.code.coding.code",
         "patternCode": "C36331"
       },
       {
         "id": "Observation.component:polysomie.value[x]",
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-            "valueCode": "normative"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-            "valueCode": "4.0.0"
-          }
-        ],
         "path": "Observation.component.value[x]",
         "min": 1,
         "type": [
@@ -821,62 +392,22 @@
       },
       {
         "id": "Observation.component:amplification-level",
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-            "valueCode": "normative"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-            "valueCode": "4.0.0"
-          }
-        ],
         "path": "Observation.component",
         "sliceName": "amplification-level",
         "mustSupport": true
       },
       {
         "id": "Observation.component:amplification-level.code.coding.system",
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-            "valueCode": "normative"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-            "valueCode": "4.0.0"
-          }
-        ],
         "path": "Observation.component.code.coding.system",
         "fixedUri": "http://uk-koeln.de/fhir/CodeSystem/tbd-codes"
       },
       {
         "id": "Observation.component:amplification-level.code.coding.code",
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-            "valueCode": "normative"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-            "valueCode": "4.0.0"
-          }
-        ],
         "path": "Observation.component.code.coding.code",
         "patternCode": "amplification-level"
       },
       {
         "id": "Observation.component:amplification-level.value[x]",
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-            "valueCode": "normative"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-            "valueCode": "4.0.0"
-          }
-        ],
         "path": "Observation.component.value[x]",
         "min": 1,
         "type": [
@@ -891,62 +422,22 @@
       },
       {
         "id": "Observation.component:15-met-ratio",
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-            "valueCode": "normative"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-            "valueCode": "4.0.0"
-          }
-        ],
         "path": "Observation.component",
         "sliceName": "15-met-ratio",
         "mustSupport": true
       },
       {
         "id": "Observation.component:15-met-ratio.code.coding.system",
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-            "valueCode": "normative"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-            "valueCode": "4.0.0"
-          }
-        ],
         "path": "Observation.component.code.coding.system",
         "fixedUri": "http://uk-koeln.de/fhir/CodeSystem/tbd-codes"
       },
       {
         "id": "Observation.component:15-met-ratio.code.coding.code",
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-            "valueCode": "normative"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-            "valueCode": "4.0.0"
-          }
-        ],
         "path": "Observation.component.code.coding.code",
         "patternCode": "15-met-ratio"
       },
       {
         "id": "Observation.component:15-met-ratio.value[x]",
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-            "valueCode": "normative"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-            "valueCode": "4.0.0"
-          }
-        ],
         "path": "Observation.component.value[x]",
         "min": 1,
         "type": [
@@ -957,62 +448,22 @@
       },
       {
         "id": "Observation.component:5-met-ratio",
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-            "valueCode": "normative"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-            "valueCode": "4.0.0"
-          }
-        ],
         "path": "Observation.component",
         "sliceName": "5-met-ratio",
         "mustSupport": true
       },
       {
         "id": "Observation.component:5-met-ratio.code.coding.system",
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-            "valueCode": "normative"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-            "valueCode": "4.0.0"
-          }
-        ],
         "path": "Observation.component.code.coding.system",
         "fixedUri": "http://uk-koeln.de/fhir/CodeSystem/tbd-codes"
       },
       {
         "id": "Observation.component:5-met-ratio.code.coding.code",
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-            "valueCode": "normative"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-            "valueCode": "4.0.0"
-          }
-        ],
         "path": "Observation.component.code.coding.code",
         "patternCode": "5-met-ratio"
       },
       {
         "id": "Observation.component:5-met-ratio.value[x]",
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-            "valueCode": "normative"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-            "valueCode": "4.0.0"
-          }
-        ],
         "path": "Observation.component.value[x]",
         "type": [
           {
@@ -1022,62 +473,22 @@
       },
       {
         "id": "Observation.component:4-met-ratio",
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-            "valueCode": "normative"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-            "valueCode": "4.0.0"
-          }
-        ],
         "path": "Observation.component",
         "sliceName": "4-met-ratio",
         "mustSupport": true
       },
       {
         "id": "Observation.component:4-met-ratio.code.coding.system",
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-            "valueCode": "normative"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-            "valueCode": "4.0.0"
-          }
-        ],
         "path": "Observation.component.code.coding.system",
         "fixedUri": "http://uk-koeln.de/fhir/CodeSystem/tbd-codes"
       },
       {
         "id": "Observation.component:4-met-ratio.code.coding.code",
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-            "valueCode": "normative"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-            "valueCode": "4.0.0"
-          }
-        ],
         "path": "Observation.component.code.coding.code",
         "patternCode": "4-met-ratio"
       },
       {
         "id": "Observation.component:4-met-ratio.value[x]",
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-            "valueCode": "normative"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-            "valueCode": "4.0.0"
-          }
-        ],
         "path": "Observation.component.value[x]",
         "min": 1,
         "type": [
@@ -1088,62 +499,22 @@
       },
       {
         "id": "Observation.component:t-zellen-count",
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-            "valueCode": "normative"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-            "valueCode": "4.0.0"
-          }
-        ],
         "path": "Observation.component",
         "sliceName": "t-zellen-count",
         "mustSupport": true
       },
       {
         "id": "Observation.component:t-zellen-count.code.coding.system",
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-            "valueCode": "normative"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-            "valueCode": "4.0.0"
-          }
-        ],
         "path": "Observation.component.code.coding.system",
         "fixedUri": "http://ncit.nci.nih.gov"
       },
       {
         "id": "Observation.component:t-zellen-count.code.coding.code",
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-            "valueCode": "normative"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-            "valueCode": "4.0.0"
-          }
-        ],
         "path": "Observation.component.code.coding.code",
         "patternCode": "C154801"
       },
       {
         "id": "Observation.component:t-zellen-count.value[x]",
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-            "valueCode": "normative"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-            "valueCode": "4.0.0"
-          }
-        ],
         "path": "Observation.component.value[x]",
         "min": 1,
         "type": [
@@ -1154,62 +525,22 @@
       },
       {
         "id": "Observation.component:met-signale",
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-            "valueCode": "normative"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-            "valueCode": "4.0.0"
-          }
-        ],
         "path": "Observation.component",
         "sliceName": "met-signale",
         "mustSupport": true
       },
       {
         "id": "Observation.component:met-signale.code.coding.system",
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-            "valueCode": "normative"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-            "valueCode": "4.0.0"
-          }
-        ],
         "path": "Observation.component.code.coding.system",
         "fixedUri": "http://uk-koeln.de/fhir/CodeSystem/tbd-codes"
       },
       {
         "id": "Observation.component:met-signale.code.coding.code",
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-            "valueCode": "normative"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-            "valueCode": "4.0.0"
-          }
-        ],
         "path": "Observation.component.code.coding.code",
         "patternCode": "met-signal-count"
       },
       {
         "id": "Observation.component:met-signale.value[x]",
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-            "valueCode": "normative"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-            "valueCode": "4.0.0"
-          }
-        ],
         "path": "Observation.component.value[x]",
         "min": 1,
         "type": [
@@ -1220,62 +551,22 @@
       },
       {
         "id": "Observation.component:cen-signale",
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-            "valueCode": "normative"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-            "valueCode": "4.0.0"
-          }
-        ],
         "path": "Observation.component",
         "sliceName": "cen-signale",
         "mustSupport": true
       },
       {
         "id": "Observation.component:cen-signale.code.coding.system",
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-            "valueCode": "normative"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-            "valueCode": "4.0.0"
-          }
-        ],
         "path": "Observation.component.code.coding.system",
         "fixedUri": "http://uk-koeln.de/fhir/CodeSystem/tbd-codes"
       },
       {
         "id": "Observation.component:cen-signale.code.coding.code",
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-            "valueCode": "normative"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-            "valueCode": "4.0.0"
-          }
-        ],
         "path": "Observation.component.code.coding.code",
         "patternCode": "cen-signal-count"
       },
       {
         "id": "Observation.component:cen-signale.value[x]",
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-            "valueCode": "normative"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-            "valueCode": "4.0.0"
-          }
-        ],
         "path": "Observation.component.value[x]",
         "min": 1,
         "type": [
@@ -1286,62 +577,22 @@
       },
       {
         "id": "Observation.component:quot-met-cen-signal",
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-            "valueCode": "normative"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-            "valueCode": "4.0.0"
-          }
-        ],
         "path": "Observation.component",
         "sliceName": "quot-met-cen-signal",
         "mustSupport": true
       },
       {
         "id": "Observation.component:quot-met-cen-signal.code.coding.system",
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-            "valueCode": "normative"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-            "valueCode": "4.0.0"
-          }
-        ],
         "path": "Observation.component.code.coding.system",
         "fixedUri": "http://uk-koeln.de/fhir/CodeSystem/tbd-codes"
       },
       {
         "id": "Observation.component:quot-met-cen-signal.code.coding.code",
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-            "valueCode": "normative"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-            "valueCode": "4.0.0"
-          }
-        ],
         "path": "Observation.component.code.coding.code",
         "patternCode": "met-cen-signal-ratio"
       },
       {
         "id": "Observation.component:quot-met-cen-signal.value[x]",
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-            "valueCode": "normative"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-            "valueCode": "4.0.0"
-          }
-        ],
         "path": "Observation.component.value[x]",
         "min": 1,
         "type": [
@@ -1352,67 +603,53 @@
       },
       {
         "id": "Observation.component:met-copy-pro-zell",
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-            "valueCode": "normative"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-            "valueCode": "4.0.0"
-          }
-        ],
         "path": "Observation.component",
         "sliceName": "met-copy-pro-zell",
         "mustSupport": true
       },
       {
         "id": "Observation.component:met-copy-pro-zell.code.coding.system",
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-            "valueCode": "normative"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-            "valueCode": "4.0.0"
-          }
-        ],
         "path": "Observation.component.code.coding.system",
         "fixedUri": "http://uk-koeln.de/fhir/CodeSystem/tbd-codes"
       },
       {
         "id": "Observation.component:met-copy-pro-zell.code.coding.code",
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-            "valueCode": "normative"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-            "valueCode": "4.0.0"
-          }
-        ],
         "path": "Observation.component.code.coding.code",
         "patternCode": "met-copy-per-cell"
       },
       {
         "id": "Observation.component:met-copy-pro-zell.value[x]",
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-            "valueCode": "normative"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-            "valueCode": "4.0.0"
-          }
-        ],
         "path": "Observation.component.value[x]",
         "min": 1,
         "type": [
           {
             "code": "Quantity"
+          }
+        ]
+      },
+      {
+        "id": "Observation.component:gezaehlteTumorzellen",
+        "path": "Observation.component",
+        "sliceName": "gezaehlteTumorzellen",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.component:gezaehlteTumorzellen.code.coding.system",
+        "path": "Observation.component.code.coding.system",
+        "fixedUri": "http://ncit.nci.nih.gov"
+      },
+      {
+        "id": "Observation.component:gezaehlteTumorzellen.code.coding.code",
+        "path": "Observation.component.code.coding.code",
+        "fixedCode": "C0007584"
+      },
+      {
+        "id": "Observation.component:gezaehlteTumorzellen.value[x]",
+        "path": "Observation.component.value[x]",
+        "min": 1,
+        "type": [
+          {
+            "code": "Ratio"
           }
         ]
       }
