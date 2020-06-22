@@ -3,7 +3,7 @@
   "url": "http://uk-koeln.de/fhir/StructureDefinition/Observation/fish",
   "name": "FishObservation",
   "title": "FISH Befund",
-  "status": "active",
+  "status": "draft",
   "date": "2020-03-17",
   "fhirVersion": "4.0.0",
   "mapping": [

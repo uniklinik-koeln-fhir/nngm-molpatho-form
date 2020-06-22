@@ -3,7 +3,7 @@
   "url": "http://uk-koeln.de/fhir/StructureDefinition/Observation/ngs-panel",
   "name": "NGSPanel",
   "title": "NGS Panel Befund",
-  "status": "active",
+  "status": "draft",
   "date": "2020-03-17",
   "fhirVersion": "4.0.0",
   "mapping": [
@@ -547,6 +547,7 @@
         "id": "Observation.component:ergebnis",
         "path": "Observation.component",
         "sliceName": "ergebnis",
+        "max": "1",
         "mustSupport": true
       },
       {
@@ -571,6 +572,75 @@
           "strength": "required",
           "valueSet": "http://uk-koeln.de/fhir/ValueSet/ergebnis"
         }
+      },
+      {
+        "id": "Observation.component:allelicfraction",
+        "path": "Observation.component",
+        "sliceName": "allelicfraction",
+        "max": "1",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.component:allelicfraction.code.coding.system",
+        "path": "Observation.component.code.coding.system",
+        "fixedUri": "http://ncit.nci.nih.gov"
+      },
+      {
+        "id": "Observation.component:allelicfraction.value[x]",
+        "path": "Observation.component.value[x]",
+        "type": [
+          {
+            "code": "Ratio"
+          }
+        ]
+      },
+      {
+        "id": "Observation.component:referenztranskript",
+        "path": "Observation.component",
+        "sliceName": "referenztranskript",
+        "max": "1",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.component:referenztranskript.value[x]",
+        "path": "Observation.component.value[x]",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "Observation.component:coverage",
+        "path": "Observation.component",
+        "sliceName": "coverage",
+        "max": "1",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.component:coverage.value[x]",
+        "path": "Observation.component.value[x]",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "Observation.component:molekulareBewertung",
+        "path": "Observation.component",
+        "sliceName": "molekulareBewertung",
+        "max": "1",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.component:molekulareBewertung.value[x]",
+        "path": "Observation.component.value[x]",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
       }
     ]
   }

@@ -2,8 +2,8 @@
   "resourceType": "StructureDefinition",
   "url": "http://uk-koeln.de/fhir/StructureDefinition/Observation/weitere-untersuchung",
   "name": "WeitereUntersuchung",
-  "title": "NGS Panel Befund",
-  "status": "active",
+  "title": "NGS WeitereUntersuchung",
+  "status": "draft",
   "date": "2020-03-17",
   "fhirVersion": "4.0.1",
   "mapping": [

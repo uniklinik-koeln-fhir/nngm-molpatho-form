@@ -3,7 +3,7 @@
   "url": "http://uk-koeln.de/fhir/StructureDefinition/Observation/ish",
   "name": "IshObservation",
   "title": "CISH/FISH Befund",
-  "status": "active",
+  "status": "draft",
   "date": "2020-03-17",
   "fhirVersion": "4.0.0",
   "mapping": [
@@ -277,6 +277,7 @@
         "id": "Observation.component:ergebnis",
         "path": "Observation.component",
         "sliceName": "ergebnis",
+        "max": "1",
         "mustSupport": true
       },
       {
@@ -418,6 +419,7 @@
         "id": "Observation.component:amplification-level",
         "path": "Observation.component",
         "sliceName": "amplification-level",
+        "max": "1",
         "mustSupport": true
       },
       {
@@ -443,6 +445,22 @@
           "strength": "extensible",
           "valueSet": "http://uk-koeln.de/fhir/ValueSet/high-medium-low"
         }
+      },
+      {
+        "id": "Observation.component:flaeche",
+        "path": "Observation.component",
+        "sliceName": "flaeche",
+        "max": "1",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.component:flaeche.value[x]",
+        "path": "Observation.component.value[x]",
+        "type": [
+          {
+            "code": "Ratio"
+          }
+        ]
       }
     ]
   }

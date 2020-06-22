@@ -1,9 +1,8 @@
 {
   "resourceType": "StructureDefinition",
-  "url": "http://uk-koeln.de/fhir/StructureDefinition/Observation/beurteilung",
+  "url": "http://uk-koeln.de/fhir/StructureDefinition/DiagnosticReport/beurteilung",
   "name": "Beurteilung",
   "status": "draft",
-  "date": "2020-03-17",
   "fhirVersion": "4.0.1",
   "mapping": [
     {
@@ -51,8 +50,6 @@
         "id": "DiagnosticReport.extension:episodeOfCare",
         "path": "DiagnosticReport.extension",
         "sliceName": "episodeOfCare",
-        "min": 0,
-        "max": "*",
         "type": [
           {
             "code": "Extension",
@@ -64,91 +61,31 @@
       },
       {
         "id": "DiagnosticReport.status",
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-            "valueCode": "normative"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-            "valueCode": "4.0.0"
-          }
-        ],
         "path": "DiagnosticReport.status",
         "mustSupport": true
       },
       {
         "id": "DiagnosticReport.code",
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-            "valueCode": "normative"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-            "valueCode": "4.0.0"
-          }
-        ],
         "path": "DiagnosticReport.code",
         "mustSupport": true
       },
       {
         "id": "DiagnosticReport.performer",
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-            "valueCode": "normative"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-            "valueCode": "4.0.0"
-          }
-        ],
         "path": "DiagnosticReport.performer",
         "mustSupport": true
       },
       {
         "id": "DiagnosticReport.performer.reference",
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-            "valueCode": "normative"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-            "valueCode": "4.0.0"
-          }
-        ],
         "path": "DiagnosticReport.performer.reference",
         "mustSupport": true
       },
       {
         "id": "DiagnosticReport.conclusion",
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-            "valueCode": "normative"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-            "valueCode": "4.0.0"
-          }
-        ],
         "path": "DiagnosticReport.conclusion",
         "mustSupport": true
       },
       {
         "id": "DiagnosticReport.conclusionCode",
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-            "valueCode": "normative"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-            "valueCode": "4.0.0"
-          }
-        ],
         "path": "DiagnosticReport.conclusionCode",
         "mustSupport": true,
         "binding": {
@@ -161,6 +98,32 @@
           "strength": "required",
           "valueSet": "http://loinc.org/vs/LL361-7"
         }
+      },
+      {
+        "id": "DiagnosticReport.conclusionCode.extension",
+        "path": "DiagnosticReport.conclusionCode.extension",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "url"
+            }
+          ],
+          "rules": "open"
+        }
+      },
+      {
+        "id": "DiagnosticReport.conclusionCode.extension:Empfehlung",
+        "path": "DiagnosticReport.conclusionCode.extension",
+        "sliceName": "Empfehlung",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://uk-koeln.de/fhir/Extension/beurteilung"
+            ]
+          }
+        ]
       }
     ]
   }
