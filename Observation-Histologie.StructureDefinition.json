@@ -1,6 +1,6 @@
 {
   "resourceType": "StructureDefinition",
-  "url": "http://uk-koeln.de/fhir/StructureDefinition/Observation/histologie",
+  "url": "http://uk-koeln.de/fhir/StructureDefinition/Observation/nngm/histologie",
   "name": "HistologieObservation",
   "title": "Histologie",
   "status": "draft",
