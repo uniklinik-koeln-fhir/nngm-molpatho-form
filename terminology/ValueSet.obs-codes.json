@@ -17,55 +17,79 @@
   "compose": {
     "include": [
       {
-        "system": "https://ncit.nci.nih.gov/",
+        "system": "nNGM",
         "concept": [
           {
-            "code": "C96444",
-            "display": "KRT7 Gene"
+            "code": "BRAF",
+            "display": "BRAF"
           },
           {
-            "code": "C104651",
-            "display": "MIB1 Gene"
+            "code": "CK7",
+            "display": "CK7"
           },
           {
-            "code": "C126466",
-            "display": "NAPA Gene"
+            "code": "MIB1",
+            "display": "MIB1"
           },
           {
-            "code": "C20511",
-            "display": "Interleukin-9"
+            "code": "Napsin A",
+            "display": "Napsin A"
           },
           {
-            "code": "C101146",
-            "display": "Synaptophysin"
+            "code": "P40",
+            "display": "P40"
           },
           {
-            "code": "C107622",
-            "display": "TTF1 Gene"
+            "code": "TTF1",
+            "display": "TTF1"
           },
           {
-            "code": "C81946",
-            "display": "ALK Fusion Protein Expression"
+            "code": "ALK",
+            "display": "ALK"
           },
           {
-            "code": "C43532",
-            "display": "c-MET Gene Amplification"
+            "code": "MET",
+            "display": "MET"
           },
           {
-            "code": "C122807",
-            "display": "Immunohistochemical Status of PD-L1"
+            "code": "PD-L1",
+            "display": "PD-L1"
           },
           {
-            "code": "C131069",
-            "display": "RET Fusion Positive"
+            "code": "ROS1",
+            "display": "ROS1"
           },
           {
-            "code": "C131071",
-            "display": "ROS1 Fusion Positive"
+            "code": "RET",
+            "display": "RET"
           },
           {
-            "code": "C20195",
-            "display": "Gene Fusion"
+            "code": "NTRK1",
+            "display": "NTRK1"
+          },
+          {
+            "code": "NTRK2",
+            "display": "NTRK2"
+          },
+          {
+            "code": "NTRK3",
+            "display": "NTRK3"
+          },
+          {
+            "code": "FGFR1",
+            "display": "FGFR1"
+          },
+          {
+            "code": "FGFR2",
+            "display": "FGFR2"
+          },
+          {
+            "code": "FGFR3",
+            "display": "FGFR3"
+          },
+          {
+            "code": "Sonstiges",
+            "display": "Sonstiges"
           }
         ]
       }
