@@ -89,6 +89,19 @@
         "mustSupport": true
       },
       {
+        "id": "Observation.category.coding",
+        "path": "Observation.category.coding",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "system"
+            }
+          ],
+          "rules": "open"
+        }
+      },
+      {
         "id": "Observation.category.coding.system",
         "path": "Observation.category.coding.system",
         "fixedUri": "http://terminology.hl7.org/CodeSystem/observation-category"
@@ -97,6 +110,31 @@
         "id": "Observation.category.coding.code",
         "path": "Observation.category.coding.code",
         "patternCode": "laboratory"
+      },
+      {
+        "id": "Observation.category.coding:nngmMethod",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+            "valueCode": "normative"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
+            "valueCode": "4.0.0"
+          }
+        ],
+        "path": "Observation.category.coding",
+        "sliceName": "nngmMethod"
+      },
+      {
+        "id": "Observation.category.coding:nngmMethod.system",
+        "path": "Observation.category.coding.system",
+        "fixedUri": "http://uk-koeln.de/fhir/ValueSet/obs-methods"
+      },
+      {
+        "id": "Observation.category.coding:nngmMethod.code",
+        "path": "Observation.category.coding.code",
+        "fixedCode": "CISH"
       },
       {
         "id": "Observation.code",
