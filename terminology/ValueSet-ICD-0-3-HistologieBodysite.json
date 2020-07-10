@@ -1,0 +1,109 @@
+{
+    "resourceType": "ValueSet",
+    "url": "http://uk-koeln.de/fhir/ValueSet/icd-o-3-bodysite",
+    "title": "histologie-bodysite",
+    "status": "draft",
+    "contact": [
+      {
+        "telecom": [
+          {
+            "system": "email"
+          }
+        ]
+      }
+    ],
+    "compose": {
+      "include": [
+        {
+          "system": "urn:oid:2.16.840.1.113883.6.43.1",
+          "concept": [
+            {
+              "code": "C34.",
+              "display": "Bronchus und Lunge"
+            },
+            {
+              "code": "C34.0.",
+              "display": "Hauptbronchus"
+            },
+            {
+              "code": "C34.1.",
+              "display": "Lungenoberlappen"
+            },
+            {
+              "code": "C34.2.",
+              "display": "Lungenmittellappen"
+            },
+            {
+              "code": "C34.3.",
+              "display": "Lungenunterlappen"
+            },
+            {
+              "code": "C34.8.",
+              "display": "Lunge, mehrere Teilbereiche überlappend"
+            },
+            {
+              "code": "C34.9.",
+              "display": "Lunge o.n.A."
+            },
+            {
+              "code": "C38.",
+              "display": "Herz"
+            },
+            {
+              "code": "C38.0.",
+              "display": "Herz"
+            },
+            {
+              "code": "C38.1.",
+              "display": "Vorderes Mediastinum"
+            },
+            {
+              "code": "C38.2.",
+              "display": "Hinteres Mediastinum"
+            },
+            {
+              "code": "C38.3.",
+              "display": "Mediastinum o.n.A."
+            },
+            {
+              "code": "C38.4.",
+              "display": "Pleura o.n.A."
+            },
+            {
+              "code": "C38.8.",
+              "display": "Herz"
+            },
+            {
+              "code": "C39.",
+              "display": "Sonstiger oder mangelhaft bezeichneter Sitz innerhalt der Atemwege [Respirationstrakt] und intrathorakaler Organe"
+            },
+            {
+              "code": "C39.0.",
+              "display": "Obere Atemwege o.n.A."
+            },
+            {
+              "code": "C39.8.",
+              "display": "Atemwege [Respirationstrakt] und intrathorakale"
+            },
+            {
+              "code": "C39.9.",
+              "display": "Mangelhaft bezeichneter Sitz innerhalb der Atmungsorgane"
+            },
+            {
+              "code": "C42.",
+              "display": "Hämatopoetisches und retikuloendotheliales System"
+            },
+            {
+              "code": "C42.0.",
+              "display": "Blut"
+            }
+          ]
+        }
+      ]
+    },
+    "text": {
+      "status": "generated",
+      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>histologie-bodysite</h2><tt>http://uk-koeln.de/fhir/ValueSet/icd-o-3-bodysite</tt></div>"
+    },
+    "name": "Histologie_bodysite"
+  }
