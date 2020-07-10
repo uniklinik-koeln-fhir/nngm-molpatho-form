@@ -25,7 +25,7 @@
           },
           {
             "code": "C23022",
-            "display": "In Situ Hybridization Staining Method"
+            "display": "Chromogenic In Situ Hybridization Staining Method"
           },
           {
             "code": "C17563",
@@ -34,7 +34,11 @@
           {
             "code": "C101293",
             "display": "Next Generation Sequencing"
-          }
+          },
+          {
+          	"code": "C130177",
+            "display": "Next Generation Sequencing Panel"
+        }
         ]
       }
     ]
