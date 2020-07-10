@@ -123,7 +123,7 @@
         "mustSupport": true,
         "binding": {
           "strength": "required",
-          "valueSet": "http://uk-koeln.de/fhir/ValueSet/cancer-base/grading"
+          "valueSet": "http://uk-koeln.de/fhir/ValueSet/nngm/grading"
         }
       },
       {
