@@ -92,114 +92,16 @@
                     {
                         "code":"8010/6",
                         "display":"kombiniertes großzelliges neuroendokrines Karzinom"
+                    },
+                    {
+                        "code":"CUP",
+                        "display":"CUP"
+                    },
+                    {
+                        "code":"Karzinom",
+                        "display":"Karzinom"
                     }
                 ]
-            }
-        ]
-    },
-    "expansion":{
-        "identifier":"icd-o-3-histologie-1",
-        "total":"20",
-        "contains": [
-            {
-                "system":"urn:oid:2.16.840.1.113883.6.43.1",
-                "code":"8140/3",
-                "display":"Adenokarzinom"
-            },
-            {
-                "system":"urn:oid:2.16.840.1.113883.6.43.1",
-                "code":"8240/3",
-                "display":"lepidisches Adenokarzinom"
-            },
-            {
-                "system":"urn:oid:2.16.840.1.113883.6.43.1",
-                "code":"8551/3",
-                "display":"azinäres Adenokarzinom"
-            },
-            {
-                "system":"urn:oid:2.16.840.1.113883.6.43.1",
-                "code":"8260/3",
-                "display":"papilläres Adenokarzinom"
-            },
-            {
-                "system":"urn:oid:2.16.840.1.113883.6.43.1",
-                "code":"8265/3",
-                "display":"mikropapilläres Adenokarzinom"
-            },
-            {
-                "system":"urn:oid:2.16.840.1.113883.6.43.1",
-                "code":"8230/3",
-                "display":"solides Adenokarzinom"
-            },
-            {
-                "system":"urn:oid:2.16.840.1.113883.6.43.1",
-                "code":"8253/3",
-                "display":"invasives muzinöses Adenokarzinom"
-            },
-            {
-                "system":"urn:oid:2.16.840.1.113883.6.43.1",
-                "code":"8254/3",
-                "display":"gemischt invasives muzinöses und nicht-muzinöses Adenokarzinom"
-            },
-            {
-                "system":"urn:oid:2.16.840.1.113883.6.43.1",
-                "code":"8480/3",
-                "display":"kolloidales Adenokarzinom"
-            },
-            {
-                "system":"urn:oid:2.16.840.1.113883.6.43.1",
-                "code":"8333/3",
-                "display":"fetales Adenokarzinom"
-            },
-            {
-                "system":"urn:oid:2.16.840.1.113883.6.43.1",
-                "code":"8144/3",
-                "display":"enterisches Adenokarzinom"
-            },
-            {
-                "system":"urn:oid:2.16.840.1.113883.6.43.1",
-                "code":"8070/3",
-                "display":"Plattenepithelkarzinom"
-            },
-            {
-                "system":"urn:oid:2.16.840.1.113883.6.43.1",
-                "code":"8071/3",
-                "display":"keratinisierendes Plattenepithelkarzinom"
-            },
-            {
-                "system":"urn:oid:2.16.840.1.113883.6.43.1",
-                "code":"8072/3",
-                "display":"nicht-keratinisierendes Plattenepithelkarzinom"
-            },
-            {
-                "system":"urn:oid:2.16.840.1.113883.6.43.1",
-                "code":"8073/3",
-                "display":"basaloides Plattenepithelkarzinom"
-            },
-            {
-                "system":"urn:oid:2.16.840.1.113883.6.43.1",
-                "code":"8083/3",
-                "display":"Kleinzelliges Karzinom"
-            },
-            {
-                "system":"urn:oid:2.16.840.1.113883.6.43.1",
-                "code":"8041/3",
-                "display":"Kleinzelliges Karzinom"
-            },
-            {
-                "system":"urn:oid:2.16.840.1.113883.6.43.1",
-                "code":"8045/3",
-                "display":"kombiniertes kleinzelliges Karzinom"
-            },
-            {
-                "system":"urn:oid:2.16.840.1.113883.6.43.1",
-                "code":"8013/3",
-                "display":"großzelliges neuroendokrines Karzinom"
-            },
-            {
-                "system":"urn:oid:2.16.840.1.113883.6.43.1",
-                "code":"8010/6",
-                "display":"kombiniertes großzelliges neuroendokrines Karzinom"
             }
         ]
     }
