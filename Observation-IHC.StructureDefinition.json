@@ -428,6 +428,29 @@
           "strength": "required",
           "valueSet": "http://uk-koeln.de/fhir/ValueSet/ish-fish-kits"
         }
+      },
+      {
+        "id": "Observation.component:expression-high-level",
+        "path": "Observation.component",
+        "sliceName": "expression-high-level",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.component:expression-high-level.code.coding.system",
+        "path": "Observation.component.code.coding.system",
+      },
+      {
+        "id": "Observation.component:expression-high-level.code.coding.code",
+        "path": "Observation.component.code.coding.code"
+      },
+      {
+        "id": "Observation.component:expression-high-level.value[x]",
+        "path": "Observation.component.value[x]",
+        "type": [
+          {
+            "code": "boolean"
+          }
+        ]
       }
     ]
   }
