@@ -17,24 +17,32 @@
   "compose": {
     "include": [
       {
-        "system": "https://ncit.nci.nih.gov/",
+        "system": "nNGM Observation Methods",
         "concept": [
           {
-            "code": "C23020",
+            "code": "IHC",
             "display": "Immunohistochemistry Staining Method"
           },
           {
-            "code": "C23022",
-            "display": "In Situ Hybridization Staining Method"
+            "code": "CISH",
+            "display": "Chromogenic In Situ Hybridization Staining Method"
           },
           {
-            "code": "C17563",
+            "code": "FISH",
             "display": "Fluorescence In Situ Hybridization"
           },
           {
-            "code": "C101293",
-            "display": "Next Generation Sequencing"
-          }
+            "code": "Fusion NGS",
+            "display": "Next Generation Sequencing Fusion"
+          },
+          {
+            "code": "Fast Track",
+            "display": "Next Generation Sequencing Fast Track"
+          },
+          {
+            "code": "NGS Panel",
+            "display": "Next Generation Sequencing Panel"
+          }  
         ]
       }
     ]
