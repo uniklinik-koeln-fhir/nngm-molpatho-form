@@ -380,7 +380,7 @@
         "min": 1,
         "type": [
           {
-            "code": "CodeableConcept"
+            "code": "Quantity"
           }
         ],
         "binding": {
