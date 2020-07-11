@@ -418,7 +418,7 @@
         "min": 1,
         "type": [
           {
-            "code": "Ratio"
+            "code": "Quantity"
           }
         ]
       },
@@ -629,7 +629,7 @@
         "min": 1,
         "type": [
           {
-            "code": "Quantity"
+            "code": "integer"
           }
         ]
       },
@@ -655,7 +655,7 @@
         "min": 1,
         "type": [
           {
-            "code": "Quantity"
+            "code": "integer"
           }
         ]
       },
