@@ -88,6 +88,10 @@
             "display": "FGFR3"
           },
           {
+            "code": "SYNAPTOPHYSIN",
+            "display": "SYNAPTOPHYSIN"
+          },
+          {
             "code": "Sonstiges",
             "display": "Sonstiges"
           }
