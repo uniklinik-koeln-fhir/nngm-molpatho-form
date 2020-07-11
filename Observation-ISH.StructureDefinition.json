@@ -122,11 +122,6 @@
         "fixedUri": "http://uk-koeln.de/fhir/ValueSet/obs-methods"
       },
       {
-        "id": "Observation.category.coding:nngmMethod.code",
-        "path": "Observation.category.coding.code",
-        "fixedCode": "CISH"
-      },
-      {
         "id": "Observation.code",
         "path": "Observation.code",
         "mustSupport": true,
