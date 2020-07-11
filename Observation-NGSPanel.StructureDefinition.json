@@ -132,7 +132,7 @@
         "mustSupport": true,
         "binding": {
           "strength": "required",
-          "valueSet": "http://uk-koeln.de/fhir/ValueSet/fasttrack-obs-codes"
+          "valueSet": "http://uk-koeln.de/fhir/ValueSet/obs-codes"
         }
       },
       {
