@@ -117,16 +117,6 @@
       },
       {
         "id": "Observation.category.coding:nngmMethod",
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-            "valueCode": "normative"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-            "valueCode": "4.0.0"
-          }
-        ],
         "path": "Observation.category.coding",
         "sliceName": "nngmMethod"
       },
@@ -463,79 +453,79 @@
         }
       },
       {
-        "id": "Observation.component:15-met-ratio",
+        "id": "Observation.component:15-met-quantity",
         "path": "Observation.component",
-        "sliceName": "15-met-ratio",
+        "sliceName": "15-met-quantity",
         "mustSupport": true
       },
       {
-        "id": "Observation.component:15-met-ratio.code.coding.system",
+        "id": "Observation.component:15-met-quantity.code.coding.system",
         "path": "Observation.component.code.coding.system",
         "fixedUri": "http://uk-koeln.de/fhir/CodeSystem/tbd-codes"
       },
       {
-        "id": "Observation.component:15-met-ratio.code.coding.code",
+        "id": "Observation.component:15-met-quantity.code.coding.code",
         "path": "Observation.component.code.coding.code",
         "patternCode": "15-met-ratio"
       },
       {
-        "id": "Observation.component:15-met-ratio.value[x]",
+        "id": "Observation.component:15-met-quantity.value[x]",
         "path": "Observation.component.value[x]",
         "min": 1,
         "type": [
           {
-            "code": "Ratio"
+            "code": "Quantity"
           }
         ]
       },
       {
-        "id": "Observation.component:5-met-ratio",
+        "id": "Observation.component:5-met-quantity",
         "path": "Observation.component",
-        "sliceName": "5-met-ratio",
+        "sliceName": "5-met-quantity",
         "mustSupport": true
       },
       {
-        "id": "Observation.component:5-met-ratio.code.coding.system",
+        "id": "Observation.component:5-met-quantity.code.coding.system",
         "path": "Observation.component.code.coding.system",
         "fixedUri": "http://uk-koeln.de/fhir/CodeSystem/tbd-codes"
       },
       {
-        "id": "Observation.component:5-met-ratio.code.coding.code",
+        "id": "Observation.component:5-met-quantity.code.coding.code",
         "path": "Observation.component.code.coding.code",
         "patternCode": "5-met-ratio"
       },
       {
-        "id": "Observation.component:5-met-ratio.value[x]",
+        "id": "Observation.component:5-met-quantity.value[x]",
         "path": "Observation.component.value[x]",
         "type": [
           {
-            "code": "Ratio"
+            "code": "Quantity"
           }
         ]
       },
       {
-        "id": "Observation.component:4-met-ratio",
+        "id": "Observation.component:4-met-quantity",
         "path": "Observation.component",
-        "sliceName": "4-met-ratio",
+        "sliceName": "4-met-quantity",
         "mustSupport": true
       },
       {
-        "id": "Observation.component:4-met-ratio.code.coding.system",
+        "id": "Observation.component:4-met-quantity.code.coding.system",
         "path": "Observation.component.code.coding.system",
         "fixedUri": "http://uk-koeln.de/fhir/CodeSystem/tbd-codes"
       },
       {
-        "id": "Observation.component:4-met-ratio.code.coding.code",
+        "id": "Observation.component:4-met-quantity.code.coding.code",
         "path": "Observation.component.code.coding.code",
         "patternCode": "4-met-ratio"
       },
       {
-        "id": "Observation.component:4-met-ratio.value[x]",
+        "id": "Observation.component:4-met-quantity.value[x]",
         "path": "Observation.component.value[x]",
         "min": 1,
         "type": [
           {
-            "code": "Ratio"
+            "code": "Quantity"
           }
         ]
       },
