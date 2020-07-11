@@ -157,7 +157,7 @@
         "mustSupport": true,
         "binding": {
           "strength": "required",
-          "valueSet": "http://loinc.org/vs/LL2451-4"
+          "valueSet": "http://uk-koeln.de/fhir/ValueSet/ergebnis"
         }
       },
       {
