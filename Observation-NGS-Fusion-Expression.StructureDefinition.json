@@ -113,16 +113,6 @@
       },
       {
         "id": "Observation.category.coding:sliceCoding",
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-            "valueCode": "normative"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-            "valueCode": "4.0.0"
-          }
-        ],
         "path": "Observation.category.coding",
         "sliceName": "sliceCoding"
       },
@@ -392,13 +382,9 @@
         "min": 1,
         "type": [
           {
-            "code": "CodeableConcept"
+            "code": "string"
           }
-        ],
-        "binding": {
-          "strength": "extensible",
-          "valueSet": "http://uk-koeln.de/fhir/ValueSet/hgnc-codes"
-        }
+        ]
       },
       {
         "id": "Observation.component:anzahl-der-fusionsreads",
