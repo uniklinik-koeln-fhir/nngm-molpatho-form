@@ -391,7 +391,7 @@
         "min": 1,
         "type": [
           {
-            "code": "Ratio"
+            "code": "Quantity"
           }
         ]
       },
