@@ -92,6 +92,34 @@
             "display": "SYNAPTOPHYSIN"
           },
           {
+            "code": "BRAF Exon 15",
+            "display": "BRAF Exon 15"
+          },
+          {
+            "code": "EGFR Exon 19",
+            "display": "EGFR Exon 19"
+          },
+          {
+            "code": "EGFR Exon 20",
+            "display": "EGFR Exon 20"
+          },
+          {
+            "code": "EGFR Exon 21",
+            "display": "EGFR Exon 21"
+          },
+          {
+            "code": "KRAS Exon 2",
+            "display": "KRAS Exon 2"
+          },
+          {
+            "code": "Sonstige Fusion NGS",
+            "display": "Sonstige Fusion NGS"
+          },
+          {
+            "code": "NGS Panel",
+            "display": "NGS Panel"
+          },
+          {
             "code": "Sonstiges",
             "display": "Sonstiges"
           }
