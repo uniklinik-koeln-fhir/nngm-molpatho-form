@@ -113,9 +113,9 @@
         }
       },
       {
-        "id": "DiagnosticReport.conclusionCode.extension:Empfehlung",
+        "id": "DiagnosticReport.conclusionCode.extension:empfehlung",
         "path": "DiagnosticReport.conclusionCode.extension",
-        "sliceName": "Empfehlung",
+        "sliceName": "empfehlung",
         "type": [
           {
             "code": "Extension",
