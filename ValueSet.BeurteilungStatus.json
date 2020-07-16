@@ -1,0 +1,33 @@
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+    ]
+  },
+  "url": "http://uk-koeln.de/fhir/ValueSet/beurteilungStatus",
+  "version": "1.0.0",
+  "name": "BeurteilungStatus",
+  "title": "Beurteilung Status",
+  "status": "active",
+  "experimental": false,
+  "date": "2020-03-16",
+  "publisher": "Uniklinik Köln",
+  "compose": {
+    "include": [
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/beurteilungStatus",
+        "concept": [
+          {
+            "code": "vorläufig",
+            "display": "vorläufig"
+          },
+          {
+            "code": "final",
+            "display": "final"
+          }
+        ]
+      }
+    ]
+  }
+}

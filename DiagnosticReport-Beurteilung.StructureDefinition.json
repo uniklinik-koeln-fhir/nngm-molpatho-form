@@ -62,7 +62,17 @@
       {
         "id": "DiagnosticReport.status",
         "path": "DiagnosticReport.status",
-        "mustSupport": true
+        "mustSupport": true,
+        "binding": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
+              "valueString": "DiagnosticReportStatus"
+            }
+          ],
+          "strength": "required",
+          "valueSet": "http://uk-koeln.de/fhir/ValueSet/beurteilungStatus"
+        }
       },
       {
         "id": "DiagnosticReport.code",
@@ -113,9 +123,9 @@
         }
       },
       {
-        "id": "DiagnosticReport.conclusionCode.extension:empfehlung",
+        "id": "DiagnosticReport.conclusionCode.extension:Empfehlung",
         "path": "DiagnosticReport.conclusionCode.extension",
-        "sliceName": "empfehlung",
+        "sliceName": "Empfehlung",
         "type": [
           {
             "code": "Extension",
