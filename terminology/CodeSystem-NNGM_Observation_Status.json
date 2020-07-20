@@ -1,7 +1,7 @@
 {
   "resourceType": "CodeSystem",
   "title": "nNGM Observation Status",
-  "url": "http://hl7.org/fhir/ValueSet/nngm-observation-status",
+  "url": "http://hl7.org/fhir/CodeSystem/nngm-observation-status",
   "status": "draft",
   "contact": [
     {
