@@ -5,7 +5,7 @@
   "title": "IHC Befund",
   "status": "draft",
   "date": "2020-03-17",
-  "fhirVersion": "4.0.0",
+  "fhirVersion": "4.0.1",
   "mapping": [
     {
       "identity": "workflow",
@@ -110,7 +110,6 @@
         "id": "Observation.status.extension:abschluss",
         "path": "Observation.status.extension",
         "sliceName": "abschluss",
-        "min": 0,
         "max": "1",
         "type": [
           {
@@ -125,45 +124,32 @@
       {
         "id": "Observation.category",
         "path": "Observation.category",
-        "mustSupport": true
-      },
-      {
-        "id": "Observation.category.coding",
-        "path": "Observation.category.coding",
         "slicing": {
           "discriminator": [
             {
-              "type": "value",
-              "path": "system"
+              "type": "pattern",
+              "path": "coding"
             }
           ],
           "rules": "open"
-        }
+        },
+        "min": 1,
+        "mustSupport": true
       },
       {
-        "id": "Observation.category.coding.system",
-        "path": "Observation.category.coding.system",
-        "fixedUri": "http://terminology.hl7.org/CodeSystem/observation-category"
+        "id": "Observation.category:laboratory",
+        "path": "Observation.category",
+        "sliceName": "laboratory",
+        "min": 1,
+        "max": "1"
       },
       {
-        "id": "Observation.category.coding.code",
-        "path": "Observation.category.coding.code",
-        "patternCode": "laboratory"
-      },
-      {
-        "id": "Observation.category.coding:nngmMethod",
+        "id": "Observation.category:laboratory.coding",
         "path": "Observation.category.coding",
-        "sliceName": "nngmMethod"
-      },
-      {
-        "id": "Observation.category.coding:nngmMethod.system",
-        "path": "Observation.category.coding.system",
-        "fixedUri": "http://uk-koeln.de/fhir/ValueSet/obs-methods"
-      },
-      {
-        "id": "Observation.category.coding:nngmMethod.code",
-        "path": "Observation.category.coding.code",
-        "fixedCode": "IHC"
+        "patternCoding": {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "laboratory"
+        }
       },
       {
         "id": "Observation.code",
@@ -211,14 +197,13 @@
         "mustSupport": true
       },
       {
-        "id": "Observation.method.coding.system",
-        "path": "Observation.method.coding.system",
-        "fixedUri": "http://ncit.nci.nih.gov"
-      },
-      {
-        "id": "Observation.method.coding.code",
-        "path": "Observation.method.coding.code",
-        "patternCode": "C23020"
+        "id": "Observation.method.coding",
+        "path": "Observation.method.coding",
+        "min": 1,
+        "patternCoding": {
+          "system": "http://ncit.nci.nih.gov",
+          "code": "C23020"
+        }
       },
       {
         "id": "Observation.component",
@@ -242,14 +227,16 @@
         "mustSupport": true
       },
       {
-        "id": "Observation.component:phaenotyp.code.coding.system",
-        "path": "Observation.component.code.coding.system",
-        "fixedUri": "http://ncit.nci.nih.gov"
-      },
-      {
-        "id": "Observation.component:phaenotyp.code.coding.code",
-        "path": "Observation.component.code.coding.code",
-        "patternCode": "C16977"
+        "id": "Observation.component:phaenotyp.code",
+        "path": "Observation.component.code",
+        "patternCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://ncit.nci.nih.gov",
+              "code": "C16977"
+            }
+          ]
+        }
       },
       {
         "id": "Observation.component:phaenotyp.value[x]",
@@ -273,14 +260,16 @@
         "mustSupport": true
       },
       {
-        "id": "Observation.component:antikoerper.code.coding.system",
-        "path": "Observation.component.code.coding.system",
-        "fixedUri": "http://ncit.nci.nih.gov"
-      },
-      {
-        "id": "Observation.component:antikoerper.code.coding.code",
-        "path": "Observation.component.code.coding.code",
-        "patternCode": "C16295"
+        "id": "Observation.component:antikoerper.code",
+        "path": "Observation.component.code",
+        "patternCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://ncit.nci.nih.gov",
+              "code": "C16295"
+            }
+          ]
+        }
       },
       {
         "id": "Observation.component:antikoerper.value[x]",
@@ -304,14 +293,16 @@
         "mustSupport": true
       },
       {
-        "id": "Observation.component:hersteller.code.coding.system",
-        "path": "Observation.component.code.coding.system",
-        "fixedUri": "http://ncit.nci.nih.gov"
-      },
-      {
-        "id": "Observation.component:hersteller.code.coding.code",
-        "path": "Observation.component.code.coding.code",
-        "fixedCode": "C25392"
+        "id": "Observation.component:hersteller.code",
+        "path": "Observation.component.code",
+        "patternCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://ncit.nci.nih.gov",
+              "code": "C25392"
+            }
+          ]
+        }
       },
       {
         "id": "Observation.component:hersteller.value[x]",
@@ -335,14 +326,16 @@
         "mustSupport": true
       },
       {
-        "id": "Observation.component:sop.code.coding.system",
-        "path": "Observation.component.code.coding.system",
-        "fixedUri": "http://ncit.nci.nih.gov"
-      },
-      {
-        "id": "Observation.component:sop.code.coding.code",
-        "path": "Observation.component.code.coding.code",
-        "patternCode": "C48443"
+        "id": "Observation.component:sop.code",
+        "path": "Observation.component.code",
+        "patternCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://ncit.nci.nih.gov",
+              "code": "C48443"
+            }
+          ]
+        }
       },
       {
         "id": "Observation.component:sop.value[x]",
@@ -361,14 +354,16 @@
         "max": "1"
       },
       {
-        "id": "Observation.component:standort.code.coding.system",
-        "path": "Observation.component.code.coding.system",
-        "fixedUri": "http://ncit.nci.nih.gov"
-      },
-      {
-        "id": "Observation.component:standort.code.coding.code",
-        "path": "Observation.component.code.coding.code",
-        "patternCode": "C25341"
+        "id": "Observation.component:standort.code",
+        "path": "Observation.component.code",
+        "patternCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://ncit.nci.nih.gov",
+              "code": "C25341"
+            }
+          ]
+        }
       },
       {
         "id": "Observation.component:standort.value[x]",
@@ -388,14 +383,16 @@
         "mustSupport": true
       },
       {
-        "id": "Observation.component:klassifikation.code.coding.system",
-        "path": "Observation.component.code.coding.system",
-        "fixedUri": "http://ncit.nci.nih.gov"
-      },
-      {
-        "id": "Observation.component:klassifikation.code.coding.code",
-        "path": "Observation.component.code.coding.code",
-        "patternCode": "C25161"
+        "id": "Observation.component:klassifikation.code",
+        "path": "Observation.component.code",
+        "patternCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://ncit.nci.nih.gov",
+              "code": "C25161"
+            }
+          ]
+        }
       },
       {
         "id": "Observation.component:klassifikation.value[x]",
@@ -419,14 +416,16 @@
         "mustSupport": true
       },
       {
-        "id": "Observation.component:ratio-pos-flaeche.code.coding.system",
-        "path": "Observation.component.code.coding.system",
-        "fixedUri": "http://uk-koeln.de/fhir/CodeSystem/tbd-codes"
-      },
-      {
-        "id": "Observation.component:ratio-pos-flaeche.code.coding.code",
-        "path": "Observation.component.code.coding.code",
-        "patternCode": "tcell-surface-ratio"
+        "id": "Observation.component:ratio-pos-flaeche.code",
+        "path": "Observation.component.code",
+        "patternCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/tbd-codes",
+              "code": "tcell-surface-ratio"
+            }
+          ]
+        }
       },
       {
         "id": "Observation.component:ratio-pos-flaeche.value[x]",
@@ -445,14 +444,16 @@
         "mustSupport": true
       },
       {
-        "id": "Observation.component:kit.code.coding.system",
-        "path": "Observation.component.code.coding.system",
-        "fixedUri": "http://ncit.nci.nih.gov"
-      },
-      {
-        "id": "Observation.component:kit.code.coding.code",
-        "path": "Observation.component.code.coding.code",
-        "fixedCode": "C42793"
+        "id": "Observation.component:kit.code",
+        "path": "Observation.component.code",
+        "patternCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://ncit.nci.nih.gov",
+              "code": "C42793"
+            }
+          ]
+        }
       },
       {
         "id": "Observation.component:kit.value[x]",
@@ -472,6 +473,18 @@
         "path": "Observation.component",
         "sliceName": "expression-high-level",
         "mustSupport": true
+      },
+      {
+        "id": "Observation.component:expression-high-level.code",
+        "path": "Observation.component.code",
+        "patternCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://ncit.nci.nih.gov",
+              "code": "C129474"
+            }
+          ]
+        }
       },
       {
         "id": "Observation.component:expression-high-level.value[x]",
