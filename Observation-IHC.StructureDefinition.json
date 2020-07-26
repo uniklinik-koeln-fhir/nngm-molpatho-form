@@ -5,7 +5,7 @@
   "title": "IHC Befund",
   "status": "draft",
   "date": "2020-03-17",
-  "fhirVersion": "4.0.0",
+  "fhirVersion": "4.0.1",
   "mapping": [
     {
       "identity": "workflow",
@@ -154,16 +154,6 @@
       },
       {
         "id": "Observation.category:laboratory.coding",
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-            "valueCode": "normative"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-            "valueCode": "4.0.0"
-          }
-        ],
         "path": "Observation.category.coding",
         "patternCoding": {
           "system": "http://terminology.hl7.org/CodeSystem/observation-category",
