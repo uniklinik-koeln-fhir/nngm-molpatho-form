@@ -134,16 +134,7 @@
           "rules": "open"
         },
         "min": 1,
-        "mustSupport": true,
-        "binding": {
-          "extension": [
-            {
-              "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
-              "valueString": "ObservationCategory"
-            }
-          ],
-          "strength": "required"
-        }
+        "mustSupport": true
       },
       {
         "id": "Observation.category:laboratory",
@@ -442,9 +433,30 @@
         "min": 1,
         "type": [
           {
-            "code": "Ratio"
+            "code": "Quantity"
           }
         ]
+      },
+      {
+        "id": "Observation.component:ratio-pos-flaeche.value[x].unit",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.value[x].unit",
+        "fixedString": "%"
+      },
+      {
+        "id": "Observation.component:ratio-pos-flaeche.value[x].system",
+        "path": "Observation.component.value[x].system",
+        "fixedUri": "http://unitsofmeasure.org"
+      },
+      {
+        "id": "Observation.component:ratio-pos-flaeche.value[x].code",
+        "path": "Observation.component.value[x].code",
+        "fixedCode": "%"
       },
       {
         "id": "Observation.component:kit",
@@ -503,6 +515,55 @@
             "code": "boolean"
           }
         ]
+      },
+      {
+        "id": "Observation.component:menge-tumorzellen",
+        "path": "Observation.component",
+        "sliceName": "menge-tumorzellen",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.component:menge-tumorzellen.code",
+        "path": "Observation.component.code",
+        "patternCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://loinc.org/vs/LL715-4",
+              "code": "C127771"
+            }
+          ]
+        }
+      },
+      {
+        "id": "Observation.component:menge-tumorzellen.value[x]",
+        "path": "Observation.component.value[x]",
+        "min": 1,
+        "type": [
+          {
+            "code": "Quantity"
+          }
+        ]
+      },
+      {
+        "id": "Observation.component:menge-tumorzellen.value[x].unit",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.value[x].unit",
+        "fixedString": "%"
+      },
+      {
+        "id": "Observation.component:menge-tumorzellen.value[x].system",
+        "path": "Observation.component.value[x].system",
+        "fixedUri": "http://unitsofmeasure.org"
+      },
+      {
+        "id": "Observation.component:menge-tumorzellen.value[x].code",
+        "path": "Observation.component.value[x].code",
+        "fixedCode": "%"
       }
     ]
   }
