@@ -590,14 +590,12 @@
         "mustSupport": true
       },
       {
-        "id": "Observation.method.coding.system",
-        "path": "Observation.method.coding.system",
-        "fixedUri": "http://ncit.nci.nih.gov"
-      },
-      {
-        "id": "Observation.method.coding.code",
-        "path": "Observation.method.coding.code",
-        "patternCode": "C23020"
+        "id": "Observation.method.coding",
+        "path": "Observation.method.coding",
+        "patternCoding": {
+          "system": "http://ncit.nci.nih.gov",
+          "code": "C23020"
+        }
       },
       {
         "id": "Observation.method.coding.display",
