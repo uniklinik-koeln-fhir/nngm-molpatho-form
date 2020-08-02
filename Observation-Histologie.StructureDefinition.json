@@ -4,7 +4,7 @@
   "name": "HistologieObservation",
   "title": "Histologie",
   "status": "draft",
-  "fhirVersion": "4.0.0",
+  "fhirVersion": "4.0.1",
   "mapping": [
     {
       "identity": "workflow",
@@ -72,55 +72,54 @@
         "mustSupport": true
       },
       {
-                "id": "Observation.status",
-                "extension":  [
-                    {
-                        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-display-hint",
-                        "valueString": "default: final"
-                    }
-                ],
-                "path": "Observation.status",
-                "mustSupport": true,
-                "binding": {
-                    "extension":  [
-                        {
-                            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
-                            "valueString": "ObservationStatus"
-                        }
-                    ],
-                    "strength": "required",
-                    "valueSet": "http://hl7.org/fhir/ValueSet/nngm-observation-status"
-                }
-            },
+        "id": "Observation.status",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-display-hint",
+            "valueString": "default: final"
+          }
+        ],
+        "path": "Observation.status",
+        "mustSupport": true,
+        "binding": {
+          "extension": [
             {
-                "id": "Observation.status.extension",
-                "path": "Observation.status.extension",
-                "slicing": {
-                    "discriminator":  [
-                        {
-                            "type": "value",
-                            "path": "url"
-                        }
-                    ],
-                    "rules": "open"
-                }
-            },
+              "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
+              "valueString": "ObservationStatus"
+            }
+          ],
+          "strength": "required",
+          "valueSet": "http://hl7.org/fhir/ValueSet/nngm-observation-status"
+        }
+      },
+      {
+        "id": "Observation.status.extension",
+        "path": "Observation.status.extension",
+        "slicing": {
+          "discriminator": [
             {
-                "id": "Observation.status.extension:abschluss",
-                "path": "Observation.status.extension",
-                "sliceName": "abschluss",
-                "min": 0,
-                "max": "1",
-                "type":  [
-                    {
-                        "code": "Extension",
-                        "profile":  [
-                            "http://uk-koeln.de/fhir/Extension/statusAbschluss"
-                        ]
-                    }
-                ],
-                "mustSupport": true
-            },
+              "type": "value",
+              "path": "url"
+            }
+          ],
+          "rules": "open"
+        }
+      },
+      {
+        "id": "Observation.status.extension:abschluss",
+        "path": "Observation.status.extension",
+        "sliceName": "abschluss",
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://uk-koeln.de/fhir/Extension/statusAbschluss"
+            ]
+          }
+        ],
+        "mustSupport": true
+      },
       {
         "id": "Observation.category",
         "path": "Observation.category",
@@ -129,17 +128,25 @@
       {
         "id": "Observation.code",
         "path": "Observation.code",
-        "mustSupport": true,
-        "binding": {
-          "extension": [
-            {
-              "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
-              "valueString": "ObservationCode"
-            }
-          ],
-          "strength": "required",
-          "valueSet": "http://uk-koeln.de/fhir/ValueSet/icd-o-3-histologie"
-        }
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.code.coding",
+        "path": "Observation.code.coding",
+        "min": 1,
+        "max": "1"
+      },
+      {
+        "id": "Observation.code.coding.system",
+        "path": "Observation.code.coding.system",
+        "min": 1,
+        "fixedUri": "http://ncit.nci.nih.gov"
+      },
+      {
+        "id": "Observation.code.coding.code",
+        "path": "Observation.code.coding.code",
+        "min": 1,
+        "fixedCode": "C18000"
       },
       {
         "id": "Observation.subject",
@@ -186,6 +193,13 @@
         }
       },
       {
+        "id": "Observation.bodySite.coding",
+        "path": "Observation.bodySite.coding",
+        "min": 1,
+        "max": "1",
+        "mustSupport": true
+      },
+      {
         "id": "Observation.method",
         "path": "Observation.method",
         "mustSupport": false
@@ -207,6 +221,79 @@
           ],
           "rules": "open"
         },
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.component:klassifikation",
+        "path": "Observation.component",
+        "sliceName": "klassifikation",
+        "max": "1",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.component:klassifikation.code",
+        "path": "Observation.component.code",
+        "patternCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://ncit.nci.nih.gov",
+              "code": "C25161"
+            }
+          ]
+        }
+      },
+      {
+        "id": "Observation.component:klassifikation.code.coding",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+            "valueCode": "normative"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
+            "valueCode": "4.0.0"
+          }
+        ],
+        "path": "Observation.component.code.coding",
+        "min": 1
+      },
+      {
+        "id": "Observation.component:klassifikation.value[x]",
+        "path": "Observation.component.value[x]",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ]
+      },
+      {
+        "id": "Observation.component:klassifikation.value[x].coding",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+            "valueCode": "normative"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
+            "valueCode": "4.0.0"
+          }
+        ],
+        "path": "Observation.component.value[x].coding",
+        "mustSupport": true,
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://uk-koeln.de/fhir/ValueSet/icd-o-3-histologie"
+        }
+      },
+      {
+        "id": "Observation.component:klassifikation.value[x].text",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.value[x].text",
         "mustSupport": true
       },
       {
