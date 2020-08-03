@@ -14,7 +14,7 @@
   "publisher": "Uniklinik Köln",
   "description": "Codes für die keine Konzept in einem frei verfügbaren CodeSystem gefunden werden konnte.",
   "copyright": "Uniklinik Köln",
-  "content": "partial",
+  "content": "complete",
   "concept": [
     {
       "code": "fusionspartner-exon",

@@ -1,0 +1,27 @@
+{
+  "resourceType": "CodeSystem",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+    ]
+  },
+  "url": "http://uk-koeln.de/fhir/CodeSystem/nNGM/beurteilungStatus",
+  "version": "1.0.0",
+  "name": "BeurteilungStatus",
+  "title": "Beurteilung Status Codes",
+  "status": "final",
+  "experimental": false,
+  "publisher": "Uniklinik Köln",
+  "copyright": "Uniklinik Köln",
+  "content": "complete",
+  "concept": [
+    {
+      "code": "vorläufig",
+      "display": "vorläufig"
+    },
+    {
+      "code": "final",
+      "display": "final"
+    }
+  ]
+}

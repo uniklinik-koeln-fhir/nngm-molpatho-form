@@ -71,7 +71,7 @@
             }
           ],
           "strength": "required",
-          "valueSet": "http://uk-koeln.de/fhir/ValueSet/beurteilungStatus"
+          "valueSet": "http://uk-koeln.de/fhir/ValueSet/nNGM/beurteilungStatus"
         }
       },
       {
