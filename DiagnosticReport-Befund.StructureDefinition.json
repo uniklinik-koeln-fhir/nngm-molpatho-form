@@ -61,6 +61,11 @@
         "mustSupport": true
       },
       {
+        "id": "DiagnosticReport.identifier",
+        "path": "DiagnosticReport.identifier",
+        "mustSupport": true
+      },
+      {
         "id": "DiagnosticReport.status",
         "path": "DiagnosticReport.status",
         "mustSupport": true,
@@ -83,6 +88,11 @@
       {
         "id": "DiagnosticReport.subject",
         "path": "DiagnosticReport.subject",
+        "mustSupport": true
+      },
+      {
+        "id": "DiagnosticReport.issued",
+        "path": "DiagnosticReport.issued",
         "mustSupport": true
       },
       {

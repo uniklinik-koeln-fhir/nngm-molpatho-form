@@ -1,0 +1,26 @@
+{
+  "resourceType": "ValueSet",
+  "url": "http://uk-koeln.de/fhir/ValueSet/nNGM/ergebnis-posNegIndNoCall",
+  "version": "1.0",
+  "name": "grading",
+  "status": "active",
+  "date": "2018-10-31",
+  "publisher": "Uniklinik Köln",
+  "description": "Histopathologisches Grading",
+  "compose": {
+    "include": [
+      {
+        "valueSet": "http://loinc.org/vs/LL2038-9"
+      },
+      {
+        "system": "http://loinc.org",
+        "concept": [
+          {
+            "code": "LA18198-4",
+            "display": "No call"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -171,7 +171,7 @@
         "mustSupport": true,
         "binding": {
           "strength": "required",
-          "valueSet": "http://uk-koeln.de/fhir/ValueSet/obs-codes"
+          "valueSet": "http://uk-koeln.de/fhir/ValueSet/nNGM/obs-codes"
         }
       },
       {
@@ -196,7 +196,7 @@
         "mustSupport": true,
         "binding": {
           "strength": "required",
-          "valueSet": "http://uk-koeln.de/fhir/ValueSet/ergebnis"
+          "valueSet": "http://uk-koeln.de/fhir/ValueSet/nNGM/ergebnis-posNegIndNoCall"
         }
       },
       {

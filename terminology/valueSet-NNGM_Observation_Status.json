@@ -22,9 +22,5 @@
       }
     ]
   },
-  "text": {
-    "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>nNGM Observation Status</h2><tt>http://hl7.org/fhir/ValueSet/nngm-observation-status</tt></div>"
-  },
   "name": "NNGM_Observation_Status"
 }

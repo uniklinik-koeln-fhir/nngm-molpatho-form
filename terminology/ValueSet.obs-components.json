@@ -102,10 +102,6 @@
         "system": "http://uk-koeln.de/fhir/CodeSystem/tbd-codes",
         "concept": [
           {
-            "code": "concept",
-            "display": ""
-          },
-          {
             "code": "fusionspartner-exon",
             "display": "fusionspartner-exon"
           },
