@@ -5,7 +5,7 @@
   "title": "FISH Befund",
   "status": "draft",
   "date": "2020-03-17",
-  "fhirVersion": "4.0.0",
+  "fhirVersion": "4.0.1",
   "mapping": [
     {
       "identity": "workflow",
@@ -46,6 +46,26 @@
   "differential": {
     "element": [
       {
+        "id": "Observation.meta.security.display",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.meta.security.display"
+      },
+      {
+        "id": "Observation.meta.tag.display",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.meta.tag.display"
+      },
+      {
         "id": "Observation.extension",
         "path": "Observation.extension",
         "slicing": {
@@ -73,6 +93,126 @@
         "mustSupport": true
       },
       {
+        "id": "Observation.extension:episodeOfCare.value[x].identifier.type.coding.display",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.extension.value[x].identifier.type.coding.display"
+      },
+      {
+        "id": "Observation.extension:episodeOfCare.value[x].identifier.type.text",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.extension.value[x].identifier.type.text"
+      },
+      {
+        "id": "Observation.extension:episodeOfCare.value[x].display",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.extension.value[x].display"
+      },
+      {
+        "id": "Observation.identifier.type.coding.display",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.identifier.type.coding.display"
+      },
+      {
+        "id": "Observation.identifier.type.text",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.identifier.type.text"
+      },
+      {
+        "id": "Observation.identifier.assigner.display",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.identifier.assigner.display"
+      },
+      {
+        "id": "Observation.basedOn.identifier.type.coding.display",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.basedOn.identifier.type.coding.display"
+      },
+      {
+        "id": "Observation.basedOn.identifier.type.text",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.basedOn.identifier.type.text"
+      },
+      {
+        "id": "Observation.basedOn.display",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.basedOn.display"
+      },
+      {
+        "id": "Observation.partOf.identifier.type.coding.display",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.partOf.identifier.type.coding.display"
+      },
+      {
+        "id": "Observation.partOf.identifier.type.text",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.partOf.identifier.type.text"
+      },
+      {
+        "id": "Observation.partOf.display",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.partOf.display"
+      },
+      {
         "id": "Observation.status",
         "extension": [
           {
@@ -92,32 +232,6 @@
           "strength": "required",
           "valueSet": "http://hl7.org/fhir/ValueSet/nngm-observation-status"
         }
-      },
-      {
-        "id": "Observation.status.extension",
-        "path": "Observation.status.extension",
-        "slicing": {
-          "discriminator": [
-            {
-              "type": "value",
-              "path": "url"
-            }
-          ],
-          "rules": "open"
-        }
-      },
-      {
-        "id": "Observation.status.extension:abschluss",
-        "path": "Observation.status.extension",
-        "sliceName": "abschluss",
-        "type": [
-          {
-            "code": "Extension",
-            "profile": [
-              "http://uk-koeln.de/fhir/Extension/statusAbschluss"
-            ]
-          }
-        ]
       },
       {
         "id": "Observation.category",
@@ -152,6 +266,16 @@
         "patternCode": "laboratory"
       },
       {
+        "id": "Observation.category.coding.display",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.category.coding.display"
+      },
+      {
         "id": "Observation.category.coding:nngmMethod",
         "path": "Observation.category.coding",
         "sliceName": "nngmMethod"
@@ -167,6 +291,26 @@
         "fixedCode": "FISH"
       },
       {
+        "id": "Observation.category.coding:nngmMethod.display",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.category.coding.display"
+      },
+      {
+        "id": "Observation.category.text",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.category.text"
+      },
+      {
         "id": "Observation.code",
         "path": "Observation.code",
         "mustSupport": true,
@@ -176,14 +320,154 @@
         }
       },
       {
+        "id": "Observation.code.coding.display",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.code.coding.display"
+      },
+      {
+        "id": "Observation.code.text",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.code.text"
+      },
+      {
         "id": "Observation.subject",
         "path": "Observation.subject",
         "mustSupport": true
       },
       {
+        "id": "Observation.subject.identifier.type.coding.display",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.subject.identifier.type.coding.display"
+      },
+      {
+        "id": "Observation.subject.identifier.type.text",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.subject.identifier.type.text"
+      },
+      {
+        "id": "Observation.subject.display",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.subject.display"
+      },
+      {
+        "id": "Observation.focus.identifier.type.coding.display",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.focus.identifier.type.coding.display"
+      },
+      {
+        "id": "Observation.focus.identifier.type.text",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.focus.identifier.type.text"
+      },
+      {
+        "id": "Observation.focus.display",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.focus.display"
+      },
+      {
+        "id": "Observation.encounter.identifier.type.coding.display",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.encounter.identifier.type.coding.display"
+      },
+      {
+        "id": "Observation.encounter.identifier.type.text",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.encounter.identifier.type.text"
+      },
+      {
+        "id": "Observation.encounter.display",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.encounter.display"
+      },
+      {
         "id": "Observation.issued",
         "path": "Observation.issued",
         "mustSupport": true
+      },
+      {
+        "id": "Observation.performer.identifier.type.coding.display",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.performer.identifier.type.coding.display"
+      },
+      {
+        "id": "Observation.performer.identifier.type.text",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.performer.identifier.type.text"
+      },
+      {
+        "id": "Observation.performer.display",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.performer.display"
       },
       {
         "id": "Observation.value[x]",
@@ -201,6 +485,46 @@
         }
       },
       {
+        "id": "Observation.value[x].coding.display",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.value[x].coding.display"
+      },
+      {
+        "id": "Observation.value[x].text",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.value[x].text"
+      },
+      {
+        "id": "Observation.dataAbsentReason.coding.display",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.dataAbsentReason.coding.display"
+      },
+      {
+        "id": "Observation.dataAbsentReason.text",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.dataAbsentReason.text"
+      },
+      {
         "id": "Observation.interpretation",
         "path": "Observation.interpretation",
         "mustSupport": true
@@ -212,6 +536,46 @@
           "strength": "extensible",
           "valueSet": "http://loinc.org/vs/LL2160-1"
         }
+      },
+      {
+        "id": "Observation.interpretation.coding.display",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.interpretation.coding.display"
+      },
+      {
+        "id": "Observation.interpretation.text",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.interpretation.text"
+      },
+      {
+        "id": "Observation.bodySite.coding.display",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.bodySite.coding.display"
+      },
+      {
+        "id": "Observation.bodySite.text",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.bodySite.text"
       },
       {
         "id": "Observation.method",
@@ -230,6 +594,26 @@
         "patternCode": "C17563"
       },
       {
+        "id": "Observation.method.coding.display",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.method.coding.display"
+      },
+      {
+        "id": "Observation.method.text",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.method.text"
+      },
+      {
         "id": "Observation.specimen",
         "path": "Observation.specimen",
         "mustSupport": true
@@ -238,6 +622,216 @@
         "id": "Observation.specimen.id",
         "path": "Observation.specimen.id",
         "mustSupport": true
+      },
+      {
+        "id": "Observation.specimen.identifier.type.coding.display",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.specimen.identifier.type.coding.display"
+      },
+      {
+        "id": "Observation.specimen.identifier.type.text",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.specimen.identifier.type.text"
+      },
+      {
+        "id": "Observation.specimen.identifier.assigner.display",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.specimen.identifier.assigner.display"
+      },
+      {
+        "id": "Observation.specimen.display",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.specimen.display"
+      },
+      {
+        "id": "Observation.device.identifier.type.coding.display",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.device.identifier.type.coding.display"
+      },
+      {
+        "id": "Observation.device.identifier.type.text",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.device.identifier.type.text"
+      },
+      {
+        "id": "Observation.device.display",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.device.display"
+      },
+      {
+        "id": "Observation.referenceRange.low.unit",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.referenceRange.low.unit"
+      },
+      {
+        "id": "Observation.referenceRange.high.unit",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.referenceRange.high.unit"
+      },
+      {
+        "id": "Observation.referenceRange.type.coding.display",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.referenceRange.type.coding.display"
+      },
+      {
+        "id": "Observation.referenceRange.type.text",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.referenceRange.type.text"
+      },
+      {
+        "id": "Observation.referenceRange.appliesTo.coding.display",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.referenceRange.appliesTo.coding.display"
+      },
+      {
+        "id": "Observation.referenceRange.appliesTo.text",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.referenceRange.appliesTo.text"
+      },
+      {
+        "id": "Observation.referenceRange.age.low.unit",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.referenceRange.age.low.unit"
+      },
+      {
+        "id": "Observation.referenceRange.age.high.unit",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.referenceRange.age.high.unit"
+      },
+      {
+        "id": "Observation.hasMember.identifier.type.coding.display",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.hasMember.identifier.type.coding.display"
+      },
+      {
+        "id": "Observation.hasMember.identifier.type.text",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.hasMember.identifier.type.text"
+      },
+      {
+        "id": "Observation.hasMember.display",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.hasMember.display"
+      },
+      {
+        "id": "Observation.derivedFrom.identifier.type.coding.display",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.derivedFrom.identifier.type.coding.display"
+      },
+      {
+        "id": "Observation.derivedFrom.identifier.type.text",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.derivedFrom.identifier.type.text"
+      },
+      {
+        "id": "Observation.derivedFrom.display",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.derivedFrom.display"
       },
       {
         "id": "Observation.component",
@@ -252,6 +846,146 @@
           "rules": "open"
         },
         "mustSupport": true
+      },
+      {
+        "id": "Observation.component.code.coding.display",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.code.coding.display"
+      },
+      {
+        "id": "Observation.component.code.text",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.code.text"
+      },
+      {
+        "id": "Observation.component.dataAbsentReason.coding.display",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.dataAbsentReason.coding.display"
+      },
+      {
+        "id": "Observation.component.dataAbsentReason.text",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.dataAbsentReason.text"
+      },
+      {
+        "id": "Observation.component.interpretation.coding.display",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.interpretation.coding.display"
+      },
+      {
+        "id": "Observation.component.interpretation.text",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.interpretation.text"
+      },
+      {
+        "id": "Observation.component.referenceRange.low.unit",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.low.unit"
+      },
+      {
+        "id": "Observation.component.referenceRange.high.unit",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.high.unit"
+      },
+      {
+        "id": "Observation.component.referenceRange.type.coding.display",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.type.coding.display"
+      },
+      {
+        "id": "Observation.component.referenceRange.type.text",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.type.text"
+      },
+      {
+        "id": "Observation.component.referenceRange.appliesTo.coding.display",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.appliesTo.coding.display"
+      },
+      {
+        "id": "Observation.component.referenceRange.appliesTo.text",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.appliesTo.text"
+      },
+      {
+        "id": "Observation.component.referenceRange.age.low.unit",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.age.low.unit"
+      },
+      {
+        "id": "Observation.component.referenceRange.age.high.unit",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.age.high.unit"
       },
       {
         "id": "Observation.component:phaenotyp",
@@ -271,6 +1005,26 @@
         "patternCode": "C16977"
       },
       {
+        "id": "Observation.component:phaenotyp.code.coding.display",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.code.coding.display"
+      },
+      {
+        "id": "Observation.component:phaenotyp.code.text",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.code.text"
+      },
+      {
         "id": "Observation.component:phaenotyp.value[x]",
         "path": "Observation.component.value[x]",
         "min": 1,
@@ -283,6 +1037,146 @@
           "strength": "required",
           "valueSet": "http://uk-koeln.de/fhir/ValueSet/phenotypes"
         }
+      },
+      {
+        "id": "Observation.component:phaenotyp.value[x].coding.display",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.value[x].coding.display"
+      },
+      {
+        "id": "Observation.component:phaenotyp.value[x].text",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.value[x].text"
+      },
+      {
+        "id": "Observation.component:phaenotyp.dataAbsentReason.coding.display",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.dataAbsentReason.coding.display"
+      },
+      {
+        "id": "Observation.component:phaenotyp.dataAbsentReason.text",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.dataAbsentReason.text"
+      },
+      {
+        "id": "Observation.component:phaenotyp.interpretation.coding.display",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.interpretation.coding.display"
+      },
+      {
+        "id": "Observation.component:phaenotyp.interpretation.text",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.interpretation.text"
+      },
+      {
+        "id": "Observation.component:phaenotyp.referenceRange.low.unit",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.low.unit"
+      },
+      {
+        "id": "Observation.component:phaenotyp.referenceRange.high.unit",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.high.unit"
+      },
+      {
+        "id": "Observation.component:phaenotyp.referenceRange.type.coding.display",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.type.coding.display"
+      },
+      {
+        "id": "Observation.component:phaenotyp.referenceRange.type.text",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.type.text"
+      },
+      {
+        "id": "Observation.component:phaenotyp.referenceRange.appliesTo.coding.display",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.appliesTo.coding.display"
+      },
+      {
+        "id": "Observation.component:phaenotyp.referenceRange.appliesTo.text",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.appliesTo.text"
+      },
+      {
+        "id": "Observation.component:phaenotyp.referenceRange.age.low.unit",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.age.low.unit"
+      },
+      {
+        "id": "Observation.component:phaenotyp.referenceRange.age.high.unit",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.age.high.unit"
       },
       {
         "id": "Observation.component:kit",
@@ -302,6 +1196,26 @@
         "patternCode": "C42793"
       },
       {
+        "id": "Observation.component:kit.code.coding.display",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.code.coding.display"
+      },
+      {
+        "id": "Observation.component:kit.code.text",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.code.text"
+      },
+      {
         "id": "Observation.component:kit.value[x]",
         "path": "Observation.component.value[x]",
         "min": 1,
@@ -314,6 +1228,146 @@
           "strength": "extensible",
           "valueSet": "http://uk-koeln.de/fhir/ValueSet/ish-fish-kits"
         }
+      },
+      {
+        "id": "Observation.component:kit.value[x].coding.display",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.value[x].coding.display"
+      },
+      {
+        "id": "Observation.component:kit.value[x].text",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.value[x].text"
+      },
+      {
+        "id": "Observation.component:kit.dataAbsentReason.coding.display",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.dataAbsentReason.coding.display"
+      },
+      {
+        "id": "Observation.component:kit.dataAbsentReason.text",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.dataAbsentReason.text"
+      },
+      {
+        "id": "Observation.component:kit.interpretation.coding.display",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.interpretation.coding.display"
+      },
+      {
+        "id": "Observation.component:kit.interpretation.text",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.interpretation.text"
+      },
+      {
+        "id": "Observation.component:kit.referenceRange.low.unit",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.low.unit"
+      },
+      {
+        "id": "Observation.component:kit.referenceRange.high.unit",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.high.unit"
+      },
+      {
+        "id": "Observation.component:kit.referenceRange.type.coding.display",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.type.coding.display"
+      },
+      {
+        "id": "Observation.component:kit.referenceRange.type.text",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.type.text"
+      },
+      {
+        "id": "Observation.component:kit.referenceRange.appliesTo.coding.display",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.appliesTo.coding.display"
+      },
+      {
+        "id": "Observation.component:kit.referenceRange.appliesTo.text",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.appliesTo.text"
+      },
+      {
+        "id": "Observation.component:kit.referenceRange.age.low.unit",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.age.low.unit"
+      },
+      {
+        "id": "Observation.component:kit.referenceRange.age.high.unit",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.age.high.unit"
       },
       {
         "id": "Observation.component:hersteller",
@@ -333,6 +1387,26 @@
         "patternCode": "C25392"
       },
       {
+        "id": "Observation.component:hersteller.code.coding.display",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.code.coding.display"
+      },
+      {
+        "id": "Observation.component:hersteller.code.text",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.code.text"
+      },
+      {
         "id": "Observation.component:hersteller.value[x]",
         "path": "Observation.component.value[x]",
         "min": 1,
@@ -345,6 +1419,146 @@
           "strength": "extensible",
           "valueSet": "http://uk-koeln.de/fhir/ValueSet/nNGM/ergebnis-posNegIndNoCall"
         }
+      },
+      {
+        "id": "Observation.component:hersteller.value[x].coding.display",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.value[x].coding.display"
+      },
+      {
+        "id": "Observation.component:hersteller.value[x].text",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.value[x].text"
+      },
+      {
+        "id": "Observation.component:hersteller.dataAbsentReason.coding.display",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.dataAbsentReason.coding.display"
+      },
+      {
+        "id": "Observation.component:hersteller.dataAbsentReason.text",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.dataAbsentReason.text"
+      },
+      {
+        "id": "Observation.component:hersteller.interpretation.coding.display",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.interpretation.coding.display"
+      },
+      {
+        "id": "Observation.component:hersteller.interpretation.text",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.interpretation.text"
+      },
+      {
+        "id": "Observation.component:hersteller.referenceRange.low.unit",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.low.unit"
+      },
+      {
+        "id": "Observation.component:hersteller.referenceRange.high.unit",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.high.unit"
+      },
+      {
+        "id": "Observation.component:hersteller.referenceRange.type.coding.display",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.type.coding.display"
+      },
+      {
+        "id": "Observation.component:hersteller.referenceRange.type.text",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.type.text"
+      },
+      {
+        "id": "Observation.component:hersteller.referenceRange.appliesTo.coding.display",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.appliesTo.coding.display"
+      },
+      {
+        "id": "Observation.component:hersteller.referenceRange.appliesTo.text",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.appliesTo.text"
+      },
+      {
+        "id": "Observation.component:hersteller.referenceRange.age.low.unit",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.age.low.unit"
+      },
+      {
+        "id": "Observation.component:hersteller.referenceRange.age.high.unit",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.age.high.unit"
       },
       {
         "id": "Observation.component:hersteller.code",
@@ -368,6 +1582,26 @@
         "patternCode": "C48443"
       },
       {
+        "id": "Observation.component:sop.code.coding.display",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.code.coding.display"
+      },
+      {
+        "id": "Observation.component:sop.code.text",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.code.text"
+      },
+      {
         "id": "Observation.component:sop.value[x]",
         "path": "Observation.component.value[x]",
         "min": 1,
@@ -376,6 +1610,126 @@
             "code": "string"
           }
         ]
+      },
+      {
+        "id": "Observation.component:sop.dataAbsentReason.coding.display",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.dataAbsentReason.coding.display"
+      },
+      {
+        "id": "Observation.component:sop.dataAbsentReason.text",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.dataAbsentReason.text"
+      },
+      {
+        "id": "Observation.component:sop.interpretation.coding.display",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.interpretation.coding.display"
+      },
+      {
+        "id": "Observation.component:sop.interpretation.text",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.interpretation.text"
+      },
+      {
+        "id": "Observation.component:sop.referenceRange.low.unit",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.low.unit"
+      },
+      {
+        "id": "Observation.component:sop.referenceRange.high.unit",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.high.unit"
+      },
+      {
+        "id": "Observation.component:sop.referenceRange.type.coding.display",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.type.coding.display"
+      },
+      {
+        "id": "Observation.component:sop.referenceRange.type.text",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.type.text"
+      },
+      {
+        "id": "Observation.component:sop.referenceRange.appliesTo.coding.display",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.appliesTo.coding.display"
+      },
+      {
+        "id": "Observation.component:sop.referenceRange.appliesTo.text",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.appliesTo.text"
+      },
+      {
+        "id": "Observation.component:sop.referenceRange.age.low.unit",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.age.low.unit"
+      },
+      {
+        "id": "Observation.component:sop.referenceRange.age.high.unit",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.age.high.unit"
       },
       {
         "id": "Observation.component:standort",
@@ -395,6 +1749,26 @@
         "patternCode": "C25341"
       },
       {
+        "id": "Observation.component:standort.code.coding.display",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.code.coding.display"
+      },
+      {
+        "id": "Observation.component:standort.code.text",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.code.text"
+      },
+      {
         "id": "Observation.component:standort.value[x]",
         "path": "Observation.component.value[x]",
         "min": 1,
@@ -403,6 +1777,126 @@
             "code": "string"
           }
         ]
+      },
+      {
+        "id": "Observation.component:standort.dataAbsentReason.coding.display",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.dataAbsentReason.coding.display"
+      },
+      {
+        "id": "Observation.component:standort.dataAbsentReason.text",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.dataAbsentReason.text"
+      },
+      {
+        "id": "Observation.component:standort.interpretation.coding.display",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.interpretation.coding.display"
+      },
+      {
+        "id": "Observation.component:standort.interpretation.text",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.interpretation.text"
+      },
+      {
+        "id": "Observation.component:standort.referenceRange.low.unit",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.low.unit"
+      },
+      {
+        "id": "Observation.component:standort.referenceRange.high.unit",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.high.unit"
+      },
+      {
+        "id": "Observation.component:standort.referenceRange.type.coding.display",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.type.coding.display"
+      },
+      {
+        "id": "Observation.component:standort.referenceRange.type.text",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.type.text"
+      },
+      {
+        "id": "Observation.component:standort.referenceRange.appliesTo.coding.display",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.appliesTo.coding.display"
+      },
+      {
+        "id": "Observation.component:standort.referenceRange.appliesTo.text",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.appliesTo.text"
+      },
+      {
+        "id": "Observation.component:standort.referenceRange.age.low.unit",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.age.low.unit"
+      },
+      {
+        "id": "Observation.component:standort.referenceRange.age.high.unit",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.age.high.unit"
       },
       {
         "id": "Observation.component:pos-tumor-zellen",
@@ -422,6 +1916,26 @@
         "patternCode": "C70460"
       },
       {
+        "id": "Observation.component:pos-tumor-zellen.code.coding.display",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.code.coding.display"
+      },
+      {
+        "id": "Observation.component:pos-tumor-zellen.code.text",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.code.text"
+      },
+      {
         "id": "Observation.component:pos-tumor-zellen.value[x]",
         "path": "Observation.component.value[x]",
         "min": 1,
@@ -430,6 +1944,136 @@
             "code": "Quantity"
           }
         ]
+      },
+      {
+        "id": "Observation.component:pos-tumor-zellen.value[x].unit",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.value[x].unit"
+      },
+      {
+        "id": "Observation.component:pos-tumor-zellen.dataAbsentReason.coding.display",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.dataAbsentReason.coding.display"
+      },
+      {
+        "id": "Observation.component:pos-tumor-zellen.dataAbsentReason.text",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.dataAbsentReason.text"
+      },
+      {
+        "id": "Observation.component:pos-tumor-zellen.interpretation.coding.display",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.interpretation.coding.display"
+      },
+      {
+        "id": "Observation.component:pos-tumor-zellen.interpretation.text",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.interpretation.text"
+      },
+      {
+        "id": "Observation.component:pos-tumor-zellen.referenceRange.low.unit",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.low.unit"
+      },
+      {
+        "id": "Observation.component:pos-tumor-zellen.referenceRange.high.unit",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.high.unit"
+      },
+      {
+        "id": "Observation.component:pos-tumor-zellen.referenceRange.type.coding.display",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.type.coding.display"
+      },
+      {
+        "id": "Observation.component:pos-tumor-zellen.referenceRange.type.text",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.type.text"
+      },
+      {
+        "id": "Observation.component:pos-tumor-zellen.referenceRange.appliesTo.coding.display",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.appliesTo.coding.display"
+      },
+      {
+        "id": "Observation.component:pos-tumor-zellen.referenceRange.appliesTo.text",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.appliesTo.text"
+      },
+      {
+        "id": "Observation.component:pos-tumor-zellen.referenceRange.age.low.unit",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.age.low.unit"
+      },
+      {
+        "id": "Observation.component:pos-tumor-zellen.referenceRange.age.high.unit",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.age.high.unit"
       },
       {
         "id": "Observation.component:polysomie",
@@ -449,6 +2093,26 @@
         "patternCode": "C36331"
       },
       {
+        "id": "Observation.component:polysomie.code.coding.display",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.code.coding.display"
+      },
+      {
+        "id": "Observation.component:polysomie.code.text",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.code.text"
+      },
+      {
         "id": "Observation.component:polysomie.value[x]",
         "path": "Observation.component.value[x]",
         "min": 1,
@@ -457,6 +2121,136 @@
             "code": "Quantity"
           }
         ]
+      },
+      {
+        "id": "Observation.component:polysomie.value[x].unit",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.value[x].unit"
+      },
+      {
+        "id": "Observation.component:polysomie.dataAbsentReason.coding.display",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.dataAbsentReason.coding.display"
+      },
+      {
+        "id": "Observation.component:polysomie.dataAbsentReason.text",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.dataAbsentReason.text"
+      },
+      {
+        "id": "Observation.component:polysomie.interpretation.coding.display",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.interpretation.coding.display"
+      },
+      {
+        "id": "Observation.component:polysomie.interpretation.text",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.interpretation.text"
+      },
+      {
+        "id": "Observation.component:polysomie.referenceRange.low.unit",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.low.unit"
+      },
+      {
+        "id": "Observation.component:polysomie.referenceRange.high.unit",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.high.unit"
+      },
+      {
+        "id": "Observation.component:polysomie.referenceRange.type.coding.display",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.type.coding.display"
+      },
+      {
+        "id": "Observation.component:polysomie.referenceRange.type.text",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.type.text"
+      },
+      {
+        "id": "Observation.component:polysomie.referenceRange.appliesTo.coding.display",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.appliesTo.coding.display"
+      },
+      {
+        "id": "Observation.component:polysomie.referenceRange.appliesTo.text",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.appliesTo.text"
+      },
+      {
+        "id": "Observation.component:polysomie.referenceRange.age.low.unit",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.age.low.unit"
+      },
+      {
+        "id": "Observation.component:polysomie.referenceRange.age.high.unit",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.age.high.unit"
       },
       {
         "id": "Observation.component:amplification-level",
@@ -475,6 +2269,26 @@
         "patternCode": "amplification-level"
       },
       {
+        "id": "Observation.component:amplification-level.code.coding.display",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.code.coding.display"
+      },
+      {
+        "id": "Observation.component:amplification-level.code.text",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.code.text"
+      },
+      {
         "id": "Observation.component:amplification-level.value[x]",
         "path": "Observation.component.value[x]",
         "min": 1,
@@ -487,6 +2301,146 @@
           "strength": "extensible",
           "valueSet": "http://uk-koeln.de/fhir/ValueSet/high-medium-low"
         }
+      },
+      {
+        "id": "Observation.component:amplification-level.value[x].coding.display",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.value[x].coding.display"
+      },
+      {
+        "id": "Observation.component:amplification-level.value[x].text",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.value[x].text"
+      },
+      {
+        "id": "Observation.component:amplification-level.dataAbsentReason.coding.display",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.dataAbsentReason.coding.display"
+      },
+      {
+        "id": "Observation.component:amplification-level.dataAbsentReason.text",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.dataAbsentReason.text"
+      },
+      {
+        "id": "Observation.component:amplification-level.interpretation.coding.display",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.interpretation.coding.display"
+      },
+      {
+        "id": "Observation.component:amplification-level.interpretation.text",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.interpretation.text"
+      },
+      {
+        "id": "Observation.component:amplification-level.referenceRange.low.unit",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.low.unit"
+      },
+      {
+        "id": "Observation.component:amplification-level.referenceRange.high.unit",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.high.unit"
+      },
+      {
+        "id": "Observation.component:amplification-level.referenceRange.type.coding.display",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.type.coding.display"
+      },
+      {
+        "id": "Observation.component:amplification-level.referenceRange.type.text",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.type.text"
+      },
+      {
+        "id": "Observation.component:amplification-level.referenceRange.appliesTo.coding.display",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.appliesTo.coding.display"
+      },
+      {
+        "id": "Observation.component:amplification-level.referenceRange.appliesTo.text",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.appliesTo.text"
+      },
+      {
+        "id": "Observation.component:amplification-level.referenceRange.age.low.unit",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.age.low.unit"
+      },
+      {
+        "id": "Observation.component:amplification-level.referenceRange.age.high.unit",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.age.high.unit"
       },
       {
         "id": "Observation.component:15-met-quantity",
@@ -505,6 +2459,26 @@
         "patternCode": "15-met-ratio"
       },
       {
+        "id": "Observation.component:15-met-quantity.code.coding.display",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.code.coding.display"
+      },
+      {
+        "id": "Observation.component:15-met-quantity.code.text",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.code.text"
+      },
+      {
         "id": "Observation.component:15-met-quantity.value[x]",
         "path": "Observation.component.value[x]",
         "min": 1,
@@ -513,6 +2487,136 @@
             "code": "Quantity"
           }
         ]
+      },
+      {
+        "id": "Observation.component:15-met-quantity.value[x].unit",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.value[x].unit"
+      },
+      {
+        "id": "Observation.component:15-met-quantity.dataAbsentReason.coding.display",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.dataAbsentReason.coding.display"
+      },
+      {
+        "id": "Observation.component:15-met-quantity.dataAbsentReason.text",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.dataAbsentReason.text"
+      },
+      {
+        "id": "Observation.component:15-met-quantity.interpretation.coding.display",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.interpretation.coding.display"
+      },
+      {
+        "id": "Observation.component:15-met-quantity.interpretation.text",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.interpretation.text"
+      },
+      {
+        "id": "Observation.component:15-met-quantity.referenceRange.low.unit",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.low.unit"
+      },
+      {
+        "id": "Observation.component:15-met-quantity.referenceRange.high.unit",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.high.unit"
+      },
+      {
+        "id": "Observation.component:15-met-quantity.referenceRange.type.coding.display",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.type.coding.display"
+      },
+      {
+        "id": "Observation.component:15-met-quantity.referenceRange.type.text",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.type.text"
+      },
+      {
+        "id": "Observation.component:15-met-quantity.referenceRange.appliesTo.coding.display",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.appliesTo.coding.display"
+      },
+      {
+        "id": "Observation.component:15-met-quantity.referenceRange.appliesTo.text",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.appliesTo.text"
+      },
+      {
+        "id": "Observation.component:15-met-quantity.referenceRange.age.low.unit",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.age.low.unit"
+      },
+      {
+        "id": "Observation.component:15-met-quantity.referenceRange.age.high.unit",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.age.high.unit"
       },
       {
         "id": "Observation.component:5-met-quantity",
@@ -531,6 +2635,26 @@
         "patternCode": "5-met-ratio"
       },
       {
+        "id": "Observation.component:5-met-quantity.code.coding.display",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.code.coding.display"
+      },
+      {
+        "id": "Observation.component:5-met-quantity.code.text",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.code.text"
+      },
+      {
         "id": "Observation.component:5-met-quantity.value[x]",
         "path": "Observation.component.value[x]",
         "type": [
@@ -538,6 +2662,136 @@
             "code": "Quantity"
           }
         ]
+      },
+      {
+        "id": "Observation.component:5-met-quantity.value[x].unit",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.value[x].unit"
+      },
+      {
+        "id": "Observation.component:5-met-quantity.dataAbsentReason.coding.display",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.dataAbsentReason.coding.display"
+      },
+      {
+        "id": "Observation.component:5-met-quantity.dataAbsentReason.text",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.dataAbsentReason.text"
+      },
+      {
+        "id": "Observation.component:5-met-quantity.interpretation.coding.display",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.interpretation.coding.display"
+      },
+      {
+        "id": "Observation.component:5-met-quantity.interpretation.text",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.interpretation.text"
+      },
+      {
+        "id": "Observation.component:5-met-quantity.referenceRange.low.unit",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.low.unit"
+      },
+      {
+        "id": "Observation.component:5-met-quantity.referenceRange.high.unit",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.high.unit"
+      },
+      {
+        "id": "Observation.component:5-met-quantity.referenceRange.type.coding.display",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.type.coding.display"
+      },
+      {
+        "id": "Observation.component:5-met-quantity.referenceRange.type.text",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.type.text"
+      },
+      {
+        "id": "Observation.component:5-met-quantity.referenceRange.appliesTo.coding.display",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.appliesTo.coding.display"
+      },
+      {
+        "id": "Observation.component:5-met-quantity.referenceRange.appliesTo.text",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.appliesTo.text"
+      },
+      {
+        "id": "Observation.component:5-met-quantity.referenceRange.age.low.unit",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.age.low.unit"
+      },
+      {
+        "id": "Observation.component:5-met-quantity.referenceRange.age.high.unit",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.age.high.unit"
       },
       {
         "id": "Observation.component:4-met-quantity",
@@ -556,6 +2810,26 @@
         "patternCode": "4-met-ratio"
       },
       {
+        "id": "Observation.component:4-met-quantity.code.coding.display",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.code.coding.display"
+      },
+      {
+        "id": "Observation.component:4-met-quantity.code.text",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.code.text"
+      },
+      {
         "id": "Observation.component:4-met-quantity.value[x]",
         "path": "Observation.component.value[x]",
         "min": 1,
@@ -564,6 +2838,136 @@
             "code": "Quantity"
           }
         ]
+      },
+      {
+        "id": "Observation.component:4-met-quantity.value[x].unit",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.value[x].unit"
+      },
+      {
+        "id": "Observation.component:4-met-quantity.dataAbsentReason.coding.display",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.dataAbsentReason.coding.display"
+      },
+      {
+        "id": "Observation.component:4-met-quantity.dataAbsentReason.text",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.dataAbsentReason.text"
+      },
+      {
+        "id": "Observation.component:4-met-quantity.interpretation.coding.display",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.interpretation.coding.display"
+      },
+      {
+        "id": "Observation.component:4-met-quantity.interpretation.text",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.interpretation.text"
+      },
+      {
+        "id": "Observation.component:4-met-quantity.referenceRange.low.unit",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.low.unit"
+      },
+      {
+        "id": "Observation.component:4-met-quantity.referenceRange.high.unit",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.high.unit"
+      },
+      {
+        "id": "Observation.component:4-met-quantity.referenceRange.type.coding.display",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.type.coding.display"
+      },
+      {
+        "id": "Observation.component:4-met-quantity.referenceRange.type.text",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.type.text"
+      },
+      {
+        "id": "Observation.component:4-met-quantity.referenceRange.appliesTo.coding.display",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.appliesTo.coding.display"
+      },
+      {
+        "id": "Observation.component:4-met-quantity.referenceRange.appliesTo.text",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.appliesTo.text"
+      },
+      {
+        "id": "Observation.component:4-met-quantity.referenceRange.age.low.unit",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.age.low.unit"
+      },
+      {
+        "id": "Observation.component:4-met-quantity.referenceRange.age.high.unit",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.age.high.unit"
       },
       {
         "id": "Observation.component:t-zellen-count",
@@ -582,6 +2986,26 @@
         "patternCode": "C154801"
       },
       {
+        "id": "Observation.component:t-zellen-count.code.coding.display",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.code.coding.display"
+      },
+      {
+        "id": "Observation.component:t-zellen-count.code.text",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.code.text"
+      },
+      {
         "id": "Observation.component:t-zellen-count.value[x]",
         "path": "Observation.component.value[x]",
         "min": 1,
@@ -590,6 +3014,126 @@
             "code": "integer"
           }
         ]
+      },
+      {
+        "id": "Observation.component:t-zellen-count.dataAbsentReason.coding.display",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.dataAbsentReason.coding.display"
+      },
+      {
+        "id": "Observation.component:t-zellen-count.dataAbsentReason.text",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.dataAbsentReason.text"
+      },
+      {
+        "id": "Observation.component:t-zellen-count.interpretation.coding.display",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.interpretation.coding.display"
+      },
+      {
+        "id": "Observation.component:t-zellen-count.interpretation.text",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.interpretation.text"
+      },
+      {
+        "id": "Observation.component:t-zellen-count.referenceRange.low.unit",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.low.unit"
+      },
+      {
+        "id": "Observation.component:t-zellen-count.referenceRange.high.unit",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.high.unit"
+      },
+      {
+        "id": "Observation.component:t-zellen-count.referenceRange.type.coding.display",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.type.coding.display"
+      },
+      {
+        "id": "Observation.component:t-zellen-count.referenceRange.type.text",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.type.text"
+      },
+      {
+        "id": "Observation.component:t-zellen-count.referenceRange.appliesTo.coding.display",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.appliesTo.coding.display"
+      },
+      {
+        "id": "Observation.component:t-zellen-count.referenceRange.appliesTo.text",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.appliesTo.text"
+      },
+      {
+        "id": "Observation.component:t-zellen-count.referenceRange.age.low.unit",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.age.low.unit"
+      },
+      {
+        "id": "Observation.component:t-zellen-count.referenceRange.age.high.unit",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.age.high.unit"
       },
       {
         "id": "Observation.component:met-signale",
@@ -608,6 +3152,26 @@
         "patternCode": "met-signal-count"
       },
       {
+        "id": "Observation.component:met-signale.code.coding.display",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.code.coding.display"
+      },
+      {
+        "id": "Observation.component:met-signale.code.text",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.code.text"
+      },
+      {
         "id": "Observation.component:met-signale.value[x]",
         "path": "Observation.component.value[x]",
         "min": 1,
@@ -616,6 +3180,126 @@
             "code": "integer"
           }
         ]
+      },
+      {
+        "id": "Observation.component:met-signale.dataAbsentReason.coding.display",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.dataAbsentReason.coding.display"
+      },
+      {
+        "id": "Observation.component:met-signale.dataAbsentReason.text",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.dataAbsentReason.text"
+      },
+      {
+        "id": "Observation.component:met-signale.interpretation.coding.display",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.interpretation.coding.display"
+      },
+      {
+        "id": "Observation.component:met-signale.interpretation.text",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.interpretation.text"
+      },
+      {
+        "id": "Observation.component:met-signale.referenceRange.low.unit",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.low.unit"
+      },
+      {
+        "id": "Observation.component:met-signale.referenceRange.high.unit",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.high.unit"
+      },
+      {
+        "id": "Observation.component:met-signale.referenceRange.type.coding.display",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.type.coding.display"
+      },
+      {
+        "id": "Observation.component:met-signale.referenceRange.type.text",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.type.text"
+      },
+      {
+        "id": "Observation.component:met-signale.referenceRange.appliesTo.coding.display",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.appliesTo.coding.display"
+      },
+      {
+        "id": "Observation.component:met-signale.referenceRange.appliesTo.text",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.appliesTo.text"
+      },
+      {
+        "id": "Observation.component:met-signale.referenceRange.age.low.unit",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.age.low.unit"
+      },
+      {
+        "id": "Observation.component:met-signale.referenceRange.age.high.unit",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.age.high.unit"
       },
       {
         "id": "Observation.component:cen-signale",
@@ -634,6 +3318,26 @@
         "patternCode": "cen-signal-count"
       },
       {
+        "id": "Observation.component:cen-signale.code.coding.display",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.code.coding.display"
+      },
+      {
+        "id": "Observation.component:cen-signale.code.text",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.code.text"
+      },
+      {
         "id": "Observation.component:cen-signale.value[x]",
         "path": "Observation.component.value[x]",
         "min": 1,
@@ -642,6 +3346,126 @@
             "code": "integer"
           }
         ]
+      },
+      {
+        "id": "Observation.component:cen-signale.dataAbsentReason.coding.display",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.dataAbsentReason.coding.display"
+      },
+      {
+        "id": "Observation.component:cen-signale.dataAbsentReason.text",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.dataAbsentReason.text"
+      },
+      {
+        "id": "Observation.component:cen-signale.interpretation.coding.display",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.interpretation.coding.display"
+      },
+      {
+        "id": "Observation.component:cen-signale.interpretation.text",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.interpretation.text"
+      },
+      {
+        "id": "Observation.component:cen-signale.referenceRange.low.unit",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.low.unit"
+      },
+      {
+        "id": "Observation.component:cen-signale.referenceRange.high.unit",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.high.unit"
+      },
+      {
+        "id": "Observation.component:cen-signale.referenceRange.type.coding.display",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.type.coding.display"
+      },
+      {
+        "id": "Observation.component:cen-signale.referenceRange.type.text",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.type.text"
+      },
+      {
+        "id": "Observation.component:cen-signale.referenceRange.appliesTo.coding.display",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.appliesTo.coding.display"
+      },
+      {
+        "id": "Observation.component:cen-signale.referenceRange.appliesTo.text",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.appliesTo.text"
+      },
+      {
+        "id": "Observation.component:cen-signale.referenceRange.age.low.unit",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.age.low.unit"
+      },
+      {
+        "id": "Observation.component:cen-signale.referenceRange.age.high.unit",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.age.high.unit"
       },
       {
         "id": "Observation.component:quot-met-cen-signal",
@@ -660,6 +3484,26 @@
         "patternCode": "met-cen-signal-ratio"
       },
       {
+        "id": "Observation.component:quot-met-cen-signal.code.coding.display",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.code.coding.display"
+      },
+      {
+        "id": "Observation.component:quot-met-cen-signal.code.text",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.code.text"
+      },
+      {
         "id": "Observation.component:quot-met-cen-signal.value[x]",
         "path": "Observation.component.value[x]",
         "min": 1,
@@ -668,6 +3512,126 @@
             "code": "integer"
           }
         ]
+      },
+      {
+        "id": "Observation.component:quot-met-cen-signal.dataAbsentReason.coding.display",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.dataAbsentReason.coding.display"
+      },
+      {
+        "id": "Observation.component:quot-met-cen-signal.dataAbsentReason.text",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.dataAbsentReason.text"
+      },
+      {
+        "id": "Observation.component:quot-met-cen-signal.interpretation.coding.display",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.interpretation.coding.display"
+      },
+      {
+        "id": "Observation.component:quot-met-cen-signal.interpretation.text",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.interpretation.text"
+      },
+      {
+        "id": "Observation.component:quot-met-cen-signal.referenceRange.low.unit",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.low.unit"
+      },
+      {
+        "id": "Observation.component:quot-met-cen-signal.referenceRange.high.unit",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.high.unit"
+      },
+      {
+        "id": "Observation.component:quot-met-cen-signal.referenceRange.type.coding.display",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.type.coding.display"
+      },
+      {
+        "id": "Observation.component:quot-met-cen-signal.referenceRange.type.text",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.type.text"
+      },
+      {
+        "id": "Observation.component:quot-met-cen-signal.referenceRange.appliesTo.coding.display",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.appliesTo.coding.display"
+      },
+      {
+        "id": "Observation.component:quot-met-cen-signal.referenceRange.appliesTo.text",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.appliesTo.text"
+      },
+      {
+        "id": "Observation.component:quot-met-cen-signal.referenceRange.age.low.unit",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.age.low.unit"
+      },
+      {
+        "id": "Observation.component:quot-met-cen-signal.referenceRange.age.high.unit",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.age.high.unit"
       },
       {
         "id": "Observation.component:met-copy-pro-zell",
@@ -686,6 +3650,26 @@
         "patternCode": "met-copy-per-cell"
       },
       {
+        "id": "Observation.component:met-copy-pro-zell.code.coding.display",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.code.coding.display"
+      },
+      {
+        "id": "Observation.component:met-copy-pro-zell.code.text",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.code.text"
+      },
+      {
         "id": "Observation.component:met-copy-pro-zell.value[x]",
         "path": "Observation.component.value[x]",
         "min": 1,
@@ -694,6 +3678,126 @@
             "code": "integer"
           }
         ]
+      },
+      {
+        "id": "Observation.component:met-copy-pro-zell.dataAbsentReason.coding.display",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.dataAbsentReason.coding.display"
+      },
+      {
+        "id": "Observation.component:met-copy-pro-zell.dataAbsentReason.text",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.dataAbsentReason.text"
+      },
+      {
+        "id": "Observation.component:met-copy-pro-zell.interpretation.coding.display",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.interpretation.coding.display"
+      },
+      {
+        "id": "Observation.component:met-copy-pro-zell.interpretation.text",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.interpretation.text"
+      },
+      {
+        "id": "Observation.component:met-copy-pro-zell.referenceRange.low.unit",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.low.unit"
+      },
+      {
+        "id": "Observation.component:met-copy-pro-zell.referenceRange.high.unit",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.high.unit"
+      },
+      {
+        "id": "Observation.component:met-copy-pro-zell.referenceRange.type.coding.display",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.type.coding.display"
+      },
+      {
+        "id": "Observation.component:met-copy-pro-zell.referenceRange.type.text",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.type.text"
+      },
+      {
+        "id": "Observation.component:met-copy-pro-zell.referenceRange.appliesTo.coding.display",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.appliesTo.coding.display"
+      },
+      {
+        "id": "Observation.component:met-copy-pro-zell.referenceRange.appliesTo.text",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.appliesTo.text"
+      },
+      {
+        "id": "Observation.component:met-copy-pro-zell.referenceRange.age.low.unit",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.age.low.unit"
+      },
+      {
+        "id": "Observation.component:met-copy-pro-zell.referenceRange.age.high.unit",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.age.high.unit"
       },
       {
         "id": "Observation.component:gezaehlteTumorzellen",
@@ -712,6 +3816,26 @@
         "fixedCode": "C0007584"
       },
       {
+        "id": "Observation.component:gezaehlteTumorzellen.code.coding.display",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.code.coding.display"
+      },
+      {
+        "id": "Observation.component:gezaehlteTumorzellen.code.text",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.code.text"
+      },
+      {
         "id": "Observation.component:gezaehlteTumorzellen.value[x]",
         "path": "Observation.component.value[x]",
         "min": 1,
@@ -720,6 +3844,126 @@
             "code": "integer"
           }
         ]
+      },
+      {
+        "id": "Observation.component:gezaehlteTumorzellen.dataAbsentReason.coding.display",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.dataAbsentReason.coding.display"
+      },
+      {
+        "id": "Observation.component:gezaehlteTumorzellen.dataAbsentReason.text",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.dataAbsentReason.text"
+      },
+      {
+        "id": "Observation.component:gezaehlteTumorzellen.interpretation.coding.display",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.interpretation.coding.display"
+      },
+      {
+        "id": "Observation.component:gezaehlteTumorzellen.interpretation.text",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.interpretation.text"
+      },
+      {
+        "id": "Observation.component:gezaehlteTumorzellen.referenceRange.low.unit",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.low.unit"
+      },
+      {
+        "id": "Observation.component:gezaehlteTumorzellen.referenceRange.high.unit",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.high.unit"
+      },
+      {
+        "id": "Observation.component:gezaehlteTumorzellen.referenceRange.type.coding.display",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.type.coding.display"
+      },
+      {
+        "id": "Observation.component:gezaehlteTumorzellen.referenceRange.type.text",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.type.text"
+      },
+      {
+        "id": "Observation.component:gezaehlteTumorzellen.referenceRange.appliesTo.coding.display",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.appliesTo.coding.display"
+      },
+      {
+        "id": "Observation.component:gezaehlteTumorzellen.referenceRange.appliesTo.text",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.appliesTo.text"
+      },
+      {
+        "id": "Observation.component:gezaehlteTumorzellen.referenceRange.age.low.unit",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.age.low.unit"
+      },
+      {
+        "id": "Observation.component:gezaehlteTumorzellen.referenceRange.age.high.unit",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.referenceRange.age.high.unit"
       }
     ]
   }
