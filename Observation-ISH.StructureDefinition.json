@@ -2,7 +2,7 @@
   "resourceType": "StructureDefinition",
   "url": "http://uk-koeln.de/fhir/StructureDefinition/Observation/ish",
   "name": "IshObservation",
-  "title": "CISHUntersuchung",
+  "title": "CISH/FISH Befund",
   "status": "draft",
   "date": "2020-03-17",
   "fhirVersion": "4.0.1",
@@ -298,7 +298,7 @@
         "mustSupport": true,
         "binding": {
           "strength": "required",
-          "valueSet": "http://uk-koeln.de/fhir/ValueSet/nNGM/obs-codes"
+          "valueSet": "http://uk-koeln.de/fhir/ValueSet/obs-codes"
         }
       },
       {
@@ -1645,7 +1645,18 @@
             "valueBoolean": true
           }
         ],
-        "path": "Observation.component.value[x].unit"
+        "path": "Observation.component.value[x].unit",
+        "fixedString": "%"
+      },
+      {
+        "id": "Observation.component:pos-tumor-zellen.value[x].system",
+        "path": "Observation.component.value[x].system",
+        "fixedUri": "http://unitsofmeasure.org"
+      },
+      {
+        "id": "Observation.component:pos-tumor-zellen.value[x].code",
+        "path": "Observation.component.value[x].code",
+        "fixedCode": "%"
       },
       {
         "id": "Observation.component:pos-tumor-zellen.dataAbsentReason.coding.display",
