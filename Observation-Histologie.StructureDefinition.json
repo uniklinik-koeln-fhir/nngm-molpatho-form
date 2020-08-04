@@ -93,34 +93,6 @@
         }
       },
       {
-        "id": "Observation.status.extension",
-        "path": "Observation.status.extension",
-        "slicing": {
-          "discriminator": [
-            {
-              "type": "value",
-              "path": "url"
-            }
-          ],
-          "rules": "open"
-        }
-      },
-      {
-        "id": "Observation.status.extension:abschluss",
-        "path": "Observation.status.extension",
-        "sliceName": "abschluss",
-        "max": "1",
-        "type": [
-          {
-            "code": "Extension",
-            "profile": [
-              "http://uk-koeln.de/fhir/Extension/statusAbschluss"
-            ]
-          }
-        ],
-        "mustSupport": true
-      },
-      {
         "id": "Observation.category",
         "path": "Observation.category",
         "mustSupport": true
