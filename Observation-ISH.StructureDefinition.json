@@ -2,7 +2,7 @@
   "resourceType": "StructureDefinition",
   "url": "http://uk-koeln.de/fhir/StructureDefinition/Observation/ish",
   "name": "IshObservation",
-  "title": "CISH/FISH Befund",
+  "title": "CISH Befund",
   "status": "draft",
   "date": "2020-03-17",
   "fhirVersion": "4.0.1",
