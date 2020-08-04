@@ -2,7 +2,7 @@
   "resourceType": "StructureDefinition",
   "url": "http://uk-koeln.de/fhir/StructureDefinition/Observation/fish",
   "name": "FishObservation",
-  "title": "FISH Befund",
+  "title": "FISHUntersuchung",
   "status": "draft",
   "date": "2020-03-17",
   "fhirVersion": "4.0.1",
@@ -1559,10 +1559,6 @@
           }
         ],
         "path": "Observation.component.referenceRange.age.high.unit"
-      },
-      {
-        "id": "Observation.component:hersteller.code",
-        "path": "Observation.component.code"
       },
       {
         "id": "Observation.component:sop",
