@@ -17,27 +17,18 @@
   "compose": {
     "include": [
       {
+        "valueSet": "http://loinc.org/vs/LL3578-3"
+      },
+      {
         "system": "http://loinc.org",
         "concept": [
-          {
-            "code": "LA9193-9",
-            "display": "High"
-          },
-          {
-            "code": "LA8982-6",
-            "display": "Medium"
-          },
           {
             "code": "LA32-8",
             "display": "No"
           },
           {
-            "code": "LA14100-4",
-            "display": "Undetermined"
-          },
-          {
-            "code": "LA14100-4",
-            "display": "Undetermined"
+            "code": "LA11884-6",
+            "display": "Indeterminate"
           }
         ]
       }
