@@ -1,8 +1,8 @@
 {
   "resourceType": "StructureDefinition",
-  "url": "http://uk-koeln.de/fhir/StructureDefinition/DiagnosticReport/beurteilung",
+  "url": "http://uk-koeln.de/fhir/StructureDefinition/DiagnosticReport/nNGM/beurteilung",
   "name": "Beurteilung",
-  "status": "draft",
+  "status": "active",
   "fhirVersion": "4.0.1",
   "mapping": [
     {
@@ -57,27 +57,27 @@
               "http://hl7.org/fhir/StructureDefinition/workflow-episodeOfCare"
             ]
           }
-        ]
+        ],
+        "mustSupport": true
       },
       {
         "id": "DiagnosticReport.status",
         "path": "DiagnosticReport.status",
-        "mustSupport": true,
-        "binding": {
-          "extension": [
-            {
-              "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
-              "valueString": "DiagnosticReportStatus"
-            }
-          ],
-          "strength": "required",
-          "valueSet": "http://uk-koeln.de/fhir/ValueSet/nNGM/beurteilungStatus"
-        }
+        "mustSupport": true
       },
       {
         "id": "DiagnosticReport.code",
         "path": "DiagnosticReport.code",
         "mustSupport": true
+      },
+      {
+        "id": "DiagnosticReport.effective[x]",
+        "path": "DiagnosticReport.effective[x]",
+        "type": [
+          {
+            "code": "dateTime"
+          }
+        ]
       },
       {
         "id": "DiagnosticReport.performer",
@@ -130,10 +130,11 @@
           {
             "code": "Extension",
             "profile": [
-              "http://uk-koeln.de/fhir/Extension/beurteilung"
+              "http://uk-koeln.de/fhir/Extension/nNGM/beurteilung-empfehlung-systemische-therapie"
             ]
           }
-        ]
+        ],
+        "mustSupport": true
       }
     ]
   }

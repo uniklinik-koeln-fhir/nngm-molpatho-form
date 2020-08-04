@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <url value="http://uk-koeln.de/fhir/Extension/beurteilung" />
-  <name value="Empfehlung" />
-  <status value="draft" />
-  <fhirVersion value="4.0.0" />
+  <url value="http://uk-koeln.de/fhir/Extension/nNGM/beurteilung-empfehlung-systemische-therapie" />
+  <name value="EmpfehlungSystemischeTherapie" />
+  <status value="active" />
+  <fhirVersion value="4.0.1" />
   <kind value="complex-type" />
   <abstract value="false" />
   <context>
@@ -16,7 +16,7 @@
   <differential>
     <element id="Extension.url">
       <path value="Extension.url" />
-      <fixedUri value="http://uk-koeln.de/fhir/Extension/beurteilung" />
+      <fixedUri value="http://uk-koeln.de/fhir/Extension/nNGM/beurteilung-empfehlung-systemische-therapie" />
     </element>
     <element id="Extension.value[x]">
       <path value="Extension.value[x]" />
