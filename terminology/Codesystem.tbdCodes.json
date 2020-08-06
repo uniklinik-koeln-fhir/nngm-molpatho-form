@@ -91,6 +91,18 @@
     {
       "code": "ReadsAltAllel",
       "display": "ReadsAltAllel"
+    },
+    {
+      "code": "2ndGen",
+      "display": "2ndGen"
+    },
+    {
+      "code": "2ndGenExon",
+      "display": "2ndGenExon"
+    },
+    {
+      "code": "2ndGenTranskript",
+      "display": "2ndGenTranskript"
     }
   ]
 }
