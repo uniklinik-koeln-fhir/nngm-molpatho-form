@@ -103,19 +103,6 @@
         }
       },
       {
-        "id": "Observation.category.coding",
-        "path": "Observation.category.coding",
-        "slicing": {
-          "discriminator": [
-            {
-              "type": "value",
-              "path": "system"
-            }
-          ],
-          "rules": "open"
-        }
-      },
-      {
         "id": "Observation.category.coding.system",
         "path": "Observation.category.coding.system",
         "fixedUri": "http://terminology.hl7.org/CodeSystem/observation-category"
@@ -123,22 +110,7 @@
       {
         "id": "Observation.category.coding.code",
         "path": "Observation.category.coding.code",
-        "patternCode": "laboratory"
-      },
-      {
-        "id": "Observation.category.coding:nngmMethod",
-        "path": "Observation.category.coding",
-        "sliceName": "nngmMethod"
-      },
-      {
-        "id": "Observation.category.coding:nngmMethod.system",
-        "path": "Observation.category.coding.system",
-        "fixedUri": "http://uk-koeln.de/fhir/ValueSet/obs-methods"
-      },
-      {
-        "id": "Observation.category.coding:nngmMethod.code",
-        "path": "Observation.category.coding.code",
-        "fixedCode": "FISH"
+        "fixedCode": "laboratory"
       },
       {
         "id": "Observation.code",
@@ -201,7 +173,7 @@
       {
         "id": "Observation.method.coding.code",
         "path": "Observation.method.coding.code",
-        "patternCode": "C17563"
+        "fixedCode": "C17563"
       },
       {
         "id": "Observation.specimen",
@@ -235,14 +207,16 @@
         "mustSupport": true
       },
       {
-        "id": "Observation.component:phaenotyp.code.coding.system",
-        "path": "Observation.component.code.coding.system",
-        "fixedUri": "http://ncit.nci.nih.gov"
-      },
-      {
-        "id": "Observation.component:phaenotyp.code.coding.code",
-        "path": "Observation.component.code.coding.code",
-        "patternCode": "C16977"
+        "id": "Observation.component:phaenotyp.code",
+        "path": "Observation.component.code",
+        "patternCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://ncit.nci.nih.gov",
+              "code": "C16977"
+            }
+          ]
+        }
       },
       {
         "id": "Observation.component:phaenotyp.value[x]",
@@ -266,14 +240,16 @@
         "mustSupport": true
       },
       {
-        "id": "Observation.component:kit.code.coding.system",
-        "path": "Observation.component.code.coding.system",
-        "fixedUri": "http://ncit.nci.nih.gov"
-      },
-      {
-        "id": "Observation.component:kit.code.coding.code",
-        "path": "Observation.component.code.coding.code",
-        "patternCode": "C42793"
+        "id": "Observation.component:kit.code",
+        "path": "Observation.component.code",
+        "patternCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://ncit.nci.nih.gov",
+              "code": "C42793"
+            }
+          ]
+        }
       },
       {
         "id": "Observation.component:kit.value[x]",
@@ -297,14 +273,16 @@
         "mustSupport": true
       },
       {
-        "id": "Observation.component:hersteller.code.coding.system",
-        "path": "Observation.component.code.coding.system",
-        "fixedUri": "http://ncit.nci.nih.gov"
-      },
-      {
-        "id": "Observation.component:hersteller.code.coding.code",
-        "path": "Observation.component.code.coding.code",
-        "patternCode": "C25392"
+        "id": "Observation.component:hersteller.code",
+        "path": "Observation.component.code",
+        "patternCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://ncit.nci.nih.gov",
+              "code": "C25392"
+            }
+          ]
+        }
       },
       {
         "id": "Observation.component:hersteller.value[x]",
@@ -328,14 +306,16 @@
         "mustSupport": true
       },
       {
-        "id": "Observation.component:sop.code.coding.system",
-        "path": "Observation.component.code.coding.system",
-        "fixedUri": "http://ncit.nci.nih.gov"
-      },
-      {
-        "id": "Observation.component:sop.code.coding.code",
-        "path": "Observation.component.code.coding.code",
-        "patternCode": "C48443"
+        "id": "Observation.component:sop.code",
+        "path": "Observation.component.code",
+        "patternCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://ncit.nci.nih.gov",
+              "code": "C48443"
+            }
+          ]
+        }
       },
       {
         "id": "Observation.component:sop.value[x]",
@@ -355,14 +335,16 @@
         "mustSupport": true
       },
       {
-        "id": "Observation.component:standort.code.coding.system",
-        "path": "Observation.component.code.coding.system",
-        "fixedUri": "http://ncit.nci.nih.gov"
-      },
-      {
-        "id": "Observation.component:standort.code.coding.code",
-        "path": "Observation.component.code.coding.code",
-        "patternCode": "C25341"
+        "id": "Observation.component:standort.code",
+        "path": "Observation.component.code",
+        "patternCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://ncit.nci.nih.gov",
+              "code": "C25341"
+            }
+          ]
+        }
       },
       {
         "id": "Observation.component:standort.value[x]",
@@ -382,14 +364,16 @@
         "mustSupport": true
       },
       {
-        "id": "Observation.component:pos-tumor-zellen.code.coding.system",
-        "path": "Observation.component.code.coding.system",
-        "fixedUri": "http://ncit.nci.nih.gov"
-      },
-      {
-        "id": "Observation.component:pos-tumor-zellen.code.coding.code",
-        "path": "Observation.component.code.coding.code",
-        "patternCode": "C70460"
+        "id": "Observation.component:pos-tumor-zellen.code",
+        "path": "Observation.component.code",
+        "patternCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://ncit.nci.nih.gov",
+              "code": "C70460"
+            }
+          ]
+        }
       },
       {
         "id": "Observation.component:pos-tumor-zellen.value[x]",
@@ -433,14 +417,16 @@
         "mustSupport": true
       },
       {
-        "id": "Observation.component:polysomie.code.coding.system",
-        "path": "Observation.component.code.coding.system",
-        "fixedUri": "http://ncit.nci.nih.gov"
-      },
-      {
-        "id": "Observation.component:polysomie.code.coding.code",
-        "path": "Observation.component.code.coding.code",
-        "patternCode": "C36331"
+        "id": "Observation.component:polysomie.code",
+        "path": "Observation.component.code",
+        "patternCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://ncit.nci.nih.gov",
+              "code": "C36331"
+            }
+          ]
+        }
       },
       {
         "id": "Observation.component:polysomie.value[x]",
@@ -459,14 +445,16 @@
         "mustSupport": true
       },
       {
-        "id": "Observation.component:amplification-level.code.coding.system",
-        "path": "Observation.component.code.coding.system",
-        "fixedUri": "http://uk-koeln.de/fhir/CodeSystem/tbd-codes"
-      },
-      {
-        "id": "Observation.component:amplification-level.code.coding.code",
-        "path": "Observation.component.code.coding.code",
-        "patternCode": "amplification-level"
+        "id": "Observation.component:amplification-level.code",
+        "path": "Observation.component.code",
+        "patternCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/tbd-codes",
+              "code": "amplification-level"
+            }
+          ]
+        }
       },
       {
         "id": "Observation.component:amplification-level.value[x]",
@@ -489,14 +477,16 @@
         "mustSupport": true
       },
       {
-        "id": "Observation.component:15-met-quantity.code.coding.system",
-        "path": "Observation.component.code.coding.system",
-        "fixedUri": "http://uk-koeln.de/fhir/CodeSystem/tbd-codes"
-      },
-      {
-        "id": "Observation.component:15-met-quantity.code.coding.code",
-        "path": "Observation.component.code.coding.code",
-        "patternCode": "15-met-ratio"
+        "id": "Observation.component:15-met-quantity.code",
+        "path": "Observation.component.code",
+        "patternCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/tbd-codes",
+              "code": "15-met-ratio"
+            }
+          ]
+        }
       },
       {
         "id": "Observation.component:15-met-quantity.value[x]",
@@ -515,14 +505,16 @@
         "mustSupport": true
       },
       {
-        "id": "Observation.component:5-met-quantity.code.coding.system",
-        "path": "Observation.component.code.coding.system",
-        "fixedUri": "http://uk-koeln.de/fhir/CodeSystem/tbd-codes"
-      },
-      {
-        "id": "Observation.component:5-met-quantity.code.coding.code",
-        "path": "Observation.component.code.coding.code",
-        "patternCode": "5-met-ratio"
+        "id": "Observation.component:5-met-quantity.code",
+        "path": "Observation.component.code",
+        "patternCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/tbd-codes",
+              "code": "5-met-ratio"
+            }
+          ]
+        }
       },
       {
         "id": "Observation.component:5-met-quantity.value[x]",
@@ -540,14 +532,16 @@
         "mustSupport": true
       },
       {
-        "id": "Observation.component:4-met-quantity.code.coding.system",
-        "path": "Observation.component.code.coding.system",
-        "fixedUri": "http://uk-koeln.de/fhir/CodeSystem/tbd-codes"
-      },
-      {
-        "id": "Observation.component:4-met-quantity.code.coding.code",
-        "path": "Observation.component.code.coding.code",
-        "patternCode": "4-met-ratio"
+        "id": "Observation.component:4-met-quantity.code",
+        "path": "Observation.component.code",
+        "patternCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/tbd-codes",
+              "code": "4-met-ratio"
+            }
+          ]
+        }
       },
       {
         "id": "Observation.component:4-met-quantity.value[x]",
@@ -566,14 +560,16 @@
         "mustSupport": true
       },
       {
-        "id": "Observation.component:t-zellen-count.code.coding.system",
-        "path": "Observation.component.code.coding.system",
-        "fixedUri": "http://ncit.nci.nih.gov"
-      },
-      {
-        "id": "Observation.component:t-zellen-count.code.coding.code",
-        "path": "Observation.component.code.coding.code",
-        "patternCode": "C154801"
+        "id": "Observation.component:t-zellen-count.code",
+        "path": "Observation.component.code",
+        "patternCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://ncit.nci.nih.gov",
+              "code": "C154801"
+            }
+          ]
+        }
       },
       {
         "id": "Observation.component:t-zellen-count.value[x]",
@@ -592,14 +588,16 @@
         "mustSupport": true
       },
       {
-        "id": "Observation.component:met-signale.code.coding.system",
-        "path": "Observation.component.code.coding.system",
-        "fixedUri": "http://uk-koeln.de/fhir/CodeSystem/tbd-codes"
-      },
-      {
-        "id": "Observation.component:met-signale.code.coding.code",
-        "path": "Observation.component.code.coding.code",
-        "patternCode": "met-signal-count"
+        "id": "Observation.component:met-signale.code",
+        "path": "Observation.component.code",
+        "patternCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/tbd-codes",
+              "code": "met-signal-count"
+            }
+          ]
+        }
       },
       {
         "id": "Observation.component:met-signale.value[x]",
@@ -618,14 +616,16 @@
         "mustSupport": true
       },
       {
-        "id": "Observation.component:cen-signale.code.coding.system",
-        "path": "Observation.component.code.coding.system",
-        "fixedUri": "http://uk-koeln.de/fhir/CodeSystem/tbd-codes"
-      },
-      {
-        "id": "Observation.component:cen-signale.code.coding.code",
-        "path": "Observation.component.code.coding.code",
-        "patternCode": "cen-signal-count"
+        "id": "Observation.component:cen-signale.code",
+        "path": "Observation.component.code",
+        "patternCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/tbd-codes",
+              "code": "cen-signal-count"
+            }
+          ]
+        }
       },
       {
         "id": "Observation.component:cen-signale.value[x]",
@@ -644,14 +644,16 @@
         "mustSupport": true
       },
       {
-        "id": "Observation.component:quot-met-cen-signal.code.coding.system",
-        "path": "Observation.component.code.coding.system",
-        "fixedUri": "http://uk-koeln.de/fhir/CodeSystem/tbd-codes"
-      },
-      {
-        "id": "Observation.component:quot-met-cen-signal.code.coding.code",
-        "path": "Observation.component.code.coding.code",
-        "patternCode": "met-cen-signal-ratio"
+        "id": "Observation.component:quot-met-cen-signal.code",
+        "path": "Observation.component.code",
+        "patternCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/tbd-codes",
+              "code": "met-cen-signal-ratio"
+            }
+          ]
+        }
       },
       {
         "id": "Observation.component:quot-met-cen-signal.value[x]",
@@ -670,14 +672,16 @@
         "mustSupport": true
       },
       {
-        "id": "Observation.component:met-copy-pro-zell.code.coding.system",
-        "path": "Observation.component.code.coding.system",
-        "fixedUri": "http://uk-koeln.de/fhir/CodeSystem/tbd-codes"
-      },
-      {
-        "id": "Observation.component:met-copy-pro-zell.code.coding.code",
-        "path": "Observation.component.code.coding.code",
-        "patternCode": "met-copy-per-cell"
+        "id": "Observation.component:met-copy-pro-zell.code",
+        "path": "Observation.component.code",
+        "patternCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/tbd-codes",
+              "code": "met-copy-per-cell"
+            }
+          ]
+        }
       },
       {
         "id": "Observation.component:met-copy-pro-zell.value[x]",
@@ -696,14 +700,16 @@
         "mustSupport": true
       },
       {
-        "id": "Observation.component:gezaehlteTumorzellen.code.coding.system",
-        "path": "Observation.component.code.coding.system",
-        "fixedUri": "http://ncit.nci.nih.gov"
-      },
-      {
-        "id": "Observation.component:gezaehlteTumorzellen.code.coding.code",
-        "path": "Observation.component.code.coding.code",
-        "fixedCode": "C0007584"
+        "id": "Observation.component:gezaehlteTumorzellen.code",
+        "path": "Observation.component.code",
+        "patternCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://ncit.nci.nih.gov",
+              "code": "C0007584"
+            }
+          ]
+        }
       },
       {
         "id": "Observation.component:gezaehlteTumorzellen.value[x]",

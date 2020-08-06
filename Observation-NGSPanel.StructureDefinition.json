@@ -119,22 +119,7 @@
       {
         "id": "Observation.category.coding.code",
         "path": "Observation.category.coding.code",
-        "patternCode": "laboratory"
-      },
-      {
-        "id": "Observation.category.coding:nngmMethod",
-        "path": "Observation.category.coding",
-        "sliceName": "nngmMethod"
-      },
-      {
-        "id": "Observation.category.coding:nngmMethod.system",
-        "path": "Observation.category.coding.system",
-        "fixedUri": "http://uk-koeln.de/fhir/ValueSet/obs-methods"
-      },
-      {
-        "id": "Observation.category.coding:nngmMethod.code",
-        "path": "Observation.category.coding.code",
-        "fixedCode": "NGS Panel"
+        "fixedCode": "laboratory"
       },
       {
         "id": "Observation.code",
@@ -197,7 +182,7 @@
       {
         "id": "Observation.method.coding.code",
         "path": "Observation.method.coding.code",
-        "patternCode": "C101293"
+        "fixedCode": "C101293"
       },
       {
         "id": "Observation.specimen",
@@ -225,14 +210,16 @@
         "mustSupport": true
       },
       {
-        "id": "Observation.component:phaenotyp.code.coding.system",
-        "path": "Observation.component.code.coding.system",
-        "fixedUri": "http://ncit.nci.nih.gov"
-      },
-      {
-        "id": "Observation.component:phaenotyp.code.coding.code",
-        "path": "Observation.component.code.coding.code",
-        "patternCode": "C16977"
+        "id": "Observation.component:phaenotyp.code",
+        "path": "Observation.component.code",
+        "patternCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://ncit.nci.nih.gov",
+              "code": "C16977"
+            }
+          ]
+        }
       },
       {
         "id": "Observation.component:phaenotyp.value[x]",
@@ -252,14 +239,16 @@
         "mustSupport": true
       },
       {
-        "id": "Observation.component:gene-studied.code.coding.system",
-        "path": "Observation.component.code.coding.system",
-        "fixedUri": "http://ncit.nci.nih.gov"
-      },
-      {
-        "id": "Observation.component:gene-studied.code.coding.code",
-        "path": "Observation.component.code.coding.code",
-        "patternCode": "48018-6"
+        "id": "Observation.component:gene-studied.code",
+        "path": "Observation.component.code",
+        "patternCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://ncit.nci.nih.gov",
+              "code": "48018-6"
+            }
+          ]
+        }
       },
       {
         "id": "Observation.component:gene-studied.value[x]",
@@ -283,14 +272,16 @@
         "mustSupport": true
       },
       {
-        "id": "Observation.component:exon.code.coding.system",
-        "path": "Observation.component.code.coding.system",
-        "fixedUri": "http://ncit.nci.nih.gov"
-      },
-      {
-        "id": "Observation.component:exon.code.coding.code",
-        "path": "Observation.component.code.coding.code",
-        "fixedCode": "C13231"
+        "id": "Observation.component:exon.code",
+        "path": "Observation.component.code",
+        "patternCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://ncit.nci.nih.gov",
+              "code": "C13231"
+            }
+          ]
+        }
       },
       {
         "id": "Observation.component:exon.value[x]",
@@ -310,14 +301,16 @@
         "mustSupport": true
       },
       {
-        "id": "Observation.component:dna-chg.code.coding.system",
-        "path": "Observation.component.code.coding.system",
-        "fixedUri": "http://loinc.org"
-      },
-      {
-        "id": "Observation.component:dna-chg.code.coding.code",
-        "path": "Observation.component.code.coding.code",
-        "patternCode": "48004-6"
+        "id": "Observation.component:dna-chg.code",
+        "path": "Observation.component.code",
+        "patternCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "48004-6"
+            }
+          ]
+        }
       },
       {
         "id": "Observation.component:dna-chg.value[x]",
@@ -337,14 +330,16 @@
         "mustSupport": true
       },
       {
-        "id": "Observation.component:amino-acid-chg.code.coding.system",
-        "path": "Observation.component.code.coding.system",
-        "fixedUri": "http://loinc.org"
-      },
-      {
-        "id": "Observation.component:amino-acid-chg.code.coding.code",
-        "path": "Observation.component.code.coding.code",
-        "patternCode": "48005-3"
+        "id": "Observation.component:amino-acid-chg.code",
+        "path": "Observation.component.code",
+        "patternCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "48005-3"
+            }
+          ]
+        }
       },
       {
         "id": "Observation.component:amino-acid-chg.value[x]",
@@ -364,14 +359,16 @@
         "mustSupport": true
       },
       {
-        "id": "Observation.component:sample-allelic-frequency.code.coding.system",
-        "path": "Observation.component.code.coding.system",
-        "fixedUri": "http://loinc.org"
-      },
-      {
-        "id": "Observation.component:sample-allelic-frequency.code.coding.code",
-        "path": "Observation.component.code.coding.code",
-        "patternCode": "81258-6"
+        "id": "Observation.component:sample-allelic-frequency.code",
+        "path": "Observation.component.code",
+        "patternCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "81258-6"
+            }
+          ]
+        }
       },
       {
         "id": "Observation.component:sample-allelic-frequency.value[x]",
@@ -391,14 +388,16 @@
         "mustSupport": true
       },
       {
-        "id": "Observation.component:reads-ref-allele.code.coding.system",
-        "path": "Observation.component.code.coding.system",
-        "fixedUri": "http://uk-koeln.de/fhir/CodeSystem/tbd-codes"
-      },
-      {
-        "id": "Observation.component:reads-ref-allele.code.coding.code",
-        "path": "Observation.component.code.coding.code",
-        "patternCode": "ReadsRefAllel"
+        "id": "Observation.component:reads-ref-allele.code",
+        "path": "Observation.component.code",
+        "patternCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/tbd-codes",
+              "code": "ReadsRefAllel"
+            }
+          ]
+        }
       },
       {
         "id": "Observation.component:reads-ref-allele.value[x]",
@@ -418,14 +417,16 @@
         "mustSupport": true
       },
       {
-        "id": "Observation.component:reads-alt-allele.code.coding.system",
-        "path": "Observation.component.code.coding.system",
-        "fixedUri": "http://uk-koeln.de/fhir/CodeSystem/tbd-codes"
-      },
-      {
-        "id": "Observation.component:reads-alt-allele.code.coding.code",
-        "path": "Observation.component.code.coding.code",
-        "patternCode": "ReadsAltAllel"
+        "id": "Observation.component:reads-alt-allele.code",
+        "path": "Observation.component.code",
+        "patternCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/tbd-codes",
+              "code": "ReadsAltAllel"
+            }
+          ]
+        }
       },
       {
         "id": "Observation.component:reads-alt-allele.value[x]",
@@ -445,14 +446,16 @@
         "mustSupport": true
       },
       {
-        "id": "Observation.component:ref-sequence-assembly.code.coding.system",
-        "path": "Observation.component.code.coding.system",
-        "fixedUri": "http://loinc.org"
-      },
-      {
-        "id": "Observation.component:ref-sequence-assembly.code.coding.code",
-        "path": "Observation.component.code.coding.code",
-        "patternCode": "62374-4"
+        "id": "Observation.component:ref-sequence-assembly.code",
+        "path": "Observation.component.code",
+        "patternCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "62374-4"
+            }
+          ]
+        }
       },
       {
         "id": "Observation.component:ref-sequence-assembly.value[x]",
@@ -476,14 +479,16 @@
         "mustSupport": true
       },
       {
-        "id": "Observation.component:chromosome.code.coding.system",
-        "path": "Observation.component.code.coding.system",
-        "fixedUri": "http://ncit.nci.nih.gov"
-      },
-      {
-        "id": "Observation.component:chromosome.code.coding.code",
-        "path": "Observation.component.code.coding.code",
-        "patternCode": "C13202"
+        "id": "Observation.component:chromosome.code",
+        "path": "Observation.component.code",
+        "patternCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://ncit.nci.nih.gov",
+              "code": "C13202"
+            }
+          ]
+        }
       },
       {
         "id": "Observation.component:chromosome.value[x]",
@@ -503,14 +508,16 @@
         "mustSupport": true
       },
       {
-        "id": "Observation.component:exact-start-end.code.coding.system",
-        "path": "Observation.component.code.coding.system",
-        "fixedUri": "http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/tbd-codes"
-      },
-      {
-        "id": "Observation.component:exact-start-end.code.coding.code",
-        "path": "Observation.component.code.coding.code",
-        "patternCode": "exact-start-end"
+        "id": "Observation.component:exact-start-end.code",
+        "path": "Observation.component.code",
+        "patternCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/tbd-codes",
+              "code": "exact-start-end"
+            }
+          ]
+        }
       },
       {
         "id": "Observation.component:exact-start-end.value[x]",
@@ -530,14 +537,16 @@
         "mustSupport": true
       },
       {
-        "id": "Observation.component:ref-allele.code.coding.system",
-        "path": "Observation.component.code.coding.system",
-        "fixedUri": "http://loinc.org"
-      },
-      {
-        "id": "Observation.component:ref-allele.code.coding.code",
-        "path": "Observation.component.code.coding.code",
-        "patternCode": "69547-8"
+        "id": "Observation.component:ref-allele.code",
+        "path": "Observation.component.code",
+        "patternCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "69547-8"
+            }
+          ]
+        }
       },
       {
         "id": "Observation.component:ref-allele.value[x]",
@@ -557,14 +566,16 @@
         "mustSupport": true
       },
       {
-        "id": "Observation.component:alt-alllele.code.coding.system",
-        "path": "Observation.component.code.coding.system",
-        "fixedUri": "http://loinc.org"
-      },
-      {
-        "id": "Observation.component:alt-alllele.code.coding.code",
-        "path": "Observation.component.code.coding.code",
-        "patternCode": "69551-0"
+        "id": "Observation.component:alt-alllele.code",
+        "path": "Observation.component.code",
+        "patternCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "69551-0"
+            }
+          ]
+        }
       },
       {
         "id": "Observation.component:alt-alllele.value[x]",
@@ -584,18 +595,49 @@
         "mustSupport": true
       },
       {
-        "id": "Observation.component:allelicfraction.code.coding.system",
-        "path": "Observation.component.code.coding.system",
-        "fixedUri": "http://ncit.nci.nih.gov"
+        "id": "Observation.component:allelicfraction.code",
+        "path": "Observation.component.code",
+        "patternCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://ncit.nci.nih.gov",
+              "code": "C154665"
+            }
+          ]
+        }
       },
       {
         "id": "Observation.component:allelicfraction.value[x]",
         "path": "Observation.component.value[x]",
+        "min": 1,
         "type": [
           {
-            "code": "Ratio"
+            "code": "Quantity"
           }
         ]
+      },
+      {
+        "id": "Observation.component:allelicfraction.value[x].unit",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Observation.component.value[x].unit",
+        "min": 1,
+        "fixedString": "%"
+      },
+      {
+        "id": "Observation.component:allelicfraction.value[x].system",
+        "path": "Observation.component.value[x].system",
+        "min": 1,
+        "fixedUri": "http://unitsofmeasure.org"
+      },
+      {
+        "id": "Observation.component:allelicfraction.value[x].code",
+        "path": "Observation.component.value[x].code",
+        "fixedCode": "%"
       },
       {
         "id": "Observation.component:referenztranskript",
@@ -610,7 +652,7 @@
         "patternCodeableConcept": {
           "coding": [
             {
-              "system": "http://ncit.nci.nih.gov",
+              "system": "http://loinc.org",
               "code": "51958-7"
             }
           ]
@@ -633,23 +675,19 @@
         "mustSupport": true
       },
       {
+        "id": "Observation.component:coverage.code",
+        "path": "Observation.component.code",
+        "patternCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "82121-5"
+            }
+          ]
+        }
+      },
+      {
         "id": "Observation.component:coverage.value[x]",
-        "path": "Observation.component.value[x]",
-        "type": [
-          {
-            "code": "string"
-          }
-        ]
-      },
-      {
-        "id": "Observation.component:molekulareBewertung",
-        "path": "Observation.component",
-        "sliceName": "molekulareBewertung",
-        "max": "1",
-        "mustSupport": true
-      },
-      {
-        "id": "Observation.component:molekulareBewertung.value[x]",
         "path": "Observation.component.value[x]",
         "type": [
           {

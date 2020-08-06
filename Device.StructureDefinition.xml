@@ -29,6 +29,10 @@
       <path value="Device.manufacturer" />
       <mustSupport value="true" />
     </element>
+    <element id="Device.deviceName">
+      <path value="Device.deviceName" />
+      <mustSupport value="true" />
+    </element>
     <element id="Device.deviceName.name">
       <path value="Device.deviceName.name" />
       <mustSupport value="true" />
@@ -37,8 +41,16 @@
       <path value="Device.deviceName.type" />
       <fixedCode value="other" />
     </element>
+    <element id="Device.version">
+      <path value="Device.version" />
+      <mustSupport value="true" />
+    </element>
     <element id="Device.version.value">
       <path value="Device.version.value" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Device.note">
+      <path value="Device.note" />
       <mustSupport value="true" />
     </element>
     <element id="Device.note.text">
