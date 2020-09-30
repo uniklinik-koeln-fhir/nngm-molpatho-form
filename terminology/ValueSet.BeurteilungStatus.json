@@ -16,7 +16,17 @@
   "compose": {
     "include": [
       {
-        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/beurteilungStatus"
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/beurteilungStatus",
+        "concept": [
+          {
+            "code": "vorläufig",
+            "display": "vorläufig"
+          },
+          {
+            "code": "final",
+            "display": "final"
+          }
+        ]
       }
     ]
   }
