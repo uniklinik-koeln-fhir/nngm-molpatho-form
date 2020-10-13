@@ -1,24 +1,258 @@
 {
   "resourceType": "ValueSet",
-  "meta": {
-    "profile": [
-      "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
-    ]
-  },
-  "url": "http://uk-koeln.de/fhir/ValueSet/ihc-antikoerper",
-  "version": "1.0.0",
-  "name": "IhcAntikoerper",
-  "title": "IHC Antikoerper",
   "status": "active",
-  "experimental": false,
-  "date": "2020-03-16",
-  "publisher": "Uniklinik Köln",
-  "description": "IHC Antikoerper",
   "compose": {
-    "include": [
-      {
-        "system": "http://uk-koeln.de/fhir/CodeSystem/ihc-antikoerper"
-      }
-    ]
+      "include": [
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/ihc-antikoerper"
+          }
+      ]
+  },
+  "expansion": {
+      "identifier": "c80b2892-45eb-4223-af2c-8fe5128ac7cf",
+      "timestamp": "2020-10-13T10:35:46+00:00",
+      "total": 40,
+      "contains": [
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/ihc-antikoerper",
+              "version": "1.0.0",
+              "code": "Cytokeratin_7_(Clone_OV-TL_12/30)",
+              "display": "Cytokeratin 7 (Clone OV-TL 12/30)"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/ihc-antikoerper",
+              "version": "1.0.0",
+              "code": "CONFIRM_anti-Cytokeratin_(Clone_SP52))",
+              "display": "CONFIRM anti-Cytokeratin (Clone SP52))"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/ihc-antikoerper",
+              "version": "1.0.0",
+              "code": "Monoclonal_Mouse_Anti-Human_Ki-67_Antigen",
+              "display": "Monoclonal Mouse Anti-Human Ki-67 Antigen"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/ihc-antikoerper",
+              "version": "1.0.0",
+              "code": "MIB-1_Concentrate_(Clone_MIB-1)",
+              "display": "MIB-1 Concentrate (Clone MIB-1)"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/ihc-antikoerper",
+              "version": "1.0.0",
+              "code": "FLEX_Monoclonal_Mouse_Anti-Human_Ki67_Antigen_(Clone_MIB-1)",
+              "display": "FLEX Monoclonal Mouse Anti-Human Ki67 Antigen (Clone MIB-1)"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/ihc-antikoerper",
+              "version": "1.0.0",
+              "code": "CONFIRM_anti-Ki-67_(Clone_30-9)",
+              "display": "CONFIRM anti-Ki-67 (Clone 30-9)"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/ihc-antikoerper",
+              "version": "1.0.0",
+              "code": "Ki-67_(Clone_SP6)_Rabbit_Monoclonal_Antibody",
+              "display": "Ki-67 (Clone SP6) Rabbit Monoclonal Antibody"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/ihc-antikoerper",
+              "version": "1.0.0",
+              "code": "NAPSIN_A-Expression.IHC.Antikoerper_(Napsin_A_Rabbit_Polyclonal_Antibody)",
+              "display": "NAPSIN A-Expression.IHC.Antikoerper (Napsin A Rabbit Polyclonal Antibody"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/ihc-antikoerper",
+              "version": "1.0.0",
+              "code": "Napsin_A_(Clone_KCG1.1)",
+              "display": "Napsin A (Clone KCG1.1)"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/ihc-antikoerper",
+              "version": "1.0.0",
+              "code": "Napsin_A_(Clone_MRQ-60)",
+              "display": "Napsin A (Clone MRQ-60)"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/ihc-antikoerper",
+              "version": "1.0.0",
+              "code": "Liquid_Mouse_Monoclonal_Antibody_Napsin_A_(Clone_IP64))",
+              "display": "Liquid Mouse Monoclonal Antibody Napsin A (Clone IP64))"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/ihc-antikoerper",
+              "version": "1.0.0",
+              "code": "anti-p40_(Clone_BC28)",
+              "display": "anti-p40 (Clone BC28)"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/ihc-antikoerper",
+              "version": "1.0.0",
+              "code": "Mouse_anti-p40_(Np63)(Clone_BC28)",
+              "display": "Mouse anti-p40 (ΔNp63)(Clone BC28)"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/ihc-antikoerper",
+              "version": "1.0.0",
+              "code": "Mouse_anti-p40_(Np63)(polyclonal)",
+              "display": "Mouse anti-p40 (^ Np63)(polyclonal)"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/ihc-antikoerper",
+              "version": "1.0.0",
+              "code": "p40_(P)_Antibody_polyclonal",
+              "display": "p40 (P) Antibody polyclonal"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/ihc-antikoerper",
+              "version": "1.0.0",
+              "code": "Tinto_p40_(Clone_ZR8)",
+              "display": "Tinto p40 (Clone ZR8)"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/ihc-antikoerper",
+              "version": "1.0.0",
+              "code": "Monoclonal_Mouse_Anti-Human_Synaptophysin_Concentrate_(Clone_DAK-SYNAP)",
+              "display": "Monoclonal Mouse Anti-Human Synaptophysin Concentrate (Clone DAK-SYNAP)"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/ihc-antikoerper",
+              "version": "1.0.0",
+              "code": "FLEX_Monoclonal_Mouse_Anti-Human_SYnaptophysin_(Clone_DAK-SYNAP)",
+              "display": "FLEX Monoclonal Mouse Anti-Human SYnaptophysin (Clone DAK-SYNAP)"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/ihc-antikoerper",
+              "version": "1.0.0",
+              "code": "Clone_Snp88_Mouse_IgG3_kappa",
+              "display": "Clone Snp88 Mouse IgG3 kappa"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/ihc-antikoerper",
+              "version": "1.0.0",
+              "code": "Synaptophysin_(Clone_MRQ-40)_Rabbit_Monoclonal_Antibody",
+              "display": "Synaptophysin (Clone MRQ-40) Rabbit Monoclonal Antibody"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/ihc-antikoerper",
+              "version": "1.0.0",
+              "code": "Mouse_Monoclonal_Antibody_Synaptophysin_(27G12)",
+              "display": "Mouse Monoclonal Antibody Synaptophysin (27G12)"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/ihc-antikoerper",
+              "version": "1.0.0",
+              "code": "Synapophysin_Monoclonal_Antibody_(Clone_SP11)",
+              "display": "Synapophysin Monoclonal Antibody (Clone SP11)"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/ihc-antikoerper",
+              "version": "1.0.0",
+              "code": "anti-Thyroid_Transcription_Factor-1_(Clone_SP141)",
+              "display": "anti-Thyroid Transcription Factor-1 (Clone SP141)"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/ihc-antikoerper",
+              "version": "1.0.0",
+              "code": "Liquid_Mouse_Monoclonal_Antibody_Thyroid_Transcription_Factor-1_(Clone_SPT24)",
+              "display": "Liquid Mouse Monoclonal Antibody Thyroid Transcription Factor-1 (Clone SPT24)"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/ihc-antikoerper",
+              "version": "1.0.0",
+              "code": "Anti-Thyroid_Transcription_Factor_TTF-1_(8G7G3/1)",
+              "display": "Anti-Thyroid Transcription Factor TTF-1 (8G7G3/1)"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/ihc-antikoerper",
+              "version": "1.0.0",
+              "code": "VENTANA_anti-ALK_(Clone_D5F3)",
+              "display": "VENTANA anti-ALK (Clone D5F3)"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/ihc-antikoerper",
+              "version": "1.0.0",
+              "code": "ALK_(Clone_D5F3)_XP_Rabbit_mAb",
+              "display": "ALK (Clone D5F3) XP Rabbit mAb"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/ihc-antikoerper",
+              "version": "1.0.0",
+              "code": "CONFIRM_anti-ALK1_(Clone_ALK01)",
+              "display": "CONFIRM anti-ALK1 (Clone ALK01)"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/ihc-antikoerper",
+              "version": "1.0.0",
+              "code": "ALK_Mouse_Monoclonal_Antibody_(Clone_OTI1A4)",
+              "display": "ALK Mouse Monoclonal Antibody (Clone OTI1A4)"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/ihc-antikoerper",
+              "version": "1.0.0",
+              "code": "ALK_(Clone_1A4)",
+              "display": "ALK (Clone 1A4)"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/ihc-antikoerper",
+              "version": "1.0.0",
+              "code": "Liquid_Mouse_Monoclonal_Antibody_p80_(Clone_5A4)",
+              "display": "Liquid Mouse Monoclonal Antibody p80 (Clone 5A4)"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/ihc-antikoerper",
+              "version": "1.0.0",
+              "code": "FLEX_Monoclonal_Mouse_Anti-Human_CD2245/ALK_Protein_(Clone_ALK1)",
+              "display": "FLEX Monoclonal Mouse Anti-Human CD2245/ALK Protein (Clone ALK1)"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/ihc-antikoerper",
+              "version": "1.0.0",
+              "code": "CONFIRM_anti-Total_c-MET_(Clone_SP44)",
+              "display": "CONFIRM anti-Total c-MET (Clone SP44)"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/ihc-antikoerper",
+              "version": "1.0.0",
+              "code": "Met_(D1C2)_XP_Rabbit_mAb",
+              "display": "Met (D1C2) XP Rabbit mAb"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/ihc-antikoerper",
+              "version": "1.0.0",
+              "code": "PD-L1(Clone_E1L3N)",
+              "display": "PD-L1(Clone E1L3N)"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/ihc-antikoerper",
+              "version": "1.0.0",
+              "code": "PD-L1(Clone_ZR3)_Rabbit_Monoclonal_Antibody",
+              "display": "PD-L1(Clone ZR3) Rabbit Monoclonal Antibody"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/ihc-antikoerper",
+              "version": "1.0.0",
+              "code": "Anti-PD-L1_antibody_(Clone_SP263_Monoclonal_Mouse_anti-human_PD-L1_(Clone_22C3)",
+              "display": "Anti-PD-L1 antibody (Clone SP263 Monoclonal Mouse anti-human PD-L1 (Clone 22C3)"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/ihc-antikoerper",
+              "version": "1.0.0",
+              "code": "ROS1_(D4D6)_Rabbit_mAb",
+              "display": "ROS1 (D4D6) Rabbit mAb"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/ihc-antikoerper",
+              "version": "1.0.0",
+              "code": "Rabbit_Monoclonal_Anti-ROS1_(Clone_EP282)",
+              "display": "Rabbit Monoclonal Anti-ROS1 (Clone EP282)"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/ihc-antikoerper",
+              "version": "1.0.0",
+              "code": "ROS1_(Clone_SP38C1:C404)_Rabbit_Monoclonal_Primary_Antibody",
+              "display": "ROS1 (Clone SP384) Rabbit Monoclonal Primary Antibody"
+          }
+      ]
   }
 }

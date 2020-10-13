@@ -1,42 +1,60 @@
 {
   "resourceType": "ValueSet",
-  "meta": {
-    "profile": [
-      "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
-    ]
-  },
-  "url": "http://uk-koeln.de/fhir/ValueSet/0-3+-klassifikation",
-  "version": "1.0.0",
-  "name": "03Klassifikation",
-  "title": "0-3+ Klassifikation",
   "status": "active",
-  "experimental": false,
-  "date": "2020-03-16",
-  "publisher": "Uniklinik Köln",
-  "description": "Valuset: 0, 1+, 2+, 3+",
   "compose": {
-    "include": [
-      {
-        "system": "http://uk-koeln.de/fhir/CodeSystem/tbd-codes",
-        "concept": [
+      "include": [
           {
-            "code": "0",
-            "display": "0"
-          },
-          {
-            "code": "1+",
-            "display": "1+"
-          },
-          {
-            "code": "2+",
-            "display": "2+"
-          },
-          {
-            "code": "3+",
-            "display": "3+"
+              "system": "http://uk-koeln.de/fhir/CodeSystem/tbd-codes",
+              "concept": [
+                  {
+                      "code": "0",
+                      "display": "0"
+                  },
+                  {
+                      "code": "1+",
+                      "display": "1+"
+                  },
+                  {
+                      "code": "2+",
+                      "display": "2+"
+                  },
+                  {
+                      "code": "3+",
+                      "display": "3+"
+                  }
+              ]
           }
-        ]
-      }
-    ]
+      ]
+  },
+  "expansion": {
+      "identifier": "09fecf64-6c8d-4084-ab87-7b08575bab75",
+      "timestamp": "2020-10-13T10:34:39+00:00",
+      "total": 4,
+      "contains": [
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/tbd-codes",
+              "version": "1.0.0",
+              "code": "1+",
+              "display": "1+"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/tbd-codes",
+              "version": "1.0.0",
+              "code": "2+",
+              "display": "2+"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/tbd-codes",
+              "version": "1.0.0",
+              "code": "3+",
+              "display": "3+"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/tbd-codes",
+              "version": "1.0.0",
+              "code": "0",
+              "display": "0"
+          }
+      ]
   }
 }

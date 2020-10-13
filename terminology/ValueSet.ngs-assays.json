@@ -1,24 +1,120 @@
 {
   "resourceType": "ValueSet",
-  "meta": {
-    "profile": [
-      "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
-    ]
-  },
-  "url": "http://uk-koeln.de/fhir/ValueSet/ngs-assays",
-  "version": "1.0.0",
-  "name": "NgsAssays",
-  "title": "Ngs Assays",
   "status": "active",
-  "experimental": false,
-  "date": "2020-03-16",
-  "publisher": "Uniklinik Köln",
-  "description": "Ngs Assays",
   "compose": {
-    "include": [
-      {
-        "system": "http://uk-koeln.de/fhir/CodeSystem/ngs-assays"
-      }
-    ]
+      "include": [
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/ngs-assays"
+          }
+      ]
+  },
+  "expansion": {
+      "identifier": "0e7ebac7-1e0e-41aa-8dcf-97bcf31057dc",
+      "timestamp": "2020-10-13T10:36:02+00:00",
+      "total": 17,
+      "contains": [
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/ngs-assays",
+              "version": "1.0.0",
+              "code": "TruSight_RNA_Pan-Cancer_Panel",
+              "display": "TruSight RNA Pan-Cancer Panel"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/ngs-assays",
+              "version": "1.0.0",
+              "code": "TST170",
+              "display": "TST170"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/ngs-assays",
+              "version": "1.0.0",
+              "code": "Custom_Panel",
+              "display": "Custom Panel"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/ngs-assays",
+              "version": "1.0.0",
+              "code": "Oncomine_Solid_Tumour_Fusion_Transcript_Kit",
+              "display": "Oncomine Solid Tumour Fusion Transcript Kit"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/ngs-assays",
+              "version": "1.0.0",
+              "code": "Oncomine_Focus_(RNA)",
+              "display": "Oncomine Focus (RNA)"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/ngs-assays",
+              "version": "1.0.0",
+              "code": "nNGM_v1.0",
+              "display": "nNGM v1.0"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/ngs-assays",
+              "version": "1.0.0",
+              "code": "GeneRead",
+              "display": "GeneRead"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/ngs-assays",
+              "version": "1.0.0",
+              "code": "CustomPanel",
+              "display": "CustomPanel"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/ngs-assays",
+              "version": "1.0.0",
+              "code": "OncomineSOlidTumourFusionTranscriptKit",
+              "display": "OncomineSOlidTumourFusionTranscriptKit"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/ngs-assays",
+              "version": "1.0.0",
+              "code": "OncomineFocus(RNA)",
+              "display": "OncomineFocus(RNA)"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/ngs-assays",
+              "version": "1.0.0",
+              "code": "nNGMv1.0",
+              "display": "nNGMv1.0"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/ngs-assays",
+              "version": "1.0.0",
+              "code": "GeneRead_QIAact_Liung_RNA_Fusion_UMI_Panel",
+              "display": "GeneRead QIAact Liung RNA Fusion UMI Panel"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/ngs-assays",
+              "version": "1.0.0",
+              "code": "Generead_QIAact_Custom_DNA_Panel_-_Lung_Panel_nNGM_1.0_(v3_UMI_Panel)",
+              "display": "Generead QIAact Custom DNA Panel - Lung Panel nNGM 1.0 (v3 UMI Panel)"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/ngs-assays",
+              "version": "1.0.0",
+              "code": "GeneRead_QIAact_Custom_DNA_Panel_-_Lung_Panel_nNGM_1.0(v2))",
+              "display": "GeneRead QIAact Custom DNA Panel - Lung Panel nNGM 1.0(v2))"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/ngs-assays",
+              "version": "1.0.0",
+              "code": "GeneRead_QIAact_Custom_DNA_Panel_-_Lung_Panel_nNGM_1.0(v2)))",
+              "display": "GeneRead QIAact Custom DNA Panel - Lung Panel nNGM 1.0(v2)))"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/ngs-assays",
+              "version": "1.0.0",
+              "code": "GeneRead_QIAact_Lung_RNA_Fusion_UMI_Panel",
+              "display": "GeneRead QIAact Lung RNA Fusion UMI Panel"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/ngs-assays",
+              "version": "1.0.0",
+              "code": "GeneRead_QIAact_Custom_DNA_Panel_-_Lung_Panel_nNGM_1.0_(v2))",
+              "display": "GeneRead QIAact Custom DNA Panel - Lung Panel nNGM 1.0 (v2))"
+          }
+      ]
   }
 }
