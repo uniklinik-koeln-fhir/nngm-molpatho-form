@@ -51,7 +51,7 @@
             },
             {
               "code": "C38.0.",
-              "display": "Herz"
+              "display": "Herz, Mediastinum und Pleura"
             },
             {
               "code": "C38.1.",
@@ -71,7 +71,7 @@
             },
             {
               "code": "C38.8.",
-              "display": "Herz"
+              "display": "Herz, Mediastinum und Pleura, mehrere Teilbereiche überlappend"
             },
             {
               "code": "C39.",
@@ -83,7 +83,7 @@
             },
             {
               "code": "C39.8.",
-              "display": "Atemwege [Respirationstrakt] und intrathorakale"
+              "display": "Atemwege [Respirationstrakt] und intrathorakale Organe, mehrere Bereiche überlappend"
             },
             {
               "code": "C39.9.",
