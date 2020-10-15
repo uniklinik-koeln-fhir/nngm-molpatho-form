@@ -1,0 +1,188 @@
+{
+    "resourceType": "CodeSystem",
+    "meta": {
+        "profile": [
+            "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+        ]
+    },
+    "url": "http://uk-koeln.de/fhir/CodeSystem/urn:oid:2.16.840.1.113883.6.43.1",
+    "version": "1.0.0",
+    "name": "HistologieICD",
+    "title": "ICD O3 Histologie",
+    "status": "active",
+    "experimental": false,
+    "publisher": "Uniklinik Köln",
+    "description": "Fast Track Assays",
+    "copyright": "Uniklinik Köln",
+    "content": "complete",
+    "concept": [
+        {
+            "code": "C34.",
+            "display": "Bronchus und Lunge"
+        },
+        {
+            "code": "C34.0.",
+            "display": "Hauptbronchus"
+        },
+        {
+            "code": "C34.1.",
+            "display": "Lungenoberlappen"
+        },
+        {
+            "code": "C34.2.",
+            "display": "Lungenmittellappen"
+        },
+        {
+            "code": "C34.3.",
+            "display": "Lungenunterlappen"
+        },
+        {
+            "code": "C34.8.",
+            "display": "Lunge, mehrere Teilbereiche überlappend"
+        },
+        {
+            "code": "C34.9.",
+            "display": "Lunge o.n.A."
+        },
+        {
+            "code": "C38.",
+            "display": "Herz"
+        },
+        {
+            "code": "C38.0.",
+            "display": "Herz"
+        },
+        {
+            "code": "C38.1.",
+            "display": "Vorderes Mediastinum"
+        },
+        {
+            "code": "C38.2.",
+            "display": "Hinteres Mediastinum"
+        },
+        {
+            "code": "C38.3.",
+            "display": "Mediastinum o.n.A."
+        },
+        {
+            "code": "C38.4.",
+            "display": "Pleura o.n.A."
+        },
+        {
+            "code": "C38.8.",
+            "display": "Herz"
+        },
+        {
+            "code": "C39.",
+            "display": "Sonstiger oder mangelhaft bezeichneter Sitz innerhalt der Atemwege [Respirationstrakt] und intrathorakaler Organe"
+        },
+        {
+            "code": "C39.0.",
+            "display": "Obere Atemwege o.n.A."
+        },
+        {
+            "code": "C39.8.",
+            "display": "Atemwege [Respirationstrakt] und intrathorakale"
+        },
+        {
+            "code": "C39.9.",
+            "display": "Mangelhaft bezeichneter Sitz innerhalb der Atmungsorgane"
+        },
+        {
+            "code": "C42.",
+            "display": "Hämatopoetisches und retikuloendotheliales System"
+        },
+        {
+            "code": "C42.0.",
+            "display": "Blut"
+        },
+        {
+            "code":"8140/3",
+            "display":"Adenokarzinom"
+        },
+        {
+            "code":"8240/3",
+            "display":"lepidisches Adenokarzinom"
+        },
+        {
+            "code":"8551/3",
+            "display":"azinäres Adenokarzinom"
+        },
+        {
+            "code":"8260/3",
+            "display":"papilläres Adenokarzinom"
+        },
+        {
+            "code":"8265/3",
+            "display":"mikropapilläres Adenokarzinom"
+        },
+        {
+            "code":"8230/3",
+            "display":"solides Adenokarzinom"
+        },
+        {
+            "code":"8253/3",
+            "display":"invasives muzinöses Adenokarzinom"
+        },
+        {
+            "code":"8254/3",
+            "display":"gemischt invasives muzinöses und nicht-muzinöses Adenokarzinom"
+        },
+        {
+            "code":"8480/3",
+            "display":"kolloidales Adenokarzinom"
+        },
+        {
+            "code":"8333/3",
+            "display":"fetales Adenokarzinom"
+        },
+        {
+            "code":"8144/3",
+            "display":"enterisches Adenokarzinom"
+        },
+        {
+            "code":"8070/3",
+            "display":"Plattenepithelkarzinom"
+        },
+        {
+            "code":"8071/3",
+            "display":"keratinisierendes Plattenepithelkarzinom"
+        },
+        {
+            "code":"8072/3",
+            "display":"nicht-keratinisierendes Plattenepithelkarzinom"
+        },
+        {
+            "code":"8073/3",
+            "display":"basaloides Plattenepithelkarzinom"
+        },
+        {
+            "code":"8083/3",
+            "display":"Kleinzelliges Karzinom"
+        },
+        {
+            "code":"8041/3",
+            "display":"Kleinzelliges Karzinom"
+        },
+        {
+            "code":"8045/3",
+            "display":"kombiniertes kleinzelliges Karzinom"
+        },
+        {
+            "code":"8013/3",
+            "display":"großzelliges neuroendokrines Karzinom"
+        },
+        {
+            "code":"8010/6",
+            "display":"kombiniertes großzelliges neuroendokrines Karzinom"
+        },
+        {
+            "code":"CUP",
+            "display":"CUP"
+        },
+        {
+            "code":"Karzinom",
+            "display":"Karzinom"
+        }
+    ]
+}

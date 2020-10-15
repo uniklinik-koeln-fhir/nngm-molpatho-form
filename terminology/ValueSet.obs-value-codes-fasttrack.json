@@ -1,38 +1,50 @@
 {
   "resourceType": "ValueSet",
-  "meta": {
-    "profile": [
-      "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
-    ]
-  },
-  "url": "http://uk-koeln.de/fhir/ValueSet/act_non_act_na-value-codes",
-  "version": "1.0.0",
-  "name": "FasttrackObservationValueCodes",
-  "title": "Fasttrack Observation Value Codes",
   "status": "active",
-  "experimental": false,
-  "date": "2020-03-16",
-  "publisher": "Uniklinik Köln",
-  "description": "Fasttrack Observation Value Codes",
   "compose": {
-    "include": [
-      {
-        "system": "http://uk-koeln.de/fhir/CodeSystem/tbd-codes",
-        "concept": [
+      "include": [
           {
-            "code": "aktivierende-Mutation",
-            "display": "aktivierende Mutation"
-          },
-          {
-            "code": "keine-aktivierende-Mutation",
-            "display": "keine aktivierende Mutation"
-          },
-          {
-            "code": "nicht-auswertbar",
-            "display": "nicht auswertbar"
+              "system": "http://uk-koeln.de/fhir/CodeSystem/tbd-codes",
+              "concept": [
+                  {
+                      "code": "aktivierende-Mutation",
+                      "display": "aktivierende Mutation"
+                  },
+                  {
+                      "code": "keine-aktivierende-Mutation",
+                      "display": "keine aktivierende Mutation"
+                  },
+                  {
+                      "code": "nicht-auswertbar",
+                      "display": "nicht auswertbar"
+                  }
+              ]
           }
-        ]
-      }
-    ]
+      ]
+  },
+  "expansion": {
+      "identifier": "74df86bf-fdc0-4513-ba6d-4980ba99af80",
+      "timestamp": "2020-10-15T14:13:56+00:00",
+      "total": 3,
+      "contains": [
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/tbd-codes",
+              "version": "1.0.0",
+              "code": "aktivierende-Mutation",
+              "display": "aktivierende Mutation"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/tbd-codes",
+              "version": "1.0.0",
+              "code": "keine-aktivierende-Mutation",
+              "display": "keine aktivierende Mutation"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/tbd-codes",
+              "version": "1.0.0",
+              "code": "nicht-auswertbar",
+              "display": "nicht auswertbar"
+          }
+      ]
   }
 }

@@ -17,7 +17,7 @@
   "compose": {
     "include": [
       {
-        "system": "https://ncit.nci.nih.gov/",
+        "system": "https://ncit.nci.nih.gov",
         "concept": [
           {
             "code": "C80488",

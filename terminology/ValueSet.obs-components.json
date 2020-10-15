@@ -1,148 +1,202 @@
 {
   "resourceType": "ValueSet",
-  "meta": {
-    "profile": [
-      "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
-    ]
-  },
-  "url": "http://uk-koeln.de/fhir/ValueSet/obs-components",
-  "version": "1.0.0",
-  "name": "ObservationMethods",
-  "title": "Observation Methods",
   "status": "active",
-  "experimental": false,
-  "date": "2020-03-16",
-  "publisher": "Uniklinik Köln",
-  "description": "Dieses ValueSet enthält die Untersuchungsmethoden der Malpatho Formulare nNGM ",
   "compose": {
-    "include": [
-      {
-        "system": "http://ncit.nci.nih.gov",
-        "concept": [
+      "include": [
           {
-            "code": "C20195",
-            "display": "Gene Fusion"
+              "system": "http://ncit.nci.nih.gov",
+              "concept": [
+                  {
+                      "code": "C20195",
+                      "display": "Gene Fusion"
+                  },
+                  {
+                      "code": "C16295",
+                      "display": "Antibody"
+                  },
+                  {
+                      "code": "C25392",
+                      "display": "Manufacturer"
+                  },
+                  {
+                      "code": "C48443",
+                      "display": "Standard Operating Procedure"
+                  },
+                  {
+                      "code": "C25341",
+                      "display": "Location"
+                  },
+                  {
+                      "code": "C70460",
+                      "display": "Percent of Positive Cells"
+                  },
+                  {
+                      "code": "C36331",
+                      "display": "Polysomy"
+                  },
+                  {
+                      "code": "C60819",
+                      "display": "Assay"
+                  },
+                  {
+                      "code": "C28510",
+                      "display": "Fusion Gene"
+                  },
+                  {
+                      "code": "C13231",
+                      "display": "Exon"
+                  },
+                  {
+                      "code": "C25161",
+                      "display": "Classification"
+                  },
+                  {
+                      "code": "C42793",
+                      "display": "Kit"
+                  },
+                  {
+                      "code": "C154801",
+                      "display": "Tumor Cell Count"
+                  },
+                  {
+                      "code": "C45581",
+                      "display": "Gene Amplification Abnormality"
+                  },
+                  {
+                      "code": "C16977",
+                      "display": "Phenotype"
+                  },
+                  {
+                      "code": "C127771",
+                      "display": "Tumor Cell to Total Cell Ratio Measurement"
+                  }
+              ]
           },
           {
-            "code": "C16295",
-            "display": "Antibody"
+              "system": "http://loinc.org",
+              "concept": [
+                  {
+                      "code": "48018-6",
+                      "display": "Gene studied [ID]"
+                  },
+                  {
+                      "code": "82121-5",
+                      "display": "Allelic read depth"
+                  }
+              ]
           },
           {
-            "code": "C25392",
-            "display": "Manufacturer"
-          },
-          {
-            "code": "C48443",
-            "display": "Standard Operating Procedure"
-          },
-          {
-            "code": "C25341",
-            "display": "Location"
-          },
-          {
-            "code": "C70460",
-            "display": "Percent of Positive Cells"
-          },
-          {
-            "code": "C36331",
-            "display": "Polysomy"
-          },
-          {
-            "code": "C60819",
-            "display": "Assay"
-          },
-          {
-            "code": "C28510",
-            "display": "Fusion Gene"
-          },
-          {
-            "code": "C13231",
-            "display": "Exon"
-          },
-          {
-            "code": "C25161",
-            "display": "Classification"
-          },
-          {
-            "code": "C42793",
-            "display": "Kit"
-          },
-          {
-            "code": "C154801",
-            "display": "Tumor Cell Count"
-          },
-          {
-            "code": "C45581",
-            "display": "Gene Amplification Abnormality"
-          },
-          {
-            "code": "C16977",
-            "display": "Phenotype"
-          },
-          {
-            "code": "C127771",
-            "display": "Tumor Cell to Total Cell Ratio Measurement"
+              "system": "http://uk-koeln.de/fhir/CodeSystem/tbd-codes",
+              "concept": [
+                  {
+                      "code": "fusionspartner-exon",
+                      "display": "fusionspartner-exon"
+                  },
+                  {
+                      "code": "amplification-level",
+                      "display": "amplification-level"
+                  },
+                  {
+                      "code": "15-met-ratio",
+                      "display": "15-met-ratio"
+                  },
+                  {
+                      "code": "5-met-ratio",
+                      "display": "5-met-ratio"
+                  },
+                  {
+                      "code": "4-met-ratio",
+                      "display": "4-met-ratio"
+                  },
+                  {
+                      "code": "met-signal-count",
+                      "display": "met-signal-count"
+                  },
+                  {
+                      "code": "cen-signal-count",
+                      "display": "cen-signal-count"
+                  },
+                  {
+                      "code": "met-cen-signal-ratio",
+                      "display": "met-cen-signal-ratio"
+                  },
+                  {
+                      "code": "met-copy-per-cell",
+                      "display": "met-copy-per-cell"
+                  },
+                  {
+                      "code": "tcell-surface-ratio",
+                      "display": "tcell-surface-ratio"
+                  }
+              ]
           }
-        ]
-      },
-      {
-        "system": "http://loinc.org",
-        "concept": [
+      ]
+  },
+  "expansion": {
+      "identifier": "e4eb5e80-afdc-4024-a88a-1fa717ee0678",
+      "timestamp": "2020-10-15T14:14:21+00:00",
+      "total": 10,
+      "contains": [
           {
-            "code": "48018-6",
-            "display": "Gene studied [ID]"
+              "system": "http://uk-koeln.de/fhir/CodeSystem/tbd-codes",
+              "version": "1.0.0",
+              "code": "fusionspartner-exon",
+              "display": "fusionspartner-exon"
           },
           {
-            "code": "82121-5",
-            "display": "Allelic read depth"
+              "system": "http://uk-koeln.de/fhir/CodeSystem/tbd-codes",
+              "version": "1.0.0",
+              "code": "amplification-level",
+              "display": "amplification-level"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/tbd-codes",
+              "version": "1.0.0",
+              "code": "15-met-ratio",
+              "display": "15-met-ratio"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/tbd-codes",
+              "version": "1.0.0",
+              "code": "5-met-ratio",
+              "display": "5-met-ratio"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/tbd-codes",
+              "version": "1.0.0",
+              "code": "4-met-ratio",
+              "display": "4-met-ratio"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/tbd-codes",
+              "version": "1.0.0",
+              "code": "met-signal-count",
+              "display": "met-signal-count"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/tbd-codes",
+              "version": "1.0.0",
+              "code": "cen-signal-count",
+              "display": "cen-signal-count"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/tbd-codes",
+              "version": "1.0.0",
+              "code": "met-cen-signal-ratio",
+              "display": "met-cen-signal-ratio"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/tbd-codes",
+              "version": "1.0.0",
+              "code": "met-copy-per-cell",
+              "display": "met-copy-per-cell"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/tbd-codes",
+              "version": "1.0.0",
+              "code": "tcell-surface-ratio",
+              "display": "tcell-surface-ratio"
           }
-        ]
-      },
-      {
-        "system": "http://uk-koeln.de/fhir/CodeSystem/tbd-codes",
-        "concept": [
-          {
-            "code": "fusionspartner-exon",
-            "display": "fusionspartner-exon"
-          },
-          {
-            "code": "amplification-level",
-            "display": "amplification-level"
-          },
-          {
-            "code": "15-met-ratio",
-            "display": "15-met-ratio"
-          },
-          {
-            "code": "5-met-ratio",
-            "display": "5-met-ratio"
-          },
-          {
-            "code": "4-met-ratio",
-            "display": "4-met-ratio"
-          },
-          {
-            "code": "met-signal-count",
-            "display": "met-signal-count"
-          },
-          {
-            "code": "cen-signal-count",
-            "display": "cen-signal-count"
-          },
-          {
-            "code": "met-cen-signal-ratio",
-            "display": "met-cen-signal-ratio"
-          },
-          {
-            "code": "met-copy-per-cell",
-            "display": "met-copy-per-cell"
-          },
-          {
-            "code": "tcell-surface-ratio",
-            "display": "tcell-surface-ratio"
-          }
-        ]
-      }
-    ]
+      ]
   }
 }
