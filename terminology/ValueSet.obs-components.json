@@ -1,6 +1,14 @@
 {
   "resourceType": "ValueSet",
+  "url": "http://uk-koeln.de/fhir/ValueSet/obs-components",
+  "version": "1.0.0",
+  "name": "ObservationMethods",
+  "title": "Observation Methods",
   "status": "active",
+  "experimental": false,
+  "date": "2020-03-16",
+  "publisher": "Uniklinik Köln",
+  "description": "Dieses ValueSet enthält die Untersuchungsmethoden der Malpatho Formulare nNGM ",
   "compose": {
       "include": [
           {

@@ -1,6 +1,14 @@
 {
     "resourceType": "ValueSet",
+    "url": "http://uk-koeln.de/fhir/ValueSet/ish-fish-kits",
+    "version": "1.0.0",
+    "name": "IshFishKits",
+    "title": "ISH/FISH Kits",
     "status": "active",
+    "experimental": false,
+    "date": "2020-03-16",
+    "publisher": "Uniklinik Köln",
+    "description": "ISH und FISH Kits Molpatho nNGM",
     "compose": {
         "include": [
             {

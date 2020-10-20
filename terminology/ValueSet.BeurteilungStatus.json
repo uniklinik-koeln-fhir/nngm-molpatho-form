@@ -1,6 +1,13 @@
 {
   "resourceType": "ValueSet",
+  "url": "http://uk-koeln.de/fhir/ValueSet/nNGM/beurteilungStatus",
+  "version": "1.0.0",
+  "name": "BeurteilungStatus",
+  "title": "Beurteilung Status",
   "status": "active",
+  "experimental": false,
+  "date": "2020-03-16",
+  "publisher": "Uniklinik Köln",
   "compose": {
       "include": [
           {

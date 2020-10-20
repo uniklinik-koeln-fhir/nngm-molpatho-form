@@ -1,6 +1,14 @@
 {
     "resourceType": "ValueSet",
+    "url": "http://uk-koeln.de/fhir/ValueSet/ihc-antikoerper",
+    "version": "1.0.0",
+    "name": "IhcAntikoerper",
+    "title": "IHC Antikoerper",
     "status": "active",
+    "experimental": false,
+    "date": "2020-03-16",
+    "publisher": "Uniklinik Köln",
+    "description": "IHC Antikoerper",
     "compose": {
         "include": [
             {
