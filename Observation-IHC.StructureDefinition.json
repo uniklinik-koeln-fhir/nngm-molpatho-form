@@ -159,7 +159,7 @@
         "mustSupport": true,
         "binding": {
           "strength": "required",
-          "valueSet": "http://uk-koeln.de/fhir/ValueSet/nNGM/ergebnis-posNegIndNoCall"
+          "valueSet": "http://uk-koeln.de/fhir/ValueSet/nNGM/ergebnis-ihc"
         }
       },
       {
