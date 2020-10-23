@@ -10,14 +10,23 @@
   "compose": {
     "include": [
       {
-        "valueSet": "http://loinc.org/vs/LL2038-9"
-      },
-      {
         "system": "http://loinc.org",
         "concept": [
           {
             "code": "LA18198-4",
             "display": "No call"
+          },
+          {
+            "code": "LA6576-8",
+            "display": "Positive"
+          },
+          {
+            "code": "LA6577-6",
+            "display": "Negative"
+          },
+          {
+            "code": "LA11884-6",
+            "display": "Indeterminate"
           }
         ]
       }

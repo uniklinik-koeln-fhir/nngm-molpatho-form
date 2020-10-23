@@ -1,6 +1,6 @@
 {
     "resourceType": "ValueSet",
-    "url": "http://uk-koeln.de/fhir/ValueSet/nNGM/ergebnis-cishfishngs",
+    "url": "http://uk-koeln.de/fhir/ValueSet/nNGM/ergebnis-fish",
     "version": "1.0",
     "name": "IHC-Untersuchungsergebnis",
     "status": "active",
@@ -21,8 +21,8 @@
                         "display": "fraglich"
                     },
                     {
-                        "code": "negativ",
-                        "display": "negativ"
+                        "code": "nicht auswertbar",
+                        "display": "nicht auswertbar"
                     }
                 ]
             }

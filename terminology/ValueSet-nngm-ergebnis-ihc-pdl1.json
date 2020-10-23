@@ -1,0 +1,27 @@
+{
+    "resourceType": "ValueSet",
+    "url": "http://uk-koeln.de/fhir/ValueSet/nNGM/ergebnis-ihc-pdl1",
+    "version": "1.0",
+    "name": "IHC-Untersuchungsergebnis",
+    "status": "active",
+    "date": "2018-10-31",
+    "publisher": "Uniklinik Köln",
+    "description": "Untersuchungsergebnis IHC",
+    "compose": {
+        "include": [
+            {
+                "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/ergebnis",
+                "concept": [
+                    {
+                        "code": "auswertbar",
+                        "display": "auswertbar"
+                    },
+                    {
+                        "code": "nicht auswertbar",
+                        "display": "nicht auswertbar"
+                    }
+                ]
+            }
+        ]
+    }
+}

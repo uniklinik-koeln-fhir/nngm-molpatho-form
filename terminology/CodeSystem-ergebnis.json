@@ -22,6 +22,10 @@
             "display": "negativ"
         },
         {
+            "code": "auswertbar",
+            "display": "auswertbar"
+        },
+        {
             "code": "nicht auswertbar",
             "display": "nicht auswertbar"
         },
@@ -34,8 +38,12 @@
             "display": "keine aktivierende Mutatio"
         },
         {
-            "code": "nicht auswertbar",
-            "display": "nicht auswertbar"
+            "code": "positive (high-level amplification)",
+            "display": "positive (high-level amplification)"
+        },
+        {
+            "code": "positive (moderate-level amplification)",
+            "display": "positive (moderate-level amplification)"
         }
     ]
 }

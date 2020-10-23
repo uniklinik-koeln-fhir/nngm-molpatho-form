@@ -295,7 +295,7 @@
         ],
         "binding": {
           "strength": "extensible",
-          "valueSet": "http://uk-koeln.de/fhir/ValueSet/nNGM/ergebnis-cishfishngs"
+          "valueSet": "http://uk-koeln.de/fhir/ValueSet/nNGM/ergebnis-fish"
         }
       },
       {

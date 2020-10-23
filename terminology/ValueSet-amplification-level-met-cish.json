@@ -1,0 +1,38 @@
+{
+    "resourceType": "ValueSet",
+    "meta": {
+      "profile": [
+        "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+      ]
+    },
+    "url": "http://uk-koeln.de/fhir/ValueSet/amplification-met",
+    "version": "1.0.0",
+    "name": "AmplificationLevel",
+    "title": "Amplification Level",
+    "status": "active",
+    "experimental": false,
+    "date": "2020-03-16",
+    "publisher": "Uniklinik Köln",
+    "description": "Amplification Level",
+    "compose": {
+      "include": [
+        {
+          "system": "http://loinc.org",
+          "concept": [
+            {
+              "code": "LA9193-9",
+              "display": "High"
+            },
+            {
+              "code": "LA8982-6",
+              "display": "Medium"
+            },
+            {
+              "code": "LA32-8",
+              "display": "No"
+            }
+          ]
+        }
+      ]
+    }
+  }
