@@ -1,82 +1,110 @@
 {
-  "resourceType": "ValueSet",
-  "meta": {
-    "profile": [
-      "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
-    ]
-  },
-  "url": "http://uk-koeln.de/fhir/ValueSet/ish-fish-kits",
-  "version": "1.0.0",
-  "name": "IshFishKits",
-  "title": "ISH/FISH Kits",
-  "status": "active",
-  "experimental": false,
-  "date": "2020-03-16",
-  "publisher": "Uniklinik Köln",
-  "description": "ISH und FISH Kits Molpatho nNGM",
-  "compose": {
-    "include": [
-      {
-        "system": "http://uk-koeln.de/fhir/CodeSystem/ish-fish-kits",
-        "concept": [
-          {
-            "code": "ZytoDot_2C_SPEC_ALK_Break_Apart_Probe",
-            "display": "ZytoDot 2C SPEC ALK Break Apart Probe"
-          },
-          {
-            "code": "ZytoLight_SPEC_ALK/EML4_TriCheck_Probe",
-            "display": "ZytoLight SPEC ALK/EML4 TriCheck Probe"
-          },
-          {
-            "code": "Vysis_ALK_Break_Apart_FISH_Probe",
-            "display": "Vysis ALK Break Apart FISH Probe"
-          },
-          {
-            "code": "MET_DNP_Probe/Chromosome_7_DIG_Probe",
-            "display": "MET DNP Probe/Chromosome 7 DIG Probe"
-          },
-          {
-            "code": "ZytoLight_SPEC_MET/CEN_7_DUAl_Color_Probe",
-            "display": "ZytoLight SPEC MET/CEN 7 DUAl Color Probe"
-          },
-          {
-            "code": "MET_(7q31)/SE_7_(Kreatech)",
-            "display": "MET (7q31)/SE 7 (Kreatech)"
-          },
-          {
-            "code": "MET_Break_Apart_Sonde_LMU",
-            "display": "MET Break Apart Sonde_LMU"
-          },
-          {
-            "code": "ZytoDot_2C_SPEC_RET_Break_Apart_Probe)",
-            "display": "ZytoDot 2C SPEC RET Break Apart Probe)"
-          },
-          {
-            "code": "ZytoLight_SPEC_RET_Dual_Color_Break_Apart_Probe",
-            "display": "ZytoLight SPEC RET Dual Color Break Apart Probe"
-          },
-          {
-            "code": "Vysis_10q11_RET_Break-Apart_FISH_Probe_(RUO)",
-            "display": "Vysis 10q11 RET Break-Apart FISH Probe (RUO)"
-          },
-          {
-            "code": "RET_Break_Apart_Sonde_LMU",
-            "display": "RET Break Apart Sonde_LMU"
-          },
-          {
-            "code": "ZytoDot_2C_SPEC_ROS1_Break_Apart_Probe",
-            "display": "ZytoDot 2C SPEC ROS1 Break Apart Probe"
-          },
-          {
-            "code": "Vysis_6q22_ROS1_Break_Apart_FISH_Probe_(RUO)",
-            "display": "Vysis 6q22 ROS1 Break Apart FISH Probe (RUO)"
-          },
-          {
-            "code": "ROS1_Break_Apart_Sonde_LMU",
-            "display": "ROS1 Break Apart Sonde_LMU"
-          }
+    "resourceType": "ValueSet",
+    "url": "http://uk-koeln.de/fhir/ValueSet/ish-fish-kits",
+    "version": "1.0.0",
+    "name": "IshFishKits",
+    "title": "ISH/FISH Kits",
+    "status": "active",
+    "experimental": false,
+    "date": "2020-03-16",
+    "publisher": "Uniklinik Köln",
+    "description": "ISH und FISH Kits Molpatho nNGM",
+    "compose": {
+        "include": [
+            {
+                "system": "http://uk-koeln.de/fhir/CodeSystem/ish-fish-kits"
+            }
         ]
-      }
-    ]
-  }
+    },
+    "expansion": {
+        "identifier": "12770f42-5e32-48b6-ac0e-ef1970a14388",
+        "timestamp": "2020-10-15T14:14:58+00:00",
+        "total": 14,
+        "contains": [
+            {
+                "system": "http://uk-koeln.de/fhir/CodeSystem/ish-fish-kits",
+                "version": "1.0.0",
+                "code": "ZytoDot_2C_SPEC_ALK_Break_Apart_Probe",
+                "display": "ZytoDot 2C SPEC ALK Break Apart Probe"
+            },
+            {
+                "system": "http://uk-koeln.de/fhir/CodeSystem/ish-fish-kits",
+                "version": "1.0.0",
+                "code": "ZytoLight_SPEC_ALK/EML4_TriCheck_Probe",
+                "display": "ZytoLight SPEC ALK/EML4 TriCheck Probe"
+            },
+            {
+                "system": "http://uk-koeln.de/fhir/CodeSystem/ish-fish-kits",
+                "version": "1.0.0",
+                "code": "Vysis_ALK_Break_Apart_FISH_Probe",
+                "display": "Vysis ALK Break Apart FISH Probe"
+            },
+            {
+                "system": "http://uk-koeln.de/fhir/CodeSystem/ish-fish-kits",
+                "version": "1.0.0",
+                "code": "MET_DNP_Probe/Chromosome_7_DIG_Probe",
+                "display": "MET DNP Probe/Chromosome 7 DIG Probe"
+            },
+            {
+                "system": "http://uk-koeln.de/fhir/CodeSystem/ish-fish-kits",
+                "version": "1.0.0",
+                "code": "ZytoLight_SPEC_MET/CEN_7_DUAl_Color_Probe",
+                "display": "ZytoLight SPEC MET/CEN 7 DUAl Color Probe"
+            },
+            {
+                "system": "http://uk-koeln.de/fhir/CodeSystem/ish-fish-kits",
+                "version": "1.0.0",
+                "code": "MET_(7q31)/SE_7_(Kreatech)",
+                "display": "MET (7q31)/SE 7 (Kreatech)"
+            },
+            {
+                "system": "http://uk-koeln.de/fhir/CodeSystem/ish-fish-kits",
+                "version": "1.0.0",
+                "code": "MET_Break_Apart_Sonde_LMU",
+                "display": "MET Break Apart Sonde_LMU"
+            },
+            {
+                "system": "http://uk-koeln.de/fhir/CodeSystem/ish-fish-kits",
+                "version": "1.0.0",
+                "code": "ZytoDot_2C_SPEC_RET_Break_Apart_Probe)",
+                "display": "ZytoDot 2C SPEC RET Break Apart Probe)"
+            },
+            {
+                "system": "http://uk-koeln.de/fhir/CodeSystem/ish-fish-kits",
+                "version": "1.0.0",
+                "code": "ZytoLight_SPEC_RET_Dual_Color_Break_Apart_Probe",
+                "display": "ZytoLight SPEC RET Dual Color Break Apart Probe"
+            },
+            {
+                "system": "http://uk-koeln.de/fhir/CodeSystem/ish-fish-kits",
+                "version": "1.0.0",
+                "code": "Vysis_10q11_RET_Break-Apart_FISH_Probe_(RUO)",
+                "display": "Vysis 10q11 RET Break-Apart FISH Probe (RUO)"
+            },
+            {
+                "system": "http://uk-koeln.de/fhir/CodeSystem/ish-fish-kits",
+                "version": "1.0.0",
+                "code": "RET_Break_Apart_Sonde_LMU",
+                "display": "RET Break Apart Sonde_LMU"
+            },
+            {
+                "system": "http://uk-koeln.de/fhir/CodeSystem/ish-fish-kits",
+                "version": "1.0.0",
+                "code": "ZytoDot_2C_SPEC_ROS1_Break_Apart_Probe",
+                "display": "ZytoDot 2C SPEC ROS1 Break Apart Probe"
+            },
+            {
+                "system": "http://uk-koeln.de/fhir/CodeSystem/ish-fish-kits",
+                "version": "1.0.0",
+                "code": "Vysis_6q22_ROS1_Break_Apart_FISH_Probe_(RUO)",
+                "display": "Vysis 6q22 ROS1 Break Apart FISH Probe (RUO)"
+            },
+            {
+                "system": "http://uk-koeln.de/fhir/CodeSystem/ish-fish-kits",
+                "version": "1.0.0",
+                "code": "ROS1_Break_Apart_Sonde_LMU",
+                "display": "ROS1 Break Apart Sonde_LMU"
+            }
+        ]
+    }
 }

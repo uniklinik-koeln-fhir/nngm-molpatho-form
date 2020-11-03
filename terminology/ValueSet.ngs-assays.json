@@ -1,94 +1,110 @@
 {
-  "resourceType": "ValueSet",
-  "meta": {
-    "profile": [
-      "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
-    ]
-  },
-  "url": "http://uk-koeln.de/fhir/ValueSet/ngs-assays",
-  "version": "1.0.0",
-  "name": "NgsAssays",
-  "title": "Ngs Assays",
-  "status": "active",
-  "experimental": false,
-  "date": "2020-03-16",
-  "publisher": "Uniklinik Köln",
-  "description": "Ngs Assays",
-  "compose": {
-    "include": [
-      {
-        "system": "http://uk-koeln.de/fhir/CodeSystem/ngs-assays",
-        "concept": [
-          {
-            "code": "TruSight_RNA_Pan-Cancer_Panel",
-            "display": "TruSight RNA Pan-Cancer Panel"
-          },
-          {
-            "code": "TST170",
-            "display": "TST170"
-          },
-          {
-            "code": "Custom_Panel",
-            "display": "Custom Panel"
-          },
-          {
-            "code": "Oncomine_Solid_Tumour_Fusion_Transcript_Kit",
-            "display": "Oncomine Solid Tumour Fusion Transcript Kit"
-          },
-          {
-            "code": "Oncomine_Focus_(RNA)",
-            "display": "Oncomine Focus (RNA)"
-          },
-          {
-            "code": "nNGM_v1.0",
-            "display": "nNGM v1.0"
-          },
-          {
-            "code": "GeneRead",
-            "display": "GeneRead"
-          },
-          {
-            "code": "CustomPanel",
-            "display": "CustomPanel"
-          },
-          {
-            "code": "OncomineSOlidTumourFusionTranscriptKit",
-            "display": "OncomineSOlidTumourFusionTranscriptKit"
-          },
-          {
-            "code": "OncomineFocus(RNA)",
-            "display": "OncomineFocus(RNA)"
-          },
-          {
-            "code": "nNGMv1.0",
-            "display": "nNGMv1.0"
-          },
-          {
-            "code": "GeneRead_QIAact_Liung_RNA_Fusion_UMI_Panel",
-            "display": "GeneRead QIAact Liung RNA Fusion UMI Panel"
-          },
-          {
-            "code": "Generead_QIAact_Custom_DNA_Panel_-_Lung_Panel_nNGM_1.0_(v3_UMI_Panel)",
-            "display": "Generead QIAact Custom DNA Panel - Lung Panel nNGM 1.0 (v3 UMI Panel)"
-          },
-          {
-            "code": "GeneRead_QIAact_Custom_DNA_Panel_-_Lung_Panel_nNGM_1.0(v2))",
-            "display": "GeneRead QIAact Custom DNA Panel - Lung Panel nNGM 1.0(v2))"
-          },
-          {
-            "code": "GeneRead_QIAact_Custom_DNA_Panel_-_Lung_Panel_nNGM_1.0(v2)))",
-            "display": "GeneRead QIAact Custom DNA Panel - Lung Panel nNGM 1.0(v2)))"
-          },
-          {
-            "code": "GeneRead_QIAact_Lung_RNA_Fusion_UMI_Panel",
-            "display": "GeneRead QIAact Lung RNA Fusion UMI Panel"
-          },
-          {
-            "code": "GeneRead_QIAact_Custom_DNA_Panel_-_Lung_Panel_nNGM_1.0_(v2))",
-            "display": "GeneRead QIAact Custom DNA Panel - Lung Panel nNGM 1.0 (v2))"
-          }
+    "resourceType": "ValueSet",
+    "url": "http://uk-koeln.de/fhir/ValueSet/ngs-assays",
+    "version": "1.0.0",
+    "name": "NgsAssays",
+    "title": "Ngs Assays",
+    "status": "active",
+    "experimental": false,
+    "date": "2020-03-16",
+    "publisher": "Uniklinik Köln",
+    "description": "Ngs Assays",
+    "compose": {
+        "include": [
+            {
+                "system": "http://uk-koeln.de/fhir/CodeSystem/ish-fish-kits"
+            }
         ]
-      }
-    ]
-  }
+    },
+    "expansion": {
+        "identifier": "12770f42-5e32-48b6-ac0e-ef1970a14388",
+        "timestamp": "2020-10-15T14:14:58+00:00",
+        "total": 14,
+        "contains": [
+            {
+                "system": "http://uk-koeln.de/fhir/CodeSystem/ish-fish-kits",
+                "version": "1.0.0",
+                "code": "ZytoDot_2C_SPEC_ALK_Break_Apart_Probe",
+                "display": "ZytoDot 2C SPEC ALK Break Apart Probe"
+            },
+            {
+                "system": "http://uk-koeln.de/fhir/CodeSystem/ish-fish-kits",
+                "version": "1.0.0",
+                "code": "ZytoLight_SPEC_ALK/EML4_TriCheck_Probe",
+                "display": "ZytoLight SPEC ALK/EML4 TriCheck Probe"
+            },
+            {
+                "system": "http://uk-koeln.de/fhir/CodeSystem/ish-fish-kits",
+                "version": "1.0.0",
+                "code": "Vysis_ALK_Break_Apart_FISH_Probe",
+                "display": "Vysis ALK Break Apart FISH Probe"
+            },
+            {
+                "system": "http://uk-koeln.de/fhir/CodeSystem/ish-fish-kits",
+                "version": "1.0.0",
+                "code": "MET_DNP_Probe/Chromosome_7_DIG_Probe",
+                "display": "MET DNP Probe/Chromosome 7 DIG Probe"
+            },
+            {
+                "system": "http://uk-koeln.de/fhir/CodeSystem/ish-fish-kits",
+                "version": "1.0.0",
+                "code": "ZytoLight_SPEC_MET/CEN_7_DUAl_Color_Probe",
+                "display": "ZytoLight SPEC MET/CEN 7 DUAl Color Probe"
+            },
+            {
+                "system": "http://uk-koeln.de/fhir/CodeSystem/ish-fish-kits",
+                "version": "1.0.0",
+                "code": "MET_(7q31)/SE_7_(Kreatech)",
+                "display": "MET (7q31)/SE 7 (Kreatech)"
+            },
+            {
+                "system": "http://uk-koeln.de/fhir/CodeSystem/ish-fish-kits",
+                "version": "1.0.0",
+                "code": "MET_Break_Apart_Sonde_LMU",
+                "display": "MET Break Apart Sonde_LMU"
+            },
+            {
+                "system": "http://uk-koeln.de/fhir/CodeSystem/ish-fish-kits",
+                "version": "1.0.0",
+                "code": "ZytoDot_2C_SPEC_RET_Break_Apart_Probe)",
+                "display": "ZytoDot 2C SPEC RET Break Apart Probe)"
+            },
+            {
+                "system": "http://uk-koeln.de/fhir/CodeSystem/ish-fish-kits",
+                "version": "1.0.0",
+                "code": "ZytoLight_SPEC_RET_Dual_Color_Break_Apart_Probe",
+                "display": "ZytoLight SPEC RET Dual Color Break Apart Probe"
+            },
+            {
+                "system": "http://uk-koeln.de/fhir/CodeSystem/ish-fish-kits",
+                "version": "1.0.0",
+                "code": "Vysis_10q11_RET_Break-Apart_FISH_Probe_(RUO)",
+                "display": "Vysis 10q11 RET Break-Apart FISH Probe (RUO)"
+            },
+            {
+                "system": "http://uk-koeln.de/fhir/CodeSystem/ish-fish-kits",
+                "version": "1.0.0",
+                "code": "RET_Break_Apart_Sonde_LMU",
+                "display": "RET Break Apart Sonde_LMU"
+            },
+            {
+                "system": "http://uk-koeln.de/fhir/CodeSystem/ish-fish-kits",
+                "version": "1.0.0",
+                "code": "ZytoDot_2C_SPEC_ROS1_Break_Apart_Probe",
+                "display": "ZytoDot 2C SPEC ROS1 Break Apart Probe"
+            },
+            {
+                "system": "http://uk-koeln.de/fhir/CodeSystem/ish-fish-kits",
+                "version": "1.0.0",
+                "code": "Vysis_6q22_ROS1_Break_Apart_FISH_Probe_(RUO)",
+                "display": "Vysis 6q22 ROS1 Break Apart FISH Probe (RUO)"
+            },
+            {
+                "system": "http://uk-koeln.de/fhir/CodeSystem/ish-fish-kits",
+                "version": "1.0.0",
+                "code": "ROS1_Break_Apart_Sonde_LMU",
+                "display": "ROS1 Break Apart Sonde_LMU"
+            }
+        ]
+    }
 }
