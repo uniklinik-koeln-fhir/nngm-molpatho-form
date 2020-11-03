@@ -9,7 +9,7 @@
   "version": "1.0.0",
   "name": "TBDcodes",
   "title": "TBD Codes",
-  "status": "final",
+  "status": "active",
   "experimental": false,
   "publisher": "Uniklinik Köln",
   "description": "Codes für die keine Konzept in einem frei verfügbaren CodeSystem gefunden werden konnte.",

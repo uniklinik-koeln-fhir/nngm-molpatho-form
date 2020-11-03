@@ -1,10 +1,5 @@
 {
   "resourceType": "ValueSet",
-  "meta": {
-    "profile": [
-      "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
-    ]
-  },
   "url": "http://uk-koeln.de/fhir/ValueSet/hersteller-molpatho",
   "version": "1.0.0",
   "name": "HerstellerMolPatho",
@@ -15,10 +10,149 @@
   "publisher": "Uniklinik Köln",
   "description": "Hersteller MolPatho (Antikoerper, Kits, Assays)",
   "compose": {
-    "include": [
-      {
-        "system": "http://uk-koeln.de/fhir/CodeSystem/hersteller-molpatho"
-      }
-    ]
+      "include": [
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/hersteller-molpatho"
+          }
+      ]
+  },
+  "expansion": {
+      "identifier": "30049601-64fc-4470-8520-a7a13db0b56b",
+      "timestamp": "2020-10-13T10:35:28+00:00",
+      "total": 22,
+      "contains": [
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/hersteller-molpatho",
+              "version": "1.0.0",
+              "code": "Dako_Agilent",
+              "display": "Dako Agilent"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/hersteller-molpatho",
+              "version": "1.0.0",
+              "code": "Cell_Marque",
+              "display": "Cell Marque"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/hersteller-molpatho",
+              "version": "1.0.0",
+              "code": "Progen",
+              "display": "Progen"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/hersteller-molpatho",
+              "version": "1.0.0",
+              "code": "Zytomed_System",
+              "display": "Zytomed System"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/hersteller-molpatho",
+              "version": "1.0.0",
+              "code": "Roche_Ventana",
+              "display": "Roche Ventana"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/hersteller-molpatho",
+              "version": "1.0.0",
+              "code": "Abcam",
+              "display": "Abcam"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/hersteller-molpatho",
+              "version": "1.0.0",
+              "code": "Roche",
+              "display": "Roche"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/hersteller-molpatho",
+              "version": "1.0.0",
+              "code": "Novacastra-Leica",
+              "display": "Novacastra-Leica"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/hersteller-molpatho",
+              "version": "1.0.0",
+              "code": "Biocare_Medical",
+              "display": "Biocare Medical"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/hersteller-molpatho",
+              "version": "1.0.0",
+              "code": "Bio_SB",
+              "display": "Bio SB"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/hersteller-molpatho",
+              "version": "1.0.0",
+              "code": "DCS_-_BioGenex",
+              "display": "DCS - BioGenex"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/hersteller-molpatho",
+              "version": "1.0.0",
+              "code": "Thermo_Fisher_Scientific",
+              "display": "Thermo Fisher Scientific"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/hersteller-molpatho",
+              "version": "1.0.0",
+              "code": "Zytovision",
+              "display": "Zytovision"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/hersteller-molpatho",
+              "version": "1.0.0",
+              "code": "Abbott",
+              "display": "Abbott"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/hersteller-molpatho",
+              "version": "1.0.0",
+              "code": "Illumina",
+              "display": "Illumina"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/hersteller-molpatho",
+              "version": "1.0.0",
+              "code": "Qiagen",
+              "display": "Qiagen"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/hersteller-molpatho",
+              "version": "1.0.0",
+              "code": "Cell_Signaling",
+              "display": "Cell Signaling"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/hersteller-molpatho",
+              "version": "1.0.0",
+              "code": "Leica",
+              "display": "Leica"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/hersteller-molpatho",
+              "version": "1.0.0",
+              "code": "LMU",
+              "display": "LMU"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/hersteller-molpatho",
+              "version": "1.0.0",
+              "code": "Epitomics_(Generon)",
+              "display": "Epitomics (Generon)"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/hersteller-molpatho",
+              "version": "1.0.0",
+              "code": "Diacarta",
+              "display": "Diacarta"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/hersteller-molpatho",
+              "version": "1.0.0",
+              "code": "Beckman_Coulter",
+              "display": "Beckman Coulter"
+          }
+      ]
   }
 }

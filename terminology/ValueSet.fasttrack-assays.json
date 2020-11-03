@@ -1,10 +1,5 @@
 {
   "resourceType": "ValueSet",
-  "meta": {
-    "profile": [
-      "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
-    ]
-  },
   "url": "http://uk-koeln.de/fhir/ValueSet/fasttrack-assays",
   "version": "1.0.0",
   "name": "FastTrackAssays",
@@ -15,10 +10,47 @@
   "publisher": "Uniklinik Köln",
   "description": "FastTrack Assays",
   "compose": {
-    "include": [
-      {
-        "system": "http://uk-koeln.de/fhir/CodeSystem/fasttrack-assays"
-      }
-    ]
+      "include": [
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/fasttrack-assays"
+          }
+      ]
+  },
+  "expansion": {
+      "identifier": "aa83bc44-bfe4-45d2-b48f-b4ef554179bc",
+      "timestamp": "2020-10-13T10:35:20+00:00",
+      "total": 5,
+      "contains": [
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/fasttrack-assays",
+              "version": "1.0.0",
+              "code": "Therascreen_BRAF_Pyro_Kit",
+              "display": "Therascreen BRAF Pyro Kit"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/fasttrack-assays",
+              "version": "1.0.0",
+              "code": "QClamp",
+              "display": "QClamp"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/fasttrack-assays",
+              "version": "1.0.0",
+              "code": "custom_assay_V600E_via_digital_PCR_QuantStudio_3D",
+              "display": "custom assay V600E via digital PCR QuantStudio 3D"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/fasttrack-assays",
+              "version": "1.0.0",
+              "code": "High_resolution_melting",
+              "display": "High resolution melting"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/fasttrack-assays",
+              "version": "1.0.0",
+              "code": "Sanger-Sequenzierung_CEQ-8000_Analyzer",
+              "display": "Sanger-Sequenzierung CEQ-8000 Analyzer"
+          }
+      ]
   }
 }
