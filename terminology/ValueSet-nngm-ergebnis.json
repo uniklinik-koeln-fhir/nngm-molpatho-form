@@ -10,7 +10,21 @@
   "compose": {
     "include": [
       {
-        "valueSet": "http://loinc.org/vs/LL2038-9"
+        "valueSet": "http://loinc.org/vs/LL2038-9",
+        "concept": [
+          {
+            "code": "LA6576-8",
+            "display": "Positive"
+          },
+          {
+            "code": "LA6577-6",
+            "display": "Negative"
+          },
+          {
+            "code": "LA11884-6",
+            "display": "Indeterminate"
+          }
+        ]
       },
       {
         "system": "http://loinc.org",

@@ -17,7 +17,21 @@
   "compose": {
     "include": [
       {
-        "valueSet": "http://loinc.org/vs/LL3578-3"
+        "valueSet": "http://loinc.org/vs/LL3578-3",
+        "concept": [
+          {
+            "code": "LA9193-9",
+            "display": "High"
+          },
+          {
+            "code": "LA8982-6",
+            "display": "Medium"
+          },
+          {
+            "code": "LA9194-7",
+            "display": "Low"
+          }
+        ]
       },
       {
         "system": "http://loinc.org",
