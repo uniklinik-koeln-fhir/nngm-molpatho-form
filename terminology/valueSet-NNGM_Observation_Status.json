@@ -2,6 +2,7 @@
   "resourceType": "ValueSet",
   "url": "http://hl7.org/fhir/ValueSet/nngm-observation-status",
   "title": "nNGM Observation Status",
+  "name": "nNGM_Observation_Status",
   "status": "active",
   "compose": {
       "include": [
