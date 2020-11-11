@@ -1,0 +1,171 @@
+{
+  "resourceType": "CodeSystem",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+    ]
+  },
+  "url": "http://ncit.nci.nih.gov",
+  "version": "1.0.0",
+  "name": "NCIThesaurus",
+  "title": "NCIThesaurus",
+  "status": "active",
+  "experimental": false,
+  "publisher": "Uniklinik Köln",
+  "description": "NCIThesaurus",
+  "copyright": "National Cancer Institute (NIH)",
+  "concept": [
+    {
+      "code": "C80488",
+      "display": "Expression"
+    },
+    {
+      "code": "C25418",
+      "display": "Amplification"
+    },
+    {
+      "code": "C23020",
+      "display": "Immunohistochemistry Staining Method"
+    },
+    {
+      "code": "C23022",
+      "display": "In Situ Hybridization Staining Method"
+    },
+    {
+      "code": "C17563",
+      "display": "Fluorescence In Situ Hybridization"
+    },
+    {
+      "code": "C101293",
+      "display": "Next Generation Sequencing"
+    },
+    {
+      "code": "C96445",
+      "display": "KRT7 wt Allele"
+    },
+    {
+      "code": "C104651",
+      "display": "MIB1 Gene"
+    },
+    {
+      "code": "C126467",
+      "display": "NAPA wt Allele"
+    },
+    {
+      "code": "C20511",
+      "display": "Interleukin-9"
+    },
+    {
+      "code": "C101146",
+      "display": "Synaptophysin"
+    },
+    {
+      "code": "C107622",
+      "display": "TTF1 Gene"
+    },
+    {
+      "code": "C81946",
+      "display": "ALK Fusion Protein Expression"
+    },
+    {
+      "code": "C43532",
+      "display": "c-MET Gene Amplification"
+    },
+    {
+      "code": "C128554",
+      "display": "PD-L1 Positive"
+    },
+    {
+      "code": "C131069",
+      "display": "RET Fusion Positive"
+    },
+    {
+      "code": "C131071",
+      "display": "ROS1 Fusion Positive"
+    },
+    {
+      "code": "C20195",
+      "display": "Gene Fusion"
+    },
+    {
+      "code": "C16295",
+      "display": "Antibody"
+    },
+    {
+      "code": "C25392",
+      "display": "Manufacturer"
+    },
+    {
+      "code": "C48443",
+      "display": "Standard Operating Procedure"
+    },
+    {
+      "code": "C25341",
+      "display": "Location"
+    },
+    {
+      "code": "C70460",
+      "display": "Percent of Positive Cells"
+    },
+    {
+      "code": "C36331",
+      "display": "Polysomy"
+    },
+    {
+      "code": "C60819",
+      "display": "Assay"
+    },
+    {
+      "code": "C28510",
+      "display": "Fusion Gene"
+    },
+    {
+      "code": "C13231",
+      "display": "Exon"
+    },
+    {
+      "code": "C25161",
+      "display": "Classification"
+    },
+    {
+      "code": "C42793",
+      "display": "Kit"
+    },
+    {
+      "code": "C154801",
+      "display": "Tumor Cell Count"
+    },
+    {
+      "code": "C45581",
+      "display": "Gene Amplification Abnormality"
+    },
+    {
+      "code": "C16977",
+      "display": "Phenotype"
+    },
+    {
+      "code": "C127771",
+      "display": "Tumor Cell to Total Cell Ratio Measurement"
+    },
+    {
+      "code": "C158854",
+      "display": "BRAF Exon 15 Mutation"
+    },
+    {
+      "code": "C128662",
+      "display": "EGFR Exon 19 Mutation"
+    },
+    {
+      "code": "C128663",
+      "display": "EGFR Exon 20 Mutation"
+    },
+    {
+      "code": "C128666",
+      "display": "EGFR Exon 21 Mutation"
+    },
+    {
+      "code": "C135715",
+      "display": "KRAS Exon 2 Mutation"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "resourceType": "ValueSet",
+  "url": "http://uk-koeln.de/fhir/ValueSet/hgnc-codes",
+  "version": "1.0.0",
+  "name": "VsHgncCodes",
+  "title": "ValueSet for HGNC Codes",
+  "status": "active",
+  "experimental": false,
+  "date": "2020-03-16",
+  "publisher": "Uniklinik Köln",
+  "description": "Dieses ValueSet enthält alle genomischen Informationen und deren HGNC stable ID",
+  "compose": {
+    "include": [
+      {
+        "system": "https://www.genenames.org"
+      }
+    ]
+  }
+}

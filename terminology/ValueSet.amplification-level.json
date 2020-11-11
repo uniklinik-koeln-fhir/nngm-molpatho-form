@@ -1,0 +1,51 @@
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+    ]
+  },
+  "url": "http://uk-koeln.de/fhir/ValueSet/high-medium-low",
+  "version": "1.0.0",
+  "name": "AmplificationLevel",
+  "title": "Amplification Level",
+  "status": "active",
+  "experimental": false,
+  "date": "2020-03-16",
+  "publisher": "Uniklinik Köln",
+  "description": "Amplification Level",
+  "compose": {
+    "include": [
+      {
+        "valueSet": "http://loinc.org/vs/LL3578-3",
+        "concept": [
+          {
+            "code": "LA9193-9",
+            "display": "High"
+          },
+          {
+            "code": "LA8982-6",
+            "display": "Medium"
+          },
+          {
+            "code": "LA9194-7",
+            "display": "Low"
+          }
+        ]
+      },
+      {
+        "system": "http://loinc.org",
+        "concept": [
+          {
+            "code": "LA32-8",
+            "display": "No"
+          },
+          {
+            "code": "LA11884-6",
+            "display": "Indeterminate"
+          }
+        ]
+      }
+    ]
+  }
+}
