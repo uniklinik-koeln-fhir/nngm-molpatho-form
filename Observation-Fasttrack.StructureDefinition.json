@@ -129,7 +129,7 @@
         "mustSupport": true,
         "binding": {
           "strength": "required",
-          "valueSet": "http://uk-koeln.de/fhir/ValueSet/act_non_act_na-value-codes"
+          "valueSet": "http://uk-koeln.de/fhir/ValueSet/nNGM/ergebnis-fasttrack"
         }
       },
       {
