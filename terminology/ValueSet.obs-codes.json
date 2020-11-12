@@ -17,7 +17,7 @@
   "compose": {
     "include": [
       {
-        "system": "nNGM",
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/molpatho-obs-codes",
         "concept": [
           {
             "code": "BRAF",
