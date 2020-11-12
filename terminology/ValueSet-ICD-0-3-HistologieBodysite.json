@@ -95,7 +95,109 @@
     },
     "expansion": {
         "identifier": "2b61c157-0e11-47ef-8a65-7870042c8cf8",
-        "timestamp": "2020-10-15T15:01:59+00:00",
-        "total": 0
+        "timestamp": "2020-11-12T15:01:59+00:00",
+        "total": 20,
+        "contains": [
+            {
+                "system": "urn:oid:2.16.840.1.113883.6.43.1",
+                "code": "C34.",
+                "display": "Bronchus und Lunge"
+            },
+            {
+                "system": "urn:oid:2.16.840.1.113883.6.43.1",
+                "code": "C34.0.",
+                "display": "Hauptbronchus"
+            },
+            {
+                "system": "urn:oid:2.16.840.1.113883.6.43.1",
+                "code": "C34.1.",
+                "display": "Lungenoberlappen"
+            },
+            {
+                "system": "urn:oid:2.16.840.1.113883.6.43.1",
+                "code": "C34.2.",
+                "display": "Lungenmittellappen"
+            },
+            {
+                "system": "urn:oid:2.16.840.1.113883.6.43.1",
+                "code": "C34.3.",
+                "display": "Lungenunterlappen"
+            },
+            {
+                "system": "urn:oid:2.16.840.1.113883.6.43.1",
+                "code": "C34.8.",
+                "display": "Lunge, mehrere Teilbereiche überlappend"
+            },
+            {
+                "system": "urn:oid:2.16.840.1.113883.6.43.1",
+                "code": "C34.9.",
+                "display": "Lunge o.n.A."
+            },
+            {
+                "system": "urn:oid:2.16.840.1.113883.6.43.1",
+                "code": "C38.",
+                "display": "Herz"
+            },
+            {
+                "system": "urn:oid:2.16.840.1.113883.6.43.1",
+                "code": "C38.0.",
+                "display": "Herz"
+            },
+            {
+                "system": "urn:oid:2.16.840.1.113883.6.43.1",
+                "code": "C38.1.",
+                "display": "Vorderes Mediastinum"
+            },
+            {
+                "system": "urn:oid:2.16.840.1.113883.6.43.1",
+                "code": "C38.2.",
+                "display": "Hinteres Mediastinum"
+            },
+            {
+                "system": "urn:oid:2.16.840.1.113883.6.43.1",
+                "code": "C38.3.",
+                "display": "Mediastinum o.n.A."
+            },
+            {
+                "system": "urn:oid:2.16.840.1.113883.6.43.1",
+                "code": "C38.4.",
+                "display": "Pleura o.n.A."
+            },
+            {
+                "system": "urn:oid:2.16.840.1.113883.6.43.1",
+                "code": "C38.8.",
+                "display": "Herz"
+            },
+            {
+                "system": "urn:oid:2.16.840.1.113883.6.43.1",
+                "code": "C39.",
+                "display": "Sonstiger oder mangelhaft bezeichneter Sitz innerhalt der Atemwege [Respirationstrakt] und intrathorakaler Organe"
+            },
+            {
+                "system": "urn:oid:2.16.840.1.113883.6.43.1",
+                "code": "C39.0.",
+                "display": "Obere Atemwege o.n.A."
+            },
+            {
+                "system": "urn:oid:2.16.840.1.113883.6.43.1",
+                "code": "C39.8.",
+                "display": "Atemwege [Respirationstrakt] und intrathorakale"
+            },
+            {
+                "system": "urn:oid:2.16.840.1.113883.6.43.1",
+                "code": "C39.9.",
+                "display": "Mangelhaft bezeichneter Sitz innerhalb der Atmungsorgane"
+            },
+            {
+                "system": "urn:oid:2.16.840.1.113883.6.43.1",
+                "code": "C42.",
+                "display": "Hämatopoetisches und retikuloendotheliales System"
+            },
+            {
+                "system": "urn:oid:2.16.840.1.113883.6.43.1",
+                "code": "C42.0.",
+                "display": "Blut"
+            }
+        ]
     }
 }
