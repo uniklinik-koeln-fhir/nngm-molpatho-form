@@ -1,6 +1,6 @@
 {
     "resourceType": "CodeSystem",
-    "url": "http://uk-koeln.de/fhir/CodeSystems/nNGM/ergebnis",
+    "url": "http://uk-koeln.de/fhir/CodeSystem/nNGM/ergebnis",
     "version": "1.0.0",
     "name": "Untersuchungsergebnis",
     "status": "active",
