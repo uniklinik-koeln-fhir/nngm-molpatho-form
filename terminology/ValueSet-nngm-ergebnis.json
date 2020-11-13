@@ -30,33 +30,33 @@
                     }
                 ]
             }
-        ],
-        "expansion": {
-            "identifier": "4a218f55-6404-46f3-983e-774093431568",
-            "timestamp": "2020-11-12T15:01:59+00:00",
-            "total": 4,
-            "contains": [
-                {
-                    "system": "http://loinc.org/",
-                    "code": "LA6576-8",
-                    "display": "Positive"
-                },
-                {
-                    "system": "http://loinc.org/",
-                    "code": "LA6577-6",
-                    "display": "Negative"
-                },
-                {
-                    "system": "http://loinc.org/",
-                    "code": "LA11884-6",
-                    "display": "Indeterminate"
-                },
-                {
-                    "system": "http://loinc.org/",
-                    "code": "LA18198-4",
-                    "display": "No call"
-                }
-            ]
-        }
+        ]
+    },
+    "expansion": {
+        "identifier": "4a218f55-6404-46f3-983e-774093431568",
+        "timestamp": "2020-11-12T15:01:59+00:00",
+        "total": 4,
+        "contains": [
+            {
+                "system": "http://loinc.org/",
+                "code": "LA6576-8",
+                "display": "Positive"
+            },
+            {
+                "system": "http://loinc.org/",
+                "code": "LA6577-6",
+                "display": "Negative"
+            },
+            {
+                "system": "http://loinc.org/",
+                "code": "LA11884-6",
+                "display": "Indeterminate"
+            },
+            {
+                "system": "http://loinc.org/",
+                "code": "LA18198-4",
+                "display": "No call"
+            }
+        ]
     }
 }
