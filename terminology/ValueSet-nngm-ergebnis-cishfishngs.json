@@ -27,5 +27,27 @@
                 ]
             }
         ]
+    },
+    "expansion": {
+        "identifier": "31393985-7e94-47aa-b411-d388a591a32a",
+        "timestamp": "2020-11-13T11:10:17+00:00",
+        "total": 3,
+        "contains": [
+            {
+                "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/ergebnis",
+                "code": "positiv",
+                "display": "positiv"
+            },
+            {
+                "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/ergebnis",
+                "code": "fraglich",
+                "display": "fraglich"
+            },
+            {
+                "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/ergebnis",
+                "code": "negativ",
+                "display": "negativ"
+            }
+        ]
     }
 }
