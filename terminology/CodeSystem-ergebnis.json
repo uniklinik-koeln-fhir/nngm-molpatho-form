@@ -1,0 +1,41 @@
+{
+    "resourceType": "CodeSystem",
+    "url": "http://uk-koeln.de/fhir/CodeSystems/nNGM/ergebnis",
+    "version": "1.0.0",
+    "name": "Untersuchungsergebnis",
+    "status": "active",
+    "date": "2018-10-31",
+    "publisher": "Uniklinik Köln",
+    "description": "Untersuchungsergebnis",
+    "content": "complete",
+    "concept": [
+        {
+            "code": "positiv",
+            "display": "positiv"
+        },
+        {
+            "code": "fraglich",
+            "display": "fraglich"
+        },
+        {
+            "code": "negativ",
+            "display": "negativ"
+        },
+        {
+            "code": "nicht auswertbar",
+            "display": "nicht auswertbar"
+        },
+        {
+            "code": "aktivierende Mutation",
+            "display": "aktivierende Mutation"
+        },
+        {
+            "code": "keine aktivierende Mutatio",
+            "display": "keine aktivierende Mutatio"
+        },
+        {
+            "code": "nicht auswertbar",
+            "display": "nicht auswertbar"
+        }
+    ]
+}
