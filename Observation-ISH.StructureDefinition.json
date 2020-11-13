@@ -397,11 +397,7 @@
           {
             "code": "Quantity"
           }
-        ],
-        "binding": {
-          "strength": "required",
-          "valueSet": "http://uk-koeln.de/fhir/ValueSet/0-3+-klassifikation"
-        }
+        ]
       },
       {
         "id": "Observation.component:pos-tumor-zellen.value[x].unit",
