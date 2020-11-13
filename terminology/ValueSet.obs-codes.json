@@ -126,5 +126,168 @@
         ]
       }
     ]
+  },
+  "expansion": {
+    "identifier": "b875c923-94c7-4ea4-aa90-c1b82110c86f",
+    "timestamp": "2020-11-13T11:36:23+00:00",
+    "total": 26,
+    "contains": [
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/molpatho-obs-codes",
+        "version": "1.0.0",
+        "code": "BRAF",
+        "display": "BRAF"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/molpatho-obs-codes",
+        "version": "1.0.0",
+        "code": "CK7",
+        "display": "CK7"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/molpatho-obs-codes",
+        "version": "1.0.0",
+        "code": "MIB1",
+        "display": "MIB1"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/molpatho-obs-codes",
+        "version": "1.0.0",
+        "code": "Napsin A",
+        "display": "Napsin A"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/molpatho-obs-codes",
+        "version": "1.0.0",
+        "code": "P40",
+        "display": "P40"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/molpatho-obs-codes",
+        "version": "1.0.0",
+        "code": "TTF1",
+        "display": "TTF1"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/molpatho-obs-codes",
+        "version": "1.0.0",
+        "code": "MET",
+        "display": "MET"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/molpatho-obs-codes",
+        "version": "1.0.0",
+        "code": "PD-L1",
+        "display": "PD-L1"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/molpatho-obs-codes",
+        "version": "1.0.0",
+        "code": "ROS1",
+        "display": "ROS1"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/molpatho-obs-codes",
+        "version": "1.0.0",
+        "code": "RET",
+        "display": "RET"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/molpatho-obs-codes",
+        "version": "1.0.0",
+        "code": "NTRK1",
+        "display": "NTRK1"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/molpatho-obs-codes",
+        "version": "1.0.0",
+        "code": "NTRK2",
+        "display": "NTRK2"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/molpatho-obs-codes",
+        "version": "1.0.0",
+        "code": "NTRK3",
+        "display": "NTRK3"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/molpatho-obs-codes",
+        "version": "1.0.0",
+        "code": "FGFR1",
+        "display": "FGFR1"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/molpatho-obs-codes",
+        "version": "1.0.0",
+        "code": "FGFR2",
+        "display": "FGFR2"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/molpatho-obs-codes",
+        "version": "1.0.0",
+        "code": "FGFR3",
+        "display": "FGFR3"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/molpatho-obs-codes",
+        "version": "1.0.0",
+        "code": "Synaptophysin",
+        "display": "Synaptophysin"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/molpatho-obs-codes",
+        "version": "1.0.0",
+        "code": "BRAF Exon 15",
+        "display": "BRAF Exon 15"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/molpatho-obs-codes",
+        "version": "1.0.0",
+        "code": "EGFR Exon 19",
+        "display": "EGFR Exon 19"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/molpatho-obs-codes",
+        "version": "1.0.0",
+        "code": "EGFR Exon 20",
+        "display": "EGFR Exon 20"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/molpatho-obs-codes",
+        "version": "1.0.0",
+        "code": "EGFR Exon 21",
+        "display": "EGFR Exon 21"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/molpatho-obs-codes",
+        "version": "1.0.0",
+        "code": "KRAS Exon 2",
+        "display": "KRAS Exon 2"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/molpatho-obs-codes",
+        "version": "1.0.0",
+        "code": "Sonstige Fusion NGS",
+        "display": "Sonstige Fusion NGS"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/molpatho-obs-codes",
+        "version": "1.0.0",
+        "code": "NGS Panel",
+        "display": "NGS Panel"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/molpatho-obs-codes",
+        "version": "1.0.0",
+        "code": "ALK",
+        "display": "ALK"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/molpatho-obs-codes",
+        "version": "1.0.0",
+        "code": "Sonstiges",
+        "display": "Sonstiges"
+      }
+    ]
   }
 }

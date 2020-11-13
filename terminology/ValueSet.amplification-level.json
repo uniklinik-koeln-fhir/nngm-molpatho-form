@@ -17,23 +17,6 @@
   "compose": {
     "include": [
       {
-        "valueSet": "http://loinc.org/vs/LL3578-3",
-        "concept": [
-          {
-            "code": "LA9193-9",
-            "display": "High"
-          },
-          {
-            "code": "LA8982-6",
-            "display": "Medium"
-          },
-          {
-            "code": "LA9194-7",
-            "display": "Low"
-          }
-        ]
-      },
-      {
         "system": "http://loinc.org",
         "concept": [
           {
@@ -43,8 +26,52 @@
           {
             "code": "LA11884-6",
             "display": "Indeterminate"
+          },
+          {
+            "code": "LA9193-9",
+            "display": "High"
+          },
+          {
+            "code": "LA9194-7",
+            "display": "Low"
+          },
+          {
+            "code": "LA8982-6",
+            "display": "Medium"
           }
         ]
+      }
+    ]
+  },
+  "expansion": {
+    "identifier": "b9ba0912-c647-4f8a-baf8-df51abf8fb29",
+    "timestamp": "2020-11-13T11:30:26+00:00",
+    "total": 5,
+    "contains": [
+      {
+        "system": "http://loinc.org",
+        "code": "LA9193-9",
+        "display": "High"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "LA8982-6",
+        "display": "Medium"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "LA32-8",
+        "display": "No"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "LA11884-6",
+        "display": "Indeterminate"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "LA9194-7",
+        "display": "Low"
       }
     ]
   }
