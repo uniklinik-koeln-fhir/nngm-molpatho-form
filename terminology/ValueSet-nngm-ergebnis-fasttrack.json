@@ -27,5 +27,27 @@
                 ]
             }
         ]
+    },
+    "expansion": {
+        "identifier": "3067b9e3-5f29-430a-bccb-2ee58fdbf01e",
+        "timestamp": "2020-11-13T11:13:20+00:00",
+        "total": 3,
+        "contains": [
+            {
+                "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/ergebnis",
+                "code": "nicht auswertbar",
+                "display": "nicht auswertbar"
+            },
+            {
+                "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/ergebnis",
+                "code": "aktivierende Mutation",
+                "display": "aktivierende Mutation"
+            },
+            {
+                "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/ergebnis",
+                "code": "keine aktivierende Mutatio",
+                "display": "keine aktivierende Mutatio"
+            }
+        ]
     }
 }
