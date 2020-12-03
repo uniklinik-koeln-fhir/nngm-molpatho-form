@@ -1,0 +1,121 @@
+{
+    "resourceType": "CodeSystem",
+    "url": "http://uk-koeln.de/fhir/CodeSystem/hersteller-molpatho",
+    "name": "Untersuchungsergebnis",
+    "title": "Untersuchungsergebnis",
+    "status": "active",
+    "date": "2018-10-31",
+    "publisher": "Uniklinik Köln",
+    "description": "Untersuchungsergebnis",
+    "content": "complete",
+    "concept": [
+        {
+            "code": "Dako_Agilent",
+            "display": "Dako Agilent"
+        },
+        {
+            "code": "Cell_Marque",
+            "display": "Cell Marque"
+        },
+        {
+            "code": "Progen",
+            "display": "Progen"
+        },
+        {
+            "code": "Zytomed_System",
+            "display": "Zytomed System"
+        },
+        {
+            "code": "Roche_Ventana",
+            "display": "Roche Ventana"
+        },
+        {
+            "code": "Abcam",
+            "display": "Abcam"
+        },
+        {
+            "code": "Roche",
+            "display": "Roche"
+        },
+        {
+            "code": "Novacastra-Leica",
+            "display": "Novacastra-Leica"
+        },
+        {
+            "code": "Biocare_Medical",
+            "display": "Biocare Medical"
+        },
+        {
+            "code": "Bio_SB",
+            "display": "Bio SB"
+        },
+        {
+            "code": "DCS_-_BioGenex",
+            "display": "DCS - BioGenex"
+        },
+        {
+            "code": "Thermo_Fisher_Scientific",
+            "display": "Thermo Fisher Scientific"
+        },
+        {
+            "code": "Zytovision",
+            "display": "Zytovision"
+        },
+        {
+            "code": "Abbott",
+            "display": "Abbott"
+        },
+        {
+            "code": "Illumina",
+            "display": "Illumina"
+        },
+        {
+            "code": "Qiagen",
+            "display": "Qiagen"
+        },
+        {
+            "code": "Cell_Signaling",
+            "display": "Cell Signaling"
+        },
+        {
+            "code": "Leica",
+            "display": "Leica"
+        },
+        {
+            "code": "LMU",
+            "display": "LMU"
+        },
+        {
+            "code": "Epitomics_(Generon)",
+            "display": "Epitomics (Generon)"
+        },
+        {
+            "code": "Diacarta",
+            "display": "Diacarta"
+        },
+        {
+            "code": "Beckman_Coulter",
+            "display": "Beckman Coulter"
+        },
+        {
+            "code": "PD-L1 (Clone E1L3N)",
+            "display": "PD-L1 (Clone E1L3N)"
+        },
+        {
+            "code": "PD-L1 (Clone ZR3) Rabbit Monoclonal Antibody",
+            "display": "PD-L1 (Clone ZR3) Rabbit Monoclonal Antibody"
+        },
+        {
+            "code": "Anti-PD-L1 antibody (Clone 28-8)",
+            "display": "Anti-PD-L1 antibody (Clone 28-8)"
+        },
+        {
+            "code": "VENTANA PD-L1 (Clone SP263)",
+            "display": "VENTANA PD-L1 (Clone SP263)"
+        },
+        {
+            "code": "Monoclonal Mouse anti-human PD-L1 (Clone 22C3)",
+            "display": "Monoclonal Mouse anti-human PD-L1 (Clone 22C3)"
+        }
+    ]
+}
