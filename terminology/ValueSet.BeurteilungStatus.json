@@ -1,6 +1,6 @@
 {
   "resourceType": "ValueSet",
-  "url": "http://uk-koeln.de/fhir/ValueSet/nNGM/beurteilungStatus",
+  "url": "http://uk-koeln.de/fhir/ValueSet/beurteilungStatus",
   "version": "1.0.0",
   "name": "BeurteilungStatus",
   "title": "Beurteilung Status",
