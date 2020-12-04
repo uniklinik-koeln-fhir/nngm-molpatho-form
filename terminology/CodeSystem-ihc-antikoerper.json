@@ -1,5 +1,5 @@
 {
-    "resourceType": "ValueSet",
+    "resourceType": "CodeSystem",
     "url": "http://uk-koeln.de/fhir/CodeSystem/ihc-antikoerper",
     "name": "IhcAntikoerper",
     "title": "IHC Antikoerper",
