@@ -81,12 +81,9 @@
     </element>
     <element id="Composition.title">
       <path value="Composition.title" />
-      <fixedString value="Anmeldung" />
+      <fixedString value="Befund" />
     </element>
     <element id="Composition.section">
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-explicit-type-name">
-        <valueString value="Section" />
-      </extension>
       <path value="Composition.section" />
       <slicing>
         <discriminator>
@@ -97,9 +94,6 @@
       </slicing>
     </element>
     <element id="Composition.section:immunohistochemie">
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-explicit-type-name">
-        <valueString value="Section" />
-      </extension>
       <path value="Composition.section" />
       <sliceName value="immunohistochemie" />
       <mustSupport value="true" />
@@ -198,9 +192,6 @@
       <min value="1" />
     </element>
     <element id="Composition.section:histologie">
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-explicit-type-name">
-        <valueString value="Section" />
-      </extension>
       <path value="Composition.section" />
       <sliceName value="histologie" />
       <mustSupport value="true" />
@@ -299,9 +290,6 @@
       <min value="1" />
     </element>
     <element id="Composition.section:molekularpathologie">
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-explicit-type-name">
-        <valueString value="Section" />
-      </extension>
       <path value="Composition.section" />
       <sliceName value="molekularpathologie" />
       <mustSupport value="true" />
@@ -413,9 +401,6 @@
       <mustSupport value="true" />
     </element>
     <element id="Composition.section:ngs-lung-panel">
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-explicit-type-name">
-        <valueString value="Section" />
-      </extension>
       <path value="Composition.section" />
       <sliceName value="ngs-lung-panel" />
       <mustSupport value="true" />
@@ -513,9 +498,6 @@
       <mustSupport value="true" />
     </element>
     <element id="Composition.section:ngs-fusion-expression">
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-explicit-type-name">
-        <valueString value="Section" />
-      </extension>
       <path value="Composition.section" />
       <sliceName value="ngs-fusion-expression" />
       <mustSupport value="true" />
@@ -612,9 +594,6 @@
       <mustSupport value="true" />
     </element>
     <element id="Composition.section:fast-track">
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-explicit-type-name">
-        <valueString value="Section" />
-      </extension>
       <path value="Composition.section" />
       <sliceName value="fast-track" />
       <mustSupport value="true" />
@@ -698,9 +677,6 @@
       <min value="1" />
     </element>
     <element id="Composition.section:sonstige-untersuchungen">
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-explicit-type-name">
-        <valueString value="Section" />
-      </extension>
       <path value="Composition.section" />
       <sliceName value="sonstige-untersuchungen" />
       <mustSupport value="true" />
@@ -784,9 +760,6 @@
       <min value="1" />
     </element>
     <element id="Composition.section:liquid-biopsy">
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-explicit-type-name">
-        <valueString value="Section" />
-      </extension>
       <path value="Composition.section" />
       <sliceName value="liquid-biopsy" />
       <mustSupport value="true" />
@@ -884,11 +857,17 @@
       <min value="1" />
     </element>
     <element id="Composition.section:beurteilung">
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-explicit-type-name">
-        <valueString value="Section" />
-      </extension>
       <path value="Composition.section" />
       <sliceName value="beurteilung" />
+    </element>
+    <element id="Composition.section:beurteilung.code">
+      <path value="Composition.section.code" />
+      <patternCodeableConcept>
+        <coding>
+          <system value="http://uk-koeln.de/fhir/CodeSystem/nngm/sections" />
+          <code value="beurteilung" />
+        </coding>
+      </patternCodeableConcept>
     </element>
     <element id="Composition.section:beurteilung.entry">
       <path value="Composition.section.entry" />
