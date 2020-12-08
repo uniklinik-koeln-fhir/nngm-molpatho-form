@@ -221,18 +221,13 @@
                                     "valueCodeableConcept": {
                                         "coding": [
                                             {
-                                                "system": "http://uk-koeln.de/fhir/ValueSet/NNGM/statusAbschluss",
+                                                "system": "http://uk-koeln.de/fhir/CodeSystem/NNGM/statusAbschluss",
                                                 "code": "vollständig",
                                                 "display": "vollständig"
                                             }
                                         ]
                                     }
-                                }
-                            ]
-                        },
-                        {
-                            "url": "http://uk-koeln.de/fhir/StructureDefinition/Extension/nNGM/statusAbschluss",
-                            "extension": [
+                                },
                                 {
                                     "url": "datum",
                                     "valueDate": "2019-11-11"
@@ -244,14 +239,16 @@
                 "code": {
                     "coding": [
                         {
-                            "system": {
-                                "extension": [
-                                    {
-                                        "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
-                                        "valueCode": "not-asked"
-                                    }
-                                ]
-                            }
+                            "system": "http://uk-koeln.de/fhir/CodeSystem/nngm/anforderung-code" , 
+                            "code": "komplette_untersuchung"
+                        }
+                    ]
+                },
+                "category": {
+                    "coding": [
+                        {
+                            "system": "http://ncit.nci.nih.gov",
+                            "code": "C12801"
                         }
                     ]
                 },
@@ -733,14 +730,16 @@
                 "code": {
                     "coding": [
                         {
-                            "system": {
-                                "extension": [
-                                    {
-                                        "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
-                                        "valueCode": "not-asked"
-                                    }
-                                ]
-                            }
+                            "system": "http://uk-koeln.de/fhir/CodeSystem/nngm/anforderung-code" , 
+                            "code": "komplette_untersuchung"
+                        }
+                    ]
+                },
+                "category": {
+                    "coding": [
+                        {
+                            "system": "http://ncit.nci.nih.gov",
+                            "code": "C12801"
                         }
                     ]
                 },
@@ -820,14 +819,16 @@
                 "code": {
                     "coding": [
                         {
-                            "system": {
-                                "extension": [
-                                    {
-                                        "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
-                                        "valueCode": "not-asked"
-                                    }
-                                ]
-                            }
+                            "system": "http://uk-koeln.de/fhir/CodeSystem/nngm/anforderung-code" , 
+                            "code": "komplette_untersuchung"
+                        }
+                    ]
+                },
+                "category": {
+                    "coding": [
+                        {
+                            "system": "http://ncit.nci.nih.gov",
+                            "code": "C12801"
                         }
                     ]
                 },
@@ -1376,14 +1377,16 @@
                 "code": {
                     "coding": [
                         {
-                            "system": {
-                                "extension": [
-                                    {
-                                        "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
-                                        "valueCode": "not-asked"
-                                    }
-                                ]
-                            }
+                            "system": "http://uk-koeln.de/fhir/CodeSystem/nngm/anforderung-code" , 
+                            "code": "komplette_untersuchung"
+                        }
+                    ]
+                },
+                "category": {
+                    "coding": [
+                        {
+                            "system": "http://ncit.nci.nih.gov",
+                            "code": "C12801"
                         }
                     ]
                 },
@@ -1412,6 +1415,7 @@
                 },
                 "identifier": [
                     {
+                        "system": "http://uk-koeln.de/NamingSystem/nNGM/fallnummer",
                         "value": "1"
                     }
                 ]
