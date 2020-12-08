@@ -12,7 +12,7 @@
   "compose": {
     "include": [
       {
-        "system": "https://ncit.nci.nih.gov",
+        "system": "http://ncit.nci.nih.gov",
         "concept": [
           {
             "code": "C80488",
@@ -36,12 +36,12 @@
     "total": 3,
     "contains": [
       {
-        "system": "https://ncit.nci.nih.gov",
+        "system": "http://ncit.nci.nih.gov",
         "code": "C80488",
         "display": "Expression"
       },
       {
-        "system": "https://ncit.nci.nih.gov",
+        "system": "http://ncit.nci.nih.gov",
         "code": "C28510",
         "display": "Fusion Gene"
       },
