@@ -1,0 +1,62 @@
+{
+    "resourceType": "ValueSet",
+    "url": "http://uk-koeln.de/fhir/ValueSet/nNGM/ergebnis-ihc",
+    "version": "1.0",
+    "name": "IHC-Untersuchungsergebnis",
+    "status": "active",
+    "date": "2018-10-31",
+    "publisher": "Uniklinik Köln",
+    "description": "Untersuchungsergebnis IHC",
+    "compose": {
+        "include": [
+            {
+                "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/ergebnis",
+                "concept": [
+                    {
+                        "code": "positiv",
+                        "display": "positiv"
+                    },
+                    {
+                        "code": "fraglich",
+                        "display": "fraglich"
+                    },
+                    {
+                        "code": "negativ",
+                        "display": "negativ"
+                    },
+                    {
+                        "code": "nicht auswertbar",
+                        "display": "nicht auswertbar"
+                    }
+                ]
+            }
+        ]
+    },
+    "expansion": {
+        "identifier": "909817b4-5369-40c1-9995-a9bedbb1747f",
+        "timestamp": "2020-11-12T15:01:50+00:00",
+        "total": 4,
+        "contains": [
+            {
+                "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/ergebnis",
+                "code": "positiv",
+                "display": "positiv"
+            },
+            {
+                "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/ergebnis",
+                "code": "fraglich",
+                "display": "fraglich"
+            },
+            {
+                "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/ergebnis",
+                "code": "negativ",
+                "display": "negativ"
+            },
+            {
+                "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/ergebnis",
+                "code": "nicht auswertbar",
+                "display": "nicht auswertbar"
+            }
+        ]
+    }
+}

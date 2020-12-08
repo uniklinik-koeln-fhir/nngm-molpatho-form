@@ -124,7 +124,7 @@
         "mustSupport": true,
         "binding": {
           "strength": "required",
-          "valueSet": "http://uk-koeln.de/fhir/ValueSet/obs-codes"
+          "valueSet": "http://uk-koeln.de/fhir/ValueSet/nNGM/molpatho-obs-codes"
         }
       },
       {
@@ -397,11 +397,7 @@
           {
             "code": "Quantity"
           }
-        ],
-        "binding": {
-          "strength": "required",
-          "valueSet": "http://uk-koeln.de/fhir/ValueSet/0-3+-klassifikation"
-        }
+        ]
       },
       {
         "id": "Observation.component:pos-tumor-zellen.value[x].unit",

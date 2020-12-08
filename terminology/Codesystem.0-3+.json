@@ -14,6 +14,7 @@
   "publisher": "Uniklinik Köln",
   "description": "CodeSystem: 0, 1+, 2+, 3+",
   "copyright": "Uniklinik Köln",
+  "content": "complete",
   "concept": [
     {
       "code": "0",

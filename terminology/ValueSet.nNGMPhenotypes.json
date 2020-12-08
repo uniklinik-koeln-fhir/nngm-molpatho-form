@@ -29,5 +29,26 @@
         ]
       }
     ]
+  },
+  "expansion": {
+    "identifier": "fc2a84f7-b51a-410c-88ea-21b7061b2ebc",
+    "timestamp": "2020-11-13T11:33:48+00:00",
+    "total": 3,
+    "contains": [
+      {
+        "system": "https://ncit.nci.nih.gov",
+        "code": "C80488",
+        "display": "Expression"
+      },
+      {
+        "system": "https://ncit.nci.nih.gov",
+        "code": "C28510",
+        "display": "Fusion Gene"
+      },
+      {
+        "code": "C25418",
+        "display": "Amplification"
+      }
+    ]
   }
 }

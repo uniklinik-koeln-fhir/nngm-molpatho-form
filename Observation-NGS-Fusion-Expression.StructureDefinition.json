@@ -546,6 +546,66 @@
             "code": "integer"
           }
         ]
+      },
+      {
+        "id": "Observation.component:zweiter-fusionspartner",
+        "path": "Observation.component",
+        "sliceName": "zweiter-fusionspartner",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.component:zweiter-fusionspartner.code",
+        "path": "Observation.component.code",
+        "patternCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "48018-6"
+            }
+          ]
+        }
+      },
+      {
+        "id": "Observation.component:zweiter-fusionspartner.value[x]",
+        "path": "Observation.component.value[x]",
+        "min": 1,
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ],
+        "binding": {
+          "strength": "extensible",
+          "valueSet": "http://uk-koeln.de/fhir/ValueSet/hgnc-codes"
+        }
+      },
+      {
+        "id": "Observation.component:zweiter-fusionspartner-exon",
+        "path": "Observation.component",
+        "sliceName": "zweiter-fusionspartner-exon",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.component:zweiter-fusionspartner-exon.code",
+        "path": "Observation.component.code",
+        "patternCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/tbd-codes",
+              "code": "zweiter-fusionspartner-exon"
+            }
+          ]
+        }
+      },
+      {
+        "id": "Observation.component:zweiter-fusionspartner-exon.value[x]",
+        "path": "Observation.component.value[x]",
+        "min": 1,
+        "type": [
+          {
+            "code": "integer"
+          }
+        ]
       }
     ]
   }
