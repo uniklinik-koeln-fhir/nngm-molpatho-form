@@ -74,24 +74,9 @@
       },
       {
         "id": "Observation.status",
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-display-hint",
-            "valueString": "default: final"
-          }
-        ],
         "path": "Observation.status",
-        "mustSupport": true,
-        "binding": {
-          "extension": [
-            {
-              "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
-              "valueString": "ObservationStatus"
-            }
-          ],
-          "strength": "required",
-          "valueSet": "http://hl7.org/fhir/ValueSet/nngm-observation-status"
-        }
+        "fixedCode": "final",
+        "mustSupport": true
       },
       {
         "id": "Observation.category",
