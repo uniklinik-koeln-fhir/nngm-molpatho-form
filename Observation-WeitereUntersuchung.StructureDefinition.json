@@ -74,13 +74,8 @@
       },
       {
         "id": "Observation.status",
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-display-hint",
-            "valueString": "default: final"
-          }
-        ],
         "path": "Observation.status",
+        "fixedCode": "final",
         "mustSupport": true
       },
       {
