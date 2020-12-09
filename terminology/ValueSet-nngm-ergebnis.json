@@ -10,7 +10,7 @@
     "compose": {
         "include": [
             {
-                "system": "http://loinc.org/",
+                "system": "http://loinc.org",
                 "concept": [
                     {
                         "code": "LA6576-8",
@@ -38,22 +38,22 @@
         "total": 4,
         "contains": [
             {
-                "system": "http://loinc.org/",
+                "system": "http://loinc.org",
                 "code": "LA6576-8",
                 "display": "Positive"
             },
             {
-                "system": "http://loinc.org/",
+                "system": "http://loinc.org",
                 "code": "LA6577-6",
                 "display": "Negative"
             },
             {
-                "system": "http://loinc.org/",
+                "system": "http://loinc.org",
                 "code": "LA11884-6",
                 "display": "Indeterminate"
             },
             {
-                "system": "http://loinc.org/",
+                "system": "http://loinc.org",
                 "code": "LA18198-4",
                 "display": "No call"
             }
