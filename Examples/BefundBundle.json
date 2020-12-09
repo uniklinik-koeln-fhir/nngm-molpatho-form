@@ -314,7 +314,7 @@
                 "valueCodeableConcept": {
                     "coding": [
                         {
-                            "system": "http://uk-koeln.de/fhir/CodeSystems/nNGM/ergebnis",
+                            "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/ergebnis",
                             "code": "negativ",
                             "display": "negativ"
                         }
@@ -406,7 +406,7 @@
                 "valueCodeableConcept": {
                     "coding": [
                         {
-                            "system": "http://uk-koeln.de/fhir/CodeSystems/nNGM/ergebnis",
+                            "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/ergebnis",
                             "code": "negativ",
                             "display": "negativ"
                         }
@@ -493,7 +493,7 @@
                         "valueCodeableConcept": {
                             "coding": [
                                 {
-                                    "system": "http://hl7.org/fhir/uv/genomics-reporting/ValueSet/hgnc",
+                                    "system": "http://www.genenames.org",
                                     "code": "EGFR NM_005228.3"
                                 }
                             ]
@@ -621,7 +621,7 @@
                         "valueCodeableConcept": {
                             "coding": [
                                 {
-                                    "system": "http://hl7.org/fhir/uv/genomics-reporting/ValueSet/hgnc",
+                                    "system": "http://www.genenames.org",
                                     "code": "TP53 NM_000546.5"
                                 }
                             ]
@@ -701,14 +701,6 @@
                         "value": "01.0"
                     }
                 ],
-                "type": {
-                    "coding": [
-                        {
-                            "system": "http://hl7.org/fhir/ValueSet/nngm-device-typ",
-                            "code": "MiSeq"
-                        }
-                    ]
-                },
                 "manufacturer": "Illumina",
                 "distinctIdentifier": "nNGM v1.0"
             }
@@ -898,7 +890,7 @@
                 "valueCodeableConcept": {
                     "coding": [
                         {
-                            "system": "http://uk-koeln.de/fhir/CodeSystems/nNGM/ergebnis",
+                            "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/ergebnis",
                             "code": "positiv",
                             "display": "positiv"
                         }
@@ -908,7 +900,7 @@
                     {
                         "valueCodeableConcept": {
                             "coding": {
-                                "system": "https://ncit.nci.nih.gov",
+                                "system": "http://ncit.nci.nih.gov",
                                 "code": "C80488"
                             }
                         },
@@ -992,7 +984,7 @@
                 "valueCodeableConcept": {
                     "coding": [
                         {
-                            "system": "http://uk-koeln.de/fhir/CodeSystems/nNGM/ergebnis",
+                            "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/ergebnis",
                             "code": "negativ",
                             "display": "negativ"
                         }
@@ -1002,7 +994,7 @@
                     {
                         "valueCodeableConcept": {
                             "coding": {
-                                "system": "https://ncit.nci.nih.gov",
+                                "system": "http://ncit.nci.nih.gov",
                                 "code": "C80488"
                             }
                         },
@@ -1074,7 +1066,7 @@
                 "valueCodeableConcept": {
                     "coding": [
                         {
-                            "system": "http://uk-koeln.de/fhir/CodeSystems/nNGM/ergebnis",
+                            "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/ergebnis",
                             "code": "positiv",
                             "display": "positiv"
                         }
@@ -1084,7 +1076,7 @@
                     {
                         "valueCodeableConcept": {
                             "coding": {
-                                "system": "https://ncit.nci.nih.gov",
+                                "system": "http://ncit.nci.nih.gov",
                                 "code": "C80488"
                             }
                         },
@@ -1154,7 +1146,7 @@
                 "valueCodeableConcept": {
                     "coding": [
                         {
-                            "system": "http://uk-koeln.de/fhir/CodeSystems/nNGM/ergebnis",
+                            "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/ergebnis",
                             "code": "negativ",
                             "display": "negativ"
                         }
@@ -1164,7 +1156,7 @@
                     {
                         "valueCodeableConcept": {
                             "coding": {
-                                "system": "https://ncit.nci.nih.gov",
+                                "system": "http://ncit.nci.nih.gov",
                                 "code": "C80488"
                             }
                         },
@@ -1253,7 +1245,7 @@
                     {
                         "valueCodeableConcept": {
                             "coding": {
-                                "system": "https://ncit.nci.nih.gov",
+                                "system": "http://ncit.nci.nih.gov",
                                 "code": "C80488"
                             }
                         },
@@ -1270,9 +1262,9 @@
                 "valueCodeableConcept": {
                     "coding": [
                         {
-                            "system": "http://uk-koeln.de/fhir/CodeSystems/nNGM/ergebnis",
-                            "code": "auswertbar",
-                            "display": "auswertbar"
+                            "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/ergebnis",
+                            "code": "nicht auswertbar",
+                            "display": "nicht auswertbar"
                         }
                     ]
                 }
@@ -1334,7 +1326,7 @@
                 "valueCodeableConcept": {
                     "coding": [
                         {
-                            "system": "http://uk-koeln.de/fhir/CodeSystems/nNGM/ergebnis",
+                            "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/ergebnis",
                             "code": "negativ",
                             "display": "negativ"
                         }
@@ -1344,7 +1336,7 @@
                     {
                         "valueCodeableConcept": {
                             "coding": {
-                                "system": "https://ncit.nci.nih.gov",
+                                "system": "http://ncit.nci.nih.gov",
                                 "code": "C80488"
                             }
                         },
