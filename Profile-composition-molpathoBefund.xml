@@ -129,12 +129,22 @@
     </element>
     <element id="Composition.section:beurteilung.code">
       <path value="Composition.section.code" />
+      <min value="1" />
       <patternCodeableConcept>
         <coding>
           <system value="http://uk-koeln.de/fhir/CodeSystem/nngm/sections" />
           <code value="beurteilung" />
         </coding>
       </patternCodeableConcept>
+      <mustSupport value="true" />
+    </element>
+    <element id="Composition.section:beurteilung.code.coding.system">
+      <path value="Composition.section.code.coding.system" />
+      <fixedUri value="http://uk-koeln.de/fhir/CodeSystem/nngm/sections" />
+    </element>
+    <element id="Composition.section:beurteilung.code.coding.code">
+      <path value="Composition.section.code.coding.code" />
+      <patternCode value="beurteilung" />
     </element>
     <element id="Composition.section:beurteilung.entry">
       <path value="Composition.section.entry" />
@@ -191,11 +201,14 @@
     </element>
     <element id="Composition.section:diagnostik.code.coding.system">
       <path value="Composition.section.code.coding.system" />
+      <min value="1" />
       <fixedUri value="http://uk-koeln.de/fhir/CodeSystem/nngm/composition" />
     </element>
     <element id="Composition.section:diagnostik.code.coding.code">
       <path value="Composition.section.code.coding.code" />
+      <min value="1" />
       <patternCode value="diagnostik" />
+      <mustSupport value="false" />
     </element>
     <element id="Composition.section:diagnostik.entry.identifier">
       <path value="Composition.section.entry.identifier" />
@@ -348,7 +361,7 @@
     <element id="Composition.section:diagnostik.section:histologie">
       <path value="Composition.section.section" />
       <sliceName value="histologie" />
-       <max value="1" />
+      <max value="1" />
       <mustSupport value="true" />
     </element>
     <element id="Composition.section:diagnostik.section:histologie.code">
@@ -447,7 +460,7 @@
     <element id="Composition.section:diagnostik.section:molekularpathologie">
       <path value="Composition.section.section" />
       <sliceName value="molekularpathologie" />
-       <max value="1" />
+      <max value="1" />
       <mustSupport value="true" />
     </element>
     <element id="Composition.section:diagnostik.section:molekularpathologie.code">
@@ -565,7 +578,7 @@
     <element id="Composition.section:diagnostik.section:ngs-lung-panel">
       <path value="Composition.section.section" />
       <sliceName value="ngs-lung-panel" />
-       <max value="1" />
+      <max value="1" />
       <mustSupport value="true" />
     </element>
     <element id="Composition.section:diagnostik.section:ngs-lung-panel.code">
@@ -620,10 +633,52 @@
       <path value="Composition.section.section.entry.reference" />
       <min value="1" />
     </element>
+    <element id="Composition.section:diagnostik.section:ngs-lung-panel.entry:befund">
+      <path value="Composition.section.section.entry" />
+      <sliceName value="netzwerkZentrum" />
+      <min value="1" />
+      <max value="1" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://www.uk-koeln.de/fhir/StructureDefinition/DiagnosticReport/nNGM/befund/" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="Composition.section:diagnostik.section:ngs-lung-panel.entry:befund.reference">
+      <path value="Composition.section.section.entry.reference" />
+      <min value="1" />
+    </element>
+    <element id="Composition.section:diagnostik.section:ngs-lung-panel.entry:ngs-panel">
+      <path value="Composition.section.section.entry" />
+      <sliceName value="netzwerkZentrum" />
+      <min value="1" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Device" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="Composition.section:diagnostik.section:ngs-lung-panel.entry:ngs-panel.reference">
+      <path value="Composition.section.section.entry.reference" />
+      <min value="1" />
+    </element>
+    <element id="Composition.section:diagnostik.section:ngs-lung-panel.entry:ngs-panel-obs">
+      <path value="Composition.section.section.entry" />
+      <sliceName value="netzwerkZentrum" />
+      <min value="1" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Observation/ngs-panel" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="Composition.section:diagnostik.section:ngs-lung-panel.entry:ngs-panel-obs.reference">
+      <path value="Composition.section.section.entry.reference" />
+    </element>
     <element id="Composition.section:diagnostik.section:ngs-fusion-expression">
       <path value="Composition.section.section" />
       <sliceName value="ngs-fusion-expression" />
-       <max value="1" />
+      <max value="1" />
       <mustSupport value="true" />
     </element>
     <element id="Composition.section:diagnostik.section:ngs-fusion-expression.code">
@@ -720,7 +775,7 @@
     <element id="Composition.section:diagnostik.section:fast-track">
       <path value="Composition.section.section" />
       <sliceName value="fast-track" />
-       <max value="1" />
+      <max value="1" />
       <mustSupport value="true" />
     </element>
     <element id="Composition.section:diagnostik.section:fast-track.code">
@@ -804,7 +859,7 @@
     <element id="Composition.section:diagnostik.section:sonstige-untersuchungen">
       <path value="Composition.section.section" />
       <sliceName value="sonstige-untersuchungen" />
-       <max value="1" />
+      <max value="1" />
       <mustSupport value="true" />
     </element>
     <element id="Composition.section:diagnostik.section:sonstige-untersuchungen.code">
@@ -888,7 +943,7 @@
     <element id="Composition.section:diagnostik.section:liquid-biopsy">
       <path value="Composition.section.section" />
       <sliceName value="liquid-biopsy" />
-       <max value="1" />
+      <max value="1" />
       <mustSupport value="true" />
     </element>
     <element id="Composition.section:diagnostik.section:liquid-biopsy.code">
