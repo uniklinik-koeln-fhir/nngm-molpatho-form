@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <url value="http://uk-koeln.de/fhir/StructureDefinition/Composition/nNGM/molpatho-befund" />
-  <name value="Molpatho Befund" />
+  <name value="MolpathoBefund" />
   <status value="active" />
   <fhirVersion value="4.0.1" />
   <mapping>
@@ -35,6 +35,36 @@
   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Composition" />
   <derivation value="constraint" />
   <differential>
+    <element id="Composition.identifier">
+      <path value="Composition.identifier" />
+      <slicing>
+        <discriminator>
+          <type value="value" />
+          <path value="system" />
+        </discriminator>
+        <rules value="open" />
+      </slicing>
+    </element>
+    <element id="Composition.identifier:FallIdentifier">
+      <path value="Composition.identifier" />
+      <sliceName value="FallIdentifier" />
+      <min value="1" />
+      <fixedIdentifier>
+        <system value="http://uk-koeln.de/NamingSystem/nNGM/fallnummer" />
+      </fixedIdentifier>
+      <mustSupport value="true" />
+    </element>
+    <element id="Composition.identifier:FallIdentifier.system">
+      <path value="Composition.identifier.system" />
+      <min value="1" />
+      <fixedUri value="http://uk-koeln.de/NamingSystem/nNGM/fallnummer" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Composition.identifier:FallIdentifier.value">
+      <path value="Composition.identifier.value" />
+      <min value="1" />
+      <mustSupport value="true" />
+    </element>
     <element id="Composition.status">
       <path value="Composition.status" />
       <fixedCode value="final" />
@@ -93,788 +123,35 @@
         <rules value="closed" />
       </slicing>
     </element>
-    <element id="Composition.section:immunohistochemie">
-      <path value="Composition.section" />
-      <sliceName value="immunohistochemie" />
-      <mustSupport value="true" />
-    </element>
-    <element id="Composition.section:immunohistochemie.code">
-      <path value="Composition.section.code" />
-      <min value="1" />
-      <patternCodeableConcept>
-        <coding>
-          <system value="http://uk-koeln.de/fhir/CodeSystem/nngm/sections" />
-          <code value="immunohistochemie" />
-        </coding>
-      </patternCodeableConcept>
-    </element>
-    <element id="Composition.section:immunohistochemie.entry">
-      <path value="Composition.section.entry" />
-      <slicing>
-        <discriminator>
-          <type value="profile" />
-          <path value="this.resolve()" />
-        </discriminator>
-        <rules value="open" />
-      </slicing>
-      <mustSupport value="true" />
-    </element>
-    <element id="Composition.section:immunohistochemie.entry:specimen">
-      <path value="Composition.section.entry" />
-      <sliceName value="specimen" />
-      <max value="1" />
-      <type>
-        <code value="Reference" />
-        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Specimen/nNGM" />
-      </type>
-      <mustSupport value="true" />
-    </element>
-    <element id="Composition.section:immunohistochemie.entry:specimen.reference">
-      <path value="Composition.section.entry.reference" />
-      <min value="1" />
-    </element>
-    <element id="Composition.section:immunohistochemie.entry:befund">
-      <path value="Composition.section.entry" />
-      <sliceName value="befund" />
-      <min value="1" />
-      <max value="1" />
-      <type>
-        <code value="Reference" />
-        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/DiagnosticReport/nNGM/befund" />
-      </type>
-      <mustSupport value="true" />
-    </element>
-    <element id="Composition.section:immunohistochemie.entry:befund.reference">
-      <path value="Composition.section.entry.reference" />
-      <min value="1" />
-    </element>
-    <element id="Composition.section:immunohistochemie.entry:standort">
-      <path value="Composition.section.entry" />
-      <sliceName value="standort" />
-      <min value="1" />
-      <max value="1" />
-      <type>
-        <code value="Reference" />
-        <targetProfile value="http://clinicalsite.org/fhir/StructureDefinition/organizationalunit" />
-      </type>
-      <mustSupport value="true" />
-    </element>
-    <element id="Composition.section:immunohistochemie.entry:standort.reference">
-      <path value="Composition.section.entry.reference" />
-      <min value="1" />
-    </element>
-    <element id="Composition.section:immunohistochemie.entry:ihc">
-      <path value="Composition.section.entry" />
-      <sliceName value="ihc" />
-      <type>
-        <code value="Reference" />
-        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Observation/ihc" />
-      </type>
-      <mustSupport value="true" />
-    </element>
-    <element id="Composition.section:immunohistochemie.entry:ihc.reference">
-      <path value="Composition.section.entry.reference" />
-      <min value="1" />
-    </element>
-    <element id="Composition.section:immunohistochemie.entry:anforderungTestung">
-      <path value="Composition.section.entry" />
-      <sliceName value="anforderungTestung" />
-      <min value="1" />
-      <max value="1" />
-      <type>
-        <code value="Reference" />
-        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/ServiceRequest/nNGM/testung" />
-      </type>
-      <mustSupport value="true" />
-    </element>
-    <element id="Composition.section:immunohistochemie.entry:anforderungTestung.reference">
-      <path value="Composition.section.entry.reference" />
-      <min value="1" />
-    </element>
-    <element id="Composition.section:histologie">
-      <path value="Composition.section" />
-      <sliceName value="histologie" />
-      <mustSupport value="true" />
-    </element>
-    <element id="Composition.section:histologie.code">
-      <path value="Composition.section.code" />
-      <min value="1" />
-      <patternCodeableConcept>
-        <coding>
-          <system value="http://uk-koeln.de/fhir/CodeSystem/nngm/sections" />
-          <code value="histologie" />
-        </coding>
-      </patternCodeableConcept>
-    </element>
-    <element id="Composition.section:histologie.entry">
-      <path value="Composition.section.entry" />
-      <slicing>
-        <discriminator>
-          <type value="profile" />
-          <path value="this.resolve()" />
-        </discriminator>
-        <rules value="closed" />
-      </slicing>
-    </element>
-    <element id="Composition.section:histologie.entry:anforderungTestung">
-      <path value="Composition.section.entry" />
-      <sliceName value="anforderungTestung" />
-      <min value="1" />
-      <max value="1" />
-      <type>
-        <code value="Reference" />
-        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/ServiceRequest/nNGM/testung" />
-      </type>
-      <mustSupport value="true" />
-    </element>
-    <element id="Composition.section:histologie.entry:anforderungTestung.reference">
-      <path value="Composition.section.entry.reference" />
-      <min value="1" />
-    </element>
-    <element id="Composition.section:histologie.entry:specimen">
-      <path value="Composition.section.entry" />
-      <sliceName value="specimen" />
-      <min value="1" />
-      <max value="1" />
-      <type>
-        <code value="Reference" />
-        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Specimen/nNGM" />
-      </type>
-      <mustSupport value="true" />
-    </element>
-    <element id="Composition.section:histologie.entry:specimen.reference">
-      <path value="Composition.section.entry.reference" />
-      <min value="1" />
-    </element>
-    <element id="Composition.section:histologie.entry:pathologie">
-      <path value="Composition.section.entry" />
-      <sliceName value="pathologie" />
-      <min value="1" />
-      <max value="1" />
-      <type>
-        <code value="Reference" />
-        <targetProfile value="http://clinicalsite.org/fhir/StructureDefinition/organizationalunit" />
-      </type>
-      <mustSupport value="true" />
-    </element>
-    <element id="Composition.section:histologie.entry:pathologie.reference">
-      <path value="Composition.section.entry.reference" />
-      <min value="1" />
-    </element>
-    <element id="Composition.section:histologie.entry:histologie">
-      <path value="Composition.section.entry" />
-      <sliceName value="histologie" />
-      <type>
-        <code value="Reference" />
-        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Observation/nNGM/histologie" />
-      </type>
-      <mustSupport value="true" />
-    </element>
-    <element id="Composition.section:histologie.entry:histologie.reference">
-      <path value="Composition.section.entry.reference" />
-      <min value="1" />
-    </element>
-    <element id="Composition.section:histologie.entry:befund">
-      <path value="Composition.section.entry" />
-      <sliceName value="befund" />
-      <min value="1" />
-      <max value="1" />
-      <type>
-        <code value="Reference" />
-        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/DiagnosticReport/nNGM/befund" />
-      </type>
-      <mustSupport value="true" />
-    </element>
-    <element id="Composition.section:histologie.entry:befund.reference">
-      <path value="Composition.section.entry.reference" />
-      <min value="1" />
-    </element>
-    <element id="Composition.section:molekularpathologie">
-      <path value="Composition.section" />
-      <sliceName value="molekularpathologie" />
-      <mustSupport value="true" />
-    </element>
-    <element id="Composition.section:molekularpathologie.code">
-      <path value="Composition.section.code" />
-      <min value="1" />
-      <patternCodeableConcept>
-        <coding>
-          <system value="http://uk-koeln.de/fhir/CodeSystem/nngm/sections" />
-          <code value="molekularpathologie" />
-        </coding>
-      </patternCodeableConcept>
-    </element>
-    <element id="Composition.section:molekularpathologie.entry">
-      <path value="Composition.section.entry" />
-      <slicing>
-        <discriminator>
-          <type value="profile" />
-          <path value="this.resolve()" />
-        </discriminator>
-        <rules value="closed" />
-      </slicing>
-    </element>
-    <element id="Composition.section:molekularpathologie.entry:anforderungTestung">
-      <path value="Composition.section.entry" />
-      <sliceName value="anforderungTestung" />
-      <min value="1" />
-      <max value="1" />
-      <type>
-        <code value="Reference" />
-        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/ServiceRequest/nNGM/testung" />
-      </type>
-      <mustSupport value="true" />
-    </element>
-    <element id="Composition.section:molekularpathologie.entry:anforderungTestung.reference">
-      <path value="Composition.section.entry.reference" />
-      <min value="1" />
-    </element>
-    <element id="Composition.section:molekularpathologie.entry:specimen">
-      <path value="Composition.section.entry" />
-      <sliceName value="specimen" />
-      <min value="1" />
-      <max value="1" />
-      <type>
-        <code value="Reference" />
-        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Specimen/nNGM" />
-      </type>
-      <mustSupport value="true" />
-    </element>
-    <element id="Composition.section:molekularpathologie.entry:specimen.reference">
-      <path value="Composition.section.entry.reference" />
-      <min value="1" />
-    </element>
-    <element id="Composition.section:molekularpathologie.entry:netzwerkZentrum">
-      <path value="Composition.section.entry" />
-      <sliceName value="netzwerkZentrum" />
-      <min value="1" />
-      <max value="1" />
-      <type>
-        <code value="Reference" />
-        <targetProfile value="http://clinicalsite.org/fhir/StructureDefinition/organizationalunit" />
-      </type>
-      <mustSupport value="true" />
-    </element>
-    <element id="Composition.section:molekularpathologie.entry:netzwerkZentrum.reference">
-      <path value="Composition.section.entry.reference" />
-      <min value="1" />
-    </element>
-    <element id="Composition.section:molekularpathologie.entry:befund">
-      <path value="Composition.section.entry" />
-      <sliceName value="befund" />
-      <min value="1" />
-      <max value="1" />
-      <type>
-        <code value="Reference" />
-        <targetProfile value="https://www.uk-koeln.de/fhir/StructureDefinition/DiagnosticReport/nNGM/befund/" />
-      </type>
-      <mustSupport value="true" />
-    </element>
-    <element id="Composition.section:molekularpathologie.entry:befund.reference">
-      <path value="Composition.section.entry.reference" />
-      <min value="1" />
-    </element>
-    <element id="Composition.section:molekularpathologie.entry:cish">
-      <path value="Composition.section.entry" />
-      <sliceName value="cish" />
-      <type>
-        <code value="Reference" />
-        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Observation/ish" />
-      </type>
-      <mustSupport value="true" />
-    </element>
-    <element id="Composition.section:molekularpathologie.entry:cish.reference">
-      <path value="Composition.section.entry.reference" />
-      <mustSupport value="true" />
-    </element>
-    <element id="Composition.section:molekularpathologie.entry:fish">
-      <path value="Composition.section.entry" />
-      <sliceName value="fish" />
-      <type>
-        <code value="Reference" />
-        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Observation/fish" />
-      </type>
-      <mustSupport value="true" />
-    </element>
-    <element id="Composition.section:molekularpathologie.entry:fish.reference">
-      <path value="Composition.section.entry.reference" />
-      <mustSupport value="true" />
-    </element>
-    <element id="Composition.section:ngs-lung-panel">
-      <path value="Composition.section" />
-      <sliceName value="ngs-lung-panel" />
-      <mustSupport value="true" />
-    </element>
-    <element id="Composition.section:ngs-lung-panel.code">
-      <path value="Composition.section.code" />
-      <min value="1" />
-      <patternCodeableConcept>
-        <coding>
-          <system value="http://uk-koeln.de/fhir/CodeSystem/nngm/sections" />
-          <code value="ngs-lung-panel" />
-        </coding>
-      </patternCodeableConcept>
-    </element>
-    <element id="Composition.section:ngs-lung-panel.entry">
-      <path value="Composition.section.entry" />
-      <slicing>
-        <discriminator>
-          <type value="profile" />
-          <path value="this.resolve()" />
-        </discriminator>
-        <rules value="closed" />
-      </slicing>
-    </element>
-    <element id="Composition.section:ngs-lung-panel.entry:anforderungTestung">
-      <path value="Composition.section.entry" />
-      <sliceName value="anforderungTestung" />
-      <min value="1" />
-      <max value="1" />
-      <type>
-        <code value="Reference" />
-        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/ServiceRequest/nNGM/testung" />
-      </type>
-      <mustSupport value="true" />
-    </element>
-    <element id="Composition.section:ngs-lung-panel.entry:anforderungTestung.reference">
-      <path value="Composition.section.entry.reference" />
-      <min value="1" />
-    </element>
-    <element id="Composition.section:ngs-lung-panel.entry:netzwerkZentrum">
-      <path value="Composition.section.entry" />
-      <sliceName value="netzwerkZentrum" />
-      <min value="1" />
-      <max value="1" />
-      <type>
-        <code value="Reference" />
-        <targetProfile value="http://clinicalsite.org/fhir/StructureDefinition/organizationalunit" />
-      </type>
-      <mustSupport value="true" />
-    </element>
-    <element id="Composition.section:ngs-lung-panel.entry:netzwerkZentrum.reference">
-      <path value="Composition.section.entry.reference" />
-      <min value="1" />
-    </element>
-    <element id="Composition.section:ngs-lung-panel.entry:befund">
-      <path value="Composition.section.entry" />
-      <sliceName value="befund" />
-      <min value="1" />
-      <max value="1" />
-      <type>
-        <code value="Reference" />
-        <targetProfile value="https://www.uk-koeln.de/fhir/StructureDefinition/DiagnosticReport/nNGM/befund/" />
-      </type>
-      <mustSupport value="true" />
-    </element>
-    <element id="Composition.section:ngs-lung-panel.entry:befund.reference">
-      <path value="Composition.section.entry.reference" />
-      <min value="1" />
-    </element>
-    <element id="Composition.section:ngs-lung-panel.entry:ngs-panel">
-      <path value="Composition.section.entry" />
-      <sliceName value="ngs-panel" />
-      <min value="1" />
-      <type>
-        <code value="Reference" />
-        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Device" />
-      </type>
-      <mustSupport value="true" />
-    </element>
-    <element id="Composition.section:ngs-lung-panel.entry:ngs-panel.reference">
-      <path value="Composition.section.entry.reference" />
-      <min value="1" />
-    </element>
-    <element id="Composition.section:ngs-lung-panel.entry:ngs-panel-obs">
-      <path value="Composition.section.entry" />
-      <sliceName value="ngs-panel-obs" />
-      <type>
-        <code value="Reference" />
-        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Observation/ngs-panel" />
-      </type>
-      <mustSupport value="true" />
-    </element>
-    <element id="Composition.section:ngs-lung-panel.entry:ngs-panel-obs.reference">
-      <path value="Composition.section.entry.reference" />
-      <mustSupport value="true" />
-    </element>
-    <element id="Composition.section:ngs-fusion-expression">
-      <path value="Composition.section" />
-      <sliceName value="ngs-fusion-expression" />
-      <mustSupport value="true" />
-    </element>
-    <element id="Composition.section:ngs-fusion-expression.code">
-      <path value="Composition.section.code" />
-      <min value="1" />
-      <patternCodeableConcept>
-        <coding>
-          <system value="http://uk-koeln.de/fhir/CodeSystem/nngm/sections" />
-          <code value="fusion-ngs" />
-        </coding>
-      </patternCodeableConcept>
-    </element>
-    <element id="Composition.section:ngs-fusion-expression.entry">
-      <path value="Composition.section.entry" />
-      <slicing>
-        <discriminator>
-          <type value="profile" />
-          <path value="this.resolve()" />
-        </discriminator>
-        <rules value="closed" />
-      </slicing>
-    </element>
-    <element id="Composition.section:ngs-fusion-expression.entry:anforderungTestung">
-      <path value="Composition.section.entry" />
-      <sliceName value="anforderungTestung" />
-      <min value="1" />
-      <max value="1" />
-      <type>
-        <code value="Reference" />
-        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/ServiceRequest/nNGM/testung" />
-      </type>
-      <mustSupport value="true" />
-    </element>
-    <element id="Composition.section:ngs-fusion-expression.entry:anforderungTestung.reference">
-      <path value="Composition.section.entry.reference" />
-      <min value="1" />
-    </element>
-    <element id="Composition.section:ngs-fusion-expression.entry:specimen">
-      <path value="Composition.section.entry" />
-      <sliceName value="specimen" />
-      <type>
-        <code value="Reference" />
-        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Specimen/nNGM" />
-      </type>
-      <mustSupport value="true" />
-    </element>
-    <element id="Composition.section:ngs-fusion-expression.entry:specimen.reference">
-      <path value="Composition.section.entry.reference" />
-      <min value="1" />
-    </element>
-    <element id="Composition.section:ngs-fusion-expression.entry:netzwerkZentrum">
-      <path value="Composition.section.entry" />
-      <sliceName value="netzwerkZentrum" />
-      <min value="1" />
-      <max value="1" />
-      <type>
-        <code value="Reference" />
-        <targetProfile value="http://clinicalsite.org/fhir/StructureDefinition/organizationalunit" />
-      </type>
-      <mustSupport value="true" />
-    </element>
-    <element id="Composition.section:ngs-fusion-expression.entry:netzwerkZentrum.reference">
-      <path value="Composition.section.entry.reference" />
-      <min value="1" />
-    </element>
-    <element id="Composition.section:ngs-fusion-expression.entry:befund">
-      <path value="Composition.section.entry" />
-      <sliceName value="befund" />
-      <min value="1" />
-      <max value="1" />
-      <type>
-        <code value="Reference" />
-        <targetProfile value="https://www.uk-koeln.de/fhir/StructureDefinition/DiagnosticReport/nNGM/befund/" />
-      </type>
-      <mustSupport value="true" />
-    </element>
-    <element id="Composition.section:ngs-fusion-expression.entry:befund.reference">
-      <path value="Composition.section.entry.reference" />
-      <min value="1" />
-    </element>
-    <element id="Composition.section:ngs-fusion-expression.entry:ngs-fusion">
-      <path value="Composition.section.entry" />
-      <sliceName value="ngs-fusion" />
-      <type>
-        <code value="Reference" />
-        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Observation/ngs-fusion-expression" />
-      </type>
-      <mustSupport value="true" />
-    </element>
-    <element id="Composition.section:ngs-fusion-expression.entry:ngs-fusion.reference">
-      <path value="Composition.section.entry.reference" />
-      <mustSupport value="true" />
-    </element>
-    <element id="Composition.section:fast-track">
-      <path value="Composition.section" />
-      <sliceName value="fast-track" />
-      <mustSupport value="true" />
-    </element>
-    <element id="Composition.section:fast-track.code">
-      <path value="Composition.section.code" />
-      <min value="1" />
-      <patternCodeableConcept>
-        <coding>
-          <system value="http://uk-koeln.de/fhir/CodeSystem/nngm/sections" />
-          <code value="fast-track" />
-        </coding>
-      </patternCodeableConcept>
-    </element>
-    <element id="Composition.section:fast-track.entry">
-      <path value="Composition.section.entry" />
-      <slicing>
-        <discriminator>
-          <type value="profile" />
-          <path value="this.resolve()" />
-        </discriminator>
-        <rules value="closed" />
-      </slicing>
-    </element>
-    <element id="Composition.section:fast-track.entry:anforderungTestung">
-      <path value="Composition.section.entry" />
-      <sliceName value="anforderungTestung" />
-      <min value="1" />
-      <max value="1" />
-      <type>
-        <code value="Reference" />
-        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/ServiceRequest/nNGM/testung" />
-      </type>
-      <mustSupport value="true" />
-    </element>
-    <element id="Composition.section:fast-track.entry:anforderungTestung.reference">
-      <path value="Composition.section.entry.reference" />
-      <min value="1" />
-    </element>
-    <element id="Composition.section:fast-track.entry:netzwerkZentrum">
-      <path value="Composition.section.entry" />
-      <sliceName value="netzwerkZentrum" />
-      <min value="1" />
-      <max value="1" />
-      <type>
-        <code value="Reference" />
-        <targetProfile value="http://clinicalsite.org/fhir/StructureDefinition/organizationalunit" />
-      </type>
-      <mustSupport value="true" />
-    </element>
-    <element id="Composition.section:fast-track.entry:netzwerkZentrum.reference">
-      <path value="Composition.section.entry.reference" />
-      <min value="1" />
-    </element>
-    <element id="Composition.section:fast-track.entry:befund">
-      <path value="Composition.section.entry" />
-      <sliceName value="befund" />
-      <min value="1" />
-      <max value="1" />
-      <type>
-        <code value="Reference" />
-        <targetProfile value="https://www.uk-koeln.de/fhir/StructureDefinition/DiagnosticReport/nNGM/befund/" />
-      </type>
-      <mustSupport value="true" />
-    </element>
-    <element id="Composition.section:fast-track.entry:befund.reference">
-      <path value="Composition.section.entry.reference" />
-      <min value="1" />
-    </element>
-    <element id="Composition.section:fast-track.entry:ngs-panel">
-      <path value="Composition.section.entry" />
-      <sliceName value="ngs-panel" />
-      <type>
-        <code value="Reference" />
-        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Observation/fasttrack" />
-      </type>
-      <mustSupport value="true" />
-    </element>
-    <element id="Composition.section:fast-track.entry:ngs-panel.reference">
-      <path value="Composition.section.entry.reference" />
-      <min value="1" />
-    </element>
-    <element id="Composition.section:sonstige-untersuchungen">
-      <path value="Composition.section" />
-      <sliceName value="sonstige-untersuchungen" />
-      <mustSupport value="true" />
-    </element>
-    <element id="Composition.section:sonstige-untersuchungen.code">
-      <path value="Composition.section.code" />
-      <min value="1" />
-      <patternCodeableConcept>
-        <coding>
-          <system value="http://uk-koeln.de/fhir/CodeSystem/nngm/sections" />
-          <code value="sonstige-untersuchungen" />
-        </coding>
-      </patternCodeableConcept>
-    </element>
-    <element id="Composition.section:sonstige-untersuchungen.entry">
-      <path value="Composition.section.entry" />
-      <slicing>
-        <discriminator>
-          <type value="profile" />
-          <path value="this.resolve()" />
-        </discriminator>
-        <rules value="closed" />
-      </slicing>
-    </element>
-    <element id="Composition.section:sonstige-untersuchungen.entry:anforderungTestung">
-      <path value="Composition.section.entry" />
-      <sliceName value="anforderungTestung" />
-      <min value="1" />
-      <max value="1" />
-      <type>
-        <code value="Reference" />
-        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/ServiceRequest/nNGM/testung" />
-      </type>
-      <mustSupport value="true" />
-    </element>
-    <element id="Composition.section:sonstige-untersuchungen.entry:anforderungTestung.reference">
-      <path value="Composition.section.entry.reference" />
-      <min value="1" />
-    </element>
-    <element id="Composition.section:sonstige-untersuchungen.entry:netzwerkZentrum">
-      <path value="Composition.section.entry" />
-      <sliceName value="netzwerkZentrum" />
-      <min value="1" />
-      <max value="1" />
-      <type>
-        <code value="Reference" />
-        <targetProfile value="http://clinicalsite.org/fhir/StructureDefinition/organizationalunit" />
-      </type>
-      <mustSupport value="true" />
-    </element>
-    <element id="Composition.section:sonstige-untersuchungen.entry:netzwerkZentrum.reference">
-      <path value="Composition.section.entry.reference" />
-      <min value="1" />
-    </element>
-    <element id="Composition.section:sonstige-untersuchungen.entry:befund">
-      <path value="Composition.section.entry" />
-      <sliceName value="befund" />
-      <min value="1" />
-      <max value="1" />
-      <type>
-        <code value="Reference" />
-        <targetProfile value="https://www.uk-koeln.de/fhir/StructureDefinition/DiagnosticReport/nNGM/befund/" />
-      </type>
-      <mustSupport value="true" />
-    </element>
-    <element id="Composition.section:sonstige-untersuchungen.entry:befund.reference">
-      <path value="Composition.section.entry.reference" />
-      <min value="1" />
-    </element>
-    <element id="Composition.section:sonstige-untersuchungen.entry:untersuchung">
-      <path value="Composition.section.entry" />
-      <sliceName value="untersuchung" />
-      <type>
-        <code value="Reference" />
-        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Observation/weitere-untersuchung" />
-      </type>
-      <mustSupport value="true" />
-    </element>
-    <element id="Composition.section:sonstige-untersuchungen.entry:untersuchung.reference">
-      <path value="Composition.section.entry.reference" />
-      <min value="1" />
-    </element>
-    <element id="Composition.section:liquid-biopsy">
-      <path value="Composition.section" />
-      <sliceName value="liquid-biopsy" />
-      <mustSupport value="true" />
-    </element>
-    <element id="Composition.section:liquid-biopsy.code">
-      <path value="Composition.section.code" />
-      <min value="1" />
-      <patternCodeableConcept>
-        <coding>
-          <system value="http://uk-koeln.de/fhir/CodeSystem/nngm/sections" />
-          <code value="liquid-biopsy" />
-        </coding>
-      </patternCodeableConcept>
-    </element>
-    <element id="Composition.section:liquid-biopsy.entry">
-      <path value="Composition.section.entry" />
-      <slicing>
-        <discriminator>
-          <type value="profile" />
-          <path value="this.resolve()" />
-        </discriminator>
-        <rules value="closed" />
-      </slicing>
-    </element>
-    <element id="Composition.section:liquid-biopsy.entry:anforderungTestung">
-      <path value="Composition.section.entry" />
-      <sliceName value="anforderungTestung" />
-      <min value="1" />
-      <max value="1" />
-      <type>
-        <code value="Reference" />
-        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/ServiceRequest/nNGM/testung" />
-      </type>
-      <mustSupport value="true" />
-    </element>
-    <element id="Composition.section:liquid-biopsy.entry:anforderungTestung.reference">
-      <path value="Composition.section.entry.reference" />
-      <min value="1" />
-    </element>
-    <element id="Composition.section:liquid-biopsy.entry:netzwerkZentrum">
-      <path value="Composition.section.entry" />
-      <sliceName value="netzwerkZentrum" />
-      <min value="1" />
-      <max value="1" />
-      <type>
-        <code value="Reference" />
-        <targetProfile value="http://clinicalsite.org/fhir/StructureDefinition/organizationalunit" />
-      </type>
-      <mustSupport value="true" />
-    </element>
-    <element id="Composition.section:liquid-biopsy.entry:netzwerkZentrum.reference">
-      <path value="Composition.section.entry.reference" />
-      <min value="1" />
-    </element>
-    <element id="Composition.section:liquid-biopsy.entry:befund">
-      <path value="Composition.section.entry" />
-      <sliceName value="befund" />
-      <min value="1" />
-      <max value="1" />
-      <type>
-        <code value="Reference" />
-        <targetProfile value="https://www.uk-koeln.de/fhir/StructureDefinition/DiagnosticReport/nNGM/befund/" />
-      </type>
-      <mustSupport value="true" />
-    </element>
-    <element id="Composition.section:liquid-biopsy.entry:befund.reference">
-      <path value="Composition.section.entry.reference" />
-      <min value="1" />
-    </element>
-    <element id="Composition.section:liquid-biopsy.entry:liquid-biopsy">
-      <path value="Composition.section.entry" />
-      <sliceName value="liquid-biopsy" />
-      <type>
-        <code value="Reference" />
-        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Observation/liquid-biopsy" />
-      </type>
-      <mustSupport value="true" />
-    </element>
-    <element id="Composition.section:liquid-biopsy.entry:liquid-biopsy.reference">
-      <path value="Composition.section.entry.reference" />
-      <min value="1" />
-    </element>
-    <element id="Composition.section:liquid-biopsy.entry:specimen">
-      <path value="Composition.section.entry" />
-      <sliceName value="specimen" />
-      <max value="1" />
-      <type>
-        <code value="Reference" />
-        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Specimen/nNGM" />
-      </type>
-      <mustSupport value="true" />
-    </element>
-    <element id="Composition.section:liquid-biopsy.entry:specimen.reference">
-      <path value="Composition.section.entry.reference" />
-      <min value="1" />
-    </element>
     <element id="Composition.section:beurteilung">
       <path value="Composition.section" />
       <sliceName value="beurteilung" />
     </element>
     <element id="Composition.section:beurteilung.code">
       <path value="Composition.section.code" />
+      <min value="1" />
       <patternCodeableConcept>
         <coding>
           <system value="http://uk-koeln.de/fhir/CodeSystem/nngm/sections" />
           <code value="beurteilung" />
         </coding>
       </patternCodeableConcept>
+      <mustSupport value="true" />
+    </element>
+    <element id="Composition.section:beurteilung.code.coding.system">
+      <path value="Composition.section.code.coding.system" />
+      <fixedUri value="http://uk-koeln.de/fhir/CodeSystem/nngm/sections" />
+    </element>
+    <element id="Composition.section:beurteilung.code.coding.code">
+      <path value="Composition.section.code.coding.code" />
+      <patternCode value="beurteilung" />
     </element>
     <element id="Composition.section:beurteilung.entry">
       <path value="Composition.section.entry" />
       <slicing>
         <discriminator>
           <type value="profile" />
-          <path value="$this.resolve()" />
+          <path value="this.resolve()" />
         </discriminator>
         <rules value="closed" />
       </slicing>
@@ -904,6 +181,861 @@
     </element>
     <element id="Composition.section:beurteilung.entry:beurteilung.reference">
       <path value="Composition.section.entry.reference" />
+      <min value="1" />
+    </element>
+    <element id="Composition.section:diagnostik">
+      <path value="Composition.section" />
+      <sliceName value="diagnostik" />
+      <min value="1" />
+    </element>
+    <element id="Composition.section:diagnostik.title">
+      <path value="Composition.section.title" />
+      <min value="1" />
+      <fixedString value="diagnostik" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Composition.section:diagnostik.code">
+      <path value="Composition.section.code" />
+      <min value="1" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Composition.section:diagnostik.code.coding.system">
+      <path value="Composition.section.code.coding.system" />
+      <min value="1" />
+      <fixedUri value="http://uk-koeln.de/fhir/CodeSystem/nngm/composition" />
+    </element>
+    <element id="Composition.section:diagnostik.code.coding.code">
+      <path value="Composition.section.code.coding.code" />
+      <min value="1" />
+      <patternCode value="diagnostik" />
+      <mustSupport value="false" />
+    </element>
+    <element id="Composition.section:diagnostik.entry.identifier">
+      <path value="Composition.section.entry.identifier" />
+      <slicing>
+        <discriminator>
+          <type value="value" />
+          <path value="system" />
+        </discriminator>
+        <rules value="closed" />
+      </slicing>
+    </element>
+    <element id="Composition.section:diagnostik.entry.identifier:formularId">
+      <path value="Composition.section.entry.identifier" />
+      <sliceName value="formularId" />
+      <fixedIdentifier>
+        <system value="http://uk-koeln.de/NamingSystem/nNGM/formularId" />
+      </fixedIdentifier>
+      <mustSupport value="true" />
+    </element>
+    <element id="Composition.section:diagnostik.entry.identifier:formularId.system">
+      <path value="Composition.section.entry.identifier.system" />
+      <min value="1" />
+      <fixedUri value="http://uk-koeln.de/NamingSystem/nNGM/formularId" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Composition.section:diagnostik.entry.identifier:formularId.value">
+      <path value="Composition.section.entry.identifier.value" />
+      <min value="1" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Composition.section:diagnostik.section">
+      <path value="Composition.section.section" />
+      <slicing>
+        <discriminator>
+          <type value="value" />
+          <path value="code" />
+        </discriminator>
+        <rules value="closed" />
+      </slicing>
+    </element>
+    <element id="Composition.section:diagnostik.section.title">
+      <path value="Composition.section.section.title" />
+      <mustSupport value="false" />
+    </element>
+    <element id="Composition.section:diagnostik.section:immunhistochemie">
+      <path value="Composition.section.section" />
+      <sliceName value="immunhistochemie" />
+      <max value="1" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Composition.section:diagnostik.section:immunhistochemie.title">
+      <path value="Composition.section.section.title" />
+      <fixedString value="immunhistochemie" />
+    </element>
+    <element id="Composition.section:diagnostik.section:immunhistochemie.code">
+      <path value="Composition.section.section.code" />
+      <min value="1" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Composition.section:diagnostik.section:immunhistochemie.code.coding.system">
+      <path value="Composition.section.section.code.coding.system" />
+      <fixedUri value="http://uk-koeln.de/fhir/CodeSystem/nngm/composition" />
+    </element>
+    <element id="Composition.section:diagnostik.section:immunhistochemie.code.coding.code">
+      <path value="Composition.section.section.code.coding.code" />
+      <patternCode value="immunhistochemie" />
+    </element>
+    <element id="Composition.section:diagnostik.section:immunhistochemie.entry">
+      <path value="Composition.section.section.entry" />
+      <slicing>
+        <discriminator>
+          <type value="profile" />
+          <path value="this.resolve()" />
+        </discriminator>
+        <rules value="closed" />
+      </slicing>
+    </element>
+    <element id="Composition.section:diagnostik.section:immunhistochemie.entry:specimen">
+      <path value="Composition.section.section.entry" />
+      <sliceName value="specimen" />
+      <max value="1" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Specimen/nNGM" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="Composition.section:diagnostik.section:immunhistochemie.entry:specimen.reference">
+      <path value="Composition.section.section.entry.reference" />
+      <min value="1" />
+    </element>
+    <element id="Composition.section:diagnostik.section:immunhistochemie.entry:befund">
+      <path value="Composition.section.section.entry" />
+      <sliceName value="befund" />
+      <min value="1" />
+      <max value="1" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/DiagnosticReport/nNGM/befund" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="Composition.section:diagnostik.section:immunhistochemie.entry:befund.reference">
+      <path value="Composition.section.section.entry.reference" />
+      <min value="1" />
+    </element>
+    <element id="Composition.section:diagnostik.section:immunhistochemie.entry:standort">
+      <path value="Composition.section.section.entry" />
+      <sliceName value="standort" />
+      <min value="1" />
+      <max value="1" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="http://clinicalsite.org/fhir/StructureDefinition/organizationalunit" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="Composition.section:diagnostik.section:immunhistochemie.entry:standort.reference">
+      <path value="Composition.section.section.entry.reference" />
+      <min value="1" />
+    </element>
+    <element id="Composition.section:diagnostik.section:immunhistochemie.entry:ihc">
+      <path value="Composition.section.section.entry" />
+      <sliceName value="ihc" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Observation/ihc" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="Composition.section:diagnostik.section:immunhistochemie.entry:ihc.reference">
+      <path value="Composition.section.section.entry.reference" />
+      <min value="1" />
+    </element>
+    <element id="Composition.section:diagnostik.section:immunhistochemie.entry:anforderungTestung">
+      <path value="Composition.section.section.entry" />
+      <sliceName value="anforderungTestung" />
+      <min value="1" />
+      <max value="1" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/ServiceRequest/nNGM/testung" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="Composition.section:diagnostik.section:immunhistochemie.entry:anforderungTestung.reference">
+      <path value="Composition.section.section.entry.reference" />
+      <min value="1" />
+    </element>
+    <element id="Composition.section:diagnostik.section:histologie">
+      <path value="Composition.section.section" />
+      <sliceName value="histologie" />
+      <max value="1" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Composition.section:diagnostik.section:histologie.code">
+      <path value="Composition.section.section.code" />
+      <min value="1" />
+      <patternCodeableConcept>
+        <coding>
+          <system value="http://uk-koeln.de/fhir/CodeSystem/nngm/sections" />
+          <code value="histologie" />
+        </coding>
+      </patternCodeableConcept>
+    </element>
+    <element id="Composition.section:diagnostik.section:histologie.entry">
+      <path value="Composition.section.section.entry" />
+      <slicing>
+        <discriminator>
+          <type value="profile" />
+          <path value="this.resolve()" />
+        </discriminator>
+        <rules value="closed" />
+      </slicing>
+    </element>
+    <element id="Composition.section:diagnostik.section:histologie.entry:anforderungTestung">
+      <path value="Composition.section.section.entry" />
+      <sliceName value="anforderungTestung" />
+      <min value="1" />
+      <max value="1" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/ServiceRequest/nNGM/testung" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="Composition.section:diagnostik.section:histologie.entry:anforderungTestung.reference">
+      <path value="Composition.section.section.entry.reference" />
+      <min value="1" />
+    </element>
+    <element id="Composition.section:diagnostik.section:histologie.entry:specimen">
+      <path value="Composition.section.section.entry" />
+      <sliceName value="specimen" />
+      <min value="1" />
+      <max value="1" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Specimen/nNGM" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="Composition.section:diagnostik.section:histologie.entry:specimen.reference">
+      <path value="Composition.section.section.entry.reference" />
+      <min value="1" />
+    </element>
+    <element id="Composition.section:diagnostik.section:histologie.entry:pathologie">
+      <path value="Composition.section.section.entry" />
+      <sliceName value="pathologie" />
+      <min value="1" />
+      <max value="1" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="http://clinicalsite.org/fhir/StructureDefinition/organizationalunit" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="Composition.section:diagnostik.section:histologie.entry:pathologie.reference">
+      <path value="Composition.section.section.entry.reference" />
+      <min value="1" />
+    </element>
+    <element id="Composition.section:diagnostik.section:histologie.entry:histologie">
+      <path value="Composition.section.section.entry" />
+      <sliceName value="histologie" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Observation/nNGM/histologie" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="Composition.section:diagnostik.section:histologie.entry:histologie.reference">
+      <path value="Composition.section.section.entry.reference" />
+      <min value="1" />
+    </element>
+    <element id="Composition.section:diagnostik.section:histologie.entry:befund">
+      <path value="Composition.section.section.entry" />
+      <sliceName value="befund" />
+      <min value="1" />
+      <max value="1" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/DiagnosticReport/nNGM/befund" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="Composition.section:diagnostik.section:histologie.entry:befund.reference">
+      <path value="Composition.section.section.entry.reference" />
+      <min value="1" />
+    </element>
+    <element id="Composition.section:diagnostik.section:molekularpathologie">
+      <path value="Composition.section.section" />
+      <sliceName value="molekularpathologie" />
+      <max value="1" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Composition.section:diagnostik.section:molekularpathologie.code">
+      <path value="Composition.section.section.code" />
+      <min value="1" />
+    </element>
+    <element id="Composition.section:diagnostik.section:molekularpathologie.code.coding.system">
+      <path value="Composition.section.section.code.coding.system" />
+      <fixedUri value="http://uk-koeln.de/fhir/CodeSystem/nngm/sections" />
+    </element>
+    <element id="Composition.section:diagnostik.section:molekularpathologie.code.coding.code">
+      <path value="Composition.section.section.code.coding.code" />
+      <patternCode value="molekularpathologie" />
+    </element>
+    <element id="Composition.section:diagnostik.section:molekularpathologie.entry">
+      <path value="Composition.section.section.entry" />
+      <slicing>
+        <discriminator>
+          <type value="profile" />
+          <path value="this.resolve()" />
+        </discriminator>
+        <rules value="closed" />
+      </slicing>
+    </element>
+    <element id="Composition.section:diagnostik.section:molekularpathologie.entry:anforderungTestung">
+      <path value="Composition.section.section.entry" />
+      <sliceName value="anforderungTestung" />
+      <min value="1" />
+      <max value="1" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/ServiceRequest/nNGM/testung" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="Composition.section:diagnostik.section:molekularpathologie.entry:anforderungTestung.reference">
+      <path value="Composition.section.section.entry.reference" />
+      <min value="1" />
+    </element>
+    <element id="Composition.section:diagnostik.section:molekularpathologie.entry:specimen">
+      <path value="Composition.section.section.entry" />
+      <sliceName value="specimen" />
+      <min value="1" />
+      <max value="1" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Specimen/nNGM" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="Composition.section:diagnostik.section:molekularpathologie.entry:specimen.reference">
+      <path value="Composition.section.section.entry.reference" />
+      <min value="1" />
+    </element>
+    <element id="Composition.section:diagnostik.section:molekularpathologie.entry:netzwerkZentrum">
+      <path value="Composition.section.section.entry" />
+      <sliceName value="netzwerkZentrum" />
+      <min value="1" />
+      <max value="1" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="http://clinicalsite.org/fhir/StructureDefinition/organizationalunit" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="Composition.section:diagnostik.section:molekularpathologie.entry:netzwerkZentrum.reference">
+      <path value="Composition.section.section.entry.reference" />
+      <min value="1" />
+    </element>
+    <element id="Composition.section:diagnostik.section:molekularpathologie.entry:befund">
+      <path value="Composition.section.section.entry" />
+      <sliceName value="befund" />
+      <min value="1" />
+      <max value="1" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://www.uk-koeln.de/fhir/StructureDefinition/DiagnosticReport/nNGM/befund/" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="Composition.section:diagnostik.section:molekularpathologie.entry:befund.reference">
+      <path value="Composition.section.section.entry.reference" />
+      <min value="1" />
+    </element>
+    <element id="Composition.section:diagnostik.section:molekularpathologie.entry:cish">
+      <path value="Composition.section.section.entry" />
+      <sliceName value="cish" />
+      <min value="1" />
+      <max value="1" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Observation/ish" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="Composition.section:diagnostik.section:molekularpathologie.entry:cish.reference">
+      <path value="Composition.section.section.entry.reference" />
+      <min value="1" />
+    </element>
+    <element id="Composition.section:diagnostik.section:molekularpathologie.entry:fish">
+      <path value="Composition.section.section.entry" />
+      <sliceName value="fish" />
+      <min value="1" />
+      <max value="1" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Observation/fish" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="Composition.section:diagnostik.section:molekularpathologie.entry:fish.reference">
+      <path value="Composition.section.section.entry.reference" />
+      <min value="1" />
+    </element>
+    <element id="Composition.section:diagnostik.section:ngs-lung-panel">
+      <path value="Composition.section.section" />
+      <sliceName value="ngs-lung-panel" />
+      <max value="1" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Composition.section:diagnostik.section:ngs-lung-panel.code">
+      <path value="Composition.section.section.code" />
+      <min value="1" />
+    </element>
+    <element id="Composition.section:diagnostik.section:ngs-lung-panel.code.coding.system">
+      <path value="Composition.section.section.code.coding.system" />
+      <fixedUri value="http://uk-koeln.de/fhir/CodeSystem/nngm/sections" />
+    </element>
+    <element id="Composition.section:diagnostik.section:ngs-lung-panel.code.coding.code">
+      <path value="Composition.section.section.code.coding.code" />
+      <patternCode value="ngs lung panel" />
+    </element>
+    <element id="Composition.section:diagnostik.section:ngs-lung-panel.entry">
+      <path value="Composition.section.section.entry" />
+      <slicing>
+        <discriminator>
+          <type value="profile" />
+          <path value="this.resolve()" />
+        </discriminator>
+        <rules value="open" />
+      </slicing>
+    </element>
+    <element id="Composition.section:diagnostik.section:ngs-lung-panel.entry:anforderungTestung">
+      <path value="Composition.section.section.entry" />
+      <sliceName value="anforderungTestung" />
+      <min value="1" />
+      <max value="1" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/ServiceRequest/nNGM/testung" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="Composition.section:diagnostik.section:ngs-lung-panel.entry:anforderungTestung.reference">
+      <path value="Composition.section.section.entry.reference" />
+      <min value="1" />
+    </element>
+    <element id="Composition.section:diagnostik.section:ngs-lung-panel.entry:netzwerkZentrum">
+      <path value="Composition.section.section.entry" />
+      <sliceName value="netzwerkZentrum" />
+      <min value="1" />
+      <max value="1" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="http://clinicalsite.org/fhir/StructureDefinition/organizationalunit" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="Composition.section:diagnostik.section:ngs-lung-panel.entry:netzwerkZentrum.reference">
+      <path value="Composition.section.section.entry.reference" />
+      <min value="1" />
+    </element>
+    <element id="Composition.section:diagnostik.section:ngs-lung-panel.entry:befund">
+      <path value="Composition.section.section.entry" />
+      <sliceName value="netzwerkZentrum" />
+      <min value="1" />
+      <max value="1" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://www.uk-koeln.de/fhir/StructureDefinition/DiagnosticReport/nNGM/befund/" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="Composition.section:diagnostik.section:ngs-lung-panel.entry:befund.reference">
+      <path value="Composition.section.section.entry.reference" />
+      <min value="1" />
+    </element>
+    <element id="Composition.section:diagnostik.section:ngs-lung-panel.entry:ngs-panel">
+      <path value="Composition.section.section.entry" />
+      <sliceName value="netzwerkZentrum" />
+      <min value="1" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Device" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="Composition.section:diagnostik.section:ngs-lung-panel.entry:ngs-panel.reference">
+      <path value="Composition.section.section.entry.reference" />
+      <min value="1" />
+    </element>
+    <element id="Composition.section:diagnostik.section:ngs-lung-panel.entry:ngs-panel-obs">
+      <path value="Composition.section.section.entry" />
+      <sliceName value="netzwerkZentrum" />
+      <min value="1" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Observation/ngs-panel" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="Composition.section:diagnostik.section:ngs-lung-panel.entry:ngs-panel-obs.reference">
+      <path value="Composition.section.section.entry.reference" />
+    </element>
+    <element id="Composition.section:diagnostik.section:ngs-fusion-expression">
+      <path value="Composition.section.section" />
+      <sliceName value="ngs-fusion-expression" />
+      <max value="1" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Composition.section:diagnostik.section:ngs-fusion-expression.code">
+      <path value="Composition.section.section.code" />
+      <min value="1" />
+      <patternCodeableConcept>
+        <coding>
+          <system value="http://uk-koeln.de/fhir/CodeSystem/nngm/sections" />
+          <code value="fusion-ngs" />
+        </coding>
+      </patternCodeableConcept>
+    </element>
+    <element id="Composition.section:diagnostik.section:ngs-fusion-expression.entry">
+      <path value="Composition.section.section.entry" />
+      <slicing>
+        <discriminator>
+          <type value="profile" />
+          <path value="this.resolve()" />
+        </discriminator>
+        <rules value="closed" />
+      </slicing>
+    </element>
+    <element id="Composition.section:diagnostik.section:ngs-fusion-expression.entry:anforderungTestung">
+      <path value="Composition.section.section.entry" />
+      <sliceName value="anforderungTestung" />
+      <min value="1" />
+      <max value="1" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/ServiceRequest/nNGM/testung" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="Composition.section:diagnostik.section:ngs-fusion-expression.entry:anforderungTestung.reference">
+      <path value="Composition.section.section.entry.reference" />
+      <min value="1" />
+    </element>
+    <element id="Composition.section:diagnostik.section:ngs-fusion-expression.entry:specimen">
+      <path value="Composition.section.section.entry" />
+      <sliceName value="specimen" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Specimen/nNGM" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="Composition.section:diagnostik.section:ngs-fusion-expression.entry:specimen.reference">
+      <path value="Composition.section.section.entry.reference" />
+      <min value="1" />
+    </element>
+    <element id="Composition.section:diagnostik.section:ngs-fusion-expression.entry:netzwerkZentrum">
+      <path value="Composition.section.section.entry" />
+      <sliceName value="netzwerkZentrum" />
+      <min value="1" />
+      <max value="1" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="http://clinicalsite.org/fhir/StructureDefinition/organizationalunit" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="Composition.section:diagnostik.section:ngs-fusion-expression.entry:netzwerkZentrum.reference">
+      <path value="Composition.section.section.entry.reference" />
+      <min value="1" />
+    </element>
+    <element id="Composition.section:diagnostik.section:ngs-fusion-expression.entry:befund">
+      <path value="Composition.section.section.entry" />
+      <sliceName value="befund" />
+      <min value="1" />
+      <max value="1" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://www.uk-koeln.de/fhir/StructureDefinition/DiagnosticReport/nNGM/befund/" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="Composition.section:diagnostik.section:ngs-fusion-expression.entry:befund.reference">
+      <path value="Composition.section.section.entry.reference" />
+      <min value="1" />
+    </element>
+    <element id="Composition.section:diagnostik.section:ngs-fusion-expression.entry:ngs-fusion">
+      <path value="Composition.section.section.entry" />
+      <sliceName value="ngs-fusion" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Observation/ngs-fusion-expression" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="Composition.section:diagnostik.section:ngs-fusion-expression.entry:ngs-fusion.reference">
+      <path value="Composition.section.section.entry.reference" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Composition.section:diagnostik.section:fast-track">
+      <path value="Composition.section.section" />
+      <sliceName value="fast-track" />
+      <max value="1" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Composition.section:diagnostik.section:fast-track.code">
+      <path value="Composition.section.section.code" />
+      <min value="1" />
+      <patternCodeableConcept>
+        <coding>
+          <system value="http://uk-koeln.de/fhir/CodeSystem/nngm/sections" />
+          <code value="fast-track" />
+        </coding>
+      </patternCodeableConcept>
+    </element>
+    <element id="Composition.section:diagnostik.section:fast-track.entry">
+      <path value="Composition.section.section.entry" />
+      <slicing>
+        <discriminator>
+          <type value="profile" />
+          <path value="this.resolve()" />
+        </discriminator>
+        <rules value="closed" />
+      </slicing>
+    </element>
+    <element id="Composition.section:diagnostik.section:fast-track.entry:anforderungTestung">
+      <path value="Composition.section.section.entry" />
+      <sliceName value="anforderungTestung" />
+      <min value="1" />
+      <max value="1" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/ServiceRequest/nNGM/testung" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="Composition.section:diagnostik.section:fast-track.entry:anforderungTestung.reference">
+      <path value="Composition.section.section.entry.reference" />
+      <min value="1" />
+    </element>
+    <element id="Composition.section:diagnostik.section:fast-track.entry:netzwerkZentrum">
+      <path value="Composition.section.section.entry" />
+      <sliceName value="netzwerkZentrum" />
+      <min value="1" />
+      <max value="1" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="http://clinicalsite.org/fhir/StructureDefinition/organizationalunit" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="Composition.section:diagnostik.section:fast-track.entry:netzwerkZentrum.reference">
+      <path value="Composition.section.section.entry.reference" />
+      <min value="1" />
+    </element>
+    <element id="Composition.section:diagnostik.section:fast-track.entry:befund">
+      <path value="Composition.section.section.entry" />
+      <sliceName value="befund" />
+      <min value="1" />
+      <max value="1" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://www.uk-koeln.de/fhir/StructureDefinition/DiagnosticReport/nNGM/befund/" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="Composition.section:diagnostik.section:fast-track.entry:befund.reference">
+      <path value="Composition.section.section.entry.reference" />
+      <min value="1" />
+    </element>
+    <element id="Composition.section:diagnostik.section:fast-track.entry:ngs-panel">
+      <path value="Composition.section.section.entry" />
+      <sliceName value="ngs-panel" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Observation/fasttrack" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="Composition.section:diagnostik.section:fast-track.entry:ngs-panel.reference">
+      <path value="Composition.section.section.entry.reference" />
+      <min value="1" />
+    </element>
+    <element id="Composition.section:diagnostik.section:sonstige-untersuchungen">
+      <path value="Composition.section.section" />
+      <sliceName value="sonstige-untersuchungen" />
+      <max value="1" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Composition.section:diagnostik.section:sonstige-untersuchungen.code">
+      <path value="Composition.section.section.code" />
+      <min value="1" />
+      <patternCodeableConcept>
+        <coding>
+          <system value="http://uk-koeln.de/fhir/CodeSystem/nngm/sections" />
+          <code value="sonstige-untersuchungen" />
+        </coding>
+      </patternCodeableConcept>
+    </element>
+    <element id="Composition.section:diagnostik.section:sonstige-untersuchungen.entry">
+      <path value="Composition.section.section.entry" />
+      <slicing>
+        <discriminator>
+          <type value="profile" />
+          <path value="this.resolve()" />
+        </discriminator>
+        <rules value="closed" />
+      </slicing>
+    </element>
+    <element id="Composition.section:diagnostik.section:sonstige-untersuchungen.entry:anforderungTestung">
+      <path value="Composition.section.section.entry" />
+      <sliceName value="anforderungTestung" />
+      <min value="1" />
+      <max value="1" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/ServiceRequest/nNGM/testung" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="Composition.section:diagnostik.section:sonstige-untersuchungen.entry:anforderungTestung.reference">
+      <path value="Composition.section.section.entry.reference" />
+      <min value="1" />
+    </element>
+    <element id="Composition.section:diagnostik.section:sonstige-untersuchungen.entry:netzwerkZentrum">
+      <path value="Composition.section.section.entry" />
+      <sliceName value="netzwerkZentrum" />
+      <min value="1" />
+      <max value="1" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="http://clinicalsite.org/fhir/StructureDefinition/organizationalunit" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="Composition.section:diagnostik.section:sonstige-untersuchungen.entry:netzwerkZentrum.reference">
+      <path value="Composition.section.section.entry.reference" />
+      <min value="1" />
+    </element>
+    <element id="Composition.section:diagnostik.section:sonstige-untersuchungen.entry:befund">
+      <path value="Composition.section.section.entry" />
+      <sliceName value="befund" />
+      <min value="1" />
+      <max value="1" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://www.uk-koeln.de/fhir/StructureDefinition/DiagnosticReport/nNGM/befund/" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="Composition.section:diagnostik.section:sonstige-untersuchungen.entry:befund.reference">
+      <path value="Composition.section.section.entry.reference" />
+      <min value="1" />
+    </element>
+    <element id="Composition.section:diagnostik.section:sonstige-untersuchungen.entry:untersuchung">
+      <path value="Composition.section.section.entry" />
+      <sliceName value="untersuchung" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Observation/weitere-untersuchung" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="Composition.section:diagnostik.section:sonstige-untersuchungen.entry:untersuchung.reference">
+      <path value="Composition.section.section.entry.reference" />
+      <min value="1" />
+    </element>
+    <element id="Composition.section:diagnostik.section:liquid-biopsy">
+      <path value="Composition.section.section" />
+      <sliceName value="liquid-biopsy" />
+      <max value="1" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Composition.section:diagnostik.section:liquid-biopsy.code">
+      <path value="Composition.section.section.code" />
+      <min value="1" />
+      <patternCodeableConcept>
+        <coding>
+          <system value="http://uk-koeln.de/fhir/CodeSystem/nngm/sections" />
+          <code value="liquid-biopsy" />
+        </coding>
+      </patternCodeableConcept>
+    </element>
+    <element id="Composition.section:diagnostik.section:liquid-biopsy.entry">
+      <path value="Composition.section.section.entry" />
+      <slicing>
+        <discriminator>
+          <type value="profile" />
+          <path value="this.resolve()" />
+        </discriminator>
+        <rules value="closed" />
+      </slicing>
+    </element>
+    <element id="Composition.section:diagnostik.section:liquid-biopsy.entry:anforderungTestung">
+      <path value="Composition.section.section.entry" />
+      <sliceName value="anforderungTestung" />
+      <min value="1" />
+      <max value="1" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/ServiceRequest/nNGM/testung" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="Composition.section:diagnostik.section:liquid-biopsy.entry:anforderungTestung.reference">
+      <path value="Composition.section.section.entry.reference" />
+      <min value="1" />
+    </element>
+    <element id="Composition.section:diagnostik.section:liquid-biopsy.entry:netzwerkZentrum">
+      <path value="Composition.section.section.entry" />
+      <sliceName value="netzwerkZentrum" />
+      <min value="1" />
+      <max value="1" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="http://clinicalsite.org/fhir/StructureDefinition/organizationalunit" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="Composition.section:diagnostik.section:liquid-biopsy.entry:netzwerkZentrum.reference">
+      <path value="Composition.section.section.entry.reference" />
+      <min value="1" />
+    </element>
+    <element id="Composition.section:diagnostik.section:liquid-biopsy.entry:befund">
+      <path value="Composition.section.section.entry" />
+      <sliceName value="befund" />
+      <min value="1" />
+      <max value="1" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://www.uk-koeln.de/fhir/StructureDefinition/DiagnosticReport/nNGM/befund/" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="Composition.section:diagnostik.section:liquid-biopsy.entry:befund.reference">
+      <path value="Composition.section.section.entry.reference" />
+      <min value="1" />
+    </element>
+    <element id="Composition.section:diagnostik.section:liquid-biopsy.entry:liquid-biopsy">
+      <path value="Composition.section.section.entry" />
+      <sliceName value="liquid-biopsy" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Observation/liquid-biopsy" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="Composition.section:diagnostik.section:liquid-biopsy.entry:liquid-biopsy.reference">
+      <path value="Composition.section.section.entry.reference" />
+      <min value="1" />
+    </element>
+    <element id="Composition.section:diagnostik.section:liquid-biopsy.entry:specimen">
+      <path value="Composition.section.section.entry" />
+      <sliceName value="specimen" />
+      <max value="1" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Specimen/nNGM" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="Composition.section:diagnostik.section:liquid-biopsy.entry:specimen.reference">
+      <path value="Composition.section.section.entry.reference" />
       <min value="1" />
     </element>
   </differential>
