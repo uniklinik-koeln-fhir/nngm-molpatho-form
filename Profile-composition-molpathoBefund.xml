@@ -44,14 +44,12 @@
         </discriminator>
         <rules value="open" />
       </slicing>
+      <min value="1" />
     </element>
     <element id="Composition.identifier:FallIdentifier">
       <path value="Composition.identifier" />
       <sliceName value="FallIdentifier" />
       <min value="1" />
-      <fixedIdentifier>
-        <system value="http://uk-koeln.de/NamingSystem/nNGM/fallnummer" />
-      </fixedIdentifier>
       <mustSupport value="true" />
     </element>
     <element id="Composition.identifier:FallIdentifier.system">
@@ -122,6 +120,7 @@
         </discriminator>
         <rules value="closed" />
       </slicing>
+      <min value="1" />
     </element>
     <element id="Composition.section:beurteilung">
       <path value="Composition.section" />
@@ -202,7 +201,7 @@
     <element id="Composition.section:diagnostik.code.coding.system">
       <path value="Composition.section.code.coding.system" />
       <min value="1" />
-      <fixedUri value="http://uk-koeln.de/fhir/CodeSystem/nngm/composition" />
+      <fixedUri value="http://uk-koeln.de/fhir/CodeSystem/nngm/sections" />
     </element>
     <element id="Composition.section:diagnostik.code.coding.code">
       <path value="Composition.section.code.coding.code" />
@@ -223,9 +222,6 @@
     <element id="Composition.section:diagnostik.entry.identifier:formularId">
       <path value="Composition.section.entry.identifier" />
       <sliceName value="formularId" />
-      <fixedIdentifier>
-        <system value="http://uk-koeln.de/NamingSystem/nNGM/formularId" />
-      </fixedIdentifier>
       <mustSupport value="true" />
     </element>
     <element id="Composition.section:diagnostik.entry.identifier:formularId.system">

@@ -35,7 +35,7 @@
   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Composition" />
   <derivation value="constraint" />
   <differential>
-  <element id="Composition.identifier">
+    <element id="Composition.identifier">
       <path value="Composition.identifier" />
       <slicing>
         <discriminator>
@@ -44,14 +44,12 @@
         </discriminator>
         <rules value="open" />
       </slicing>
+      <min value="1" />
     </element>
     <element id="Composition.identifier:FallIdentifier">
       <path value="Composition.identifier" />
       <sliceName value="FallIdentifier" />
       <min value="1" />
-      <fixedIdentifier>
-        <system value="http://uk-koeln.de/NamingSystem/nNGM/fallnummer" />
-      </fixedIdentifier>
       <mustSupport value="true" />
     </element>
     <element id="Composition.identifier:FallIdentifier.system">
@@ -122,6 +120,7 @@
         </discriminator>
         <rules value="closed" />
       </slicing>
+      <min value="1" />
     </element>
     <element id="Composition.section:beurteilung">
       <path value="Composition.section" />
@@ -202,7 +201,7 @@
     <element id="Composition.section:diagnostik.code.coding.system">
       <path value="Composition.section.code.coding.system" />
       <min value="1" />
-      <fixedUri value="http://uk-koeln.de/fhir/CodeSystem/nngm/composition" />
+      <fixedUri value="http://uk-koeln.de/fhir/CodeSystem/nngm/sections" />
     </element>
     <element id="Composition.section:diagnostik.code.coding.code">
       <path value="Composition.section.code.coding.code" />
@@ -223,9 +222,6 @@
     <element id="Composition.section:diagnostik.entry.identifier:formularId">
       <path value="Composition.section.entry.identifier" />
       <sliceName value="formularId" />
-      <fixedIdentifier>
-        <system value="http://uk-koeln.de/NamingSystem/nNGM/formularId" />
-      </fixedIdentifier>
       <mustSupport value="true" />
     </element>
     <element id="Composition.section:diagnostik.entry.identifier:formularId.system">
@@ -633,48 +629,6 @@
       <path value="Composition.section.section.entry.reference" />
       <min value="1" />
     </element>
-    <element id="Composition.section:diagnostik.section:ngs-lung-panel.entry:befund">
-      <path value="Composition.section.section.entry" />
-      <sliceName value="netzwerkZentrum" />
-      <min value="1" />
-      <max value="1" />
-      <type>
-        <code value="Reference" />
-        <targetProfile value="https://www.uk-koeln.de/fhir/StructureDefinition/DiagnosticReport/nNGM/befund/" />
-      </type>
-      <mustSupport value="true" />
-    </element>
-    <element id="Composition.section:diagnostik.section:ngs-lung-panel.entry:befund.reference">
-      <path value="Composition.section.section.entry.reference" />
-      <min value="1" />
-    </element>
-    <element id="Composition.section:diagnostik.section:ngs-lung-panel.entry:ngs-panel">
-      <path value="Composition.section.section.entry" />
-      <sliceName value="netzwerkZentrum" />
-      <min value="1" />
-      <type>
-        <code value="Reference" />
-        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Device" />
-      </type>
-      <mustSupport value="true" />
-    </element>
-    <element id="Composition.section:diagnostik.section:ngs-lung-panel.entry:ngs-panel.reference">
-      <path value="Composition.section.section.entry.reference" />
-      <min value="1" />
-    </element>
-    <element id="Composition.section:diagnostik.section:ngs-lung-panel.entry:ngs-panel-obs">
-      <path value="Composition.section.section.entry" />
-      <sliceName value="netzwerkZentrum" />
-      <min value="1" />
-      <type>
-        <code value="Reference" />
-        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Observation/ngs-panel" />
-      </type>
-      <mustSupport value="true" />
-    </element>
-    <element id="Composition.section:diagnostik.section:ngs-lung-panel.entry:ngs-panel-obs.reference">
-      <path value="Composition.section.section.entry.reference" />
-    </element>
     <element id="Composition.section:diagnostik.section:ngs-fusion-expression">
       <path value="Composition.section.section" />
       <sliceName value="ngs-fusion-expression" />
@@ -1038,7 +992,7 @@
       <path value="Composition.section.section.entry.reference" />
       <min value="1" />
     </element>
-        <element id="Composition.section:stammdaten">
+    <element id="Composition.section:stammdaten">
       <path value="Composition.section" />
       <sliceName value="stammdaten" />
       <max value="1" />
@@ -1083,9 +1037,6 @@
       </type>
       <mustSupport value="true" />
     </element>
-    <element id="Composition.section:stammdaten.entry:patient.reference">
-      <path value="Composition.section.entry.reference" />
-    </element>
     <element id="Composition.section:stammdaten.entry:coverage">
       <path value="Composition.section.entry" />
       <sliceName value="coverage" />
@@ -1095,9 +1046,6 @@
         <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Coverage/nNGM/pseudonymisiert" />
       </type>
       <mustSupport value="true" />
-    </element>
-    <element id="Composition.section:stammdaten.entry:coverage.reference">
-      <path value="Composition.section.entry.reference" />
     </element>
   </differential>
 </StructureDefinition>
