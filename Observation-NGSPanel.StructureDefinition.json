@@ -141,6 +141,11 @@
         }
       },
       {
+        "id": "Observation.value[x].coding.system",
+        "path": "Observation.value[x].coding.system",
+        "fixedUri": "http://loinc.org"
+      },
+      {
         "id": "Observation.interpretation",
         "path": "Observation.interpretation",
         "mustSupport": true
@@ -229,11 +234,21 @@
         "patternCodeableConcept": {
           "coding": [
             {
-              "system": "http://ncit.nci.nih.gov",
+              "system": "http://loinc.org",
               "code": "48018-6"
             }
           ]
         }
+      },
+      {
+        "id": "Observation.component:gene-studied.code.coding.system",
+        "path": "Observation.component.code.coding.system",
+        "fixedUri": "http://loinc.org"
+      },
+      {
+        "id": "Observation.component:gene-studied.code.coding.code",
+        "path": "Observation.component.code.coding.code",
+        "patternCode": "48018-6"
       },
       {
         "id": "Observation.component:gene-studied.value[x]",
@@ -243,11 +258,12 @@
           {
             "code": "CodeableConcept"
           }
-        ],
-        "binding": {
-          "strength": "extensible",
-          "valueSet": "http://hl7.org/fhir/uv/genomics-reporting/ValueSet/hgnc"
-        }
+        ]
+      },
+      {
+        "id": "Observation.component:gene-studied.value[x].coding.system",
+        "path": "Observation.component.value[x].coding.system",
+        "fixedUri": "www.genenames.org"
       },
       {
         "id": "Observation.component:exon",
@@ -469,8 +485,8 @@
         "patternCodeableConcept": {
           "coding": [
             {
-              "system": "http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/tbd-codes",
-              "code": "exact-start-end"
+              "system": "http://loinc.org",
+              "code": "81254-5"
             }
           ]
         }
@@ -613,9 +629,18 @@
         "path": "Observation.component.value[x]",
         "type": [
           {
-            "code": "string"
+            "code": "CodeableConcept"
           }
-        ]
+        ],
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://uk-koeln.de/fhir/ValueSet/nNGM/refseqId"
+        }
+      },
+      {
+        "id": "Observation.component:referenztranskript.value[x].coding.system",
+        "path": "Observation.component.value[x].coding.system",
+        "fixedUri": "http://www.ncbi.nlm.nih.gov/refseq"
       },
       {
         "id": "Observation.component:coverage",
@@ -641,9 +666,24 @@
         "path": "Observation.component.value[x]",
         "type": [
           {
-            "code": "string"
+            "code": "Quantity"
           }
         ]
+      },
+      {
+        "id": "Observation.component:coverage.value[x].unit",
+        "path": "Observation.component.value[x].unit",
+        "fixedString": "reads per base"
+      },
+      {
+        "id": "Observation.component:coverage.value[x].system",
+        "path": "Observation.component.value[x].system",
+        "fixedUri": "http://unitsofmeasure.org"
+      },
+      {
+        "id": "Observation.component:coverage.value[x].code",
+        "path": "Observation.component.value[x].code",
+        "fixedCode": "{reads}/{base}"
       }
     ]
   }
