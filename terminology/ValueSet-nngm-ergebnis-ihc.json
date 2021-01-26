@@ -25,6 +25,10 @@
                         "display": "negativ"
                     },
                     {
+                        "code": "auswertbar",
+                        "display": "auswertbar"
+                    },
+                    {
                         "code": "nicht auswertbar",
                         "display": "nicht auswertbar"
                     }
@@ -51,6 +55,11 @@
                 "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/ergebnis",
                 "code": "negativ",
                 "display": "negativ"
+            },
+            {
+                "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/ergebnis",
+                "code": "auswertbar",
+                "display": "auswertbar"
             },
             {
                 "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/ergebnis",
