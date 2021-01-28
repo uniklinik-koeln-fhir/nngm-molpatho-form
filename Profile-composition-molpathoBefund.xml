@@ -522,7 +522,7 @@
       <max value="1" />
       <type>
         <code value="Reference" />
-        <targetProfile value="https://www.uk-koeln.de/fhir/StructureDefinition/DiagnosticReport/nNGM/befund/" />
+        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/DiagnosticReport/nNGM/befund" />
       </type>
       <mustSupport value="true" />
     </element>
@@ -533,7 +533,8 @@
     <element id="Composition.section:diagnostik.section:ngs-lung-panel.entry:ngs-panel">
       <path value="Composition.section.section.entry" />
       <sliceName value="ngs-panel" />
-      <min value="1" />
+      <min value="1" />      
+      <max value="1" />
       <type>
         <code value="Reference" />
         <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Device" />
@@ -605,7 +606,7 @@
       <max value="1" />
       <type>
         <code value="Reference" />
-        <targetProfile value="https://www.uk-koeln.de/fhir/StructureDefinition/DiagnosticReport/nNGM/befund/" />
+        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/DiagnosticReport/nNGM/befund" />
       </type>
       <mustSupport value="true" />
     </element>
@@ -674,7 +675,7 @@
       <max value="1" />
       <type>
         <code value="Reference" />
-        <targetProfile value="https://www.uk-koeln.de/fhir/StructureDefinition/DiagnosticReport/nNGM/befund/" />
+        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/DiagnosticReport/nNGM/befund" />
       </type>
       <mustSupport value="true" />
     </element>
@@ -743,7 +744,7 @@
       <max value="1" />
       <type>
         <code value="Reference" />
-        <targetProfile value="https://www.uk-koeln.de/fhir/StructureDefinition/DiagnosticReport/nNGM/befund/" />
+        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/DiagnosticReport/nNGM/befund" />
       </type>
       <mustSupport value="true" />
     </element>
@@ -812,7 +813,7 @@
       <max value="1" />
       <type>
         <code value="Reference" />
-        <targetProfile value="https://www.uk-koeln.de/fhir/StructureDefinition/DiagnosticReport/nNGM/befund/" />
+        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/DiagnosticReport/nNGM/befund" />
       </type>
       <mustSupport value="true" />
     </element>
