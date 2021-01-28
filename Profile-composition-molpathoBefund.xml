@@ -196,18 +196,13 @@
     <element id="Composition.section:diagnostik.code">
       <path value="Composition.section.code" />
       <min value="1" />
+      <patternCodeableConcept>
+        <coding>
+          <system value="http://uk-koeln.de/fhir/CodeSystem/nngm/sections" />
+          <code value="diagnostik" />
+        </coding>
+      </patternCodeableConcept>
       <mustSupport value="true" />
-    </element>
-    <element id="Composition.section:diagnostik.code.coding.system">
-      <path value="Composition.section.code.coding.system" />
-      <min value="1" />
-      <fixedUri value="http://uk-koeln.de/fhir/CodeSystem/nngm/sections" />
-    </element>
-    <element id="Composition.section:diagnostik.code.coding.code">
-      <path value="Composition.section.code.coding.code" />
-      <min value="1" />
-      <patternCode value="diagnostik" />
-      <mustSupport value="false" />
     </element>
     <element id="Composition.section:diagnostik.entry.identifier">
       <path value="Composition.section.entry.identifier" />
@@ -239,7 +234,7 @@
       <path value="Composition.section.section" />
       <slicing>
         <discriminator>
-          <type value="value" />
+          <type value="pattern" />
           <path value="code" />
         </discriminator>
         <rules value="closed" />
@@ -262,15 +257,13 @@
     <element id="Composition.section:diagnostik.section:immunhistochemie.code">
       <path value="Composition.section.section.code" />
       <min value="1" />
+      <patternCodeableConcept>
+        <coding>
+          <system value="http://uk-koeln.de/fhir/CodeSystem/nngm/sections" />
+          <code value="immunhistochemie" />
+        </coding>
+      </patternCodeableConcept>
       <mustSupport value="true" />
-    </element>
-    <element id="Composition.section:diagnostik.section:immunhistochemie.code.coding.system">
-      <path value="Composition.section.section.code.coding.system" />
-      <fixedUri value="http://uk-koeln.de/fhir/CodeSystem/nngm/composition" />
-    </element>
-    <element id="Composition.section:diagnostik.section:immunhistochemie.code.coding.code">
-      <path value="Composition.section.section.code.coding.code" />
-      <patternCode value="immunhistochemie" />
     </element>
     <element id="Composition.section:diagnostik.section:immunhistochemie.entry">
       <path value="Composition.section.section.entry" />
@@ -462,14 +455,13 @@
     <element id="Composition.section:diagnostik.section:molekularpathologie.code">
       <path value="Composition.section.section.code" />
       <min value="1" />
-    </element>
-    <element id="Composition.section:diagnostik.section:molekularpathologie.code.coding.system">
-      <path value="Composition.section.section.code.coding.system" />
-      <fixedUri value="http://uk-koeln.de/fhir/CodeSystem/nngm/sections" />
-    </element>
-    <element id="Composition.section:diagnostik.section:molekularpathologie.code.coding.code">
-      <path value="Composition.section.section.code.coding.code" />
-      <patternCode value="molekularpathologie" />
+      <patternCodeableConcept>
+        <coding>
+          <system value="http://uk-koeln.de/fhir/CodeSystem/nngm/sections" />
+          <code value="molekularpathologie" />
+        </coding>
+      </patternCodeableConcept>
+      <mustSupport value="true" />
     </element>
     <element id="Composition.section:diagnostik.section:molekularpathologie.entry">
       <path value="Composition.section.section.entry" />
@@ -580,14 +572,13 @@
     <element id="Composition.section:diagnostik.section:ngs-lung-panel.code">
       <path value="Composition.section.section.code" />
       <min value="1" />
-    </element>
-    <element id="Composition.section:diagnostik.section:ngs-lung-panel.code.coding.system">
-      <path value="Composition.section.section.code.coding.system" />
-      <fixedUri value="http://uk-koeln.de/fhir/CodeSystem/nngm/sections" />
-    </element>
-    <element id="Composition.section:diagnostik.section:ngs-lung-panel.code.coding.code">
-      <path value="Composition.section.section.code.coding.code" />
-      <patternCode value="ngs lung panel" />
+      <patternCodeableConcept>
+        <coding>
+          <system value="http://uk-koeln.de/fhir/CodeSystem/nngm/sections" />
+          <code value="ngs-lung-panel" />
+        </coding>
+      </patternCodeableConcept>
+      <mustSupport value="true" />
     </element>
     <element id="Composition.section:diagnostik.section:ngs-lung-panel.entry">
       <path value="Composition.section.section.entry" />
@@ -1049,14 +1040,6 @@
           <code value="stammdaten" />
         </coding>
       </patternCodeableConcept>
-    </element>
-    <element id="Composition.section:stammdaten.code.coding.system">
-      <path value="Composition.section.code.coding.system" />
-      <fixedUri value="http://uk-koeln.de/fhir/CodeSystem/nngm/sections" />
-    </element>
-    <element id="Composition.section:stammdaten.code.coding.code">
-      <path value="Composition.section.code.coding.code" />
-      <patternCode value="stammdaten" />
     </element>
     <element id="Composition.section:stammdaten.entry">
       <path value="Composition.section.entry" />
