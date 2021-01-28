@@ -598,21 +598,6 @@
         <rules value="closed" />
       </slicing>
     </element>
-    <element id="Composition.section:diagnostik.section:ngs-fusion-expression.entry:anforderungTestung">
-      <path value="Composition.section.section.entry" />
-      <sliceName value="anforderungTestung" />
-      <min value="1" />
-      <max value="1" />
-      <type>
-        <code value="Reference" />
-        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/ServiceRequest/nNGM/testung" />
-      </type>
-      <mustSupport value="true" />
-    </element>
-    <element id="Composition.section:diagnostik.section:ngs-fusion-expression.entry:anforderungTestung.reference">
-      <path value="Composition.section.section.entry.reference" />
-      <min value="1" />
-    </element>
     <element id="Composition.section:diagnostik.section:ngs-fusion-expression.entry:netzwerkZentrum">
       <path value="Composition.section.section.entry" />
       <sliceName value="netzwerkZentrum" />
@@ -681,21 +666,6 @@
         </discriminator>
         <rules value="closed" />
       </slicing>
-    </element>
-    <element id="Composition.section:diagnostik.section:fast-track.entry:anforderungTestung">
-      <path value="Composition.section.section.entry" />
-      <sliceName value="anforderungTestung" />
-      <min value="1" />
-      <max value="1" />
-      <type>
-        <code value="Reference" />
-        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/ServiceRequest/nNGM/testung" />
-      </type>
-      <mustSupport value="true" />
-    </element>
-    <element id="Composition.section:diagnostik.section:fast-track.entry:anforderungTestung.reference">
-      <path value="Composition.section.section.entry.reference" />
-      <min value="1" />
     </element>
     <element id="Composition.section:diagnostik.section:fast-track.entry:netzwerkZentrum">
       <path value="Composition.section.section.entry" />
@@ -766,21 +736,6 @@
         <rules value="closed" />
       </slicing>
     </element>
-    <element id="Composition.section:diagnostik.section:sonstige-untersuchungen.entry:anforderungTestung">
-      <path value="Composition.section.section.entry" />
-      <sliceName value="anforderungTestung" />
-      <min value="1" />
-      <max value="1" />
-      <type>
-        <code value="Reference" />
-        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/ServiceRequest/nNGM/testung" />
-      </type>
-      <mustSupport value="true" />
-    </element>
-    <element id="Composition.section:diagnostik.section:sonstige-untersuchungen.entry:anforderungTestung.reference">
-      <path value="Composition.section.section.entry.reference" />
-      <min value="1" />
-    </element>
     <element id="Composition.section:diagnostik.section:sonstige-untersuchungen.entry:netzwerkZentrum">
       <path value="Composition.section.section.entry" />
       <sliceName value="netzwerkZentrum" />
@@ -849,21 +804,6 @@
         </discriminator>
         <rules value="closed" />
       </slicing>
-    </element>
-    <element id="Composition.section:diagnostik.section:liquid-biopsy.entry:anforderungTestung">
-      <path value="Composition.section.section.entry" />
-      <sliceName value="anforderungTestung" />
-      <min value="1" />
-      <max value="1" />
-      <type>
-        <code value="Reference" />
-        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/ServiceRequest/nNGM/testung" />
-      </type>
-      <mustSupport value="true" />
-    </element>
-    <element id="Composition.section:diagnostik.section:liquid-biopsy.entry:anforderungTestung.reference">
-      <path value="Composition.section.section.entry.reference" />
-      <min value="1" />
     </element>
     <element id="Composition.section:diagnostik.section:liquid-biopsy.entry:netzwerkZentrum">
       <path value="Composition.section.section.entry" />
