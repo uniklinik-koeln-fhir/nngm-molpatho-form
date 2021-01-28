@@ -289,9 +289,9 @@
       <path value="Composition.section.section.entry.reference" />
       <min value="1" />
     </element>
-    <element id="Composition.section:diagnostik.section:immunhistochemie.entry:standort">
+    <element id="Composition.section:diagnostik.section:immunhistochemie.entry:netzwerkZentrum">
       <path value="Composition.section.section.entry" />
-      <sliceName value="standort" />
+      <sliceName value="netzwerkZentrum" />
       <min value="1" />
       <max value="1" />
       <type>
@@ -300,7 +300,7 @@
       </type>
       <mustSupport value="true" />
     </element>
-    <element id="Composition.section:diagnostik.section:immunhistochemie.entry:standort.reference">
+    <element id="Composition.section:diagnostik.section:immunhistochemie.entry:netzwerkZentrum.reference">
       <path value="Composition.section.section.entry.reference" />
       <min value="1" />
     </element>
