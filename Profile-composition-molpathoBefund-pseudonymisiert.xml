@@ -358,21 +358,6 @@
       <path value="Composition.section.section.entry.reference" />
       <min value="1" />
     </element>
-    <element id="Composition.section:diagnostik.section:histologie.entry:pathologie">
-      <path value="Composition.section.section.entry" />
-      <sliceName value="pathologie" />
-      <min value="1" />
-      <max value="1" />
-      <type>
-        <code value="Reference" />
-        <targetProfile value="http://clinicalsite.org/fhir/StructureDefinition/organizationalunit" />
-      </type>
-      <mustSupport value="true" />
-    </element>
-    <element id="Composition.section:diagnostik.section:histologie.entry:pathologie.reference">
-      <path value="Composition.section.section.entry.reference" />
-      <min value="1" />
-    </element>
     <element id="Composition.section:diagnostik.section:histologie.entry:histologie">
       <path value="Composition.section.section.entry" />
       <sliceName value="histologie" />
@@ -450,7 +435,7 @@
       <max value="1" />
       <type>
         <code value="Reference" />
-        <targetProfile value="https://www.uk-koeln.de/fhir/StructureDefinition/DiagnosticReport/nNGM/befund/" />
+        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/DiagnosticReport/nNGM/befund" />
       </type>
       <mustSupport value="true" />
     </element>
@@ -532,7 +517,7 @@
     </element>
     <element id="Composition.section:diagnostik.section:ngs-lung-panel.entry:befund">
       <path value="Composition.section.section.entry" />
-      <sliceName value="netzwerkZentrum" />
+      <sliceName value="befund" />
       <min value="1" />
       <max value="1" />
       <type>
@@ -547,7 +532,7 @@
     </element>
     <element id="Composition.section:diagnostik.section:ngs-lung-panel.entry:ngs-panel">
       <path value="Composition.section.section.entry" />
-      <sliceName value="netzwerkZentrum" />
+      <sliceName value="ngs-panel" />
       <min value="1" />
       <type>
         <code value="Reference" />
@@ -561,7 +546,7 @@
     </element>
     <element id="Composition.section:diagnostik.section:ngs-lung-panel.entry:ngs-panel-obs">
       <path value="Composition.section.section.entry" />
-      <sliceName value="netzwerkZentrum" />
+      <sliceName value="ngs-panel-obs" />
       <min value="1" />
       <type>
         <code value="Reference" />
