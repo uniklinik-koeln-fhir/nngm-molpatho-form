@@ -1,8 +1,8 @@
 {
   "resourceType": "StructureDefinition",
   "url": "http://uk-koeln.de/fhir/StructureDefinition/Observation/ish",
-  "name": "IshObservation",
-  "title": "CISH/FISH Befund",
+  "name": "CishObservation",
+  "title": "CISH Befund",
   "status": "active",
   "date": "2020-03-17",
   "fhirVersion": "4.0.1",
@@ -170,6 +170,14 @@
         "type": [
           {
             "code": "CodeableConcept"
+          }
+        ],
+        "constraint": [
+          {
+            "key": "code-1",
+            "severity": "error",
+            "human": "Only MET observations can use other codes than LOINC.",
+            "expression": "Observation.code.coding.code.where(code != ‘MET’) implies Observation.code.coding.system.where(system = 'http://loinc.org').exists()"
           }
         ],
         "mustSupport": true,
