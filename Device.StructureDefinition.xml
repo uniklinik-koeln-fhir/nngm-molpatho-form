@@ -28,6 +28,10 @@
     <element id="Device.manufacturer">
       <path value="Device.manufacturer" />
       <mustSupport value="true" />
+      <binding>
+        <strength value="extensible" />
+        <valueSet value="http://uk-koeln.de/fhir/ValueSet/hersteller-molpatho" />
+      </binding>
     </element>
     <element id="Device.deviceName">
       <path value="Device.deviceName" />
@@ -36,6 +40,10 @@
     <element id="Device.deviceName.name">
       <path value="Device.deviceName.name" />
       <mustSupport value="true" />
+      <binding>
+        <strength value="extensible" />
+        <valueSet value="http://uk-koeln.de/fhir/ValueSet/deviceName" />
+      </binding>
     </element>
     <element id="Device.deviceName.type">
       <path value="Device.deviceName.type" />
