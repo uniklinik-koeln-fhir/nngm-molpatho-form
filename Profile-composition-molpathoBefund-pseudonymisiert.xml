@@ -537,7 +537,7 @@
       <max value="1" />
       <type>
         <code value="Reference" />
-        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Device" />
+        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Device/nNGM/ngs-panel" />
       </type>
       <mustSupport value="true" />
     </element>

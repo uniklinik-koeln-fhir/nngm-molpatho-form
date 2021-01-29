@@ -1,20 +1,20 @@
 {
     "resourceType": "CodeSystem",
     "url": "http://uk-koeln.de/fhir/CodeSystem/hersteller-molpatho",
-    "name": "Untersuchungsergebnis",
-    "title": "Untersuchungsergebnis",
+    "name": "HerstellerMolpatho",
+    "title": "HerstellerMolpatho",
     "status": "active",
     "date": "2018-10-31",
     "publisher": "Uniklinik Köln",
-    "description": "Untersuchungsergebnis",
+    "description": "HerstellerMolpatho",
     "content": "complete",
     "concept": [
         {
-            "code": "Dako_Agilent",
-            "display": "Dako Agilent"
+            "code": "Dako-Agilent",
+            "display": "Dako-Agilent"
         },
         {
-            "code": "Cell_Marque",
+            "code": "Cell Marque",
             "display": "Cell Marque"
         },
         {
@@ -22,11 +22,11 @@
             "display": "Progen"
         },
         {
-            "code": "Zytomed_System",
-            "display": "Zytomed System"
+            "code": "Zytomed Systems",
+            "display": "Zytomed Systems"
         },
         {
-            "code": "Roche_Ventana",
+            "code": "Roche Ventana",
             "display": "Roche Ventana"
         },
         {
@@ -38,23 +38,23 @@
             "display": "Roche"
         },
         {
-            "code": "Novacastra-Leica",
-            "display": "Novacastra-Leica"
+            "code": "Novocastra-Leica",
+            "display": "Novocastra-Leica"
         },
         {
-            "code": "Biocare_Medical",
+            "code": "Biocare Medical",
             "display": "Biocare Medical"
         },
         {
-            "code": "Bio_SB",
+            "code": "Bio SB",
             "display": "Bio SB"
         },
         {
-            "code": "DCS_-_BioGenex",
+            "code": "DCS - BioGenex",
             "display": "DCS - BioGenex"
         },
         {
-            "code": "Thermo_Fisher_Scientific",
+            "code": "Thermo Fisher Scientific",
             "display": "Thermo Fisher Scientific"
         },
         {
@@ -74,7 +74,7 @@
             "display": "Qiagen"
         },
         {
-            "code": "Cell_Signaling",
+            "code": "Cell Signaling",
             "display": "Cell Signaling"
         },
         {
@@ -86,7 +86,7 @@
             "display": "LMU"
         },
         {
-            "code": "Epitomics_(Generon)",
+            "code": "Epitomics (Generon)",
             "display": "Epitomics (Generon)"
         },
         {
@@ -94,7 +94,7 @@
             "display": "Diacarta"
         },
         {
-            "code": "Beckman_Coulter",
+            "code": "Beckman Coulter",
             "display": "Beckman Coulter"
         },
         {
@@ -116,6 +116,46 @@
         {
             "code": "Monoclonal Mouse anti-human PD-L1 (Clone 22C3)",
             "display": "Monoclonal Mouse anti-human PD-L1 (Clone 22C3)"
+        },
+        {
+            "code": "medac-diagnostica",
+            "display": "medac-diagnostica"
+        },
+        {
+            "code": "Immunologic",
+            "display": "Immunologic"
+        },
+        {
+            "code": "Menarini Diagnostics",
+            "display": "Menarini Diagnostics"
+        },
+        {
+            "code": "Diagnostic BioSystems",
+            "display": "Diagnostic BioSystems"
+        },
+        {
+            "code": "Dianova",
+            "display": "Dianova"
+        },
+        {
+            "code": "Zytomed",
+            "display": "Zytomed"
+        },
+        {
+            "code": "Thermo Fisher",
+            "display": "Thermo Fisher"
+        },
+        {
+            "code": "Novocastra - Leica",
+            "display": "Novocastra - Leica"
+        },
+        {
+            "code": "Dako - Agilent",
+            "display": "Dako - Agilent"
+        },
+        {
+            "code": "OriGene",
+            "display": "OriGene"
         }
     ]
 }

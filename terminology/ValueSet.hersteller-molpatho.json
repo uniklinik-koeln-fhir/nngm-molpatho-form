@@ -19,18 +19,18 @@
     "expansion": {
         "identifier": "30049601-64fc-4470-8520-a7a13db0b56b",
         "timestamp": "2020-10-13T10:35:28+00:00",
-        "total": 27,
+        "total": 37,
         "contains": [
             {
                 "system": "http://uk-koeln.de/fhir/CodeSystem/hersteller-molpatho",
                 "version": "1.0.0",
-                "code": "Dako_Agilent",
-                "display": "Dako Agilent"
+                "code": "Dako-Agilent",
+                "display": "Dako-Agilent"
             },
             {
                 "system": "http://uk-koeln.de/fhir/CodeSystem/hersteller-molpatho",
                 "version": "1.0.0",
-                "code": "Cell_Marque",
+                "code": "Cell Marque",
                 "display": "Cell Marque"
             },
             {
@@ -42,13 +42,13 @@
             {
                 "system": "http://uk-koeln.de/fhir/CodeSystem/hersteller-molpatho",
                 "version": "1.0.0",
-                "code": "Zytomed_System",
-                "display": "Zytomed System"
+                "code": "Zytomed Systems",
+                "display": "Zytomed Systems"
             },
             {
                 "system": "http://uk-koeln.de/fhir/CodeSystem/hersteller-molpatho",
                 "version": "1.0.0",
-                "code": "Roche_Ventana",
+                "code": "Roche Ventana",
                 "display": "Roche Ventana"
             },
             {
@@ -66,31 +66,31 @@
             {
                 "system": "http://uk-koeln.de/fhir/CodeSystem/hersteller-molpatho",
                 "version": "1.0.0",
-                "code": "Novacastra-Leica",
-                "display": "Novacastra-Leica"
+                "code": "Novocastra-Leica",
+                "display": "Novocastra-Leica"
             },
             {
                 "system": "http://uk-koeln.de/fhir/CodeSystem/hersteller-molpatho",
                 "version": "1.0.0",
-                "code": "Biocare_Medical",
+                "code": "Biocare Medical",
                 "display": "Biocare Medical"
             },
             {
                 "system": "http://uk-koeln.de/fhir/CodeSystem/hersteller-molpatho",
                 "version": "1.0.0",
-                "code": "Bio_SB",
+                "code": "Bio SB",
                 "display": "Bio SB"
             },
             {
                 "system": "http://uk-koeln.de/fhir/CodeSystem/hersteller-molpatho",
                 "version": "1.0.0",
-                "code": "DCS_-_BioGenex",
+                "code": "DCS - BioGenex",
                 "display": "DCS - BioGenex"
             },
             {
                 "system": "http://uk-koeln.de/fhir/CodeSystem/hersteller-molpatho",
                 "version": "1.0.0",
-                "code": "Thermo_Fisher_Scientific",
+                "code": "Thermo Fisher Scientific",
                 "display": "Thermo Fisher Scientific"
             },
             {
@@ -120,7 +120,7 @@
             {
                 "system": "http://uk-koeln.de/fhir/CodeSystem/hersteller-molpatho",
                 "version": "1.0.0",
-                "code": "Cell_Signaling",
+                "code": "Cell Signaling",
                 "display": "Cell Signaling"
             },
             {
@@ -138,7 +138,7 @@
             {
                 "system": "http://uk-koeln.de/fhir/CodeSystem/hersteller-molpatho",
                 "version": "1.0.0",
-                "code": "Epitomics_(Generon)",
+                "code": "Epitomics (Generon)",
                 "display": "Epitomics (Generon)"
             },
             {
@@ -150,7 +150,7 @@
             {
                 "system": "http://uk-koeln.de/fhir/CodeSystem/hersteller-molpatho",
                 "version": "1.0.0",
-                "code": "Beckman_Coulter",
+                "code": "Beckman Coulter",
                 "display": "Beckman Coulter"
             },
             {
@@ -182,6 +182,66 @@
                 "version": "1.0.0",
                 "code": "Monoclonal Mouse anti-human PD-L1 (Clone 22C3)",
                 "display": "Monoclonal Mouse anti-human PD-L1 (Clone 22C3)"
+            },
+            {
+                "system": "http://uk-koeln.de/fhir/CodeSystem/hersteller-molpatho",
+                "version": "1.0.0",
+                "code": "medac-diagnostica",
+                "display": "medac-diagnostica"
+            },
+            {
+                "system": "http://uk-koeln.de/fhir/CodeSystem/hersteller-molpatho",
+                "version": "1.0.0",
+                "code": "Immunologic",
+                "display": "Immunologic"
+            },
+            {
+                "system": "http://uk-koeln.de/fhir/CodeSystem/hersteller-molpatho",
+                "version": "1.0.0",
+                "code": "Menarini Diagnostics",
+                "display": "Menarini Diagnostics"
+            },
+            {
+                "system": "http://uk-koeln.de/fhir/CodeSystem/hersteller-molpatho",
+                "version": "1.0.0",
+                "code": "Diagnostic BioSystems",
+                "display": "Diagnostic BioSystems"
+            },
+            {
+                "system": "http://uk-koeln.de/fhir/CodeSystem/hersteller-molpatho",
+                "version": "1.0.0",
+                "code": "Dianova",
+                "display": "Dianova"
+            },
+            {
+                "system": "http://uk-koeln.de/fhir/CodeSystem/hersteller-molpatho",
+                "version": "1.0.0",
+                "code": "Zytomed",
+                "display": "Zytomed"
+            },
+            {
+                "system": "http://uk-koeln.de/fhir/CodeSystem/hersteller-molpatho",
+                "version": "1.0.0",
+                "code": "Thermo Fisher",
+                "display": "Thermo Fisher"
+            },
+            {
+                "system": "http://uk-koeln.de/fhir/CodeSystem/hersteller-molpatho",
+                "version": "1.0.0",
+                "code": "Novocastra - Leica",
+                "display": "Novocastra - Leica"
+            },
+            {
+                "system": "http://uk-koeln.de/fhir/CodeSystem/hersteller-molpatho",
+                "version": "1.0.0",
+                "code": "Dako - Agilent",
+                "display": "Dako - Agilent"
+            },
+            {
+                "system": "http://uk-koeln.de/fhir/CodeSystem/hersteller-molpatho",
+                "version": "1.0.0",
+                "code": "OriGene",
+                "display": "OriGene"
             }
         ]
     }
