@@ -199,6 +199,35 @@
         "mustSupport": true
       },
       {
+        "id": "Observation.component:sop",
+        "path": "Observation.component",
+        "sliceName": "sop",
+        "max": "1",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.component:sop.code",
+        "path": "Observation.component.code",
+        "patternCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://ncit.nci.nih.gov",
+              "code": "C48443"
+            }
+          ]
+        }
+      },
+      {
+        "id": "Observation.component:sop.value[x]",
+        "path": "Observation.component.value[x]",
+        "min": 1,
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
         "id": "Observation.component:phaenotyp",
         "path": "Observation.component",
         "sliceName": "phaenotyp",
