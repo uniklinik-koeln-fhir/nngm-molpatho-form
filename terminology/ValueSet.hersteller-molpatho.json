@@ -242,6 +242,18 @@
                 "version": "1.0.0",
                 "code": "OriGene",
                 "display": "OriGene"
+            },
+            {
+                "system": "http://uk-koeln.de/fhir/CodeSystem/hersteller-molpatho",
+                "version": "1.0.0",
+                "code": "Thermo Fisher, Roche",
+                "display": "Thermo Fisher, Roche"
+            },
+            {
+                "system": "http://uk-koeln.de/fhir/CodeSystem/hersteller-molpatho",
+                "version": "1.0.0",
+                "code": "TUM",
+                "display": "TUM"
             }
         ]
     }

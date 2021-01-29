@@ -156,6 +156,14 @@
         {
             "code": "OriGene",
             "display": "OriGene"
+        },
+        {
+            "code": "Thermo Fisher, Roche",
+            "display": "Thermo Fisher, Roche"
+        },
+        {
+            "code": "TUM",
+            "display": "TUM"
         }
     ]
 }
