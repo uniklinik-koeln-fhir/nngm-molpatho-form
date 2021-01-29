@@ -46,6 +46,7 @@
         "display": "Fusion Gene"
       },
       {
+        "system": "http://ncit.nci.nih.gov",
         "code": "C25418",
         "display": "Amplification"
       }
