@@ -2,11 +2,11 @@
     "resourceType": "ValueSet",
     "url": "http://uk-koeln.de/fhir/ValueSet/nNGM/ergebnis-fish-met",
     "version": "1.0",
-    "name": "IHC-Untersuchungsergebnis",
+    "name": "Ergebnis FISH MET",
     "status": "active",
     "date": "2018-10-31",
     "publisher": "Uniklinik Köln",
-    "description": "Untersuchungsergebnis IHC",
+    "description": "Ergebnis FISH MET",
     "compose": {
         "include": [
             {

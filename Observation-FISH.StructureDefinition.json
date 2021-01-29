@@ -108,8 +108,7 @@
         "path": "Observation.category",
         "mustSupport": true,
         "binding": {
-          "strength": "required",
-          "valueSet": "http://hl7.org/fhir/ValueSet/observation-category"
+          "strength": "required"
         }
       },
       {
@@ -153,7 +152,7 @@
         "mustSupport": true,
         "binding": {
           "strength": "required",
-          "valueSet": "http://loinc.org/vs/LL2451-4"
+          "valueSet": "http://uk-koeln.de/fhir/ValueSet/nNGM/ergebnis-posNegIndNoCall"
         }
       },
       {
