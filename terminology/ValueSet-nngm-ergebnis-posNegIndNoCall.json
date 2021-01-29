@@ -27,6 +27,14 @@
                     {
                         "code": "LA18198-4",
                         "display": "No call"
+                    },
+                    {
+                        "code": "positiv (high-level amplification)",
+                        "display": "positiv (high-level amplification)"
+                    },
+                    {
+                        "code": "positiv (moderate-level amplification)",
+                        "display": "positiv (moderate-level amplification)"
                     }
                 ]
             }
@@ -56,6 +64,16 @@
                 "system": "http://loinc.org",
                 "code": "LA18198-4",
                 "display": "No call"
+            },
+            {
+                "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/ergebnis",
+                "code": "positiv (high-level amplification)",
+                "display": "positiv (high-level amplification)"
+            },
+            {
+                "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/ergebnis",
+                "code": "positiv (moderate-level amplification)",
+                "display": "positiv (moderate-level amplification)"
             }
         ]
     }

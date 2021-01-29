@@ -53,7 +53,8 @@
             "key": "amplifikation",
             "severity": "error",
             "human": "If Observation concerns MET, ALK or ROS1 then a different VS shall be bound",
-            "expression": "Observation.code.coding.code.where(code = ‘MET’) implies Observation.component.ofType(CodeableConcept).coding.system.where(system = 'http://uk-koeln.de/fhir/ValueSet/nNGM/ergebnis-cish-met').exists() and Observation.code.coding.code.where(code = ‘MET’) implies Observation.component.ofType(CodableConcept).coding.system.where(system = ‘http://uk-koeln.de/fhir/ValueSet/amplification-met’).exists()"
+            "expression": "Observation.code.coding.code.where(code = ‘MET’) implies Observation.component.ofType(CodeableConcept).coding.system.where(system = 'http://uk-koeln.de/fhir/ValueSet/nNGM/ergebnis-cish-met').exists() and Observation.code.coding.code.where(code = ‘MET’) implies Observation.component.ofType(CodableConcept).coding.system.where(system = ‘http://uk-koeln.de/fhir/ValueSet/amplification-met’).exists()",
+            "source": "http://uk-koeln.de/fhir/StructureDefinition/Observation/ish"
           }
         ]
       },
@@ -174,13 +175,8 @@
         "mustSupport": true,
         "binding": {
           "strength": "required",
-          "valueSet": "http://uk-koeln.de/fhir/ValueSet/nNGM/ergebnis"
+          "valueSet": "http://uk-koeln.de/fhir/ValueSet/nNGM/ergebnis-posNegIndNoCall"
         }
-      },
-      {
-        "id": "Observation.value[x].coding",
-        "path": "Observation.value[x].coding",
-        "min": 1
       },
       {
         "id": "Observation.interpretation",

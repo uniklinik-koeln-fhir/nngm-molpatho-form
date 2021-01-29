@@ -38,12 +38,12 @@
             "display": "keine aktivierende Mutation"
         },
         {
-            "code": "positive (high-level amplification)",
-            "display": "positive (high-level amplification)"
+            "code": "positiv (high-level amplification)",
+            "display": "positiv (high-level amplification)"
         },
         {
-            "code": "positive (moderate-level amplification)",
-            "display": "positive (moderate-level amplification)"
+            "code": "positiv (moderate-level amplification)",
+            "display": "positiv (moderate-level amplification)"
         }
     ]
 }
