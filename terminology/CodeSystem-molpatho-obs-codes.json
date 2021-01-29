@@ -113,6 +113,10 @@
           {
             "code": "Sonstiges",
             "display": "Sonstiges"
+          },
+          {
+            "code": "Liquid Biopsy",
+            "display": "Liquid Biopsy"
           }
     ]
   }
