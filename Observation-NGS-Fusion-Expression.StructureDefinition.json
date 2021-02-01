@@ -452,7 +452,7 @@
         "min": 1,
         "type": [
           {
-            "code": "integer"
+            "code": "string"
           }
         ]
       },
@@ -536,13 +536,9 @@
         "min": 1,
         "type": [
           {
-            "code": "CodeableConcept"
+            "code": "string"
           }
-        ],
-        "binding": {
-          "strength": "extensible",
-          "valueSet": "http://uk-koeln.de/fhir/ValueSet/hgnc-codes"
-        }
+        ]
       },
       {
         "id": "Observation.component:erster-fusionspartner-exon",
@@ -568,7 +564,7 @@
         "min": 1,
         "type": [
           {
-            "code": "integer"
+            "code": "string"
           }
         ]
       },
@@ -596,13 +592,9 @@
         "min": 1,
         "type": [
           {
-            "code": "CodeableConcept"
+            "code": "string"
           }
-        ],
-        "binding": {
-          "strength": "extensible",
-          "valueSet": "http://uk-koeln.de/fhir/ValueSet/hgnc-codes"
-        }
+        ]
       },
       {
         "id": "Observation.component:zweiter-fusionspartner-exon",
@@ -628,7 +620,7 @@
         "min": 1,
         "type": [
           {
-            "code": "integer"
+            "code": "string"
           }
         ]
       }
