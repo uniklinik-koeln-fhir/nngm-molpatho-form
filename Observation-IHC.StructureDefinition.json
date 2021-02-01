@@ -46,24 +46,6 @@
   "differential": {
     "element": [
       {
-        "id": "Observation",
-        "path": "Observation",
-        "constraint": [
-          {
-            "key": "ergebnis",
-            "severity": "error",
-            "human": "If Observation concerns MET, ALK or ROS1 then a different VS shall be bound",
-            "expression": "Observation.code.coding.code.where(code = 'MET' or code = 'ALK' or code = 'ROS1') implies Observation.valueCodeableConcept.coding.system.where(system = 'https://www.uk-koeln.de/fhir/ValueSet/nNGM/ergebnis-ihc').exists()"
-          },
-          {
-            "key": "ergebnis-2",
-            "severity": "error",
-            "human": "If Observation concerns PD-L1 then a different VS shall be bound",
-            "expression": "Observation.code.coding.code.where(code = 'PD-L1') implies Observation.valueCodeableConcept.coding.system.where(system = 'https://www.uk-koeln.de/fhir/ValueSet/nNGM/ergebnis-ihc-pdl1').exists()"
-          }
-        ]
-      },
-      {
         "id": "Observation.extension",
         "path": "Observation.extension",
         "slicing": {
