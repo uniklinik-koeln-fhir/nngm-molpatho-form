@@ -46,6 +46,18 @@
   "differential": {
     "element": [
       {
+        "id": "Observation",
+        "path": "Observation",
+        "constraint": [
+          {
+            "key": "valueCodeableConcept-1",
+            "severity": "error",
+            "human": "Only MET observations can use other codes than LOINC.",
+            "expression": "Observation.code.coding.code.where(code != ‘MET’) implies Observation.valueCodeableConcept.coding.system.where(system = 'http://loinc.org').exists()"
+          }
+        ]
+      },
+      {
         "id": "Observation.extension",
         "path": "Observation.extension",
         "slicing": {
@@ -157,14 +169,6 @@
         "type": [
           {
             "code": "CodeableConcept"
-          }
-        ],
-        "constraint": [
-          {
-            "key": "code-1",
-            "severity": "error",
-            "human": "Only MET observations can use other codes than LOINC.",
-            "expression": "Observation.code.coding.code.where(code != ‘MET’) implies Observation.valueCodeableConcept.coding.system.where(system = 'http://loinc.org').exists()"
           }
         ],
         "mustSupport": true,
