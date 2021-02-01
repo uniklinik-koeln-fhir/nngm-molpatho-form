@@ -122,6 +122,10 @@
           {
             "code": "Sonstiges",
             "display": "Sonstiges"
+          },
+          {
+            "code": "Liquid Biopsy",
+            "display": "Liquid Biopsy"
           }
         ]
       }
@@ -287,6 +291,12 @@
         "version": "1.0.0",
         "code": "Sonstiges",
         "display": "Sonstiges"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/molpatho-obs-codes",
+        "version": "1.0.0",
+        "code": "Liquid Biopsy",
+        "display": "Liquid Biopsy"
       }
     ]
   }
