@@ -164,7 +164,7 @@
             "key": "code-1",
             "severity": "error",
             "human": "Only MET observations can use other codes than LOINC.",
-            "expression": "Observation.code.coding.code.where(code != ‘MET’) implies Observation.code.coding.system.where(system = 'http://loinc.org').exists()"
+            "expression": "Observation.code.coding.code.where(code != ‘MET’) implies Observation.valueCodeableConcept.coding.system.where(system = 'http://loinc.org').exists()"
           }
         ],
         "mustSupport": true,
