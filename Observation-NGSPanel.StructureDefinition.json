@@ -659,13 +659,9 @@
         "path": "Observation.component.value[x]",
         "type": [
           {
-            "code": "CodeableConcept"
+            "code": "string"
           }
-        ],
-        "binding": {
-          "strength": "required",
-          "valueSet": "http://uk-koeln.de/fhir/ValueSet/nNGM/refseqId"
-        }
+        ]
       },
       {
         "id": "Observation.component:referenztranskript.value[x].coding.system",
