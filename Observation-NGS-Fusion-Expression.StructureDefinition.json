@@ -452,7 +452,7 @@
         "min": 1,
         "type": [
           {
-            "code": "string"
+            "code": "integer"
           }
         ]
       },
