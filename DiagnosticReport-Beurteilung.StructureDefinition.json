@@ -108,17 +108,7 @@
       {
         "id": "DiagnosticReport.conclusionCode",
         "path": "DiagnosticReport.conclusionCode",
-        "mustSupport": true,
-        "binding": {
-          "extension": [
-            {
-              "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
-              "valueString": "AdjunctDiagnosis"
-            }
-          ],
-          "strength": "required",
-          "valueSet": "http://loinc.org/vs/LL361-7"
-        }
+        "mustSupport": true
       },
       {
         "id": "DiagnosticReport.conclusionCode.extension",
