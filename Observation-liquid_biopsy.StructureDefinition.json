@@ -338,9 +338,13 @@
         "min": 1,
         "type": [
           {
-            "code": "string"
+            "code": "CodeableConcept"
           }
-        ]
+        ],
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://uk-koeln.de/fhir/ValueSet/phenotypes"
+        }
       },
       {
         "id": "Observation.component:gene-studied",

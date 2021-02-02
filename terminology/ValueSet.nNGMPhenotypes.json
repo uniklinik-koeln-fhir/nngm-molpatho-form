@@ -25,6 +25,14 @@
           {
             "code": "C25418",
             "display": "Amplification"
+          },
+          {
+            "code": "C45576",
+            "display": "Mutation Abnormality"
+          },
+          {
+            "code": "C20195",
+            "display": "Gene Fusion"
           }
         ]
       }
@@ -33,7 +41,7 @@
   "expansion": {
     "identifier": "fc2a84f7-b51a-410c-88ea-21b7061b2ebc",
     "timestamp": "2020-11-13T11:33:48+00:00",
-    "total": 3,
+    "total": 5,
     "contains": [
       {
         "system": "http://ncit.nci.nih.gov",
@@ -49,6 +57,16 @@
         "system": "http://ncit.nci.nih.gov",
         "code": "C25418",
         "display": "Amplification"
+      },
+      {
+        "system": "http://ncit.nci.nih.gov",
+        "code": "C45576",
+        "display": "Mutation Abnormality"
+      },
+      {
+        "system": "http://ncit.nci.nih.gov",
+        "code": "C20195",
+        "display": "Gene Fusion"
       }
     ]
   }

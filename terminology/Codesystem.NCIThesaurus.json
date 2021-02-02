@@ -167,6 +167,10 @@
     {
       "code": "C135715",
       "display": "KRAS Exon 2 Mutation"
+    },
+    {
+      "code": "C45576",
+      "display": "Mutation Abnormality"
     }
   ]
 }
