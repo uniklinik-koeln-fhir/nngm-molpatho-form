@@ -111,6 +111,10 @@
             "display": "NGS Panel"
           },
           {
+            "code": "NGS Panel Forschung",
+            "display": "NGS Panel Forschung"
+          },
+          {
             "code": "Sonstiges",
             "display": "Sonstiges"
           },

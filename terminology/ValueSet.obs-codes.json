@@ -120,6 +120,10 @@
             "display": "NGS Panel"
           },
           {
+            "code": "NGS Panel Forschung",
+            "display": "NGS Panel Forschung"
+          },
+          {
             "code": "Sonstiges",
             "display": "Sonstiges"
           },
@@ -134,7 +138,7 @@
   "expansion": {
     "identifier": "b875c923-94c7-4ea4-aa90-c1b82110c86f",
     "timestamp": "2020-11-13T11:36:23+00:00",
-    "total": 26,
+    "total": 27,
     "contains": [
       {
         "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/molpatho-obs-codes",
@@ -279,6 +283,12 @@
         "version": "1.0.0",
         "code": "NGS Panel",
         "display": "NGS Panel"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/molpatho-obs-codes",
+        "version": "1.0.0",
+        "code": "NGS Panel Forschung",
+        "display": "NGS Panel Forschung"
       },
       {
         "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/molpatho-obs-codes",
