@@ -252,14 +252,14 @@
         "mustSupport": true
       },
       {
-        "id": "Observation.component:wachtumsmusterBeiAdenokarzinomLepidisch",
+        "id": "Observation.component:wachstumsmusterBeiAdenokarzinomLepidisch",
         "path": "Observation.component",
-        "sliceName": "wachtumsmusterBeiAdenokarzinomLepidisch",
+        "sliceName": "wachstumsmusterBeiAdenokarzinomLepidisch",
         "max": "1",
         "mustSupport": true
       },
       {
-        "id": "Observation.component:wachtumsmusterBeiAdenokarzinomLepidisch.code",
+        "id": "Observation.component:wachstumsmusterBeiAdenokarzinomLepidisch.code",
         "path": "Observation.component.code",
         "patternCodeableConcept": {
           "coding": [
@@ -271,7 +271,7 @@
         }
       },
       {
-        "id": "Observation.component:wachtumsmusterBeiAdenokarzinomLepidisch.value[x]",
+        "id": "Observation.component:wachstumsmusterBeiAdenokarzinomLepidisch.value[x]",
         "path": "Observation.component.value[x]",
         "min": 1,
         "type": [
@@ -281,29 +281,29 @@
         ]
       },
       {
-        "id": "Observation.component:wachtumsmusterBeiAdenokarzinomLepidisch.value[x].unit",
+        "id": "Observation.component:wachstumsmusterBeiAdenokarzinomLepidisch.value[x].unit",
         "path": "Observation.component.value[x].unit",
         "fixedString": "%"
       },
       {
-        "id": "Observation.component:wachtumsmusterBeiAdenokarzinomLepidisch.value[x].system",
+        "id": "Observation.component:wachstumsmusterBeiAdenokarzinomLepidisch.value[x].system",
         "path": "Observation.component.value[x].system",
         "fixedUri": "http://unitsofmeasure.org"
       },
       {
-        "id": "Observation.component:wachtumsmusterBeiAdenokarzinomLepidisch.value[x].code",
+        "id": "Observation.component:wachstumsmusterBeiAdenokarzinomLepidisch.value[x].code",
         "path": "Observation.component.value[x].code",
         "fixedCode": "%"
       },
       {
-        "id": "Observation.component:wachtumsmusterBeiAdenokarzinomAzinaer",
+        "id": "Observation.component:wachstumsmusterBeiAdenokarzinomAzinaer",
         "path": "Observation.component",
-        "sliceName": "wachtumsmusterBeiAdenokarzinomAzinaer",
+        "sliceName": "wachstumsmusterBeiAdenokarzinomAzinaer",
         "max": "1",
         "mustSupport": true
       },
       {
-        "id": "Observation.component:wachtumsmusterBeiAdenokarzinomAzinaer.code",
+        "id": "Observation.component:wachstumsmusterBeiAdenokarzinomAzinaer.code",
         "path": "Observation.component.code",
         "patternCodeableConcept": {
           "coding": [
@@ -315,7 +315,7 @@
         }
       },
       {
-        "id": "Observation.component:wachtumsmusterBeiAdenokarzinomAzinaer.value[x]",
+        "id": "Observation.component:wachstumsmusterBeiAdenokarzinomAzinaer.value[x]",
         "path": "Observation.component.value[x]",
         "min": 1,
         "type": [
@@ -325,24 +325,24 @@
         ]
       },
       {
-        "id": "Observation.component:wachtumsmusterBeiAdenokarzinomAzinaer.value[x].unit",
+        "id": "Observation.component:wachstumsmusterBeiAdenokarzinomAzinaer.value[x].unit",
         "path": "Observation.component.value[x].unit",
         "fixedString": "%"
       },
       {
-        "id": "Observation.component:wachtumsmusterBeiAdenokarzinomAzinaer.value[x].system",
+        "id": "Observation.component:wachstumsmusterBeiAdenokarzinomAzinaer.value[x].system",
         "path": "Observation.component.value[x].system",
         "fixedUri": "http://unitsofmeasure.org"
       },
       {
-        "id": "Observation.component:wachtumsmusterBeiAdenokarzinomPapilaer",
+        "id": "Observation.component:wachstumsmusterBeiAdenokarzinomPapilaer",
         "path": "Observation.component",
-        "sliceName": "wachtumsmusterBeiAdenokarzinomPapilaer",
+        "sliceName": "wachstumsmusterBeiAdenokarzinomPapilaer",
         "max": "1",
         "mustSupport": true
       },
       {
-        "id": "Observation.component:wachtumsmusterBeiAdenokarzinomPapilaer.code",
+        "id": "Observation.component:wachstumsmusterBeiAdenokarzinomPapilaer.code",
         "path": "Observation.component.code",
         "patternCodeableConcept": {
           "coding": [
@@ -354,7 +354,7 @@
         }
       },
       {
-        "id": "Observation.component:wachtumsmusterBeiAdenokarzinomPapilaer.value[x]",
+        "id": "Observation.component:wachstumsmusterBeiAdenokarzinomPapilaer.value[x]",
         "path": "Observation.component.value[x]",
         "min": 1,
         "type": [
@@ -364,24 +364,24 @@
         ]
       },
       {
-        "id": "Observation.component:wachtumsmusterBeiAdenokarzinomPapilaer.value[x].unit",
+        "id": "Observation.component:wachstumsmusterBeiAdenokarzinomPapilaer.value[x].unit",
         "path": "Observation.component.value[x].unit",
         "fixedString": "%"
       },
       {
-        "id": "Observation.component:wachtumsmusterBeiAdenokarzinomPapilaer.value[x].code",
+        "id": "Observation.component:wachstumsmusterBeiAdenokarzinomPapilaer.value[x].code",
         "path": "Observation.component.value[x].code",
         "fixedCode": "%"
       },
       {
-        "id": "Observation.component:wachtumsmusterBeiAdenokarzinomMikropapilaer",
+        "id": "Observation.component:wachstumsmusterBeiAdenokarzinomMikropapilaer",
         "path": "Observation.component",
-        "sliceName": "wachtumsmusterBeiAdenokarzinomMikropapilaer",
+        "sliceName": "wachstumsmusterBeiAdenokarzinomMikropapilaer",
         "max": "1",
         "mustSupport": true
       },
       {
-        "id": "Observation.component:wachtumsmusterBeiAdenokarzinomMikropapilaer.code",
+        "id": "Observation.component:wachstumsmusterBeiAdenokarzinomMikropapilaer.code",
         "path": "Observation.component.code",
         "patternCodeableConcept": {
           "coding": [
@@ -393,7 +393,7 @@
         }
       },
       {
-        "id": "Observation.component:wachtumsmusterBeiAdenokarzinomMikropapilaer.value[x]",
+        "id": "Observation.component:wachstumsmusterBeiAdenokarzinomMikropapilaer.value[x]",
         "path": "Observation.component.value[x]",
         "min": 1,
         "type": [
@@ -403,29 +403,29 @@
         ]
       },
       {
-        "id": "Observation.component:wachtumsmusterBeiAdenokarzinomMikropapilaer.value[x].unit",
+        "id": "Observation.component:wachstumsmusterBeiAdenokarzinomMikropapilaer.value[x].unit",
         "path": "Observation.component.value[x].unit",
         "fixedString": "%"
       },
       {
-        "id": "Observation.component:wachtumsmusterBeiAdenokarzinomMikropapilaer.value[x].system",
+        "id": "Observation.component:wachstumsmusterBeiAdenokarzinomMikropapilaer.value[x].system",
         "path": "Observation.component.value[x].system",
         "fixedUri": "http://unitsofmeasure.org"
       },
       {
-        "id": "Observation.component:wachtumsmusterBeiAdenokarzinomMikropapilaer.value[x].code",
+        "id": "Observation.component:wachstumsmusterBeiAdenokarzinomMikropapilaer.value[x].code",
         "path": "Observation.component.value[x].code",
         "fixedCode": "%"
       },
       {
-        "id": "Observation.component:wachtumsmusterBeiAdenokarzinomSolide",
+        "id": "Observation.component:wachstumsmusterBeiAdenokarzinomSolide",
         "path": "Observation.component",
-        "sliceName": "wachtumsmusterBeiAdenokarzinomSolide",
+        "sliceName": "wachstumsmusterBeiAdenokarzinomSolide",
         "max": "1",
         "mustSupport": true
       },
       {
-        "id": "Observation.component:wachtumsmusterBeiAdenokarzinomSolide.code",
+        "id": "Observation.component:wachstumsmusterBeiAdenokarzinomSolide.code",
         "path": "Observation.component.code",
         "patternCodeableConcept": {
           "coding": [
@@ -437,7 +437,7 @@
         }
       },
       {
-        "id": "Observation.component:wachtumsmusterBeiAdenokarzinomSolide.value[x]",
+        "id": "Observation.component:wachstumsmusterBeiAdenokarzinomSolide.value[x]",
         "path": "Observation.component.value[x]",
         "min": 1,
         "type": [
@@ -447,17 +447,17 @@
         ]
       },
       {
-        "id": "Observation.component:wachtumsmusterBeiAdenokarzinomSolide.value[x].unit",
+        "id": "Observation.component:wachstumsmusterBeiAdenokarzinomSolide.value[x].unit",
         "path": "Observation.component.value[x].unit",
         "fixedString": "%"
       },
       {
-        "id": "Observation.component:wachtumsmusterBeiAdenokarzinomSolide.value[x].system",
+        "id": "Observation.component:wachstumsmusterBeiAdenokarzinomSolide.value[x].system",
         "path": "Observation.component.value[x].system",
         "fixedUri": "http://unitsofmeasure.org"
       },
       {
-        "id": "Observation.component:wachtumsmusterBeiAdenokarzinomSolide.value[x].code",
+        "id": "Observation.component:wachstumsmusterBeiAdenokarzinomSolide.value[x].code",
         "path": "Observation.component.value[x].code",
         "fixedCode": "%"
       },
