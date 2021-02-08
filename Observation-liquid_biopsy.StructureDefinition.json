@@ -359,7 +359,7 @@
         "patternCodeableConcept": {
           "coding": [
             {
-              "system": "http://ncit.nci.nih.gov",
+              "system": "http://loinc.org",
               "code": "48018-6"
             }
           ]
