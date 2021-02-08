@@ -309,7 +309,7 @@
         ],
         "binding": {
           "strength": "extensible",
-          "valueSet": "http://uk-koeln.de/fhir/ValueSet/nNGM/ergebnis-posNegIndNoCall"
+          "valueSet": "http://uk-koeln.de/fhir/ValueSet/hersteller-molpatho"
         }
       },
       {
