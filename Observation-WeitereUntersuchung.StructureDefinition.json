@@ -248,13 +248,9 @@
         "min": 1,
         "type": [
           {
-            "code": "CodeableConcept"
+            "code": "string"
           }
-        ],
-        "binding": {
-          "strength": "extensible",
-          "valueSet": "http://uk-koeln.de/fhir/ValueSet/phenotypes"
-        }
+        ]
       },
       {
         "id": "Observation.component:assay",
