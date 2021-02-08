@@ -18,7 +18,7 @@
                         "display": "Adenokarzinom"
                     },
                     {
-                        "code": "8240/3",
+                        "code": "8250/3",
                         "display": "lepidisches Adenokarzinom"
                     },
                     {
@@ -70,16 +70,12 @@
                         "display": "nicht-keratinisierendes Plattenepithelkarzinom"
                     },
                     {
-                        "code": "8073/3",
+                        "code": "8083/3",
                         "display": "basaloides Plattenepithelkarzinom"
                     },
                     {
-                        "code": "8083/3",
-                        "display": "Kleinzelliges Karzinom"
-                    },
-                    {
                         "code": "8041/3",
-                        "display": "Kleinzelliges Karzinom"
+                        "display": "kleinzelliges Karzinom"
                     },
                     {
                         "code": "8045/3",
@@ -92,6 +88,10 @@
                     {
                         "code": "8010/6",
                         "display": "kombiniertes großzelliges neuroendokrines Karzinom"
+                    },
+                    {
+                        "code":"8240/3",
+                        "display":"typisches Karznoid"
                     },
                     {
                         "code": "CUP",
