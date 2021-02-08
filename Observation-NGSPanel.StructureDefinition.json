@@ -297,7 +297,7 @@
       {
         "id": "Observation.component:gene-studied.value[x].coding.system",
         "path": "Observation.component.value[x].coding.system",
-        "fixedUri": "www.genenames.org"
+        "fixedUri": "http://www.genenames.org"
       },
       {
         "id": "Observation.component:exon",
