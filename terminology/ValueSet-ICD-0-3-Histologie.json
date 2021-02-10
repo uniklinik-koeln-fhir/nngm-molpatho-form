@@ -108,13 +108,19 @@
     "expansion": {
         "identifier": "d4059849-a886-418f-b29a-92e70d52707c",
         "timestamp": "2020-10-15T15:01:50+00:00",
-        "total": 20,
+        "total": 21,
         "contains": [
             {
                 "system": "urn:oid:2.16.840.1.113883.6.43.1",
                 "version": "2014",
                 "code": "8010/6",
                 "display": "Karzinom-Metastase o.n.A."
+            },
+            {
+                "system": "urn:oid:2.16.840.1.113883.6.43.1",
+                "version": "2014",
+                "code": "8250/3",
+                "display": "Lepidisches Adenokarzinom"
             },
             {
                 "system": "urn:oid:2.16.840.1.113883.6.43.1",
