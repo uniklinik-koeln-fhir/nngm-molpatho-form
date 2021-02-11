@@ -203,11 +203,28 @@
       </patternCodeableConcept>
       <mustSupport value="true" />
     </element>
+    <element id="Composition.section:diagnostik.entry">
+      <path value="Composition.section.entry" />
+      <slicing>
+        <discriminator>
+          <type value="value" />
+          <path value="display" />
+        </discriminator>
+        <rules value="open" />
+      </slicing>
+      <min value="1" />
+      <max value="1" />
+    </element>
     <element id="Composition.section:diagnostik.entry:formularIdentifier">
       <path value="Composition.section.entry" />
       <sliceName value="formularIdentifier" />
       <min value="1" />
       <max value="1" />
+    </element>
+    <element id="Composition.section:diagnostik.entry:formularIdentifier.identifier">
+      <path value="Composition.section.entry.identifier" />
+      <min value="1" />
+      <mustSupport value="true" />
     </element>
     <element id="Composition.section:diagnostik.entry:formularIdentifier.identifier.system">
       <path value="Composition.section.entry.identifier.system" />
@@ -545,9 +562,6 @@
         <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Observation/ngs-panel" />
       </type>
       <mustSupport value="true" />
-    </element>
-    <element id="Composition.section:diagnostik.section:ngs-lung-panel.entry:ngs-panel-obs.reference">
-      <path value="Composition.section.section.entry.reference" />
     </element>
     <element id="Composition.section:diagnostik.section:ngs-fusion-expression">
       <path value="Composition.section.section" />
