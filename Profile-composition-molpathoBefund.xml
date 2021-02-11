@@ -203,28 +203,19 @@
       </patternCodeableConcept>
       <mustSupport value="true" />
     </element>
-    <element id="Composition.section:diagnostik.entry.identifier">
-      <path value="Composition.section.entry.identifier" />
-      <slicing>
-        <discriminator>
-          <type value="value" />
-          <path value="system" />
-        </discriminator>
-        <rules value="closed" />
-      </slicing>
+        <element id="Composition.section:diagnostik.entry:formularIdentifier">
+      <path value="Composition.section.entry" />
+      <sliceName value="formularIdentifier" />
+      <min value="1" />
+      <max value="1" />
     </element>
-    <element id="Composition.section:diagnostik.entry.identifier:formularId">
-      <path value="Composition.section.entry.identifier" />
-      <sliceName value="formularId" />
-      <mustSupport value="true" />
-    </element>
-    <element id="Composition.section:diagnostik.entry.identifier:formularId.system">
+    <element id="Composition.section:diagnostik.entry:formularIdentifier.identifier.system">
       <path value="Composition.section.entry.identifier.system" />
       <min value="1" />
       <fixedUri value="http://uk-koeln.de/NamingSystem/nNGM/formularId" />
       <mustSupport value="true" />
     </element>
-    <element id="Composition.section:diagnostik.entry.identifier:formularId.value">
+    <element id="Composition.section:diagnostik.entry:formularIdentifier.identifier.value">
       <path value="Composition.section.entry.identifier.value" />
       <min value="1" />
       <mustSupport value="true" />
