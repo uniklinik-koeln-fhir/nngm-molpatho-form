@@ -125,6 +125,7 @@
     <element id="Composition.section:beurteilung">
       <path value="Composition.section" />
       <sliceName value="beurteilung" />
+      <max value="1" />
     </element>
     <element id="Composition.section:beurteilung.code">
       <path value="Composition.section.code" />
@@ -184,7 +185,6 @@
     <element id="Composition.section:diagnostik">
       <path value="Composition.section" />
       <sliceName value="diagnostik" />
-      <min value="1" />
     </element>
     <element id="Composition.section:diagnostik.title">
       <path value="Composition.section.title" />
@@ -850,6 +850,14 @@
         </coding>
       </patternCodeableConcept>
     </element>
+    <element id="Composition.section:stammdaten.code.coding.system">
+      <path value="Composition.section.code.coding.system" />
+      <fixedUri value="http://uk-koeln.de/fhir/CodeSystem/nngm/sections" />
+    </element>
+    <element id="Composition.section:stammdaten.code.coding.code">
+      <path value="Composition.section.code.coding.code" />
+      <patternCode value="stammdaten" />
+    </element>
     <element id="Composition.section:stammdaten.entry">
       <path value="Composition.section.entry" />
       <slicing>
@@ -859,6 +867,7 @@
         </discriminator>
         <rules value="open" />
       </slicing>
+      <min value="2" />
       <mustSupport value="true" />
     </element>
     <element id="Composition.section:stammdaten.entry:patient">
@@ -871,7 +880,7 @@
         <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Patient/nNGM/pseudonymisiert" />
       </type>
       <mustSupport value="true" />
-    </element>    
+    </element>
     <element id="Composition.section:stammdaten.entry:patient.reference">
       <path value="Composition.section.entry.reference" />
       <min value="1" />
@@ -892,6 +901,6 @@
       <path value="Composition.section.entry.reference" />
       <min value="1" />
       <max value="1" />
-    </element> 
+    </element>
   </differential>
 </StructureDefinition>
