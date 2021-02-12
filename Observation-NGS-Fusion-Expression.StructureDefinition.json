@@ -432,6 +432,7 @@
         "id": "Observation.component:fusionspartner-exon",
         "path": "Observation.component",
         "sliceName": "fusionspartner-exon",
+        "max": "1",
         "mustSupport": true
       },
       {
@@ -460,6 +461,7 @@
         "id": "Observation.component:exon",
         "path": "Observation.component",
         "sliceName": "exon",
+        "max": "1",
         "mustSupport": true
       },
       {
@@ -488,6 +490,7 @@
         "id": "Observation.component:amplification-factor",
         "path": "Observation.component",
         "sliceName": "amplification-factor",
+        "max": "1",
         "mustSupport": true
       },
       {
@@ -516,6 +519,7 @@
         "id": "Observation.component:erster-fusionspartner",
         "path": "Observation.component",
         "sliceName": "erster-fusionspartner",
+        "max": "1",
         "mustSupport": true
       },
       {
@@ -526,6 +530,10 @@
             {
               "system": "http://loinc.org",
               "code": "48018-6"
+            },
+            {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/tbd-codes",
+              "code": "erster-fusionspartner"
             }
           ]
         }
@@ -544,6 +552,7 @@
         "id": "Observation.component:erster-fusionspartner-exon",
         "path": "Observation.component",
         "sliceName": "erster-fusionspartner-exon",
+        "max": "1",
         "mustSupport": true
       },
       {
@@ -572,6 +581,7 @@
         "id": "Observation.component:zweiter-fusionspartner",
         "path": "Observation.component",
         "sliceName": "zweiter-fusionspartner",
+        "max": "1",
         "mustSupport": true
       },
       {
@@ -582,6 +592,10 @@
             {
               "system": "http://loinc.org",
               "code": "48018-6"
+            },
+            {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/tbd-codes",
+              "code": "zweiter-fusionspartner"
             }
           ]
         }
@@ -600,6 +614,7 @@
         "id": "Observation.component:zweiter-fusionspartner-exon",
         "path": "Observation.component",
         "sliceName": "zweiter-fusionspartner-exon",
+        "max": "1",
         "mustSupport": true
       },
       {
