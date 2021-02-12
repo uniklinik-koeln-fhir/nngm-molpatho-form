@@ -328,6 +328,7 @@
         "id": "Observation.component:dna-chg",
         "path": "Observation.component",
         "sliceName": "dna-chg",
+        "max": "1",
         "mustSupport": true
       },
       {
@@ -356,6 +357,7 @@
         "id": "Observation.component:amino-acid-chg",
         "path": "Observation.component",
         "sliceName": "amino-acid-chg",
+        "max": "1",
         "mustSupport": true
       },
       {
