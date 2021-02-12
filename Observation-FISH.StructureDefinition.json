@@ -445,6 +445,7 @@
         "id": "Observation.component:amplification-level",
         "path": "Observation.component",
         "sliceName": "amplification-level",
+        "max": "1",
         "mustSupport": true
       },
       {
@@ -477,6 +478,7 @@
         "id": "Observation.component:15-met-quantity",
         "path": "Observation.component",
         "sliceName": "15-met-quantity",
+        "max": "1",
         "mustSupport": true
       },
       {
@@ -505,6 +507,7 @@
         "id": "Observation.component:5-met-quantity",
         "path": "Observation.component",
         "sliceName": "5-met-quantity",
+        "max": "1",
         "mustSupport": true
       },
       {
@@ -532,6 +535,7 @@
         "id": "Observation.component:4-met-quantity",
         "path": "Observation.component",
         "sliceName": "4-met-quantity",
+        "max": "1",
         "mustSupport": true
       },
       {
@@ -560,6 +564,7 @@
         "id": "Observation.component:t-zellen-count",
         "path": "Observation.component",
         "sliceName": "t-zellen-count",
+        "max": "1",
         "mustSupport": true
       },
       {
@@ -588,6 +593,7 @@
         "id": "Observation.component:met-signale",
         "path": "Observation.component",
         "sliceName": "met-signale",
+        "max": "1",
         "mustSupport": true
       },
       {
@@ -616,6 +622,7 @@
         "id": "Observation.component:cen-signale",
         "path": "Observation.component",
         "sliceName": "cen-signale",
+        "max": "1",
         "mustSupport": true
       },
       {
@@ -644,6 +651,7 @@
         "id": "Observation.component:quot-met-cen-signal",
         "path": "Observation.component",
         "sliceName": "quot-met-cen-signal",
+        "max": "1",
         "mustSupport": true
       },
       {
@@ -672,6 +680,7 @@
         "id": "Observation.component:met-copy-pro-zell",
         "path": "Observation.component",
         "sliceName": "met-copy-pro-zell",
+        "max": "1",
         "mustSupport": true
       },
       {
@@ -700,6 +709,7 @@
         "id": "Observation.component:gezaehlteTumorzellen",
         "path": "Observation.component",
         "sliceName": "gezaehlteTumorzellen",
+        "max": "1",
         "mustSupport": true
       },
       {
