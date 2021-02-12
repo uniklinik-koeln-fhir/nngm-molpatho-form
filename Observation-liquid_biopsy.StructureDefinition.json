@@ -318,6 +318,7 @@
         "id": "Observation.component:phaenotyp",
         "path": "Observation.component",
         "sliceName": "phaenotyp",
+        "max": "1",
         "mustSupport": true
       },
       {
@@ -499,6 +500,7 @@
         "id": "Observation.component:2ndGen",
         "path": "Observation.component",
         "sliceName": "2ndGen",
+        "max": "1",
         "mustSupport": true
       },
       {
@@ -531,6 +533,7 @@
         "id": "Observation.component:2ndGenExon",
         "path": "Observation.component",
         "sliceName": "2ndGenExon",
+        "max": "1",
         "mustSupport": true
       },
       {
@@ -559,6 +562,7 @@
         "id": "Observation.component:2ndGenTranskript",
         "path": "Observation.component",
         "sliceName": "2ndGenTranskript",
+        "max": "1",
         "mustSupport": true
       },
       {
