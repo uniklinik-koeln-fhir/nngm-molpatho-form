@@ -318,7 +318,6 @@
         "id": "Observation.component:phaenotyp",
         "path": "Observation.component",
         "sliceName": "phaenotyp",
-        "max": "1",
         "mustSupport": true
       },
       {
