@@ -228,34 +228,6 @@
         ]
       },
       {
-        "id": "Observation.component:phaenotyp",
-        "path": "Observation.component",
-        "sliceName": "phaenotyp",
-        "mustSupport": true
-      },
-      {
-        "id": "Observation.component:phaenotyp.code",
-        "path": "Observation.component.code",
-        "patternCodeableConcept": {
-          "coding": [
-            {
-              "system": "http://ncit.nci.nih.gov",
-              "code": "C16977"
-            }
-          ]
-        }
-      },
-      {
-        "id": "Observation.component:phaenotyp.value[x]",
-        "path": "Observation.component.value[x]",
-        "min": 1,
-        "type": [
-          {
-            "code": "string"
-          }
-        ]
-      },
-      {
         "id": "Observation.component:gene-studied",
         "path": "Observation.component",
         "sliceName": "gene-studied",
