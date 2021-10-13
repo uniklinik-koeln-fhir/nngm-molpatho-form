@@ -1,0 +1,27 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "CodeSystem-nNGM-StatusAbschluss",
+  "title": "CodeSystem - nNGM - StatusAbschluss",
+  "name": "CodeSystem_nNGM_StatusAbschluss",
+  "url": "http://uk-koeln.de/fhir/CodeSystem/NNGM/statusAbschluss",
+  "version": "1.0.0",
+  "valueSet": "http://uk-koeln.de/fhir/ValueSet/NNGM/statusAbschluss",
+  "status": "active",
+  "compositional": false,
+  "content": "complete",
+  "count": "3",
+  "concept": [
+    {
+      "code": "vollständig",
+      "display": "vollständig"
+    },
+    {
+      "code": "Teiluntersuchungen",
+      "display": "Teiluntersuchungen"
+    },
+    {
+      "code": "Durchführung nicht möglich (Material nicht auswertbar)",
+      "display": "Durchführung nicht möglich (Material nicht auswertbar)"
+    }
+  ]
+}

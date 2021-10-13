@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <url value="http://uk-koeln.de/fhir/StructureDefinition/Extension/nNGM/ServiceRequest/statusAbschluss" />
-  <name value="StatusAbschlussServiceRequest" />
+  <id value="Extension-nNGM-StatusAbschluss" />
+  <url value="http://uk-koeln.de/fhir/StructureDefinition/Extension/nNGM/statusAbschluss" />
+  <name value="Extension_nNGM_StatusAbschluss" />
+  <name value="Extension - nNGM - StatusAbschluss" />
   <status value="active" />
   <fhirVersion value="4.0.1" />
   <kind value="complex-type" />
   <abstract value="false" />
+  <context>
+    <type value="element" />
+    <expression value="Observation.status" />
+  </context>
   <context>
     <type value="element" />
     <expression value="ServiceRequest.status" />
@@ -32,7 +38,6 @@
       <path value="Extension.extension" />
       <sliceName value="status" />
       <max value="1" />
-      <mustSupport value="true" />
     </element>
     <element id="Extension.extension:status.url">
       <path value="Extension.extension.url" />
@@ -43,25 +48,22 @@
       <type>
         <code value="CodeableConcept" />
       </type>
-      <mustSupport value="true" />
+    </element>
+    <element id="Extension.extension:status.value[x]:valueCodeableConcept">
+      <path value="Extension.extension.value[x]" />
+      <sliceName value="valueCodeableConcept" />
+      <type>
+        <code value="CodeableConcept" />
+      </type>
       <binding>
         <strength value="required" />
         <valueSet value="http://uk-koeln.de/fhir/ValueSet/NNGM/statusAbschluss" />
       </binding>
     </element>
-    <element id="Extension.extension:status.value[x].coding">
-      <path value="Extension.extension.value[x].coding" />
-      <mustSupport value="true" />
-    </element>
-    <element id="Extension.extension:status.value[x].text">
-      <path value="Extension.extension.value[x].text" />
-      <mustSupport value="true" />
-    </element>
     <element id="Extension.extension:datum">
       <path value="Extension.extension" />
       <sliceName value="datum" />
       <max value="1" />
-      <mustSupport value="true" />
     </element>
     <element id="Extension.extension:datum.url">
       <path value="Extension.extension.url" />
@@ -75,7 +77,7 @@
     </element>
     <element id="Extension.url">
       <path value="Extension.url" />
-      <fixedUri value="http://uk-koeln.de/fhir/StructureDefinition/Extension/nNGM/ServiceRequest/statusAbschluss" />
+      <fixedUri value="http://uk-koeln.de/fhir/StructureDefinition/Extension/nNGM/statusAbschluss" />
     </element>
     <element id="Extension.value[x]">
       <path value="Extension.value[x]" />
