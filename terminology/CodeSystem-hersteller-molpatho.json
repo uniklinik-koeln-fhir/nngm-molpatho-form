@@ -3,7 +3,7 @@
     "url": "http://uk-koeln.de/fhir/CodeSystem/hersteller-molpatho",
     "name": "HerstellerMolpatho",
     "title": "HerstellerMolpatho",
-    "status": "active",
+    "status": "draft",
     "date": "2018-10-31",
     "publisher": "Uniklinik Köln",
     "description": "HerstellerMolpatho",

@@ -3,7 +3,7 @@
     "url": "http://uk-koeln.de/fhir/CodeSystem/nNGM/deviceName",
     "name": "DeviceName",
     "title": "DeviceName",
-    "status": "active",
+    "status": "draft",
     "date": "2021-01-29",
     "publisher": "Uniklinik Köln",
     "description": "DeviceName",

@@ -3,7 +3,7 @@
     "url": "http://uk-koeln.de/fhir/ValueSet/nNGM/ergebnis-ihc",
     "version": "1.0",
     "name": "IHC-Untersuchungsergebnis",
-    "status": "active",
+    "status": "draft",
     "date": "2018-10-31",
     "publisher": "Uniklinik Köln",
     "description": "Untersuchungsergebnis IHC",

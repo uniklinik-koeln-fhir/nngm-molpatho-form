@@ -4,7 +4,7 @@
     "version": "1.0.0",
     "name": "MolpathoObservationCodes",
     "title": "Molpatho Observation Codes",
-    "status": "active",
+    "status": "draft",
     "experimental": false,
     "publisher": "Uniklinik Köln",
     "description": "Dieses ValueSet enthält die Observation  Codes der Molpatho Formulare nNGM",

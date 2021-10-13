@@ -8,7 +8,7 @@
   "url": "http://uk-koeln.de/fhir/CodeSystem/nNGM/beurteilungStatus",
   "version": "1.0.0",
   "name": "BeurteilungStatus",
-  "status": "active",
+  "status": "draft",
   "title": "Beurteilung Status Codes",
   "experimental": false,
   "publisher": "Uniklinik Köln",

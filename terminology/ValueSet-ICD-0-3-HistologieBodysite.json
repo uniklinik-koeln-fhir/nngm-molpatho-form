@@ -3,7 +3,7 @@
     "url": "http://uk-koeln.de/fhir/ValueSet/icd-o-3-bodysite",
     "title": "histologie-bodysite",
     "name": "Histologie_Bodysite",
-    "status": "active",
+    "status": "draft",
     "compose": {
         "include": [
             {
