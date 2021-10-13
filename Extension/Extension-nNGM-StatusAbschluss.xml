@@ -3,7 +3,7 @@
   <id value="Extension-nNGM-StatusAbschluss" />
   <url value="http://uk-koeln.de/fhir/StructureDefinition/Extension/nNGM/statusAbschluss" />
   <name value="Extension_nNGM_StatusAbschluss" />
-  <name value="Extension - nNGM - StatusAbschluss" />
+  <title value="Extension - nNGM - StatusAbschluss" />
   <status value="active" />
   <fhirVersion value="4.0.1" />
   <kind value="complex-type" />
