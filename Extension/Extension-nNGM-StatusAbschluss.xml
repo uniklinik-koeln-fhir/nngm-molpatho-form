@@ -58,7 +58,7 @@
       </type>
       <binding>
         <strength value="required" />
-        <valueSet value="http://uk-koeln.de/fhir/ValueSet/NNGM/statusAbschluss" />
+        <valueSet value="http://uk-koeln.de/fhir/ValueSet/nNGM/statusAbschluss" />
       </binding>
     </element>
     <element id="Extension.extension:datum">
