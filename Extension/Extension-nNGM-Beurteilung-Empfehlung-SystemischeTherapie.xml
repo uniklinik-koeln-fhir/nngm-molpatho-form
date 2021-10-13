@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="Extension-nNGM-Beurteilung-Empfehlung-SystemischeTherapie" />
   <url value="http://uk-koeln.de/fhir/Extension/nNGM/beurteilung-empfehlung-systemische-therapie" />
-  <name value="EmpfehlungSystemischeTherapie" />
+  <version value="1.0.0" />
+  <name value="Extension_nNGM_Beurteilung_Empfehlung_SystemischeTherapie" />
+  <title value="Extension - nNGM - Beurteilung - Empfehlung - Systemische Therapie" />
   <status value="active" />
   <fhirVersion value="4.0.1" />
   <kind value="complex-type" />

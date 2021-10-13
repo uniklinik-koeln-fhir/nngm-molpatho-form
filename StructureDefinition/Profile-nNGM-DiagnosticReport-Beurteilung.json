@@ -1,8 +1,10 @@
 {
   "resourceType": "StructureDefinition",
+  "id": "Profile-nNGM-DiagnosticReport-Beurteilung",
   "url": "http://uk-koeln.de/fhir/StructureDefinition/DiagnosticReport/nNGM/beurteilung",
-  "name": "Beurteilung",
-  "status": "draft",
+  "name": "Profile_nNGM_DiagnosticReport_Beurteilung",
+  "title": "Profile - nNGM - DiagnosticReport - Beurteilung",
+  "status": "active",
   "fhirVersion": "4.0.1",
   "mapping": [
     {
@@ -44,7 +46,8 @@
             }
           ],
           "rules": "open"
-        }
+        },
+        "mustSupport": true
       },
       {
         "id": "DiagnosticReport.extension:episodeOfCare",
@@ -71,14 +74,26 @@
         "mustSupport": true
       },
       {
-        "id": "DiagnosticReport.code.coding.system",
-        "path": "DiagnosticReport.code.coding.system",
-        "fixedUri": "http://ncit.nci.nih.gov"
+        "id": "DiagnosticReport.code.coding",
+        "path": "DiagnosticReport.code.coding",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "pattern",
+              "path": "$this"
+            }
+          ],
+          "rules": "open"
+        }
       },
       {
-        "id": "DiagnosticReport.code.coding.code",
-        "path": "DiagnosticReport.code.coding.code",
-        "fixedCode": "C125009"
+        "id": "DiagnosticReport.code.coding:ncit",
+        "path": "DiagnosticReport.code.coding",
+        "sliceName": "ncit",
+        "patternCoding": {
+          "system": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl",
+          "code": "C125009"
+        }
       },
       {
         "id": "DiagnosticReport.effective[x]",
@@ -91,13 +106,13 @@
         "mustSupport": true
       },
       {
-        "id": "DiagnosticReport.performer",
-        "path": "DiagnosticReport.performer",
+        "id": "DiagnosticReport.issued",
+        "path": "DiagnosticReport.issued",
         "mustSupport": true
       },
       {
-        "id": "DiagnosticReport.performer.reference",
-        "path": "DiagnosticReport.performer.reference",
+        "id": "DiagnosticReport.performer",
+        "path": "DiagnosticReport.performer",
         "mustSupport": true
       },
       {
