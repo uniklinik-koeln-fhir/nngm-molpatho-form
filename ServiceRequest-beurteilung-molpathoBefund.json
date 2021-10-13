@@ -3,7 +3,7 @@
   "url": "http://uk-koeln.de/fhir/StructureDefinition/ServiceRequest/nNGM/beurteilung",
   "version": "0.1",
   "name": "ServiceRequestBeurteilungNngm",
-  "status": "active",
+  "status": "draft",
   "publisher": "Universitätsklinikum Köln",
   "fhirVersion": "4.0.1",
   "kind": "resource",

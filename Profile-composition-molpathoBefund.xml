@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <url value="http://uk-koeln.de/fhir/StructureDefinition/Composition/nNGM/molpatho-befund" />
   <name value="MolpathoBefund" />
-  <status value="active" />
+  <status value="draft" />
   <fhirVersion value="4.0.1" />
   <mapping>
     <identity value="workflow" />
