@@ -1,10 +1,10 @@
 {
   "resourceType": "StructureDefinition",
+  "id": "Profile-nNGM-Observation-LiquidBiopsy",
   "url": "http://uk-koeln.de/fhir/StructureDefinition/Observation/liquid-biopsy",
-  "name": "LiquidBiopsyUntersuchung",
-  "title": "LiquidBiopsy PanelUntersuchung",
-  "status": "draft",
-  "date": "2020-03-17",
+  "name": "Profile_nNGM_Observation_LiquidBiopsy",
+  "title": "Profile - nNGM - Observation - LiquidBiopsy",
+  "status": "active",
   "fhirVersion": "4.0.1",
   "mapping": [
     {
@@ -88,7 +88,8 @@
             }
           ],
           "rules": "open"
-        }
+        },
+        "mustSupport": true
       },
       {
         "id": "Observation.status.extension:statusAbschluss",
@@ -101,7 +102,8 @@
               "http://uk-koeln.de/fhir/StructureDefinition/Extension/nNGM/statusAbschluss"
             ]
           }
-        ]
+        ],
+        "mustSupport": true
       },
       {
         "id": "Observation.category",
@@ -114,22 +116,21 @@
         "slicing": {
           "discriminator": [
             {
-              "type": "value",
-              "path": "system"
+              "type": "pattern",
+              "path": "$this"
             }
           ],
           "rules": "open"
         }
       },
       {
-        "id": "Observation.category.coding.system",
-        "path": "Observation.category.coding.system",
-        "fixedUri": "http://terminology.hl7.org/CodeSystem/observation-category"
-      },
-      {
-        "id": "Observation.category.coding.code",
-        "path": "Observation.category.coding.code",
-        "fixedCode": "laboratory"
+        "id": "Observation.category.coding:laboratory",
+        "path": "Observation.category.coding",
+        "sliceName": "laboratory",
+        "patternCoding": {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "laboratory"
+        }
       },
       {
         "id": "Observation.code",
@@ -164,6 +165,7 @@
       {
         "id": "Observation.subject",
         "path": "Observation.subject",
+        "min": "1",
         "mustSupport": true
       },
       {
@@ -174,15 +176,11 @@
       {
         "id": "Observation.interpretation",
         "path": "Observation.interpretation",
-        "mustSupport": true
-      },
-      {
-        "id": "Observation.interpretation.coding",
-        "path": "Observation.interpretation.coding",
         "binding": {
           "strength": "extensible",
           "valueSet": "http://loinc.org/vs/LL2160-1"
-        }
+        },
+        "mustSupport": true
       },
       {
         "id": "Observation.method",
