@@ -152,21 +152,27 @@
         "path": "Observation.code.coding",
         "min": 1,
         "max": "1",
-        "mustSupport": true
+        "mustSupport": true,
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "pattern",
+              "path": "$this"
+            }
+          ],
+          "rules": "open"
+        }
       },
       {
-        "id": "Observation.code.coding.system",
-        "path": "Observation.code.coding.system",
+        "id": "Observation.code.coding:liquidBiopsy",
+        "path": "Observation.code.coding",
         "min": 1,
-        "fixedUri": "http://uk-koeln.de/fhir/CodeSystem/nNGM/molpatho-obs-codes",
-        "mustSupport": true
-      },
-      {
-        "id": "Observation.code.coding.code",
-        "path": "Observation.code.coding.code",
-        "min": 1,
-        "fixedCode": "Liquid Biopsy",
-        "mustSupport": true
+        "mustSupport": true,
+        "sliceName": "liquidBiopsy",
+        "patternCoding": {
+          "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/molpatho-obs-codes",
+          "code": "Liquid Biopsy"
+        }
       },
       {
         "id": "Observation.subject",
@@ -177,6 +183,11 @@
       {
         "id": "Observation.issued",
         "path": "Observation.issued",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.performer",
+        "path": "Observation.performer",
         "mustSupport": true
       },
       {
@@ -195,14 +206,26 @@
         "mustSupport": true
       },
       {
-        "id": "Observation.method.coding.system",
-        "path": "Observation.method.coding.system",
-        "fixedUri": "http://ncit.nci.nih.gov"
+        "id": "Observation.method.coding",
+        "path": "Observation.method.coding",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "pattern",
+              "path": "$this"
+            }
+          ],
+          "rules": "open"
+        }
       },
       {
-        "id": "Observation.method.coding.code",
-        "path": "Observation.method.coding.code",
-        "fixedCode": "C101293"
+        "id": "Observation.method.coding:ncit",
+        "path": "Observation.method.coding",
+        "sliceName": "ncit",
+        "patternCoding": {
+          "system": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl",
+          "code": "C101293"
+        }
       },
       {
         "id": "Observation.specimen",
@@ -222,6 +245,35 @@
           "rules": "open"
         },
         "mustSupport": true
+      },
+      {
+        "id": "Observation.component:sop",
+        "path": "Observation.component",
+        "sliceName": "sop",
+        "max": "1",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.component:sop.code",
+        "path": "Observation.component.code",
+        "patternCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://ncit.nci.nih.gov",
+              "code": "C48443"
+            }
+          ]
+        }
+      },
+      {
+        "id": "Observation.component:sop.value[x]",
+        "path": "Observation.component.value[x]",
+        "min": 1,
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
       },
       {
         "id": "Observation.component:assay",
@@ -246,6 +298,17 @@
         "id": "Observation.component:assay.value[x]",
         "path": "Observation.component.value[x]",
         "min": 1,
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ]
+      },
+      {
+        "id": "Observation.component:assay.value[x]:valueCodeableConcept",
+        "path": "Observation.component.value[x]",
+        "min": 1,
+        "sliceName": "valueCodeableConcept",
         "type": [
           {
             "code": "CodeableConcept"
@@ -288,35 +351,6 @@
           "strength": "extensible",
           "valueSet": "http://uk-koeln.de/fhir/ValueSet/hersteller-molpatho"
         }
-      },
-      {
-        "id": "Observation.component:sop",
-        "path": "Observation.component",
-        "sliceName": "sop",
-        "max": "1",
-        "mustSupport": true
-      },
-      {
-        "id": "Observation.component:sop.code",
-        "path": "Observation.component.code",
-        "patternCodeableConcept": {
-          "coding": [
-            {
-              "system": "http://ncit.nci.nih.gov",
-              "code": "C48443"
-            }
-          ]
-        }
-      },
-      {
-        "id": "Observation.component:sop.value[x]",
-        "path": "Observation.component.value[x]",
-        "min": 1,
-        "type": [
-          {
-            "code": "string"
-          }
-        ]
       },
       {
         "id": "Observation.component:phaenotyp",
