@@ -1,14 +1,11 @@
 {
   "resourceType": "ValueSet",
-  "url": "http://uk-koeln.de/fhir/ValueSet/phenotypes",
+  "id": "ValueSet-nNGM-Phenotypes",
+  "url": "http://uk-koeln.de/fhir/ValueSet/nNGM/phenotypes",
   "version": "1.0.0",
-  "name": "NngmPhenotypes",
-  "title": "nNGM Phenotypes",
+  "name": "ValueSet_nNGM_Phenotypes",
+  "title": "ValueSet - nNGM - Phenotypes",
   "status": "active",
-  "experimental": false,
-  "date": "2020-03-16",
-  "publisher": "Uniklinik Köln",
-  "description": "Dieses ValueSet enthält die Phenotype Codes der Molpatho Formulare nNGM",
   "compose": {
     "include": [
       {

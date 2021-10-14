@@ -186,7 +186,7 @@
         "mustSupport": true,
         "binding": {
           "strength": "required",
-          "valueSet": "http://uk-koeln.de/fhir/ValueSet/nNGM/ergebnis-posNegIndNoCall"
+          "valueSet": "http://uk-koeln.de/fhir/ValueSet/nNGM/ish-fish-ergebnis"
         }
       },
       {
@@ -267,7 +267,7 @@
         ],
         "binding": {
           "strength": "required",
-          "valueSet": "http://uk-koeln.de/fhir/ValueSet/phenotypes"
+          "valueSet": "http://uk-koeln.de/fhir/ValueSet/nNGM/phenotypes"
         }
       },
       {
