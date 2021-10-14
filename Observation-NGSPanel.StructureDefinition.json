@@ -1,10 +1,10 @@
 {
   "resourceType": "StructureDefinition",
+  "id": "Profile-nNGM-Observation-NGS-Panel",
   "url": "http://uk-koeln.de/fhir/StructureDefinition/Observation/ngs-panel",
-  "name": "NGSPanel",
-  "title": "NGS PanelUntersuchung",
-  "status": "draft",
-  "date": "2020-03-17",
+  "name": "Profile_nNGM_Observation_NGS_Panel",
+  "title": "Profile - nNGM - Observation - NGS-Panel",
+  "status": "active",
   "fhirVersion": "4.0.1",
   "mapping": [
     {
@@ -56,7 +56,8 @@
             }
           ],
           "rules": "open"
-        }
+        },
+        "mustSupport": true
       },
       {
         "id": "Observation.extension:episodeOfCare",
@@ -88,7 +89,8 @@
             }
           ],
           "rules": "open"
-        }
+        },
+        "mustSupport": true
       },
       {
         "id": "Observation.status.extension:statusAbschluss",
@@ -101,35 +103,39 @@
               "http://uk-koeln.de/fhir/StructureDefinition/Extension/nNGM/statusAbschluss"
             ]
           }
-        ]
+        ],
+        "mustSupport": true
       },
       {
         "id": "Observation.category",
         "path": "Observation.category",
-        "mustSupport": true
-      },
-      {
-        "id": "Observation.category.coding",
-        "path": "Observation.category.coding",
+        "min": "1",        
         "slicing": {
           "discriminator": [
             {
-              "type": "value",
-              "path": "system"
+              "type": "pattern",
+              "path": "$this"
             }
           ],
           "rules": "open"
-        }
+        },
+        "mustSupport": true
       },
       {
-        "id": "Observation.category.coding.system",
-        "path": "Observation.category.coding.system",
-        "fixedUri": "http://terminology.hl7.org/CodeSystem/observation-category"
-      },
-      {
-        "id": "Observation.category.coding.code",
-        "path": "Observation.category.coding.code",
-        "fixedCode": "laboratory"
+        "id": "Observation.category:laboratory",
+        "path": "Observation.category",
+        "sliceName": "laboratory",
+        "patternCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+              "code": "laboratory"
+            }
+          ]
+        },
+        "min": "1",
+        "max": "1",
+        "mustSupport": true
       },
       {
         "id": "Observation.code",
@@ -141,9 +147,36 @@
         }
       },
       {
+        "id": "Observation.code.coding",
+        "path": "Observation.code.coding",
+        "min": "1",     
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "pattern",
+              "path": "$this"
+            }
+          ],
+          "rules": "open"
+        },
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.code.coding:ngsPanel",
+        "path": "Observation.code.coding",
+        "sliceName": "ngsPanel",
+        "patternCoding": {
+          "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/molpatho-obs-codes",
+          "code": "NGS Panel"
+        },
+        "min": "1",
+        "max": "1"
+      },
+      {
         "id": "Observation.subject",
         "path": "Observation.subject",
-        "mustSupport": true
+        "mustSupport": true,
+        "min": "1"
       },
       {
         "id": "Observation.issued",
@@ -153,15 +186,16 @@
       {
         "id": "Observation.interpretation",
         "path": "Observation.interpretation",
-        "mustSupport": true
-      },
-      {
-        "id": "Observation.interpretation.coding",
-        "path": "Observation.interpretation.coding",
+        "mustSupport": true,
         "binding": {
           "strength": "extensible",
           "valueSet": "http://loinc.org/vs/LL2160-1"
         }
+      },
+      {
+        "id": "Observation.note",
+        "path": "Observation.note",
+        "mustSupport": true
       },
       {
         "id": "Observation.method",
@@ -170,14 +204,27 @@
         "mustSupport": true
       },
       {
-        "id": "Observation.method.coding.system",
-        "path": "Observation.method.coding.system",
-        "fixedUri": "http://ncit.nci.nih.gov"
+        "id": "Observation.method.coding",
+        "path": "Observation.method.coding",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "pattern",
+              "path": "$this"
+            }
+          ],
+          "rules": "open"
+        }
       },
       {
-        "id": "Observation.method.coding.code",
-        "path": "Observation.method.coding.code",
-        "fixedCode": "C101293"
+        "id": "Observation.method.coding:ngs",
+        "path": "Observation.method.coding",
+        "sliceName": "ngs",
+        "patternCoding": {
+          "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/molpatho-obs-codes",
+          "code": "NGS Panel"
+        },
+        "mustSupport": "true"
       },
       {
         "id": "Observation.specimen",
