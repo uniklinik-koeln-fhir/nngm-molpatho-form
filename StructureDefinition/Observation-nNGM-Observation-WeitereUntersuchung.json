@@ -1,10 +1,11 @@
 {
   "resourceType": "StructureDefinition",
+  "id": "Observation-nNGM-Observation-WeitereUntersuchung",
   "url": "http://uk-koeln.de/fhir/StructureDefinition/Observation/weitere-untersuchung",
-  "name": "WeitereUntersuchung",
-  "title": "NGS WeitereUntersuchung",
-  "status": "draft",
-  "date": "2020-03-17",
+  "version": "1.0.0",
+  "name": "Observation_nNGM_Observation_WeitereUntersuchung",
+  "title": "Observation - nNGM - Observation - WeitereUntersuchung",
+  "status": "active",
   "fhirVersion": "4.0.1",
   "mapping": [
     {
@@ -56,7 +57,8 @@
             }
           ],
           "rules": "open"
-        }
+        },
+        "mustSupport": true
       },
       {
         "id": "Observation.extension:episodeOfCare",
@@ -106,27 +108,53 @@
       {
         "id": "Observation.category",
         "path": "Observation.category",
-        "mustSupport": true
+        "mustSupport": true,
+        "min": "1",        
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "pattern",
+              "path": "$this"
+            }
+          ],
+          "rules": "open"
+        }
       },
       {
-        "id": "Observation.category.coding.system",
-        "path": "Observation.category.coding.system",
-        "fixedUri": "http://terminology.hl7.org/CodeSystem/observation-category"
+        "id": "Observation.category:laboratory",
+        "path": "Observation.category",
+        "sliceName": "laboratory",
+        "patternCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+              "code": "laboratory"
+            }
+          ]
+        },
+        "min": "1",
+        "max": "1"
       },
       {
-        "id": "Observation.category.coding.code",
-        "path": "Observation.category.coding.code",
-        "patternCode": "laboratory"
+        "id": "Observation.code.coding",
+        "path": "Observation.code.coding",     
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "pattern",
+              "path": "$this"
+            }
+          ],
+          "rules": "open"
+        }
       },
       {
-        "id": "Observation.code.coding.system",
-        "path": "Observation.code.coding.system",
-        "fixedUri": "http://loinc.org"
-      },
-      {
-        "id": "Observation.code.coding.code",
-        "path": "Observation.code.coding.code",
-        "patternCode": "69548-6"
+        "id": "Observation.code.coding:loinc",
+        "path": "Observation.code.coding",
+        "patternCoding": {
+          "system": "http://loinc.org",
+          "code": "69548-6"
+        }
       },
       {
         "id": "Observation.subject",
