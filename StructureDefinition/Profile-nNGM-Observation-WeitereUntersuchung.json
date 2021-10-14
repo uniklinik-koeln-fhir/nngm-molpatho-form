@@ -139,6 +139,11 @@
         "mustSupport": true
       },
       {
+        "id": "Observation.code",
+        "path": "Observation.code",  
+        "mustSupport": true   
+      },
+      {
         "id": "Observation.code.coding",
         "path": "Observation.code.coding",     
         "slicing": {
@@ -149,7 +154,8 @@
             }
           ],
           "rules": "open"
-        }
+        },
+        "mustSupport": true
       },
       {
         "id": "Observation.code.coding:loinc",
