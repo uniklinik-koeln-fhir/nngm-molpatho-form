@@ -1,14 +1,11 @@
 {
   "resourceType": "ValueSet",
+  "id": "ValueSet-nNGM-FastTrack-Ergebnis",
   "url": "http://uk-koeln.de/fhir/ValueSet/fasttrack-obs-codes",
   "version": "1.0.0",
-  "name": "FasttrackObservationCodes",
-  "title": "Fasttrack Observation Codes",
+  "name": "ValueSet_nNGM_FastTrack_Ergebnis",
+  "title": "ValueSet - nNGM - FastTrack - Ergebnis",
   "status": "active",
-  "experimental": false,
-  "date": "2020-03-16",
-  "publisher": "Uniklinik Köln",
-  "description": "Fasttrack Observation Codes",
   "compose": {
       "include": [
           {

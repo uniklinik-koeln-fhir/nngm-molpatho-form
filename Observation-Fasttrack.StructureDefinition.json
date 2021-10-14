@@ -1,10 +1,10 @@
 {
   "resourceType": "StructureDefinition",
+  "id": "Profile-nNGM-Observation-FastTrack",
   "url": "http://uk-koeln.de/fhir/StructureDefinition/Observation/fasttrack",
-  "name": "FasttrackObservation",
-  "title": "Fast Track",
-  "status": "draft",
-  "date": "2020-03-17",
+  "name": "Profile_nNGM_Observation_FastTrack",
+  "title": "Profile - nNGM - Observation - FastTrack",
+  "status": "active",
   "fhirVersion": "4.0.1",
   "mapping": [
     {
@@ -56,7 +56,8 @@
             }
           ],
           "rules": "open"
-        }
+        },
+        "mustSupport": true
       },
       {
         "id": "Observation.extension:episodeOfCare",
@@ -88,7 +89,8 @@
             }
           ],
           "rules": "open"
-        }
+        },
+        "mustSupport": true
       },
       {
         "id": "Observation.status.extension:statusAbschluss",
@@ -101,22 +103,39 @@
               "http://uk-koeln.de/fhir/StructureDefinition/Extension/nNGM/statusAbschluss"
             ]
           }
-        ]
+        ],
+        "mustSupport": true
       },
       {
         "id": "Observation.category",
         "path": "Observation.category",
+        "min": "1",        
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "pattern",
+              "path": "$this"
+            }
+          ],
+          "rules": "open"
+        },
         "mustSupport": true
       },
       {
-        "id": "Observation.category.coding.system",
-        "path": "Observation.category.coding.system",
-        "fixedUri": "http://terminology.hl7.org/CodeSystem/observation-category"
-      },
-      {
-        "id": "Observation.category.coding.code",
-        "path": "Observation.category.coding.code",
-        "fixedCode": "laboratory"
+        "id": "Observation.category:laboratory",
+        "path": "Observation.category",
+        "sliceName": "laboratory",
+        "patternCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+              "code": "laboratory"
+            }
+          ]
+        },
+        "min": "1",
+        "max": "1",
+        "mustSupport": true
       },
       {
         "id": "Observation.code",
@@ -130,11 +149,17 @@
       {
         "id": "Observation.subject",
         "path": "Observation.subject",
-        "mustSupport": true
+        "mustSupport": true,
+        "min": "1"
       },
       {
         "id": "Observation.issued",
         "path": "Observation.issued",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.performer",
+        "path": "Observation.performer",
         "mustSupport": true
       },
       {
@@ -172,14 +197,27 @@
         "mustSupport": true
       },
       {
-        "id": "Observation.method.coding.system",
-        "path": "Observation.method.coding.system",
-        "fixedUri": "http://ncit.nci.nih.gov"
+        "id": "Observation.method.coding",
+        "path": "Observation.method.coding",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "pattern",
+              "path": "$this"
+            }
+          ],
+          "rules": "open"
+        }
       },
       {
-        "id": "Observation.method.coding.code",
-        "path": "Observation.method.coding.code",
-        "fixedCode": "C101293"
+        "id": "Observation.method.coding:ncit",
+        "path": "Observation.method.coding",
+        "sliceName": "ncit",
+        "patternCoding": {
+          "system": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl",
+          "code": "C101293"
+        },
+        "mustSupport": "true"
       },
       {
         "id": "Observation.specimen",
@@ -287,35 +325,6 @@
       },
       {
         "id": "Observation.component:sop.value[x]",
-        "path": "Observation.component.value[x]",
-        "min": 1,
-        "type": [
-          {
-            "code": "string"
-          }
-        ]
-      },
-      {
-        "id": "Observation.component:standort",
-        "path": "Observation.component",
-        "sliceName": "standort",
-        "max": "1",
-        "mustSupport": true
-      },
-      {
-        "id": "Observation.component:standort.code",
-        "path": "Observation.component.code",
-        "patternCodeableConcept": {
-          "coding": [
-            {
-              "system": "http://ncit.nci.nih.gov",
-              "code": "C25341"
-            }
-          ]
-        }
-      },
-      {
-        "id": "Observation.component:standort.value[x]",
         "path": "Observation.component.value[x]",
         "min": 1,
         "type": [

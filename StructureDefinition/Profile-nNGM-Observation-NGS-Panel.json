@@ -217,12 +217,12 @@
         }
       },
       {
-        "id": "Observation.method.coding:ngs",
+        "id": "Observation.method.coding:ncit",
         "path": "Observation.method.coding",
-        "sliceName": "ngs",
+        "sliceName": "ncit",
         "patternCoding": {
-          "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/molpatho-obs-codes",
-          "code": "NGS Panel"
+          "system": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl",
+          "code": "C101293"
         },
         "mustSupport": "true"
       },
