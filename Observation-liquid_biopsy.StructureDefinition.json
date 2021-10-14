@@ -468,35 +468,6 @@
         ]
       },
       {
-        "id": "Observation.component:referenztranskript",
-        "path": "Observation.component",
-        "sliceName": "referenztranskript",
-        "max": "1",
-        "mustSupport": true
-      },
-      {
-        "id": "Observation.component:referenztranskript.code",
-        "path": "Observation.component.code",
-        "patternCodeableConcept": {
-          "coding": [
-            {
-              "system": "http://loinc.org",
-              "code": "51958-7"
-            }
-          ]
-        }
-      },
-      {
-        "id": "Observation.component:referenztranskript.value[x]",
-        "path": "Observation.component.value[x]",
-        "min": 1,
-        "type": [
-          {
-            "code": "string"
-          }
-        ]
-      },
-      {
         "id": "Observation.component:dna-chg",
         "path": "Observation.component",
         "sliceName": "dna-chg",
@@ -548,96 +519,6 @@
         "id": "Observation.component:amino-acid-chg.value[x]",
         "path": "Observation.component.value[x]",
         "min": 1,
-        "type": [
-          {
-            "code": "string"
-          }
-        ]
-      },
-      {
-        "id": "Observation.component:2ndGen",
-        "path": "Observation.component",
-        "sliceName": "2ndGen",
-        "max": "1",
-        "mustSupport": true
-      },
-      {
-        "id": "Observation.component:2ndGen.code",
-        "path": "Observation.component.code",
-        "patternCodeableConcept": {
-          "coding": [
-            {
-              "system": "http://uk-koeln.de/fhir/CodeSystem/tbd-codes",
-              "code": "2ndGen"
-            }
-          ]
-        }
-      },
-      {
-        "id": "Observation.component:2ndGen.value[x]",
-        "path": "Observation.component.value[x]",
-        "min": 1,
-        "type": [
-          {
-            "code": "CodeableConcept"
-          }
-        ],
-        "binding": {
-          "strength": "extensible",
-          "valueSet": "http://hl7.org/fhir/uv/genomics-reporting/ValueSet/hgnc"
-        }
-      },
-      {
-        "id": "Observation.component:2ndGenExon",
-        "path": "Observation.component",
-        "sliceName": "2ndGenExon",
-        "max": "1",
-        "mustSupport": true
-      },
-      {
-        "id": "Observation.component:2ndGenExon.code",
-        "path": "Observation.component.code",
-        "patternCodeableConcept": {
-          "coding": [
-            {
-              "system": "http://uk-koeln.de/fhir/CodeSystem/tbd-codes",
-              "code": "2ndGenExon"
-            }
-          ]
-        }
-      },
-      {
-        "id": "Observation.component:2ndGenExon.value[x]",
-        "path": "Observation.component.value[x]",
-        "min": 1,
-        "type": [
-          {
-            "code": "integer"
-          }
-        ]
-      },
-      {
-        "id": "Observation.component:2ndGenTranskript",
-        "path": "Observation.component",
-        "sliceName": "2ndGenTranskript",
-        "max": "1",
-        "mustSupport": true
-      },
-      {
-        "id": "Observation.component:2ndGenTranskript.code",
-        "path": "Observation.component.code",
-        "patternCodeableConcept": {
-          "coding": [
-            {
-              "system": "http://uk-koeln.de/fhir/CodeSystem/tbd-codes",
-              "code": "2ndGenTranskript"
-            }
-          ]
-        }
-      },
-      {
-        "id": "Observation.component:2ndGenTranskript.value[x]",
-        "path": "Observation.component.value[x]",
         "type": [
           {
             "code": "string"
