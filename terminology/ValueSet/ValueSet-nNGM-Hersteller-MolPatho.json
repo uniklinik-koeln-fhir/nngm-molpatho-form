@@ -1,14 +1,11 @@
 {
     "resourceType": "ValueSet",
-    "url": "http://uk-koeln.de/fhir/ValueSet/hersteller-molpatho",
+    "id": "ValueSet-nNGM-Hersteller-MolPatho",
+    "url": "http://uk-koeln.de/fhir/ValueSet/nNGM/hersteller-molpatho",
     "version": "1.0.0",
-    "name": "HerstellerMolPatho",
-    "title": "Hersteller MolPatho",
-    "status": "draft",
-    "experimental": false,
-    "date": "2020-03-16",
-    "publisher": "Uniklinik Köln",
-    "description": "Hersteller MolPatho (Antikoerper, Kits, Assays)",
+    "name": "ValueSet_nNGM_Hersteller_MolPatho",
+    "title": "ValueSet - nNGM - Hersteller - MolPatho",
+    "status": "active",
     "compose": {
         "include": [
             {

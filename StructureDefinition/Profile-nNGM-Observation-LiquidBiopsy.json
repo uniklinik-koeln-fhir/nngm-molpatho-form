@@ -2,6 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "Profile-nNGM-Observation-LiquidBiopsy",
   "url": "http://uk-koeln.de/fhir/StructureDefinition/Observation/liquid-biopsy",
+  "version": "1.0.0",
   "name": "Profile_nNGM_Observation_LiquidBiopsy",
   "title": "Profile - nNGM - Observation - LiquidBiopsy",
   "status": "active",
