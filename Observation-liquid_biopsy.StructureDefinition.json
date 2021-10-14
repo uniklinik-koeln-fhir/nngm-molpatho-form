@@ -56,7 +56,8 @@
             }
           ],
           "rules": "open"
-        }
+        },
+        "mustSupport": true
       },
       {
         "id": "Observation.extension:episodeOfCare",
