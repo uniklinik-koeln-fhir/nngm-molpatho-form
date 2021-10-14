@@ -1,10 +1,10 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "Observation-nNGM-Observation-WeitereUntersuchung",
+  "id": "Profile-nNGM-Observation-WeitereUntersuchung",
   "url": "http://uk-koeln.de/fhir/StructureDefinition/Observation/weitere-untersuchung",
   "version": "1.0.0",
-  "name": "Observation_nNGM_Observation_WeitereUntersuchung",
-  "title": "Observation - nNGM - Observation - WeitereUntersuchung",
+  "name": "Profile_nNGM_Observation_WeitereUntersuchung",
+  "title": "Profile - nNGM - Observation - WeitereUntersuchung",
   "status": "active",
   "fhirVersion": "4.0.1",
   "mapping": [
