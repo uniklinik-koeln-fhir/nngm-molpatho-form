@@ -141,14 +141,6 @@
         "id": "Observation.category:liquidBiopsy-typ",
         "path": "Observation.category",
         "sliceName": "ncit",
-        "patternCodeableConcept": {
-          "coding": [
-            {
-              "system": "http://uk-koeln.de/fhir/ValueSet/nNGM/anforderung-liquidBiopsy",
-              "code": "laboratory"
-            }
-          ]
-        },
         "min": "1",
         "max": "1"
       },
