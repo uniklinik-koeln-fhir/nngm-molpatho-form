@@ -1,19 +1,12 @@
 {
   "resourceType": "CodeSystem",
-  "meta": {
-    "profile": [
-      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
-    ]
-  },
-  "url": "http://uk-koeln.de/fhir/CodeSystem/fasttrack-assays",
+  "id": "CodeSystem-nNGM-FastTrack-Assay",
+  "url": "http://uk-koeln.de/fhir/CodeSystem/nNGM/fasttrack-assays",
   "version": "1.0.0",
-  "name": "FastTrackAssays",
-  "title": "Fast Track Assays",
-  "status": "draft",
-  "experimental": false,
-  "publisher": "Uniklinik Köln",
-  "description": "Fast Track Assays",
-  "copyright": "Uniklinik Köln",
+  "name": "CodeSystem_nNGM_FastTrack_Assay",
+  "title": "CodeSystem - nNGM - FastTrack - Assay",
+  "status": "active",
+  "count": "5",
   "content": "complete",
   "concept": [
     {

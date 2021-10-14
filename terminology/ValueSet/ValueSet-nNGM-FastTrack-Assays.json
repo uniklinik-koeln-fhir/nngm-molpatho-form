@@ -1,18 +1,15 @@
 {
   "resourceType": "ValueSet",
-  "url": "http://uk-koeln.de/fhir/ValueSet/fasttrack-assays",
+  "id": "ValueSet-nNGM-FastTrack-Assays",
+  "url": "http://uk-koeln.de/fhir/ValueSet/nNGM/fasttrack-assays",
   "version": "1.0.0",
-  "name": "FastTrackAssays",
-  "title": "FastTrackAssays,",
-  "status": "draft",
-  "experimental": false,
-  "date": "2020-03-16",
-  "publisher": "Uniklinik Köln",
-  "description": "FastTrack Assays",
+  "name": "ValueSet_nNGM_FastTrack_Assays",
+  "title": "ValueSet - nNGM - Fast Track - Assays,",
+  "status": "active",
   "compose": {
       "include": [
           {
-              "system": "http://uk-koeln.de/fhir/CodeSystem/fasttrack-assays"
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/fasttrack-assays"
           }
       ]
   },
@@ -22,31 +19,31 @@
       "total": 5,
       "contains": [
           {
-              "system": "http://uk-koeln.de/fhir/CodeSystem/fasttrack-assays",
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/fasttrack-assays",
               "version": "1.0.0",
               "code": "Therascreen_BRAF_Pyro_Kit",
               "display": "Therascreen BRAF Pyro Kit"
           },
           {
-              "system": "http://uk-koeln.de/fhir/CodeSystem/fasttrack-assays",
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/fasttrack-assays",
               "version": "1.0.0",
               "code": "QClamp",
               "display": "QClamp"
           },
           {
-              "system": "http://uk-koeln.de/fhir/CodeSystem/fasttrack-assays",
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/fasttrack-assays",
               "version": "1.0.0",
               "code": "custom_assay_V600E_via_digital_PCR_QuantStudio_3D",
               "display": "custom assay V600E via digital PCR QuantStudio 3D"
           },
           {
-              "system": "http://uk-koeln.de/fhir/CodeSystem/fasttrack-assays",
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/fasttrack-assays",
               "version": "1.0.0",
               "code": "High_resolution_melting",
               "display": "High resolution melting"
           },
           {
-              "system": "http://uk-koeln.de/fhir/CodeSystem/fasttrack-assays",
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/fasttrack-assays",
               "version": "1.0.0",
               "code": "Sanger-Sequenzierung_CEQ-8000_Analyzer",
               "display": "Sanger-Sequenzierung CEQ-8000 Analyzer"

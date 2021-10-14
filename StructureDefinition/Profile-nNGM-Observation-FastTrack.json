@@ -268,7 +268,7 @@
         ],
         "binding": {
           "strength": "extensible",
-          "valueSet": "http://uk-koeln.de/fhir/CodeSystem/fasttrack-assays"
+          "valueSet": "http://uk-koeln.de/fhir/CodeSystem/nNGM/fasttrack-assays"
         }
       },
       {

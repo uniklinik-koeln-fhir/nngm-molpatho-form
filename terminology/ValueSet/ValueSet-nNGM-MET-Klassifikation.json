@@ -1,18 +1,15 @@
 {
   "resourceType": "ValueSet",
-  "url": "http://uk-koeln.de/fhir/ValueSet/0-3+-klassifikation",
+  "id": "ValueSet-nNGM-MET-Klassifikation",
+  "url": "http://uk-koeln.de/fhir/ValueSet/nNGM/met-klassifikation",
   "version": "1.0.0",
-  "name": "03Klassifikation",
-  "title": "0-3+ Klassifikation",
-  "status": "draft",
-  "experimental": false,
-  "date": "2020-03-16",
-  "publisher": "Uniklinik Köln",
-  "description": "Valuset: 0, 1+, 2+, 3+",
+  "name": "ValueSet_nNGM_MET_Klassifikation",
+  "title": "ValueSet - nNGM - MET-Klassifikation",
+  "status": "active",
   "compose": {
       "include": [
           {
-              "system": "http://uk-koeln.de/fhir/CodeSystem/tbd-codes",
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/tbd-codes",
               "concept": [
                   {
                       "code": "0",
@@ -40,25 +37,25 @@
       "total": 4,
       "contains": [
           {
-              "system": "http://uk-koeln.de/fhir/CodeSystem/tbd-codes",
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/tbd-codes",
               "version": "1.0.0",
               "code": "1+",
               "display": "1+"
           },
           {
-              "system": "http://uk-koeln.de/fhir/CodeSystem/tbd-codes",
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/tbd-codes",
               "version": "1.0.0",
               "code": "2+",
               "display": "2+"
           },
           {
-              "system": "http://uk-koeln.de/fhir/CodeSystem/tbd-codes",
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/tbd-codes",
               "version": "1.0.0",
               "code": "3+",
               "display": "3+"
           },
           {
-              "system": "http://uk-koeln.de/fhir/CodeSystem/tbd-codes",
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/tbd-codes",
               "version": "1.0.0",
               "code": "0",
               "display": "0"
