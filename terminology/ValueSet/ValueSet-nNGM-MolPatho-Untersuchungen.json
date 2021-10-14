@@ -1,19 +1,11 @@
 {
   "resourceType": "ValueSet",
-  "meta": {
-    "profile": [
-      "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
-    ]
-  },
+  "id": "ValueSet-nNGM-MolPatho-Untersuchungen",
   "url": "http://uk-koeln.de/fhir/ValueSet/nNGM/molpatho-obs-codes",
   "version": "1.0.0",
-  "name": "MolpathoObservationCodes",
-  "title": "Molpatho Observation Codes",
+  "name": "ValueSet_nNGM_MolPatho_Untersuchungen",
+  "title": "ValueSet - nNGM - MolPatho - Untersuchungen",
   "status": "active",
-  "experimental": false,
-  "date": "2020-03-16",
-  "publisher": "Uniklinik Köln",
-  "description": "Dieses ValueSet enthält die Observation  Codes der Molpatho Formulare nNGM",
   "compose": {
     "include": [
       {

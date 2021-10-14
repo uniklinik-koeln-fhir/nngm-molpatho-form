@@ -1,14 +1,11 @@
 {
     "resourceType": "ValueSet",
+    "id": "ValueSet-nNGM-NGS-Assay",
     "url": "http://uk-koeln.de/fhir/ValueSet/ngs-assays",
     "version": "1.0.0",
-    "name": "NgsAssays",
-    "title": "Ngs Assays",
+    "name": "ValueSet_nNGM_NGS_Assay",
+    "title": "ValueSet - nNGM - NGS - Assay",
     "status": "active",
-    "experimental": false,
-    "date": "2020-03-16",
-    "publisher": "Uniklinik Köln",
-    "description": "Ngs Assays",
     "compose": {
         "include": [
             {

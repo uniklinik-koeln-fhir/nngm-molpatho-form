@@ -1,14 +1,13 @@
 {
     "resourceType": "CodeSystem",
+    "id": "CodeSystem-nNGM-MolPatho-Untersuchungen",
     "url": "http://uk-koeln.de/fhir/CodeSystem/nNGM/molpatho-obs-codes",
     "version": "1.0.0",
-    "name": "MolpathoObservationCodes",
-    "title": "Molpatho Observation Codes",
-    "status": "draft",
-    "experimental": false,
-    "publisher": "Uniklinik Köln",
-    "description": "Dieses ValueSet enthält die Observation  Codes der Molpatho Formulare nNGM",
+    "name": "CodeSystem_nNGM_MolPatho_Untersuchungen",
+    "title": "CodeSystem - nNGM - MolPatho - Untersuchungen",
+    "status": "active",
     "content": "complete",
+    "count": "27",
     "concept": [
         {
             "code": "BRAF",
