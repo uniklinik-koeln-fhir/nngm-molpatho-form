@@ -110,7 +110,8 @@
       {
         "id": "Observation.category",
         "path": "Observation.category",
-        "mustSupport": true
+        "mustSupport": true,
+        "min": "1"
       },
       {
         "id": "Observation.category.coding",
@@ -123,7 +124,8 @@
             }
           ],
           "rules": "open"
-        }
+        },
+        "min": "1"
       },
       {
         "id": "Observation.category.coding:laboratory",
@@ -132,7 +134,8 @@
         "patternCoding": {
           "system": "http://terminology.hl7.org/CodeSystem/observation-category",
           "code": "laboratory"
-        }
+        },
+        "min": "1"
       },
       {
         "id": "Observation.code",
