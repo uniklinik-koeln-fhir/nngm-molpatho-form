@@ -160,6 +160,7 @@
       {
         "id": "Observation.code.coding:loinc",
         "path": "Observation.code.coding",
+        "sliceName": "loinc",
         "patternCoding": {
           "system": "http://loinc.org",
           "code": "69548-6"
