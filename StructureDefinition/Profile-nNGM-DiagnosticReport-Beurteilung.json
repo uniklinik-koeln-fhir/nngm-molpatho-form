@@ -104,7 +104,14 @@
             "code": "dateTime"
           }
         ],
-        "mustSupport": true
+        "mustSupport": true,
+        "min": "1"
+      },
+      {
+        "id": "DiagnosticReport.subject",
+        "path": "DiagnosticReport.subject",
+        "mustSupport": true,
+        "min": "1"
       },
       {
         "id": "DiagnosticReport.issued",
