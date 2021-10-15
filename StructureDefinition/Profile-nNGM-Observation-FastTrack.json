@@ -288,10 +288,21 @@
           {
             "code": "CodeableConcept"
           }
+        ]
+      },
+      {
+        "id": "Observation.component:assay.value[x]:valueCodeableConcept",
+        "path": "Observation.component.value[x]",
+        "sliceName": "valueCodeableConcept",
+        "min": 1,
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
         ],
         "binding": {
           "strength": "extensible",
-          "valueSet": "http://uk-koeln.de/fhir/CodeSystem/nNGM/fasttrack-assays"
+          "valueSet": "http://uk-koeln.de/fhir/ValueSet/nNGM/fasttrack-assays"
         }
       },
       {
