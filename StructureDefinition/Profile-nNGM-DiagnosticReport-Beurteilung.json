@@ -76,6 +76,7 @@
       {
         "id": "DiagnosticReport.code.coding",
         "path": "DiagnosticReport.code.coding",
+        "min": "1",
         "slicing": {
           "discriminator": [
             {
