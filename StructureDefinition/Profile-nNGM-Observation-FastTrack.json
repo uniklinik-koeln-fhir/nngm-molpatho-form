@@ -332,10 +332,21 @@
           {
             "code": "CodeableConcept"
           }
+        ]
+      },
+      {
+        "id": "Observation.component:hersteller.value[x]:valueCodeableConcept",
+        "path": "Observation.component.value[x]",
+        "sliceName": "valueCodeableConcept",
+        "min": 1,
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
         ],
         "binding": {
           "strength": "extensible",
-          "valueSet": "http://uk-koeln.de/fhir/ValueSet/hersteller-molpatho"
+          "valueSet": "http://uk-koeln.de/fhir/ValueSet/nNGM/hersteller-molpatho"
         }
       },
       {
