@@ -2,6 +2,7 @@
   "resourceType": "ValueSet",
   "id": "ValueSet-nNGM-StatusAbschluss",
   "url": "http://uk-koeln.de/fhir/ValueSet/nNGM/statusAbschluss",
+  "version": "1.0.0",
   "name": "ValueSet_nNGM_StatusAbschluss",
   "title": "ValueSet - nNGM - StatusAbschluss",
   "status": "active",
