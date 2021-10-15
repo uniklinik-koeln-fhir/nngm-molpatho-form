@@ -45,7 +45,7 @@
       <mustSupport value="true" />
       <binding>
         <strength value="extensible" />
-        <valueSet value="http://uk-koeln.de/fhir/ValueSet/deviceName" />
+        <valueSet value="http://uk-koeln.de/fhir/ValueSet/ngs-panel-deviceName" />
       </binding>
     </element>
     <element id="Device.deviceName.type">

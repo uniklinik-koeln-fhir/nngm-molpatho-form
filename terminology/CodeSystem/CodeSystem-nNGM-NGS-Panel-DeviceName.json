@@ -1,0 +1,48 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "CodeSystem-nNGM-NGS-Panel-DeviceName",
+    "url": "http://uk-koeln.de/fhir/CodeSystem/nNGM/ngs-panel-deviceName",
+    "name": "CodeSystem_nNGM_NGS_Panel_DeviceName",
+    "title": "CodeSystem - nNGM - NGS-Panel - Device Name",
+    "status": "active",
+    "content": "complete",
+    "count": "9",
+    "concept": [
+        {
+            "code": "Ion Torrent PGM",
+            "display": "Ion Torrent PGM"
+        },
+        {
+            "code": "Ion GeneStudio S5 Prime",
+            "display": "Ion GeneStudio S5 Prime"
+        },
+        {
+            "code": "Ion GeneStudio S5 XL",
+            "display": "Ion GeneStudio S5 XL"
+        },
+        {
+            "code": "MiniSeq",
+            "display": "MiniSeq"
+        },
+        {
+            "code": "MiSeq",
+            "display": "MiSeq"
+        },
+        {
+            "code": "NextSeq 500",
+            "display": "NextSeq 500"
+        },
+        {
+            "code": "NextSeq 550",
+            "display": "NextSeq 550"
+        },
+        {
+            "code": "Qiagen GeneReader 1.1",
+            "display": "Qiagen GeneReader 1.1"
+        },
+        {
+            "code": "Unbekannt (externe Untersuchung)",
+            "display": "Unbekannt (externe Untersuchung)"
+        }
+    ]
+}

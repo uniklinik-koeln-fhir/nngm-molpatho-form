@@ -1,0 +1,77 @@
+{
+    "resourceType": "ValueSet",
+    "id": "ValueSet-nNGM-NGS-Panel-DeviceName",
+    "url": "http://uk-koeln.de/fhir/ValueSet/nNGM/ngs-panel-deviceName",
+    "version": "1.0.0",
+    "name": "ValueSet_nNGM_NGS_Panel_DeviceName",
+    "title": "ValueSet - nNGM - NGS-Panel - Device Name",
+    "status": "active",
+    "compose": {
+        "include": [
+            {
+                "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/ngs-panel-deviceName"
+            }
+        ]
+    },
+    "expansion": {
+        "identifier": "30049601-64fc-4470-8520-a7a13db0b56b",
+        "timestamp": "2020-10-13T10:35:28+00:00",
+        "total": 9,
+        "contains": [
+            {
+                "system": "http://uk-koeln.de/fhir/ValueSet/nNGM/ngs-panel-deviceName",
+                "version": "1.0.0",
+                "code": "Ion Torrent PGM",
+                "display": "Ion Torrent PGM"
+            },
+            {
+                "system": "http://uk-koeln.de/fhir/ValueSet/nNGM/ngs-panel-deviceName",
+                "version": "1.0.0",
+                "code": "Ion GeneStudio S5 Prime",
+                "display": "Ion GeneStudio S5 Prime"
+            },
+            {
+                "system": "http://uk-koeln.de/fhir/ValueSet/nNGM/ngs-panel-deviceName",
+                "version": "1.0.0",
+                "code": "Ion GeneStudio S5 XL",
+                "display": "Ion GeneStudio S5 XL"
+            },
+            {
+                "system": "http://uk-koeln.de/fhir/ValueSet/nNGM/ngs-panel-deviceName",
+                "version": "1.0.0",
+                "code": "MiniSeq",
+                "display": "MiniSeq"
+            },
+            {
+                "system": "http://uk-koeln.de/fhir/ValueSet/nNGM/ngs-panel-deviceName",
+                "version": "1.0.0",
+                "code": "MiSeq",
+                "display": "MiSeq"
+            },
+            {
+                "system": "http://uk-koeln.de/fhir/ValueSet/nNGM/ngs-panel-deviceName",
+                "version": "1.0.0",
+                "code": "NextSeq 500",
+                "display": "NextSeq 500"
+            },
+            {
+                "system": "http://uk-koeln.de/fhir/ValueSet/nNGM/ngs-panel-deviceName",
+                "version": "1.0.0",
+                "code": "NextSeq 550",
+                "display": "NextSeq 550"
+            },
+            {
+                "system": "http://uk-koeln.de/fhir/ValueSet/nNGM/ngs-panel-deviceName",
+                "version": "1.0.0",
+                "code": "Qiagen GeneReader 1.1",
+                "display": "Qiagen GeneReader 1.1"
+            },
+            {
+                "system": "http://uk-koeln.de/fhir/ValueSet/nNGM/ngs-panel-deviceName",
+                "version": "1.0.0",
+                "code": "Unbekannt (externe Untersuchung)",
+                "display": "Unbekannt (externe Untersuchung)"
+            }
+        ]
+    }
+}
