@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="Profile-nNGM-Device-NGS-Panel" />
   <url value="http://uk-koeln.de/fhir/StructureDefinition/Device/nNGM/ngs-panel" />
-  <name value="NgsPanel" />
-  <status value="draft" />
+  <name value="Profile_nNGM_Device_NGS_Panel" />
+  <title value="Profile - nNGM - Device - NGS-Panel" />
+  <status value="active" />
   <fhirVersion value="4.0.1" />
   <mapping>
     <identity value="rim" />
