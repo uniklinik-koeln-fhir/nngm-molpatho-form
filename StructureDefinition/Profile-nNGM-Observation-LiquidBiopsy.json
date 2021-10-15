@@ -178,6 +178,7 @@
         "id": "Observation.code.coding:liquidBiopsy",
         "path": "Observation.code.coding",
         "min": 1,
+        "max": "1",
         "mustSupport": true,
         "sliceName": "liquidBiopsy",
         "patternCoding": {
@@ -188,7 +189,7 @@
       {
         "id": "Observation.subject",
         "path": "Observation.subject",
-        "min": "1",
+        "min": 1,
         "mustSupport": true
       },
       {
@@ -200,7 +201,7 @@
           }
         ],
         "mustSupport": true,
-        "min": "1"
+        "min": 1
       },
       {
         "id": "Observation.issued",
