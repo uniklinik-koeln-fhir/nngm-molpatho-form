@@ -4,7 +4,6 @@
   "description": "Put a description here",
   "author": null,
   "dependencies": {
-    "de.basisprofil.r4": "1.0.0",
     "de.uk-koeln.nngm.registrationform": "0.3.1"
   },
   "fhirVersions": [
