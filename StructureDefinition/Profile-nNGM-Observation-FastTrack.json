@@ -153,6 +153,17 @@
         "min": "1"
       },
       {
+        "id": "Observation.effective[x]",
+        "path": "Observation.effective[x]",
+        "type": [
+          {
+            "code": "dateTime"
+          }
+        ],
+        "mustSupport": true,
+        "min": 1
+      },
+      {
         "id": "Observation.issued",
         "path": "Observation.issued",
         "mustSupport": true
@@ -165,6 +176,18 @@
       {
         "id": "Observation.value[x]",
         "path": "Observation.value[x]",
+        "min": 1,
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ],
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.value[x]:valueCodeableConcept",
+        "path": "Observation.value[x]",
+        "sliceName": "valueCodeableConcept",
         "min": 1,
         "type": [
           {

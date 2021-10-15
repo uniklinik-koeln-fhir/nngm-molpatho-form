@@ -1,55 +1,51 @@
 {
-  "resourceType": "ValueSet",
-  "id": "ValueSet-nNGM-FastTrack-Ergebnis",
-  "url": "http://uk-koeln.de/fhir/ValueSet/fasttrack-obs-codes",
-  "version": "1.0.0",
-  "name": "ValueSet_nNGM_FastTrack_Ergebnis",
-  "title": "ValueSet - nNGM - FastTrack - Ergebnis",
-  "status": "active",
-  "compose": {
-      "include": [
-          {
-              "system": "http://uk-koeln.de/fhir/CodeSystem/tbd-codes",
-              "concept": [
-                  {
-                      "code": "aktivierende-Mutation",
-                      "display": "aktivierende Mutation"
-                  },
-                  {
-                      "code": "keine-aktivierende-Mutation",
-                      "display": "keine aktivierende Mutation"
-                  },
-                  {
-                      "code": "nicht-auswertbar",
-                      "display": "nicht auswertbar"
-                  }
-              ]
-          }
-      ]
-  },
-  "expansion": {
-      "identifier": "74df86bf-fdc0-4513-ba6d-4980ba99af80",
-      "timestamp": "2020-10-15T14:13:56+00:00",
-      "total": 3,
-      "contains": [
-          {
-              "system": "http://uk-koeln.de/fhir/CodeSystem/tbd-codes",
-              "version": "1.0.0",
-              "code": "aktivierende-Mutation",
-              "display": "aktivierende Mutation"
-          },
-          {
-              "system": "http://uk-koeln.de/fhir/CodeSystem/tbd-codes",
-              "version": "1.0.0",
-              "code": "keine-aktivierende-Mutation",
-              "display": "keine aktivierende Mutation"
-          },
-          {
-              "system": "http://uk-koeln.de/fhir/CodeSystem/tbd-codes",
-              "version": "1.0.0",
-              "code": "nicht-auswertbar",
-              "display": "nicht auswertbar"
-          }
-      ]
-  }
+    "resourceType": "ValueSet",
+    "id": "ValueSet-nNGM-FastTrack-Ergebnis",
+    "url": "http://uk-koeln.de/fhir/ValueSet/nNGM/ergebnis-fasttrack",
+    "version": "1.0.0",
+    "name": "ValueSet_nNGM_FastTrack_Ergebnis",
+    "status": "active",
+    "compose": {
+        "include": [
+            {
+                "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/tbd-codes",
+                "concept": [
+                    {
+                        "code": "aktivierende Mutation",
+                        "display": "aktivierende Mutation"
+                    },
+                    {
+                        "code": "keine aktivierende Mutation",
+                        "display": "keine aktivierende Mutation"
+                    },
+                    {
+                        "code": "nicht auswertbar",
+                        "display": "nicht auswertbar"
+                    }
+                ]
+            }
+        ]
+    },
+    "expansion": {
+        "identifier": "3067b9e3-5f29-430a-bccb-2ee58fdbf01e",
+        "timestamp": "2020-11-13T11:13:20+00:00",
+        "total": 3,
+        "contains": [
+            {
+                "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/tbd-codes",
+                "code": "nicht auswertbar",
+                "display": "nicht auswertbar"
+            },
+            {
+                "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/tbd-codes",
+                "code": "aktivierende Mutation",
+                "display": "aktivierende Mutation"
+            },
+            {
+                "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/tbd-codes",
+                "code": "keine aktivierende Mutation",
+                "display": "keine aktivierende Mutation"
+            }
+        ]
+    }
 }
