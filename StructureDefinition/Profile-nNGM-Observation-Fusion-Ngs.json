@@ -377,6 +377,17 @@
           {
             "code": "CodeableConcept"
           }
+        ]
+      },
+      {
+        "id": "Observation.component:hersteller.value[x]:valueCodeableConcept",
+        "path": "Observation.component.value[x]",
+        "sliceName": "valueCodeableConcept",
+        "min": 1,
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
         ],
         "binding": {
           "strength": "extensible",

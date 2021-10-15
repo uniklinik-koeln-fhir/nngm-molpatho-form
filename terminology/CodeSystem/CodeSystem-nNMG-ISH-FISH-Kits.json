@@ -1,14 +1,12 @@
 {
     "resourceType": "CodeSystem",
-    "url": "http://uk-koeln.de/fhir/CodeSystem/ish-fish-kits",
-    "name": "IshFishKits",
-    "title": "ISH/FISH Kits",
-    "status": "draft",
-    "experimental": false,
-    "date": "2018-10-31",
-    "publisher": "Uniklinik Köln",
-    "description": "Untersuchungsergebnis",
+    "id": "CodeSystem-nNMG-ISH-FISH-Kits",
+    "url": "http://uk-koeln.de/fhir/CodeSystem/nNGM/ish-fish-kits",
+    "name": "CodeSystem_nNMG_ISH_FISH_Kits",
+    "title": "CodeSystem - nNMG - ISH/FISH-Kits",
+    "status": "active",
     "content": "complete",
+    "count": 14,
     "concept": [
         {
             "code": "ZytoDot_2C_SPEC_ALK_Break_Apart_Probe",
