@@ -1,0 +1,15 @@
+{
+  "name": "de.uk-koeln.nngm.molpathoform",
+  "version": "0.1.0",
+  "description": "Put a description here",
+  "author": null,
+  "dependencies": {
+    "de.basisprofil.r4": "1.0.0",
+    "de.uk-koeln.nngm.registrationform": "0.3.1"
+  },
+  "fhirVersions": [
+    "4.0.1"
+  ],
+  "devDependencies": null,
+  "canonicals": null
+}
