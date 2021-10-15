@@ -1,19 +1,11 @@
 {
   "resourceType": "ValueSet",
-  "meta": {
-    "profile": [
-      "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
-    ]
-  },
-  "url": "http://uk-koeln.de/fhir/ValueSet/high-medium-low",
+  "id": "ValueSet-nNGM-Amplifikation-Level-ISH-FISH",
+  "url": "http://uk-koeln.de/fhir/ValueSet/amplifikation-ish-fish",
   "version": "1.0.0",
-  "name": "AmplificationLevel",
-  "title": "Amplification Level",
-  "status": "draft",
-  "experimental": false,
-  "date": "2020-03-16",
-  "publisher": "Uniklinik Köln",
-  "description": "Amplification Level",
+  "name": "ValueSet_nNGM_Amplifikation_ISH_FISH",
+  "title": "ValueSet - nNGM - Amplifikation-Level - ISH/FISH",
+  "status": "active",
   "compose": {
     "include": [
       {
