@@ -33,7 +33,7 @@
       <mustSupport value="true" />
       <binding>
         <strength value="extensible" />
-        <valueSet value="http://uk-koeln.de/fhir/ValueSet/hersteller-molpatho" />
+        <valueSet value="http://uk-koeln.de/fhir/ValueSet/nNGM/hersteller-molpatho" />
       </binding>
     </element>
     <element id="Device.deviceName">
