@@ -2,6 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="Profile-nNGM-Device-NGS-Panel" />
   <url value="http://uk-koeln.de/fhir/StructureDefinition/Device/nNGM/ngs-panel" />
+  <version version="1.0.0" />
   <name value="Profile_nNGM_Device_NGS_Panel" />
   <title value="Profile - nNGM - Device - NGS-Panel" />
   <status value="active" />
