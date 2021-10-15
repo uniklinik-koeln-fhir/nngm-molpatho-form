@@ -151,7 +151,18 @@
         "id": "Observation.subject",
         "path": "Observation.subject",
         "mustSupport": true,
-        "min": "1",
+        "min": 1
+      },
+      {
+        "id": "Observation.effective[x]",
+        "path": "Observation.effective[x]",
+        "type": [
+          {
+            "code": "dateTime"
+          }
+        ],
+        "mustSupport": true,
+        "min": 1
       },
       {
         "id": "Observation.issued",
@@ -278,6 +289,17 @@
           {
             "code": "CodeableConcept"
           }
+        ]
+      },
+      {
+        "id": "Observation.component:phaenotyp.value[x]:valueCodeableConcept",
+        "path": "Observation.component.value[x]",
+        "sliceName": "valueCodeableConcept",
+        "min": 1,
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
         ],
         "binding": {
           "strength": "required",
@@ -311,10 +333,21 @@
           {
             "code": "CodeableConcept"
           }
+        ]
+      },
+      {
+        "id": "Observation.component:assay.value[x]:valueCodeableConcept",
+        "path": "Observation.component.value[x]",
+        "sliceName": "valueCodeableConcept",
+        "min": 1,
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
         ],
         "binding": {
           "strength": "extensible",
-          "valueSet": "http://uk-koeln.de/fhir/ValueSet/ngs-assays"
+          "valueSet": "http://uk-koeln.de/fhir/ValueSet/nNGM/ngs-assays"
         }
       },
       {
