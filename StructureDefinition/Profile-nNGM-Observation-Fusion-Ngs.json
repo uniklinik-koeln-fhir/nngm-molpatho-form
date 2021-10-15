@@ -380,7 +380,7 @@
         ],
         "binding": {
           "strength": "extensible",
-          "valueSet": "http://uk-koeln.de/fhir/ValueSet/hersteller-molpatho"
+          "valueSet": "http://uk-koeln.de/fhir/ValueSet/nNGM/hersteller-molpatho"
         }
       },
       {
