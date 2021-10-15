@@ -555,7 +555,7 @@
         ],
         "binding": {
           "strength": "extensible",
-          "valueSet": "http://uk-koeln.de/fhir/ValueSet/nNGM/amplifikation-ish-fish"
+          "valueSet": "http://uk-koeln.de/fhir/ValueSet/amplifikation-level-ish-fish"
         }
       },
       {

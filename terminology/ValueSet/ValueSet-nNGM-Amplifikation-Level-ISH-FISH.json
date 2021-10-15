@@ -1,7 +1,7 @@
 {
   "resourceType": "ValueSet",
   "id": "ValueSet-nNGM-Amplifikation-Level-ISH-FISH",
-  "url": "http://uk-koeln.de/fhir/ValueSet/amplifikation-ish-fish",
+  "url": "http://uk-koeln.de/fhir/ValueSet/amplifikation-level-ish-fish",
   "version": "1.0.0",
   "name": "ValueSet_nNGM_Amplifikation_ISH_FISH",
   "title": "ValueSet - nNGM - Amplifikation-Level - ISH/FISH",
