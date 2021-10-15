@@ -1,19 +1,12 @@
 {
   "resourceType": "CodeSystem",
-  "meta": {
-    "profile": [
-      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
-    ]
-  },
-  "url": "http://uk-koeln.de/fhir/CodeSystem/tbd-codes",
+  "id": "CodeSystem-nNGM-TBD-Codes",
+  "url": "http://uk-koeln.de/fhir/CodeSystem/nNGM/tbd-codes",
   "version": "1.0.0",
-  "name": "TBDcodes",
-  "title": "TBD Codes",
+  "name": "CodeSystem_nNGM_TBD_Codes",
+  "title": "CodeSystem - nNGM - TBD-Codes",
   "status": "draft",
   "experimental": false,
-  "publisher": "Uniklinik Köln",
-  "description": "Codes für die keine Konzept in einem frei verfügbaren CodeSystem gefunden werden konnte.",
-  "copyright": "Uniklinik Köln",
   "content": "complete",
   "concept": [
     {

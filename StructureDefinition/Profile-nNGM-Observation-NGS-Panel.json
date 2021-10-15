@@ -176,7 +176,18 @@
         "id": "Observation.subject",
         "path": "Observation.subject",
         "mustSupport": true,
-        "min": "1"
+        "min": 1
+      },
+      {
+        "id": "Observation.effective[x]",
+        "path": "Observation.effective[x]",
+        "type": [
+          {
+            "code": "dateTime"
+          }
+        ],
+        "mustSupport": true,
+        "min": 1
       },
       {
         "id": "Observation.issued",
@@ -418,7 +429,7 @@
         "patternCodeableConcept": {
           "coding": [
             {
-              "system": "http://uk-koeln.de/fhir/CodeSystem/tbd-codes",
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/tbd-codes",
               "code": "ReadsRefAllel"
             }
           ]
