@@ -1557,7 +1557,7 @@
       <min value="0" />
       <max value="*" />
       <type>
-        <code value="string" />
+        <code value="BackboneElement" />
       </type>
       <mustSupport value="true" />
     </element>
