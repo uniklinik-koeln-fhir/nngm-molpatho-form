@@ -2720,5 +2720,55 @@
         <code value="string" />
       </type>
     </element>
+    <element id="MolekulareDiagnostik.Beurteilung">
+      <path value="MolekulareDiagnostik.Beurteilung" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="BackboneElement" />
+      </type>
+    </element>
+    <element id="MolekulareDiagnostik.Beurteilung.KlinischeInformation">
+      <path value="MolekulareDiagnostik.Beurteilung.KlinischeInformation" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.Beurteilung.EmpfehlungEinerSystemischenTherapie">
+      <path value="MolekulareDiagnostik.Beurteilung.EmpfehlungEinerSystemischenTherapie" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.Beurteilung.StatusDurchfuehrung">
+      <path value="MolekulareDiagnostik.Beurteilung.StatusDurchfuehrung" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+    </element>
+    <element id="MolekulareDiagnostik.Beurteilung.StatusAbschluss">
+      <path value="MolekulareDiagnostik.Beurteilung.StatusAbschluss" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+    </element>
+    <element id="MolekulareDiagnostik.Beurteilung.DatumDesAbschlusses">
+      <path value="MolekulareDiagnostik.Beurteilung.DatumDesAbschlusses" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+    </element>
   </differential>
 </StructureDefinition>
