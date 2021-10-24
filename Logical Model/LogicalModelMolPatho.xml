@@ -96,7 +96,7 @@
       <min value="0" />
       <max value="*" />
       <type>
-        <code value="BackbstringoneElement" />
+        <code value="string" />
       </type>
       <mustSupport value="true" />
     </element>
@@ -614,7 +614,7 @@
       <mustSupport value="true" />
     </element>
     <element id="MolekulareDiagnostik.LiquidBiopsy.Primaermutation.Gen">
-      <path value="MolekulareDiagnostik.LiquidBiopsy.Gen" />
+      <path value="MolekulareDiagnostik.LiquidBiopsy.Primaermutation.Gen" />
       <min value="0" />
       <max value="*" />
       <type>
@@ -2576,7 +2576,7 @@
       <mustSupport value="true" />
     </element>
     <element id="MolekulareDiagnostik.FastTrack.Standort">
-      <path value="MolekulareDiagnostik.FastTrack" />
+      <path value="MolekulareDiagnostik.FastTrack.Standort" />
       <min value="0" />
       <max value="*" />
       <type>
@@ -2607,7 +2607,7 @@
       <min value="0" />
       <max value="*" />
       <type>
-        <code value="BackboneElement" />
+        <code value="string" />
       </type>
       <mustSupport value="true" />
     </element>
@@ -2616,7 +2616,7 @@
       <min value="0" />
       <max value="*" />
       <type>
-        <code value="BackboneElement" />
+        <code value="string" />
       </type>
       <mustSupport value="true" />
     </element>
@@ -2625,7 +2625,7 @@
       <min value="0" />
       <max value="*" />
       <type>
-        <code value="BackboneElement" />
+        <code value="string" />
       </type>
       <mustSupport value="true" />
     </element>
@@ -2643,7 +2643,7 @@
       <min value="0" />
       <max value="*" />
       <type>
-        <code value="BackboneElement" />
+        <code value="string" />
       </type>
       <mustSupport value="true" />
     </element>
@@ -2652,7 +2652,7 @@
       <min value="0" />
       <max value="*" />
       <type>
-        <code value="BackboneElement" />
+        <code value="string" />
       </type>
       <mustSupport value="true" />
     </element>
@@ -2661,7 +2661,7 @@
       <min value="0" />
       <max value="*" />
       <type>
-        <code value="BackboneElement" />
+        <code value="string" />
       </type>
       <mustSupport value="true" />
     </element>
