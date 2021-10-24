@@ -44,7 +44,6 @@
       <type>
         <code value="string" />
       </type>
-      <mustSupport value="true" />
     </element>
     <element id="MolekulareDiagnostik.IHC.Untersuchungen">
       <path value="MolekulareDiagnostik.IHC.Untersuchungen" />
@@ -62,7 +61,6 @@
       <type>
         <code value="BackboneElement" />
       </type>
-      <mustSupport value="true" />
     </element>
     <element id="MolekulareDiagnostik.IHC.CK7.Phaenotyp">
       <path value="MolekulareDiagnostik.IHC.CK7.Phaenotyp" />
@@ -71,7 +69,6 @@
       <type>
         <code value="string" />
       </type>
-      <mustSupport value="true" />
     </element>
     <element id="MolekulareDiagnostik.IHC.CK7.Antikoerper">
       <path value="MolekulareDiagnostik.IHC.CK7.Antikoerper" />
@@ -80,7 +77,6 @@
       <type>
         <code value="string" />
       </type>
-      <mustSupport value="true" />
     </element>
     <element id="MolekulareDiagnostik.IHC.CK7.Hersteller">
       <path value="MolekulareDiagnostik.IHC.CK7.Hersteller" />
@@ -89,7 +85,6 @@
       <type>
         <code value="string" />
       </type>
-      <mustSupport value="true" />
     </element>
     <element id="MolekulareDiagnostik.IHC.CK7.Ergebnis">
       <path value="MolekulareDiagnostik.IHC.CK7.Ergebnis" />
@@ -98,7 +93,6 @@
       <type>
         <code value="string" />
       </type>
-      <mustSupport value="true" />
     </element>
     <element id="MolekulareDiagnostik.IHC.MIB1">
       <path value="MolekulareDiagnostik.IHC.MIB1" />
@@ -107,7 +101,6 @@
       <type>
         <code value="BackboneElement" />
       </type>
-      <mustSupport value="true" />
     </element>
     <element id="MolekulareDiagnostik.IHC.MIB1.Phaenotyp">
       <path value="MolekulareDiagnostik.IHC.MIB1.Phaenotyp" />
@@ -116,7 +109,6 @@
       <type>
         <code value="string" />
       </type>
-      <mustSupport value="true" />
     </element>
     <element id="MolekulareDiagnostik.IHC.MIB1.Antikoerper">
       <path value="MolekulareDiagnostik.IHC.MIB1.Antikoerper" />
@@ -125,7 +117,6 @@
       <type>
         <code value="string" />
       </type>
-      <mustSupport value="true" />
     </element>
     <element id="MolekulareDiagnostik.IHC.MIB1.Hersteller">
       <path value="MolekulareDiagnostik.IHC.MIB1.Hersteller" />
@@ -134,7 +125,6 @@
       <type>
         <code value="string" />
       </type>
-      <mustSupport value="true" />
     </element>
     <element id="MolekulareDiagnostik.IHC.MIB1.Ergebnis">
       <path value="MolekulareDiagnostik.IHC.MIB1.Ergebnis" />
@@ -143,7 +133,6 @@
       <type>
         <code value="string" />
       </type>
-      <mustSupport value="true" />
     </element>
     <element id="MolekulareDiagnostik.IHC.NapsinA">
       <path value="MolekulareDiagnostik.IHC.NapsinA" />
@@ -152,7 +141,6 @@
       <type>
         <code value="BackboneElement" />
       </type>
-      <mustSupport value="true" />
     </element>
     <element id="MolekulareDiagnostik.IHC.NapsinA.Phaenotyp">
       <path value="MolekulareDiagnostik.IHC.NapsinA.Phaenotyp" />
@@ -161,7 +149,6 @@
       <type>
         <code value="string" />
       </type>
-      <mustSupport value="true" />
     </element>
     <element id="MolekulareDiagnostik.IHC.NapsinA.Antikoerper">
       <path value="MolekulareDiagnostik.IHC.NapsinA.Antikoerper" />
@@ -170,7 +157,6 @@
       <type>
         <code value="string" />
       </type>
-      <mustSupport value="true" />
     </element>
     <element id="MolekulareDiagnostik.IHC.NapsinA.Hersteller">
       <path value="MolekulareDiagnostik.IHC.NapsinA.Hersteller" />
@@ -179,7 +165,6 @@
       <type>
         <code value="string" />
       </type>
-      <mustSupport value="true" />
     </element>
     <element id="MolekulareDiagnostik.IHC.NapsinA.Ergebnis">
       <path value="MolekulareDiagnostik.IHC.NapsinA.Ergebnis" />
@@ -188,7 +173,6 @@
       <type>
         <code value="string" />
       </type>
-      <mustSupport value="true" />
     </element>
     <element id="MolekulareDiagnostik.IHC.P40">
       <path value="MolekulareDiagnostik.IHC.P40" />
@@ -197,7 +181,6 @@
       <type>
         <code value="BackboneElement" />
       </type>
-      <mustSupport value="true" />
     </element>
     <element id="MolekulareDiagnostik.IHC.P40.Phaenotyp">
       <path value="MolekulareDiagnostik.IHC.P40.Phaenotyp" />
@@ -206,7 +189,6 @@
       <type>
         <code value="string" />
       </type>
-      <mustSupport value="true" />
     </element>
     <element id="MolekulareDiagnostik.IHC.P40.Antikoerper">
       <path value="MolekulareDiagnostik.IHC.P40.Antikoerper" />
@@ -215,7 +197,6 @@
       <type>
         <code value="string" />
       </type>
-      <mustSupport value="true" />
     </element>
     <element id="MolekulareDiagnostik.IHC.P40.Hersteller">
       <path value="MolekulareDiagnostik.IHC.P40.Hersteller" />
@@ -224,7 +205,6 @@
       <type>
         <code value="string" />
       </type>
-      <mustSupport value="true" />
     </element>
     <element id="MolekulareDiagnostik.IHC.P40.Ergebnis">
       <path value="MolekulareDiagnostik.IHC.P40.Ergebnis" />
@@ -233,7 +213,6 @@
       <type>
         <code value="string" />
       </type>
-      <mustSupport value="true" />
     </element>
     <element id="MolekulareDiagnostik.IHC.Synaptophysin">
       <path value="MolekulareDiagnostik.IHC.Synaptophysin" />
@@ -242,7 +221,6 @@
       <type>
         <code value="BackboneElement" />
       </type>
-      <mustSupport value="true" />
     </element>
     <element id="MolekulareDiagnostik.IHC.Synaptophysin.Phaenotyp">
       <path value="MolekulareDiagnostik.IHC.Synaptophysin.Phaenotyp" />
@@ -251,7 +229,6 @@
       <type>
         <code value="string" />
       </type>
-      <mustSupport value="true" />
     </element>
     <element id="MolekulareDiagnostik.IHC.Synaptophysin.Antikoerper">
       <path value="MolekulareDiagnostik.IHC.Synaptophysin.Antikoerper" />
@@ -260,7 +237,6 @@
       <type>
         <code value="string" />
       </type>
-      <mustSupport value="true" />
     </element>
     <element id="MolekulareDiagnostik.IHC.Synaptophysin.Hersteller">
       <path value="MolekulareDiagnostik.IHC.Synaptophysin.Hersteller" />
@@ -269,7 +245,6 @@
       <type>
         <code value="string" />
       </type>
-      <mustSupport value="true" />
     </element>
     <element id="MolekulareDiagnostik.IHC.Synaptophysin.Ergebnis">
       <path value="MolekulareDiagnostik.IHC.Synaptophysin.Ergebnis" />
@@ -278,7 +253,6 @@
       <type>
         <code value="string" />
       </type>
-      <mustSupport value="true" />
     </element>
     <element id="MolekulareDiagnostik.IHC.TTF1">
       <path value="MolekulareDiagnostik.IHC.TTF1" />
@@ -287,7 +261,6 @@
       <type>
         <code value="BackboneElement" />
       </type>
-      <mustSupport value="true" />
     </element>
     <element id="MolekulareDiagnostik.IHC.TTF1.Phaenotyp">
       <path value="MolekulareDiagnostik.IHC.TTF1.Phaenotyp" />
@@ -296,7 +269,6 @@
       <type>
         <code value="string" />
       </type>
-      <mustSupport value="true" />
     </element>
     <element id="MolekulareDiagnostik.IHC.TTF1.Antikoerper">
       <path value="MolekulareDiagnostik.IHC.TTF1.Antikoerper" />
@@ -305,7 +277,6 @@
       <type>
         <code value="string" />
       </type>
-      <mustSupport value="true" />
     </element>
     <element id="MolekulareDiagnostik.IHC.TTF1.Hersteller">
       <path value="MolekulareDiagnostik.IHC.TTF1.Hersteller" />
@@ -314,7 +285,6 @@
       <type>
         <code value="string" />
       </type>
-      <mustSupport value="true" />
     </element>
     <element id="MolekulareDiagnostik.IHC.TTF1.Ergebnis">
       <path value="MolekulareDiagnostik.IHC.TTF1.Ergebnis" />
@@ -323,7 +293,6 @@
       <type>
         <code value="string" />
       </type>
-      <mustSupport value="true" />
     </element>
     <element id="MolekulareDiagnostik.IHC.ALK">
       <path value="MolekulareDiagnostik.IHC.ALK" />
@@ -584,7 +553,6 @@
       <type>
         <code value="string" />
       </type>
-      <mustSupport value="true" />
     </element>
     <element id="MolekulareDiagnostik.IHC.DatumDesAbschlusses">
       <path value="MolekulareDiagnostik.IHC.DatumDesAbschlusses" />
@@ -593,7 +561,6 @@
       <type>
         <code value="string" />
       </type>
-      <mustSupport value="true" />
     </element>
     <element id="MolekulareDiagnostik.LiquidBiopsy">
       <path value="MolekulareDiagnostik.LiquidBiopsy" />
@@ -601,6 +568,56 @@
       <max value="*" />
       <type>
         <code value="BackboneElement" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.LiquidBiopsy.Standort">
+      <path value="MolekulareDiagnostik.LiquidBiopsy.Standort" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.LiquidBiopsy.SOPVersionsnummerDesStandorts">
+      <path value="MolekulareDiagnostik.LiquidBiopsy.SOPVersionsnummerDesStandorts" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+    </element>
+    <element id="MolekulareDiagnostik.LiquidBiopsy.Methodik">
+      <path value="MolekulareDiagnostik.LiquidBiopsy.Methodik" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="BackboneElement" />
+      </type>
+    </element>
+    <element id="MolekulareDiagnostik.LiquidBiopsy.Methodik.Assay">
+      <path value="MolekulareDiagnostik.LiquidBiopsy.Methodik.Assay" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+    </element>
+    <element id="MolekulareDiagnostik.LiquidBiopsy.Methodik.Hersteller">
+      <path value="MolekulareDiagnostik.LiquidBiopsy.Methodik.Hersteller" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+    </element>
+    <element id="MolekulareDiagnostik.LiquidBiopsy.Untersuchungen">
+      <path value="MolekulareDiagnostik.LiquidBiopsy.Untersuchungen" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
       </type>
       <mustSupport value="true" />
     </element>
@@ -638,7 +655,6 @@
       <type>
         <code value="string" />
       </type>
-      <mustSupport value="true" />
     </element>
     <element id="MolekulareDiagnostik.LiquidBiopsy.Primaermutation.HGVSc">
       <path value="MolekulareDiagnostik.LiquidBiopsy.Primaermutation.HGVSc" />
@@ -701,7 +717,6 @@
       <type>
         <code value="string" />
       </type>
-      <mustSupport value="true" />
     </element>
     <element id="MolekulareDiagnostik.LiquidBiopsy.Resistenztestung.HGVSc">
       <path value="MolekulareDiagnostik.LiquidBiopsy.Resistenztestung.HGVSc" />
@@ -746,7 +761,6 @@
       <type>
         <code value="string" />
       </type>
-      <mustSupport value="true" />
     </element>
     <element id="MolekulareDiagnostik.LiquidBiopsy.DatumDesAbschlusses">
       <path value="MolekulareDiagnostik.LiquidBiopsy.Resistenztestung.DatumDesAbschlusses" />
@@ -755,7 +769,6 @@
       <type>
         <code value="string" />
       </type>
-      <mustSupport value="true" />
     </element>
     <element id="MolekulareDiagnostik.NgsLungPanel">
       <path value="MolekulareDiagnostik.NgsLungPanel" />
@@ -782,7 +795,6 @@
       <type>
         <code value="string" />
       </type>
-      <mustSupport value="true" />
     </element>
     <element id="MolekulareDiagnostik.NgsLungPanel.NgsLungPanelVersion">
       <path value="MolekulareDiagnostik.NgsLungPanel.NgsLungPanelVersion" />
@@ -791,7 +803,6 @@
       <type>
         <code value="string" />
       </type>
-      <mustSupport value="true" />
     </element>
     <element id="MolekulareDiagnostik.NgsLungPanel.NGSSequencer">
       <path value="MolekulareDiagnostik.NgsLungPanel.NGSSequencer" />
@@ -800,7 +811,6 @@
       <type>
         <code value="string" />
       </type>
-      <mustSupport value="true" />
     </element>
     <element id="MolekulareDiagnostik.NgsLungPanel.Hersteller">
       <path value="MolekulareDiagnostik.NgsLungPanel.Hersteller" />
@@ -809,7 +819,6 @@
       <type>
         <code value="string" />
       </type>
-      <mustSupport value="true" />
     </element>
     <element id="MolekulareDiagnostik.NgsLungPanel.PanelGen">
       <path value="MolekulareDiagnostik.NgsLungPanel.PanelGen" />
@@ -836,7 +845,6 @@
       <type>
         <code value="string" />
       </type>
-      <mustSupport value="true" />
     </element>
     <element id="MolekulareDiagnostik.NgsLungPanel.PanelGen.HGVSc">
       <path value="MolekulareDiagnostik.NgsLungPanel.PanelGen.HGVSc" />
@@ -890,7 +898,6 @@
       <type>
         <code value="string" />
       </type>
-      <mustSupport value="true" />
     </element>
     <element id="MolekulareDiagnostik.NgsLungPanel.PanelGen.Chromosom">
       <path value="MolekulareDiagnostik.NgsLungPanel.PanelGen.Chromosom" />
@@ -899,7 +906,6 @@
       <type>
         <code value="string" />
       </type>
-      <mustSupport value="true" />
     </element>
     <element id="MolekulareDiagnostik.NgsLungPanel.PanelGen.PositionStart">
       <path value="MolekulareDiagnostik.NgsLungPanel.PanelGen.PositionStart" />
@@ -908,7 +914,6 @@
       <type>
         <code value="string" />
       </type>
-      <mustSupport value="true" />
     </element>
     <element id="MolekulareDiagnostik.NgsLungPanel.PanelGen.PositionStop">
       <path value="MolekulareDiagnostik.NgsLungPanel.PanelGen.PositionStop" />
@@ -917,7 +922,6 @@
       <type>
         <code value="string" />
       </type>
-      <mustSupport value="true" />
     </element>
     <element id="MolekulareDiagnostik.NgsLungPanel.PanelGen.RefAlleleNukleotid">
       <path value="MolekulareDiagnostik.NgsLungPanel.PanelGen.RefAlleleNukleotid" />
@@ -926,7 +930,6 @@
       <type>
         <code value="string" />
       </type>
-      <mustSupport value="true" />
     </element>
     <element id="MolekulareDiagnostik.NgsLungPanel.PanelGen.AltAlleleNukleotid">
       <path value="MolekulareDiagnostik.NgsLungPanel.PanelGen.AltAlleleNukleotid" />
@@ -935,7 +938,6 @@
       <type>
         <code value="string" />
       </type>
-      <mustSupport value="true" />
     </element>
     <element id="MolekulareDiagnostik.NgsLungPanel.PanelGen.BiologischeMolekulareBewertung">
       <path value="MolekulareDiagnostik.NgsLungPanel.PanelGen.BiologischeMolekulareBewertung" />
@@ -944,7 +946,6 @@
       <type>
         <code value="string" />
       </type>
-      <mustSupport value="true" />
     </element>
     <element id="MolekulareDiagnostik.NgsLungPanel.PanelGen.Kommentar">
       <path value="MolekulareDiagnostik.NgsLungPanel.PanelGen.Kommentar" />
@@ -953,7 +954,6 @@
       <type>
         <code value="string" />
       </type>
-      <mustSupport value="true" />
     </element>
     <element id="MolekulareDiagnostik.NgsLungPanel.StatusDurchfuehrung">
       <path value="MolekulareDiagnostik.NgsLungPanel.StatusDurchfuehrung" />
@@ -971,7 +971,6 @@
       <type>
         <code value="string" />
       </type>
-      <mustSupport value="true" />
     </element>
     <element id="MolekulareDiagnostik.NgsLungPanel.DatumDesAbschlusses">
       <path value="MolekulareDiagnostik.NgsLungPanel.DatumDesAbschlusses" />
@@ -980,7 +979,6 @@
       <type>
         <code value="string" />
       </type>
-      <mustSupport value="true" />
     </element>
     <element id="MolekulareDiagnostik.Molekularpathologie">
       <path value="MolekulareDiagnostik.Molekularpathologie" />
@@ -1007,7 +1005,6 @@
       <type>
         <code value="string" />
       </type>
-      <mustSupport value="true" />
     </element>
     <element id="MolekulareDiagnostik.Molekularpathologie.Untersuchungen">
       <path value="MolekulareDiagnostik.Molekularpathologie.Untersuchungen" />
@@ -1052,7 +1049,6 @@
       <type>
         <code value="string" />
       </type>
-      <mustSupport value="true" />
     </element>
     <element id="MolekulareDiagnostik.Molekularpathologie.ALK.Phaenotyp.ISH.Hersteller">
       <path value="MolekulareDiagnostik.Molekularpathologie.ALK.Phaenotyp.ISH.Hersteller" />
@@ -1061,7 +1057,6 @@
       <type>
         <code value="string" />
       </type>
-      <mustSupport value="true" />
     </element>
     <element id="MolekulareDiagnostik.Molekularpathologie.ALK.Phaenotyp.ISH.Ergebnis">
       <path value="MolekulareDiagnostik.Molekularpathologie.ALK.Phaenotyp.ISH.Ergebnis" />
@@ -1097,7 +1092,6 @@
       <type>
         <code value="string" />
       </type>
-      <mustSupport value="true" />
     </element>
     <element id="MolekulareDiagnostik.Molekularpathologie.ALK.Phaenotyp.FISH.Hersteller">
       <path value="MolekulareDiagnostik.Molekularpathologie.ALK.Phaenotyp.FISH.Hersteller" />
@@ -1106,7 +1100,6 @@
       <type>
         <code value="string" />
       </type>
-      <mustSupport value="true" />
     </element>
     <element id="MolekulareDiagnostik.Molekularpathologie.ALK.Phaenotyp.FISH.Ergebnis">
       <path value="MolekulareDiagnostik.Molekularpathologie.ALK.Phaenotyp.FISH.Ergebnis" />
@@ -1133,7 +1126,6 @@
       <type>
         <code value="string" />
       </type>
-      <mustSupport value="true" />
     </element>
     <element id="MolekulareDiagnostik.Molekularpathologie.MET">
       <path value="MolekulareDiagnostik.Molekularpathologie.MET" />
@@ -1169,7 +1161,6 @@
       <type>
         <code value="string" />
       </type>
-      <mustSupport value="true" />
     </element>
     <element id="MolekulareDiagnostik.Molekularpathologie.MET.ISH.Hersteller">
       <path value="MolekulareDiagnostik.Molekularpathologie.MET.ISH.Hersteller" />
@@ -1178,7 +1169,6 @@
       <type>
         <code value="string" />
       </type>
-      <mustSupport value="true" />
     </element>
     <element id="MolekulareDiagnostik.Molekularpathologie.MET.ISH.Ergebnis">
       <path value="MolekulareDiagnostik.Molekularpathologie.MET.ISH.Ergebnis" />
@@ -1205,7 +1195,6 @@
       <type>
         <code value="string" />
       </type>
-      <mustSupport value="true" />
     </element>
     <element id="MolekulareDiagnostik.Molekularpathologie.MET.FISH.Hersteller">
       <path value="MolekulareDiagnostik.Molekularpathologie.MET.FISH.Hersteller" />
@@ -1214,7 +1203,6 @@
       <type>
         <code value="string" />
       </type>
-      <mustSupport value="true" />
     </element>
     <element id="MolekulareDiagnostik.Molekularpathologie.MET.FISH.Ergebnis">
       <path value="MolekulareDiagnostik.Molekularpathologie.MET.FISH.Ergebnis" />
@@ -1241,7 +1229,6 @@
       <type>
         <code value="string" />
       </type>
-      <mustSupport value="true" />
     </element>
     <element id="MolekulareDiagnostik.Molekularpathologie.MET.FISH.Prozentzahl5METSignale">
       <path value="MolekulareDiagnostik.Molekularpathologie.MET.FISH.Prozentzahl15METSignale" />
@@ -1250,7 +1237,6 @@
       <type>
         <code value="string" />
       </type>
-      <mustSupport value="true" />
     </element>
     <element id="MolekulareDiagnostik.Molekularpathologie.MET.FISH.Prozentzahl4METSignale">
       <path value="MolekulareDiagnostik.Molekularpathologie.MET.FISH.Prozentzahl15METSignale" />
@@ -1259,7 +1245,6 @@
       <type>
         <code value="string" />
       </type>
-      <mustSupport value="true" />
     </element>
     <element id="MolekulareDiagnostik.Molekularpathologie.MET.FISH.GezaehlteTumorzellen">
       <path value="MolekulareDiagnostik.Molekularpathologie.MET.FISH.GezaehlteTumorzellen" />
@@ -1268,7 +1253,6 @@
       <type>
         <code value="string" />
       </type>
-      <mustSupport value="true" />
     </element>
     <element id="MolekulareDiagnostik.Molekularpathologie.MET.FISH.METSignale">
       <path value="MolekulareDiagnostik.Molekularpathologie.MET.FISH.METSignale" />
@@ -1277,7 +1261,6 @@
       <type>
         <code value="string" />
       </type>
-      <mustSupport value="true" />
     </element>
     <element id="MolekulareDiagnostik.Molekularpathologie.MET.FISH.CENSignale">
       <path value="MolekulareDiagnostik.Molekularpathologie.MET.FISH.CENSignale" />
@@ -1286,7 +1269,6 @@
       <type>
         <code value="string" />
       </type>
-      <mustSupport value="true" />
     </element>
     <element id="MolekulareDiagnostik.Molekularpathologie.MET.FISH.QuotientMETCENSignale">
       <path value="MolekulareDiagnostik.Molekularpathologie.MET.FISH.QuotientMETCENSignale" />
@@ -1295,7 +1277,6 @@
       <type>
         <code value="string" />
       </type>
-      <mustSupport value="true" />
     </element>
     <element id="MolekulareDiagnostik.Molekularpathologie.MET.FISH.DurchschnittMETGenkopiezahl">
       <path value="MolekulareDiagnostik.Molekularpathologie.MET.FISH.DurchschnittMETGenkopiezahl" />
@@ -1304,7 +1285,6 @@
       <type>
         <code value="string" />
       </type>
-      <mustSupport value="true" />
     </element>
     <element id="MolekulareDiagnostik.Molekularpathologie.MET.FISH.Polysomie">
       <path value="MolekulareDiagnostik.Molekularpathologie.MET.FISH.Polysomie" />
@@ -1313,7 +1293,6 @@
       <type>
         <code value="string" />
       </type>
-      <mustSupport value="true" />
     </element>
     <element id="MolekulareDiagnostik.Molekularpathologie.RET">
       <path value="MolekulareDiagnostik.Molekularpathologie.RET" />
@@ -1349,7 +1328,6 @@
       <type>
         <code value="string" />
       </type>
-      <mustSupport value="true" />
     </element>
     <element id="MolekulareDiagnostik.Molekularpathologie.RET.ISH.Hersteller">
       <path value="MolekulareDiagnostik.Molekularpathologie.RET.ISH.Hersteller" />
@@ -1358,7 +1336,6 @@
       <type>
         <code value="string" />
       </type>
-      <mustSupport value="true" />
     </element>
     <element id="MolekulareDiagnostik.Molekularpathologie.RET.ISH.Ergebnis">
       <path value="MolekulareDiagnostik.Molekularpathologie.RET.ISH.Ergebnis" />
@@ -1394,7 +1371,6 @@
       <type>
         <code value="string" />
       </type>
-      <mustSupport value="true" />
     </element>
     <element id="MolekulareDiagnostik.Molekularpathologie.RET.FISH.Hersteller">
       <path value="MolekulareDiagnostik.Molekularpathologie.RET.FISH.Hersteller" />
@@ -1403,7 +1379,6 @@
       <type>
         <code value="string" />
       </type>
-      <mustSupport value="true" />
     </element>
     <element id="MolekulareDiagnostik.Molekularpathologie.RET.FISH.Ergebnis">
       <path value="MolekulareDiagnostik.Molekularpathologie.RET.FISH.Ergebnis" />
@@ -1430,7 +1405,6 @@
       <type>
         <code value="string" />
       </type>
-      <mustSupport value="true" />
     </element>
     <element id="MolekulareDiagnostik.Molekularpathologie.ROS1">
       <path value="MolekulareDiagnostik.Molekularpathologie.ROS1" />
@@ -1466,7 +1440,6 @@
       <type>
         <code value="string" />
       </type>
-      <mustSupport value="true" />
     </element>
     <element id="MolekulareDiagnostik.Molekularpathologie.ROS1.ISH.Hersteller">
       <path value="MolekulareDiagnostik.Molekularpathologie.ROS1.ISH.Hersteller" />
@@ -1475,7 +1448,6 @@
       <type>
         <code value="string" />
       </type>
-      <mustSupport value="true" />
     </element>
     <element id="MolekulareDiagnostik.Molekularpathologie.ROS1.ISH.Ergebnis">
       <path value="MolekulareDiagnostik.Molekularpathologie.ROS1.ISH.Ergebnis" />
@@ -1520,7 +1492,6 @@
       <type>
         <code value="BackboneElement" />
       </type>
-      <mustSupport value="true" />
     </element>
     <element id="MolekulareDiagnostik.Molekularpathologie.ROS1.FISH.Hersteller">
       <path value="MolekulareDiagnostik.Molekularpathologie.ROS1.FISH.Hersteller" />
@@ -1529,7 +1500,6 @@
       <type>
         <code value="BackboneElement" />
       </type>
-      <mustSupport value="true" />
     </element>
     <element id="MolekulareDiagnostik.Molekularpathologie.ROS1.FISH.Ergebnis">
       <path value="MolekulareDiagnostik.Molekularpathologie.ROS1.FISH.Ergebnis" />
@@ -1556,7 +1526,6 @@
       <type>
         <code value="BackboneElement" />
       </type>
-      <mustSupport value="true" />
     </element>
     <element id="MolekulareDiagnostik.Molekularpathologie.StatusDurchfueherung">
       <path value="MolekulareDiagnostik.Molekularpathologie.StatusDurchfueherung" />
@@ -1574,7 +1543,6 @@
       <type>
         <code value="BackboneElement" />
       </type>
-      <mustSupport value="true" />
     </element>
     <element id="MolekulareDiagnostik.Molekularpathologie.DatumDesAbschlusses">
       <path value="MolekulareDiagnostik.Molekularpathologie.DatumDesAbschlusses" />
@@ -1583,7 +1551,6 @@
       <type>
         <code value="BackboneElement" />
       </type>
-      <mustSupport value="true" />
     </element>
     <element id="MolekulareDiagnostik.NGSFusion.Standort">
       <path value="MolekulareDiagnostik.NGSFusion.Standort" />
@@ -1601,7 +1568,6 @@
       <type>
         <code value="string" />
       </type>
-      <mustSupport value="true" />
     </element>
     <element id="MolekulareDiagnostik.NGSFusion.Methodik">
       <path value="MolekulareDiagnostik.NGSFusion.Methodik" />
@@ -1610,7 +1576,6 @@
       <type>
         <code value="BackboneElement" />
       </type>
-      <mustSupport value="true" />
     </element>
     <element id="MolekulareDiagnostik.NGSFusion.Methodik.Assay">
       <path value="MolekulareDiagnostik.NGSFusion.Methodik.Assay" />
@@ -1619,7 +1584,6 @@
       <type>
         <code value="string" />
       </type>
-      <mustSupport value="true" />
     </element>
     <element id="MolekulareDiagnostik.NGSFusion.Methodik.Hersteller">
       <path value="MolekulareDiagnostik.NGSFusion.Methodik.Hersteller" />
@@ -1628,7 +1592,6 @@
       <type>
         <code value="string" />
       </type>
-      <mustSupport value="true" />
     </element>
     <element id="MolekulareDiagnostik.NGSFusion.Methodik.Untersuchungen">
       <path value="MolekulareDiagnostik.NGSFusion.Methodik.Untersuchungen" />
@@ -1799,7 +1762,6 @@
       <type>
         <code value="string" />
       </type>
-      <mustSupport value="true" />
     </element>
     <element id="MolekulareDiagnostik.NGSFusion.RET.NGSFusion.5FusionspartnerExon">
       <path value="MolekulareDiagnostik.NGSFusion.RET.NGSFusion.5FusionspartnerExon" />
@@ -1889,7 +1851,6 @@
       <type>
         <code value="string" />
       </type>
-      <mustSupport value="true" />
     </element>
     <element id="MolekulareDiagnostik.NGSFusion.ROS1.NGSFusion.5FusionspartnerExon">
       <path value="MolekulareDiagnostik.NGSFusion.ROS1.NGSFusion.5FusionspartnerExon" />
@@ -1979,7 +1940,6 @@
       <type>
         <code value="string" />
       </type>
-      <mustSupport value="true" />
     </element>
     <element id="MolekulareDiagnostik.NGSFusion.NTRK1.NGSFusion.5FusionspartnerExon">
       <path value="MolekulareDiagnostik.NGSFusion.NTRK1.NGSFusion.5FusionspartnerExon" />
@@ -2069,7 +2029,6 @@
       <type>
         <code value="string" />
       </type>
-      <mustSupport value="true" />
     </element>
     <element id="MolekulareDiagnostik.NGSFusion.NTRK2.NGSFusion.5FusionspartnerExon">
       <path value="MolekulareDiagnostik.NGSFusion.NTRK2.NGSFusion.5FusionspartnerExon" />
@@ -2159,7 +2118,6 @@
       <type>
         <code value="string" />
       </type>
-      <mustSupport value="true" />
     </element>
     <element id="MolekulareDiagnostik.NGSFusion.NTRK3.NGSFusion.5FusionspartnerExon">
       <path value="MolekulareDiagnostik.NGSFusion.NTRK3.NGSFusion.5FusionspartnerExon" />
@@ -2249,7 +2207,6 @@
       <type>
         <code value="string" />
       </type>
-      <mustSupport value="true" />
     </element>
     <element id="MolekulareDiagnostik.NGSFusion.FGFR1.NGSFusion.5FusionspartnerExon">
       <path value="MolekulareDiagnostik.NGSFusion.FGFR1.NGSFusion.5FusionspartnerExon" />
@@ -2339,7 +2296,6 @@
       <type>
         <code value="string" />
       </type>
-      <mustSupport value="true" />
     </element>
     <element id="MolekulareDiagnostik.NGSFusion.FGFR2.NGSFusion.3FusionspartnerExon">
       <path value="MolekulareDiagnostik.NGSFusion.FGFR2.NGSFusion.3FusionspartnerExon" />
@@ -2429,7 +2385,6 @@
       <type>
         <code value="string" />
       </type>
-      <mustSupport value="true" />
     </element>
     <element id="MolekulareDiagnostik.NGSFusion.FGFR3.NGSFusion.3FusionspartnerExon">
       <path value="MolekulareDiagnostik.NGSFusion.FGFR3.NGSFusion.3FusionspartnerExon" />
@@ -2519,7 +2474,6 @@
       <type>
         <code value="string" />
       </type>
-      <mustSupport value="true" />
     </element>
     <element id="MolekulareDiagnostik.NGSFusion.SonstigeFusionNGS.NGSFusion.ErsterFusionspartnerExon">
       <path value="MolekulareDiagnostik.NGSFusion.SonstigeFusionNGS.NGSFusion.ErsterFusionspartnerExon" />
@@ -2591,7 +2545,6 @@
       <type>
         <code value="string" />
       </type>
-      <mustSupport value="true" />
     </element>
     <element id="MolekulareDiagnostik.FastTrack.Untersuchungen">
       <path value="MolekulareDiagnostik.FastTrack.Untersuchungen" />
@@ -2618,7 +2571,6 @@
       <type>
         <code value="string" />
       </type>
-      <mustSupport value="true" />
     </element>
     <element id="MolekulareDiagnostik.FastTrack.Methodik.Hersteller">
       <path value="MolekulareDiagnostik.FastTrack.Methodik.Hersteller" />
@@ -2627,7 +2579,6 @@
       <type>
         <code value="string" />
       </type>
-      <mustSupport value="true" />
     </element>
     <element id="MolekulareDiagnostik.FastTrack.Exon">
       <path value="MolekulareDiagnostik.FastTrack.Exon" />
@@ -2654,7 +2605,6 @@
       <type>
         <code value="string" />
       </type>
-      <mustSupport value="true" />
     </element>
     <element id="MolekulareDiagnostik.FastTrack.Exon.ChangeProtein">
       <path value="MolekulareDiagnostik.FastTrack.Exon.ChangeProtein" />
@@ -2663,7 +2613,6 @@
       <type>
         <code value="string" />
       </type>
-      <mustSupport value="true" />
     </element>
     <element id="MolekulareDiagnostik.FastTrack.StatusDurchfueherung">
       <path value="MolekulareDiagnostik.FastTrack.StatusDurchfueherung" />
@@ -2681,7 +2630,6 @@
       <type>
         <code value="string" />
       </type>
-      <mustSupport value="true" />
     </element>
     <element id="MolekulareDiagnostik.FastTrack.DatumDesAbschlusses">
       <path value="MolekulareDiagnostik.FastTrack.DatumDesAbschlusses" />
@@ -2690,16 +2638,6 @@
       <type>
         <code value="string" />
       </type>
-      <mustSupport value="true" />
-    </element>
-    <element id="MolekulareDiagnostik.FastTrack.DatumDesAbschlusses">
-      <path value="MolekulareDiagnostik.FastTrack.DatumDesAbschlusses" />
-      <min value="0" />
-      <max value="*" />
-      <type>
-        <code value="string" />
-      </type>
-      <mustSupport value="true" />
     </element>
     <element id="MolekulareDiagnostik.SonstigeUntersuchung">
       <path value="MolekulareDiagnostik.SonstigeUntersuchung" />
@@ -2708,7 +2646,6 @@
       <type>
         <code value="BackboneElement" />
       </type>
-      <mustSupport value="true" />
     </element>
     <element id="MolekulareDiagnostik.SonstigeUntersuchung.Standort">
       <path value="MolekulareDiagnostik.SonstigeUntersuchung.Standort" />
@@ -2717,7 +2654,6 @@
       <type>
         <code value="string" />
       </type>
-      <mustSupport value="true" />
     </element>
     <element id="MolekulareDiagnostik.SonstigeUntersuchung.SOPVersionsnummerDesStandorts">
       <path value="MolekulareDiagnostik.SonstigeUntersuchung.SOPVersionsnummerDesStandorts" />
@@ -2726,7 +2662,6 @@
       <type>
         <code value="string" />
       </type>
-      <mustSupport value="true" />
     </element>
     <element id="MolekulareDiagnostik.SonstigeUntersuchung.BezeichnungDerUntersuchung">
       <path value="MolekulareDiagnostik.SonstigeUntersuchung.BezeichnungDerUntersuchung" />
@@ -2735,7 +2670,6 @@
       <type>
         <code value="string" />
       </type>
-      <mustSupport value="true" />
     </element>
     <element id="MolekulareDiagnostik.SonstigeUntersuchung.Assay">
       <path value="MolekulareDiagnostik.SonstigeUntersuchung.Assay" />
@@ -2744,7 +2678,6 @@
       <type>
         <code value="string" />
       </type>
-      <mustSupport value="true" />
     </element>
     <element id="MolekulareDiagnostik.SonstigeUntersuchung.Hersteller">
       <path value="MolekulareDiagnostik.SonstigeUntersuchung.Hersteller" />
@@ -2753,7 +2686,6 @@
       <type>
         <code value="string" />
       </type>
-      <mustSupport value="true" />
     </element>
     <element id="MolekulareDiagnostik.SonstigeUntersuchung.Gen">
       <path value="MolekulareDiagnostik.SonstigeUntersuchung.Gen" />
@@ -2762,7 +2694,6 @@
       <type>
         <code value="string" />
       </type>
-      <mustSupport value="true" />
     </element>
     <element id="MolekulareDiagnostik.SonstigeUntersuchung.Phaenotyp">
       <path value="MolekulareDiagnostik.SonstigeUntersuchung.Phaenotyp" />
@@ -2771,7 +2702,6 @@
       <type>
         <code value="string" />
       </type>
-      <mustSupport value="true" />
     </element>
     <element id="MolekulareDiagnostik.SonstigeUntersuchung.Ergebnis">
       <path value="MolekulareDiagnostik.SonstigeUntersuchung.Ergebnis" />
@@ -2780,7 +2710,6 @@
       <type>
         <code value="string" />
       </type>
-      <mustSupport value="true" />
     </element>
   </differential>
 </StructureDefinition>
