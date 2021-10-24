@@ -118,2670 +118,2669 @@
       </type>
       <mustSupport value="true" />
     </element>
+    <element id="MolekulareDiagnostik.IHC.MIB1.Antikoerper">
+      <path value="MolekulareDiagnostik.IHC.MIB1.Antikoerper" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.IHC.MIB1.Hersteller">
+      <path value="MolekulareDiagnostik.IHC.MIB1.Hersteller" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.IHC.MIB1.Ergebnis">
+      <path value="MolekulareDiagnostik.IHC.MIB1.Ergebnis" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.IHC.NapsinA">
+      <path value="MolekulareDiagnostik.IHC.NapsinA" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="BackboneElement" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.IHC.NapsinA.Phaenotyp">
+      <path value="MolekulareDiagnostik.IHC.NapsinA.Phaenotyp" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.IHC.NapsinA.Antikoerper">
+      <path value="MolekulareDiagnostik.IHC.NapsinA.Antikoerper" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.IHC.NapsinA.Hersteller">
+      <path value="MolekulareDiagnostik.IHC.NapsinA.Hersteller" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.IHC.NapsinA.Ergebnis">
+      <path value="MolekulareDiagnostik.IHC.NapsinA.Ergebnis" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.IHC.P40">
+      <path value="MolekulareDiagnostik.IHC.P40" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="BackboneElement" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.IHC.P40.Phaenotyp">
+      <path value="MolekulareDiagnostik.IHC.P40.Phaenotyp" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.IHC.P40.Antikoerper">
+      <path value="MolekulareDiagnostik.IHC.P40.Antikoerper" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.IHC.P40.Hersteller">
+      <path value="MolekulareDiagnostik.IHC.P40.Hersteller" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.IHC.P40.Ergebnis">
+      <path value="MolekulareDiagnostik.IHC.P40.Ergebnis" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.IHC.Synaptophysin">
+      <path value="MolekulareDiagnostik.IHC.Synaptophysin" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="BackboneElement" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.IHC.Synaptophysin.Phaenotyp">
+      <path value="MolekulareDiagnostik.IHC.Synaptophysin.Phaenotyp" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.IHC.Synaptophysin.Antikoerper">
+      <path value="MolekulareDiagnostik.IHC.Synaptophysin.Antikoerper" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.IHC.Synaptophysin.Hersteller">
+      <path value="MolekulareDiagnostik.IHC.Synaptophysin.Hersteller" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.IHC.Synaptophysin.Ergebnis">
+      <path value="MolekulareDiagnostik.IHC.Synaptophysin.Ergebnis" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.IHC.TTF1">
+      <path value="MolekulareDiagnostik.IHC.TTF1" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="BackboneElement" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.IHC.TTF1.Phaenotyp">
+      <path value="MolekulareDiagnostik.IHC.TTF1.Phaenotyp" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.IHC.TTF1.Antikoerper">
+      <path value="MolekulareDiagnostik.IHC.TTF1.Antikoerper" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.IHC.TTF1.Hersteller">
+      <path value="MolekulareDiagnostik.IHC.TTF1.Hersteller" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.IHC.TTF1.Ergebnis">
+      <path value="MolekulareDiagnostik.IHC.TTF1.Ergebnis" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.IHC.ALK">
+      <path value="MolekulareDiagnostik.IHC.ALK" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="BackboneElement" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.IHC.ALK.Phaenotyp">
+      <path value="MolekulareDiagnostik.IHC.ALK.Phaenotyp" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.IHC.ALK.IHC">
+      <path value="MolekulareDiagnostik.IHC.ALK.IHC" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="BackboneElement" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.IHC.ALK.IHC.Antikoerper">
+      <path value="MolekulareDiagnostik.IHC.ALK.IHC.Antikoerper" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.IHC.ALK.IHC.Hersteller">
+      <path value="MolekulareDiagnostik.IHC.ALK.IHC.Hersteller" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.IHC.ALK.IHC.Ergebnis">
+      <path value="MolekulareDiagnostik.IHC.ALK.IHC.Ergebnis" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.IHC.MET">
+      <path value="MolekulareDiagnostik.IHC.MET" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="BackboneElement" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.IHC.MET.Phaenotyp">
+      <path value="MolekulareDiagnostik.IHC.MET.Phaenotyp" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.IHC.MET.IHC">
+      <path value="MolekulareDiagnostik.IHC.MET.IHC" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="BackboneElement" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.IHC.MET.IHC.Antikoerper">
+      <path value="MolekulareDiagnostik.IHC.MET.IHC.Antikoerper" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.IHC.MET.IHC.Hersteller">
+      <path value="MolekulareDiagnostik.IHC.MET.IHC.Hersteller" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.IHC.MET.IHC.Ergebnis">
+      <path value="MolekulareDiagnostik.IHC.MET.IHC.Ergebnis" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.IHC.MET.IHC.Klassifikation">
+      <path value="MolekulareDiagnostik.IHC.MET.IHC.Klassifikation" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.IHC.MET.IHC.ExpressionHighLevel">
+      <path value="MolekulareDiagnostik.IHC.MET.IHC.ExpressionHighLevel" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.IHC.PD-L1">
+      <path value="MolekulareDiagnostik.IHC.PD-L1" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="BackboneElement" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.IHC.PD-L1.Phaenotyp">
+      <path value="MolekulareDiagnostik.IHC.PD-L1.Phaenotyp" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.IHC.PD-L1.Antikoerper">
+      <path value="MolekulareDiagnostik.IHC.PD-L1.Antikoerper" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.IHC.PD-L1.Hersteller">
+      <path value="MolekulareDiagnostik.IHC.PD-L1.Hersteller" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.IHC.PD-L1.Ergebnis">
+      <path value="MolekulareDiagnostik.IHC.PD-L1.Ergebnis" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.IHC.PD-L1.MengeDerTumorzellen">
+      <path value="MolekulareDiagnostik.IHC.PD-L1.MengeDerTumorzellen" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.IHC.PD-L1.FlaechePositiverImmunzellen">
+      <path value="MolekulareDiagnostik.IHC.PD-L1.FlaechePositiverImmunzellen" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.IHC.ROS1">
+      <path value="MolekulareDiagnostik.IHC.ROS1" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="BackboneElement" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.IHC.ROS1.Phaenotyp">
+      <path value="MolekulareDiagnostik.IHC.ROS1.Phaenotyp" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.IHC.ROS1.IHC">
+      <path value="MolekulareDiagnostik.IHC.ROS1.IHC" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="BackboneElement" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.IHC.ROS1.IHC.KitBezeichnung">
+      <path value="MolekulareDiagnostik.IHC.ROS1.IHC.KitBezeichnung" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.IHC.ROS1.IHC.Hersteller">
+      <path value="MolekulareDiagnostik.IHC.ROS1.IHC.Hersteller" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.IHC.ROS1.IHC.Ergebnis">
+      <path value="MolekulareDiagnostik.IHC.ROS1.IHC.Ergebnis" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.IHC.StatusDurchfuehrung">
+      <path value="MolekulareDiagnostik.IHC.StatusDurchfuehrung" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.IHC.StatusAbschluss">
+      <path value="MolekulareDiagnostik.IHC.StatusAbschluss" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.IHC.DatumDesAbschlusses">
+      <path value="MolekulareDiagnostik.IHC.DatumDesAbschlusses" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.LiquidBiopsy">
+      <path value="MolekulareDiagnostik.LiquidBiopsy" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="BackboneElement" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.LiquidBiopsy.Primaermutation">
+      <path value="MolekulareDiagnostik.LiquidBiopsy.Primaermutation" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="BackboneElement" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.LiquidBiopsy.Primaermutation.Gen">
+      <path value="MolekulareDiagnostik.LiquidBiopsy.Gen" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.LiquidBiopsy.Primaermutation.Phaenotyp">
+      <path value="MolekulareDiagnostik.LiquidBiopsy.Primaermutation.Phaenotyp" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.LiquidBiopsy.Primaermutation.Exon">
+      <path value="MolekulareDiagnostik.LiquidBiopsy.Primaermutation.Exon" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.LiquidBiopsy.Primaermutation.HGVSc">
+      <path value="MolekulareDiagnostik.LiquidBiopsy.Primaermutation.HGVSc" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.LiquidBiopsy.Primaermutation.HGVSp">
+      <path value="MolekulareDiagnostik.LiquidBiopsy.Primaermutation.HGVSp" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.LiquidBiopsy.Primaermutation.Ergebnis">
+      <path value="MolekulareDiagnostik.LiquidBiopsy.Primaermutation.Ergebnis" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.LiquidBiopsy.Resistenztestung">
+      <path value="MolekulareDiagnostik.LiquidBiopsy.Resistenztestung" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="BackboneElement" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.LiquidBiopsy.Resistenztestung.Gen">
+      <path value="MolekulareDiagnostik.LiquidBiopsy.Resistenztestung.Gen" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.LiquidBiopsy.Resistenztestung.Phaenotyp">
+      <path value="MolekulareDiagnostik.LiquidBiopsy.Resistenztestung.Phaenotyp" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.LiquidBiopsy.Resistenztestung.Exon">
+      <path value="MolekulareDiagnostik.LiquidBiopsy.Resistenztestung.Exon" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.LiquidBiopsy.Resistenztestung.HGVSc">
+      <path value="MolekulareDiagnostik.LiquidBiopsy.Resistenztestung.HGVSc" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.LiquidBiopsy.Resistenztestung.HGVSp">
+      <path value="MolekulareDiagnostik.LiquidBiopsy.Resistenztestung.HGVSp" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.LiquidBiopsy.Resistenztestung.Ergebnis">
+      <path value="MolekulareDiagnostik.LiquidBiopsy.Resistenztestung.Ergebnis" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.LiquidBiopsy.StatusDurchfuehrung">
+      <path value="MolekulareDiagnostik.LiquidBiopsy.Resistenztestung.StatusDurchfuehrung" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.LiquidBiopsy.StatusAbschluss">
+      <path value="MolekulareDiagnostik.LiquidBiopsy.Resistenztestung.StatusAbschluss" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.LiquidBiopsy.DatumDesAbschlusses">
+      <path value="MolekulareDiagnostik.LiquidBiopsy.Resistenztestung.DatumDesAbschlusses" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.NgsLungPanel">
+      <path value="MolekulareDiagnostik.NgsLungPanel" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="BackboneElement" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.NgsLungPanel.Standort">
+      <path value="MolekulareDiagnostik.NgsLungPanel.Standort" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.NgsLungPanel.SOPVersionsnummerDesStandorts">
+      <path value="MolekulareDiagnostik.NgsLungPanel.SOPVersionsnummerDesStandorts" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.NgsLungPanel.NgsLungPanelVersion">
+      <path value="MolekulareDiagnostik.NgsLungPanel.NgsLungPanelVersion" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.NgsLungPanel.NGSSequencer">
+      <path value="MolekulareDiagnostik.NgsLungPanel.NGSSequencer" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.NgsLungPanel.Hersteller">
+      <path value="MolekulareDiagnostik.NgsLungPanel.Hersteller" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.NgsLungPanel.PanelGen">
+      <path value="MolekulareDiagnostik.NgsLungPanel.PanelGen" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.NgsLungPanel.PanelGen.Gen">
+      <path value="MolekulareDiagnostik.NgsLungPanel.PanelGen.Gen" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.NgsLungPanel.PanelGen.Exon">
+      <path value="MolekulareDiagnostik.NgsLungPanel.PanelGen.Exon" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.NgsLungPanel.PanelGen.HGVSc">
+      <path value="MolekulareDiagnostik.NgsLungPanel.PanelGen.HGVSc" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.NgsLungPanel.PanelGen.HGVSp">
+      <path value="MolekulareDiagnostik.NgsLungPanel.PanelGen.HGVSp" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.NgsLungPanel.PanelGen.AllelicFraction">
+      <path value="MolekulareDiagnostik.NgsLungPanel.PanelGen.AllelicFraction" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.NgsLungPanel.PanelGen.ReadsRefAllel">
+      <path value="MolekulareDiagnostik.NgsLungPanel.PanelGen.ReadsRefAllel" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.NgsLungPanel.PanelGen.ReadsAltAllel">
+      <path value="MolekulareDiagnostik.NgsLungPanel.PanelGen.ReadsAltAllel" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.NgsLungPanel.PanelGen.GenomeBuild">
+      <path value="MolekulareDiagnostik.NgsLungPanel.PanelGen.GenomeBuild" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.NgsLungPanel.PanelGen.Chromosom">
+      <path value="MolekulareDiagnostik.NgsLungPanel.PanelGen.Chromosom" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.NgsLungPanel.PanelGen.PositionStart">
+      <path value="MolekulareDiagnostik.NgsLungPanel.PanelGen.PositionStart" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.NgsLungPanel.PanelGen.PositionStop">
+      <path value="MolekulareDiagnostik.NgsLungPanel.PanelGen.PositionStop" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.NgsLungPanel.PanelGen.RefAlleleNukleotid">
+      <path value="MolekulareDiagnostik.NgsLungPanel.PanelGen.RefAlleleNukleotid" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.NgsLungPanel.PanelGen.AltAlleleNukleotid">
+      <path value="MolekulareDiagnostik.NgsLungPanel.PanelGen.AltAlleleNukleotid" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.NgsLungPanel.PanelGen.BiologischeMolekulareBewertung">
+      <path value="MolekulareDiagnostik.NgsLungPanel.PanelGen.BiologischeMolekulareBewertung" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.NgsLungPanel.PanelGen.Kommentar">
+      <path value="MolekulareDiagnostik.NgsLungPanel.PanelGen.Kommentar" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.NgsLungPanel.StatusDurchfuehrung">
+      <path value="MolekulareDiagnostik.NgsLungPanel.StatusDurchfuehrung" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.NgsLungPanel.StatusAbschluss">
+      <path value="MolekulareDiagnostik.NgsLungPanel.StatusAbschluss" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.NgsLungPanel.DatumDesAbschlusses">
+      <path value="MolekulareDiagnostik.NgsLungPanel.DatumDesAbschlusses" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.Molekularpathologie">
+      <path value="MolekulareDiagnostik.Molekularpathologie" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="BackboneElement" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.Molekularpathologie.Standort">
+      <path value="MolekulareDiagnostik.Molekularpathologie.Standort" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.Molekularpathologie.SOPVersionsnummerDesStandorts">
+      <path value="MolekulareDiagnostik.Molekularpathologie.SOPVersionsnummerDesStandorts" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.Molekularpathologie.Untersuchungen">
+      <path value="MolekulareDiagnostik.Molekularpathologie.Untersuchungen" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.Molekularpathologie.ALK">
+      <path value="MolekulareDiagnostik.Molekularpathologie.ALK" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="BackboneElement" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.Molekularpathologie.ALK.Phaenotyp">
+      <path value="MolekulareDiagnostik.Molekularpathologie.ALK.Phaenotyp" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.Molekularpathologie.ALK.Phaenotyp.ISH">
+      <path value="MolekulareDiagnostik.Molekularpathologie.ALK.Phaenotyp.ISH" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.Molekularpathologie.ALK.Phaenotyp.ISH.KitBezeichnung">
+      <path value="MolekulareDiagnostik.Molekularpathologie.ALK.Phaenotyp.ISH.KitBezeichnung" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.Molekularpathologie.ALK.Phaenotyp.ISH.Hersteller">
+      <path value="MolekulareDiagnostik.Molekularpathologie.ALK.Phaenotyp.ISH.Hersteller" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.Molekularpathologie.ALK.Phaenotyp.ISH.Ergebnis">
+      <path value="MolekulareDiagnostik.Molekularpathologie.ALK.Phaenotyp.ISH.Ergebnis" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.Molekularpathologie.ALK.Phaenotyp.ISH.PositiveTumorzellen">
+      <path value="MolekulareDiagnostik.Molekularpathologie.ALK.Phaenotyp.ISH.PositiveTumorzellen" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.Molekularpathologie.ALK.Phaenotyp.FISH">
+      <path value="MolekulareDiagnostik.Molekularpathologie.ALK.Phaenotyp.FISH" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="BackboneElement" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.Molekularpathologie.ALK.Phaenotyp.FISH.KitBezeichnung">
+      <path value="MolekulareDiagnostik.Molekularpathologie.ALK.Phaenotyp.FISH.KitBezeichnung" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.Molekularpathologie.ALK.Phaenotyp.FISH.Hersteller">
+      <path value="MolekulareDiagnostik.Molekularpathologie.ALK.Phaenotyp.FISH.Hersteller" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.Molekularpathologie.ALK.Phaenotyp.FISH.Ergebnis">
+      <path value="MolekulareDiagnostik.Molekularpathologie.ALK.Phaenotyp.FISH.Ergebnis" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.Molekularpathologie.ALK.Phaenotyp.FISH.PositiveTumorzellen">
+      <path value="MolekulareDiagnostik.Molekularpathologie.ALK.Phaenotyp.FISH.PositiveTumorzellen" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.Molekularpathologie.ALK.Phaenotyp.FISH.Polysomie">
+      <path value="MolekulareDiagnostik.Molekularpathologie.ALK.Phaenotyp.FISH.Polysomie" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.Molekularpathologie.MET">
+      <path value="MolekulareDiagnostik.Molekularpathologie.MET" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="BackboneElement" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.Molekularpathologie.MET.Phaenotyp">
+      <path value="MolekulareDiagnostik.Molekularpathologie.MET.Phaenotyp" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.Molekularpathologie.MET.ISH">
+      <path value="MolekulareDiagnostik.Molekularpathologie.MET.ISH" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="BackboneElement" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.Molekularpathologie.MET.ISH.KitBezeichnung">
+      <path value="MolekulareDiagnostik.Molekularpathologie.MET.ISH.KitBezeichnung" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.Molekularpathologie.MET.ISH.Hersteller">
+      <path value="MolekulareDiagnostik.Molekularpathologie.MET.ISH.Hersteller" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.Molekularpathologie.MET.ISH.Ergebnis">
+      <path value="MolekulareDiagnostik.Molekularpathologie.MET.ISH.Ergebnis" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.Molekularpathologie.MET.ISH.Amplifikation">
+      <path value="MolekulareDiagnostik.Molekularpathologie.MET.ISH.Amplifikation" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.Molekularpathologie.MET.FISH.KitBezeichnung">
+      <path value="MolekulareDiagnostik.Molekularpathologie.MET.FISH.KitBezeichnung" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.Molekularpathologie.MET.FISH.Hersteller">
+      <path value="MolekulareDiagnostik.Molekularpathologie.MET.FISH.Hersteller" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.Molekularpathologie.MET.FISH.Ergebnis">
+      <path value="MolekulareDiagnostik.Molekularpathologie.MET.FISH.Ergebnis" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.Molekularpathologie.MET.FISH.Amplifikation">
+      <path value="MolekulareDiagnostik.Molekularpathologie.MET.FISH.Amplifikation" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.Molekularpathologie.MET.FISH.Prozentzahl15METSignale">
+      <path value="MolekulareDiagnostik.Molekularpathologie.MET.FISH.Prozentzahl15METSignale" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.Molekularpathologie.MET.FISH.Prozentzahl5METSignale">
+      <path value="MolekulareDiagnostik.Molekularpathologie.MET.FISH.Prozentzahl15METSignale" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.Molekularpathologie.MET.FISH.Prozentzahl4METSignale">
+      <path value="MolekulareDiagnostik.Molekularpathologie.MET.FISH.Prozentzahl15METSignale" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.Molekularpathologie.MET.FISH.GezaehlteTumorzellen">
+      <path value="MolekulareDiagnostik.Molekularpathologie.MET.FISH.GezaehlteTumorzellen" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.Molekularpathologie.MET.FISH.METSignale">
+      <path value="MolekulareDiagnostik.Molekularpathologie.MET.FISH.METSignale" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.Molekularpathologie.MET.FISH.CENSignale">
+      <path value="MolekulareDiagnostik.Molekularpathologie.MET.FISH.CENSignale" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.Molekularpathologie.MET.FISH.QuotientMETCENSignale">
+      <path value="MolekulareDiagnostik.Molekularpathologie.MET.FISH.QuotientMETCENSignale" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.Molekularpathologie.MET.FISH.DurchschnittMETGenkopiezahl">
+      <path value="MolekulareDiagnostik.Molekularpathologie.MET.FISH.DurchschnittMETGenkopiezahl" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.Molekularpathologie.MET.FISH.Polysomie">
+      <path value="MolekulareDiagnostik.Molekularpathologie.MET.FISH.Polysomie" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.Molekularpathologie.RET">
+      <path value="MolekulareDiagnostik.Molekularpathologie.RET" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="BackboneElement" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.Molekularpathologie.RET.Phaenotyp">
+      <path value="MolekulareDiagnostik.Molekularpathologie.RET.Phaenotyp" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.Molekularpathologie.RET.ISH">
+      <path value="MolekulareDiagnostik.Molekularpathologie.RET.ISH" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="BackboneElement" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.Molekularpathologie.RET.ISH.KitBezeichnung">
+      <path value="MolekulareDiagnostik.Molekularpathologie.RET.ISH.KitBezeichnung" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.Molekularpathologie.RET.ISH.Hersteller">
+      <path value="MolekulareDiagnostik.Molekularpathologie.RET.ISH.Hersteller" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.Molekularpathologie.RET.ISH.Ergebnis">
+      <path value="MolekulareDiagnostik.Molekularpathologie.RET.ISH.Ergebnis" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.Molekularpathologie.RET.ISH.PositiveTumorzellen">
+      <path value="MolekulareDiagnostik.Molekularpathologie.RET.ISH.PositiveTumorzellen" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.Molekularpathologie.RET.FISH">
+      <path value="MolekulareDiagnostik.Molekularpathologie.RET.FISH" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.Molekularpathologie.RET.FISH.KitBezeichnung">
+      <path value="MolekulareDiagnostik.Molekularpathologie.RET.FISH.KitBezeichnung" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.Molekularpathologie.RET.FISH.Hersteller">
+      <path value="MolekulareDiagnostik.Molekularpathologie.RET.FISH.Hersteller" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.Molekularpathologie.RET.FISH.Ergebnis">
+      <path value="MolekulareDiagnostik.Molekularpathologie.RET.FISH.Ergebnis" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.Molekularpathologie.RET.FISH.PositiveTumorzellen">
+      <path value="MolekulareDiagnostik.Molekularpathologie.RET.FISH.PositiveTumorzellen" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.Molekularpathologie.RET.FISH.Polysomie">
+      <path value="MolekulareDiagnostik.Molekularpathologie.RET.FISH.Polysomie" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.Molekularpathologie.ROS1">
+      <path value="MolekulareDiagnostik.Molekularpathologie.ROS1" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="BackboneElement" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.Molekularpathologie.ROS1.Phaenotyp">
+      <path value="MolekulareDiagnostik.Molekularpathologie.ROS1.Phaenotyp" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.Molekularpathologie.ROS1.ISH">
+      <path value="MolekulareDiagnostik.Molekularpathologie.ROS1.ISH" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="BackboneElement" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.Molekularpathologie.ROS1.ISH.KitBezeichnung">
+      <path value="MolekulareDiagnostik.Molekularpathologie.ROS1.ISH.KitBezeichnung" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.Molekularpathologie.ROS1.ISH.Hersteller">
+      <path value="MolekulareDiagnostik.Molekularpathologie.ROS1.ISH.Hersteller" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.Molekularpathologie.ROS1.ISH.Ergebnis">
+      <path value="MolekulareDiagnostik.Molekularpathologie.ROS1.ISH.Ergebnis" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.Molekularpathologie.ROS1.ISH.PositiveTumorzellen">
+      <path value="MolekulareDiagnostik.Molekularpathologie.ROS1.ISH.PositiveTumorzellen" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.Molekularpathologie.ROS1.ISH.Polysomie">
+      <path value="MolekulareDiagnostik.Molekularpathologie.ROS1.ISH.Polysomie" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.Molekularpathologie.ROS1.FISH">
+      <path value="MolekulareDiagnostik.Molekularpathologie.ROS1.FISH" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="BackboneElement" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.Molekularpathologie.ROS1.FISH.KitBezeichnung">
+      <path value="MolekulareDiagnostik.Molekularpathologie.ROS1.FISH.KitBezeichnung" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="BackboneElement" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.Molekularpathologie.ROS1.FISH.Hersteller">
+      <path value="MolekulareDiagnostik.Molekularpathologie.ROS1.FISH.Hersteller" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="BackboneElement" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.Molekularpathologie.ROS1.FISH.Ergebnis">
+      <path value="MolekulareDiagnostik.Molekularpathologie.ROS1.FISH.Ergebnis" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="BackboneElement" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.Molekularpathologie.ROS1.FISH.PositiveTumorzellen">
+      <path value="MolekulareDiagnostik.Molekularpathologie.ROS1.FISH.PositiveTumorzellen" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="BackboneElement" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.Molekularpathologie.ROS1.FISH.Polysomie">
+      <path value="MolekulareDiagnostik.Molekularpathologie.ROS1.FISH.Polysomie" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="BackboneElement" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.Molekularpathologie.StatusDurchfueherung">
+      <path value="MolekulareDiagnostik.Molekularpathologie.StatusDurchfueherung" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="BackboneElement" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.Molekularpathologie.StatusAbschluss">
+      <path value="MolekulareDiagnostik.Molekularpathologie.StatusAbschluss" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="BackboneElement" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.Molekularpathologie.DatumDesAbschlusses">
+      <path value="MolekulareDiagnostik.Molekularpathologie.DatumDesAbschlusses" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="BackboneElement" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.NGSFusion.Standort">
+      <path value="MolekulareDiagnostik.NGSFusion.Standort" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.NGSFusion.SOPVersionsnummerDesStandorts">
+      <path value="MolekulareDiagnostik.NGSFusion.SOPVersionsnummerDesStandorts" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.NGSFusion.Methodik">
+      <path value="MolekulareDiagnostik.NGSFusion.Methodik" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="BackboneElement" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.NGSFusion.Methodik.Assay">
+      <path value="MolekulareDiagnostik.NGSFusion.Methodik.Assay" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.NGSFusion.Methodik.Hersteller">
+      <path value="MolekulareDiagnostik.NGSFusion.Methodik.Hersteller" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.NGSFusion.Methodik.Untersuchungen">
+      <path value="MolekulareDiagnostik.NGSFusion.Methodik.Untersuchungen" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.NGSFusion.ALK">
+      <path value="MolekulareDiagnostik.NGSFusion.ALK" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="BackboneElement" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.NGSFusion.ALK.Phaenotyp">
+      <path value="MolekulareDiagnostik.NGSFusion.ALK.Phaenotyp" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="BackboneElement" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.NGSFusion.ALK.NGSFusion">
+      <path value="MolekulareDiagnostik.NGSFusion.ALK.NGSFusion" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="BackboneElement" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.NGSFusion.ALK.NGSFusion.Ergebnis">
+      <path value="MolekulareDiagnostik.NGSFusion.ALK.NGSFusion.Ergebnis" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.NGSFusion.ALK.NGSFusion.TranksriptID">
+      <path value="MolekulareDiagnostik.NGSFusion.ALK.NGSFusion.TranksriptID" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.NGSFusion.ALK.NGSFusion.Fusionspartner">
+      <path value="MolekulareDiagnostik.NGSFusion.ALK.NGSFusion.Fusionspartner" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.NGSFusion.ALK.NGSFusion.FusionspartnerTranskriptID">
+      <path value="MolekulareDiagnostik.NGSFusion.ALK.NGSFusion.FusionspartnerTranskriptID" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.NGSFusion.ALK.NGSFusion.AnzahlDerFusionsreads">
+      <path value="MolekulareDiagnostik.NGSFusion.ALK.NGSFusion.AnzahlDerFusionsreads" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.NGSFusion.ALK.NGSFusion.5FusionspartnerExon">
+      <path value="MolekulareDiagnostik.NGSFusion.ALK.NGSFusion.5FusionspartnerExon" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.NGSFusion.ALK.NGSFusion.Exon">
+      <path value="MolekulareDiagnostik.NGSFusion.ALK.NGSFusion.Exon" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.NGSFusion.RET">
+      <path value="MolekulareDiagnostik.NGSFusion.RET" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="BackboneElement" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.NGSFusion.RET.Phaenotyp">
+      <path value="MolekulareDiagnostik.NGSFusion.RET.Phaenotyp" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="BackboneElement" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.NGSFusion.RET.NGSFusion">
+      <path value="MolekulareDiagnostik.NGSFusion.RET.NGSFusion" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="BackboneElement" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.NGSFusion.RET.NGSFusion.Ergebnis">
+      <path value="MolekulareDiagnostik.NGSFusion.RET.NGSFusion.Ergebnis" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.NGSFusion.RET.NGSFusion.TranksriptID">
+      <path value="MolekulareDiagnostik.NGSFusion.RET.NGSFusion.TranksriptID" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.NGSFusion.RET.NGSFusion.Fusionspartner">
+      <path value="MolekulareDiagnostik.NGSFusion.RET.NGSFusion.Fusionspartner" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.NGSFusion.RET.NGSFusion.FusionspartnerTranskriptID">
+      <path value="MolekulareDiagnostik.NGSFusion.RET.NGSFusion.FusionspartnerTranskriptID" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.NGSFusion.RET.NGSFusion.AnzahlDerFusionsreads">
+      <path value="MolekulareDiagnostik.NGSFusion.RET.NGSFusion.AnzahlDerFusionsreads" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.NGSFusion.RET.NGSFusion.5FusionspartnerExon">
+      <path value="MolekulareDiagnostik.NGSFusion.RET.NGSFusion.5FusionspartnerExon" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.NGSFusion.RET.NGSFusion.Exon">
+      <path value="MolekulareDiagnostik.NGSFusion.RET.NGSFusion.Exon" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.NGSFusion.ROS1">
+      <path value="MolekulareDiagnostik.NGSFusion.ROS1" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="BackboneElement" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.NGSFusion.ROS1.Phaenotyp">
+      <path value="MolekulareDiagnostik.NGSFusion.ROS1.Phaenotyp" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="BackboneElement" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.NGSFusion.ROS1.NGSFusion">
+      <path value="MolekulareDiagnostik.NGSFusion.ROS1.NGSFusion" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="BackboneElement" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.NGSFusion.ROS1.NGSFusion.Ergebnis">
+      <path value="MolekulareDiagnostik.NGSFusion.ROS1.NGSFusion.Ergebnis" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.NGSFusion.ROS1.NGSFusion.TranksriptID">
+      <path value="MolekulareDiagnostik.NGSFusion.ROS1.NGSFusion.TranksriptID" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.NGSFusion.ROS1.NGSFusion.Fusionspartner">
+      <path value="MolekulareDiagnostik.NGSFusion.ROS1.NGSFusion.Fusionspartner" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.NGSFusion.ROS1.NGSFusion.FusionspartnerTranskriptID">
+      <path value="MolekulareDiagnostik.NGSFusion.ROS1.NGSFusion.FusionspartnerTranskriptID" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.NGSFusion.ROS1.NGSFusion.AnzahlDerFusionsreads">
+      <path value="MolekulareDiagnostik.NGSFusion.ROS1.NGSFusion.AnzahlDerFusionsreads" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.NGSFusion.ROS1.NGSFusion.5FusionspartnerExon">
+      <path value="MolekulareDiagnostik.NGSFusion.ROS1.NGSFusion.5FusionspartnerExon" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.NGSFusion.ROS1.NGSFusion.Exon">
+      <path value="MolekulareDiagnostik.NGSFusion.ROS1.NGSFusion.Exon" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.NGSFusion.NTRK1">
+      <path value="MolekulareDiagnostik.NGSFusion.NTRK1" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="BackboneElement" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.NGSFusion.NTRK1.Phaenotyp">
+      <path value="MolekulareDiagnostik.NGSFusion.NTRK1.Phaenotyp" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="BackboneElement" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.NGSFusion.NTRK1.NGSFusion">
+      <path value="MolekulareDiagnostik.NGSFusion.NTRK1.NGSFusion" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="BackboneElement" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.NGSFusion.NTRK1.NGSFusion.Ergebnis">
+      <path value="MolekulareDiagnostik.NGSFusion.NTRK1.NGSFusion.Ergebnis" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.NGSFusion.NTRK1.NGSFusion.TranksriptID">
+      <path value="MolekulareDiagnostik.NGSFusion.NTRK1.NGSFusion.TranksriptID" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.NGSFusion.NTRK1.NGSFusion.Fusionspartner">
+      <path value="MolekulareDiagnostik.NGSFusion.NTRK1.NGSFusion.Fusionspartner" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.NGSFusion.NTRK1.NGSFusion.FusionspartnerTranskriptID">
+      <path value="MolekulareDiagnostik.NGSFusion.NTRK1.NGSFusion.FusionspartnerTranskriptID" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.NGSFusion.NTRK1.NGSFusion.AnzahlDerFusionsreads">
+      <path value="MolekulareDiagnostik.NGSFusion.NTRK1.NGSFusion.AnzahlDerFusionsreads" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.NGSFusion.NTRK1.NGSFusion.5FusionspartnerExon">
+      <path value="MolekulareDiagnostik.NGSFusion.NTRK1.NGSFusion.5FusionspartnerExon" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.NGSFusion.NTRK1.NGSFusion.Exon">
+      <path value="MolekulareDiagnostik.NGSFusion.NTRK1.NGSFusion.Exon" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.NGSFusion.NTRK2">
+      <path value="MolekulareDiagnostik.NGSFusion.NTRK2" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="BackboneElement" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.NGSFusion.NTRK2.Phaenotyp">
+      <path value="MolekulareDiagnostik.NGSFusion.NTRK2.Phaenotyp" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="BackboneElement" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.NGSFusion.NTRK2.NGSFusion">
+      <path value="MolekulareDiagnostik.NGSFusion.NTRK2.NGSFusion" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="BackboneElement" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.NGSFusion.NTRK2.NGSFusion.Ergebnis">
+      <path value="MolekulareDiagnostik.NGSFusion.NTRK2.NGSFusion.Ergebnis" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.NGSFusion.NTRK2.NGSFusion.TranksriptID">
+      <path value="MolekulareDiagnostik.NGSFusion.NTRK2.NGSFusion.TranksriptID" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.NGSFusion.NTRK2.NGSFusion.Fusionspartner">
+      <path value="MolekulareDiagnostik.NGSFusion.NTRK2.NGSFusion.Fusionspartner" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.NGSFusion.NTRK2.NGSFusion.FusionspartnerTranskriptID">
+      <path value="MolekulareDiagnostik.NGSFusion.NTRK2.NGSFusion.FusionspartnerTranskriptID" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.NGSFusion.NTRK2.NGSFusion.AnzahlDerFusionsreads">
+      <path value="MolekulareDiagnostik.NGSFusion.NTRK2.NGSFusion.AnzahlDerFusionsreads" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.NGSFusion.NTRK2.NGSFusion.5FusionspartnerExon">
+      <path value="MolekulareDiagnostik.NGSFusion.NTRK2.NGSFusion.5FusionspartnerExon" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.NGSFusion.NTRK2.NGSFusion.Exon">
+      <path value="MolekulareDiagnostik.NGSFusion.NTRK2.NGSFusion.Exon" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.NGSFusion.NTRK3">
+      <path value="MolekulareDiagnostik.NGSFusion.NTRK3" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="BackboneElement" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.NGSFusion.NTRK3.Phaenotyp">
+      <path value="MolekulareDiagnostik.NGSFusion.NTRK3.Phaenotyp" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="BackboneElement" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.NGSFusion.NTRK3.NGSFusion">
+      <path value="MolekulareDiagnostik.NGSFusion.NTRK3.NGSFusion" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="BackboneElement" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.NGSFusion.NTRK3.NGSFusion.Ergebnis">
+      <path value="MolekulareDiagnostik.NGSFusion.NTRK3.NGSFusion.Ergebnis" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.NGSFusion.NTRK3.NGSFusion.TranksriptID">
+      <path value="MolekulareDiagnostik.NGSFusion.NTRK3.NGSFusion.TranksriptID" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.NGSFusion.NTRK3.NGSFusion.Fusionspartner">
+      <path value="MolekulareDiagnostik.NGSFusion.NTRK3.NGSFusion.Fusionspartner" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.NGSFusion.NTRK3.NGSFusion.FusionspartnerTranskriptID">
+      <path value="MolekulareDiagnostik.NGSFusion.NTRK3.NGSFusion.FusionspartnerTranskriptID" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.NGSFusion.NTRK3.NGSFusion.AnzahlDerFusionsreads">
+      <path value="MolekulareDiagnostik.NGSFusion.NTRK3.NGSFusion.AnzahlDerFusionsreads" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.NGSFusion.NTRK3.NGSFusion.5FusionspartnerExon">
+      <path value="MolekulareDiagnostik.NGSFusion.NTRK3.NGSFusion.5FusionspartnerExon" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.NGSFusion.NTRK3.NGSFusion.Exon">
+      <path value="MolekulareDiagnostik.NGSFusion.NTRK3.NGSFusion.Exon" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.NGSFusion.FGFR1">
+      <path value="MolekulareDiagnostik.NGSFusion.FGFR1" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="BackboneElement" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.NGSFusion.FGFR1.Phaenotyp">
+      <path value="MolekulareDiagnostik.NGSFusion.FGFR1.Phaenotyp" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="BackboneElement" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.NGSFusion.FGFR1.NGSFusion">
+      <path value="MolekulareDiagnostik.NGSFusion.FGFR1.NGSFusion" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="BackboneElement" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.NGSFusion.FGFR1.NGSFusion.Ergebnis">
+      <path value="MolekulareDiagnostik.NGSFusion.FGFR1.NGSFusion.Ergebnis" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.NGSFusion.FGFR1.NGSFusion.TranksriptID">
+      <path value="MolekulareDiagnostik.NGSFusion.FGFR1.NGSFusion.TranksriptID" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.NGSFusion.FGFR1.NGSFusion.Fusionspartner">
+      <path value="MolekulareDiagnostik.NGSFusion.FGFR1.NGSFusion.Fusionspartner" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.NGSFusion.FGFR1.NGSFusion.FusionspartnerTranskriptID">
+      <path value="MolekulareDiagnostik.NGSFusion.FGFR1.NGSFusion.FusionspartnerTranskriptID" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.NGSFusion.FGFR1.NGSFusion.AnzahlDerFusionsreads">
+      <path value="MolekulareDiagnostik.NGSFusion.FGFR1.NGSFusion.AnzahlDerFusionsreads" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.NGSFusion.FGFR1.NGSFusion.5FusionspartnerExon">
+      <path value="MolekulareDiagnostik.NGSFusion.FGFR1.NGSFusion.5FusionspartnerExon" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.NGSFusion.FGFR1.NGSFusion.Exon">
+      <path value="MolekulareDiagnostik.NGSFusion.FGFR1.NGSFusion.Exon" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.NGSFusion.FGFR2">
+      <path value="MolekulareDiagnostik.NGSFusion.FGFR2" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="BackboneElement" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.NGSFusion.FGFR2.Phaenotyp">
+      <path value="MolekulareDiagnostik.NGSFusion.FGFR2.Phaenotyp" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="BackboneElement" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.NGSFusion.FGFR2.NGSFusion">
+      <path value="MolekulareDiagnostik.NGSFusion.FGFR2.NGSFusion" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="BackboneElement" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.NGSFusion.FGFR2.NGSFusion.Ergebnis">
+      <path value="MolekulareDiagnostik.NGSFusion.FGFR2.NGSFusion.Ergebnis" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.NGSFusion.FGFR2.NGSFusion.TranksriptID">
+      <path value="MolekulareDiagnostik.NGSFusion.FGFR2.NGSFusion.TranksriptID" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.NGSFusion.FGFR2.NGSFusion.Fusionspartner">
+      <path value="MolekulareDiagnostik.NGSFusion.FGFR2.NGSFusion.Fusionspartner" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.NGSFusion.FGFR2.NGSFusion.FusionspartnerTranskriptID">
+      <path value="MolekulareDiagnostik.NGSFusion.FGFR2.NGSFusion.FusionspartnerTranskriptID" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.NGSFusion.FGFR2.NGSFusion.AnzahlDerFusionsreads">
+      <path value="MolekulareDiagnostik.NGSFusion.FGFR2.NGSFusion.AnzahlDerFusionsreads" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.NGSFusion.FGFR2.NGSFusion.3FusionspartnerExon">
+      <path value="MolekulareDiagnostik.NGSFusion.FGFR2.NGSFusion.3FusionspartnerExon" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.NGSFusion.FGFR2.NGSFusion.Exon">
+      <path value="MolekulareDiagnostik.NGSFusion.FGFR2.NGSFusion.Exon" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.NGSFusion.FGFR3">
+      <path value="MolekulareDiagnostik.NGSFusion.FGFR3" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="BackboneElement" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.NGSFusion.FGFR3.Phaenotyp">
+      <path value="MolekulareDiagnostik.NGSFusion.FGFR3.Phaenotyp" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="BackboneElement" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.NGSFusion.FGFR3.NGSFusion">
+      <path value="MolekulareDiagnostik.NGSFusion.FGFR3.NGSFusion" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="BackboneElement" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.NGSFusion.FGFR3.NGSFusion.Ergebnis">
+      <path value="MolekulareDiagnostik.NGSFusion.FGFR3.NGSFusion.Ergebnis" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.NGSFusion.FGFR3.NGSFusion.TranksriptID">
+      <path value="MolekulareDiagnostik.NGSFusion.FGFR3.NGSFusion.TranksriptID" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.NGSFusion.FGFR3.NGSFusion.Fusionspartner">
+      <path value="MolekulareDiagnostik.NGSFusion.FGFR3.NGSFusion.Fusionspartner" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.NGSFusion.FGFR3.NGSFusion.FusionspartnerTranskriptID">
+      <path value="MolekulareDiagnostik.NGSFusion.FGFR3.NGSFusion.FusionspartnerTranskriptID" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.NGSFusion.FGFR3.NGSFusion.AnzahlDerFusionsreads">
+      <path value="MolekulareDiagnostik.NGSFusion.FGFR3.NGSFusion.AnzahlDerFusionsreads" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.NGSFusion.FGFR3.NGSFusion.3FusionspartnerExon">
+      <path value="MolekulareDiagnostik.NGSFusion.FGFR3.NGSFusion.3FusionspartnerExon" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.NGSFusion.FGFR3.NGSFusion.Exon">
+      <path value="MolekulareDiagnostik.NGSFusion.FGFR3.NGSFusion.Exon" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.NGSFusion.SonstigeFusionNGS">
+      <path value="MolekulareDiagnostik.NGSFusion.SonstigeFusionNGS" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="BackboneElement" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.NGSFusion.SonstigeFusionNGS.Phaenotyp">
+      <path value="MolekulareDiagnostik.NGSFusion.SonstigeFusionNGS.Phaenotyp" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="BackboneElement" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.NGSFusion.SonstigeFusionNGS.NGSFusion">
+      <path value="MolekulareDiagnostik.NGSFusion.SonstigeFusionNGS.NGSFusion" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="BackboneElement" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.NGSFusion.SonstigeFusionNGS.NGSFusion.Ergebnis">
+      <path value="MolekulareDiagnostik.NGSFusion.SonstigeFusionNGS.NGSFusion.Ergebnis" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.NGSFusion.SonstigeFusionNGS.NGSFusion.TranksriptID">
+      <path value="MolekulareDiagnostik.NGSFusion.SonstigeFusionNGS.NGSFusion.TranksriptID" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.NGSFusion.SonstigeFusionNGS.NGSFusion.Fusionspartner">
+      <path value="MolekulareDiagnostik.NGSFusion.SonstigeFusionNGS.NGSFusion.Fusionspartner" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.NGSFusion.SonstigeFusionNGS.NGSFusion.FusionspartnerTranskriptID">
+      <path value="MolekulareDiagnostik.NGSFusion.SonstigeFusionNGS.NGSFusion.FusionspartnerTranskriptID" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.NGSFusion.SonstigeFusionNGS.NGSFusion.AnzahlDerFusionsreads">
+      <path value="MolekulareDiagnostik.NGSFusion.SonstigeFusionNGS.NGSFusion.AnzahlDerFusionsreads" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.NGSFusion.SonstigeFusionNGS.NGSFusion.ErsterFusionspartnerExon">
+      <path value="MolekulareDiagnostik.NGSFusion.SonstigeFusionNGS.NGSFusion.ErsterFusionspartnerExon" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.NGSFusion.SonstigeFusionNGS.NGSFusion.ZweiterFusionspartnerExon">
+      <path value="MolekulareDiagnostik.NGSFusion.SonstigeFusionNGS.NGSFusion.ZweiterFusionspartnerExon" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.NGSFusion.StatusDurchfueherung">
+      <path value="MolekulareDiagnostik.NGSFusion.StatusDurchfueherung" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.NGSFusion.StatusAbschluss">
+      <path value="MolekulareDiagnostik.NGSFusion.StatusAbschluss" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.NGSFusion.DatumDesAbschlusses">
+      <path value="MolekulareDiagnostik.NGSFusion.DatumDesAbschlusses" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.FastTrack">
+      <path value="MolekulareDiagnostik.FastTrack" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="BackboneElement" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.FastTrack.Standort">
+      <path value="MolekulareDiagnostik.FastTrack" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.FastTrack.SOPVersionsnummerDesStandorts">
+      <path value="MolekulareDiagnostik.FastTrack.SOPVersionsnummerDesStandorts" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.FastTrack.Untersuchungen">
+      <path value="MolekulareDiagnostik.FastTrack.Untersuchungen" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.FastTrack.Methodik">
+      <path value="MolekulareDiagnostik.FastTrack.Methodik" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="BackboneElement" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.FastTrack.Methodik.Assay">
+      <path value="MolekulareDiagnostik.FastTrack.Methodik.Assay" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="BackboneElement" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.FastTrack.Methodik.Hersteller">
+      <path value="MolekulareDiagnostik.FastTrack.Methodik.Hersteller" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="BackboneElement" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.FastTrack.Exon">
+      <path value="MolekulareDiagnostik.FastTrack.Exon" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="BackboneElement" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.FastTrack.Exon.Ergebnis">
+      <path value="MolekulareDiagnostik.FastTrack.Exon.Ergebnis" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="BackboneElement" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.FastTrack.Exon.ChangeDNA">
+      <path value="MolekulareDiagnostik.FastTrack.Exon.ChangeDNA" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="BackboneElement" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.FastTrack.Exon.ChangeProtein">
+      <path value="MolekulareDiagnostik.FastTrack.Exon.ChangeProtein" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="BackboneElement" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.FastTrack.StatusDurchfueherung">
+      <path value="MolekulareDiagnostik.FastTrack.StatusDurchfueherung" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.FastTrack.StatusAbschluss">
+      <path value="MolekulareDiagnostik.FastTrack.StatusAbschluss" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.FastTrack.DatumDesAbschlusses">
+      <path value="MolekulareDiagnostik.FastTrack.DatumDesAbschlusses" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.FastTrack.DatumDesAbschlusses">
+      <path value="MolekulareDiagnostik.FastTrack.DatumDesAbschlusses" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.SonstigeUntersuchung">
+      <path value="MolekulareDiagnostik.SonstigeUntersuchung" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="BackboneElement" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.SonstigeUntersuchung.Standort">
+      <path value="MolekulareDiagnostik.SonstigeUntersuchung.Standort" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.SonstigeUntersuchung.SOPVersionsnummerDesStandorts">
+      <path value="MolekulareDiagnostik.SonstigeUntersuchung.SOPVersionsnummerDesStandorts" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.SonstigeUntersuchung.BezeichnungDerUntersuchung">
+      <path value="MolekulareDiagnostik.SonstigeUntersuchung.BezeichnungDerUntersuchung" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.SonstigeUntersuchung.Assay">
+      <path value="MolekulareDiagnostik.SonstigeUntersuchung.Assay" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.SonstigeUntersuchung.Hersteller">
+      <path value="MolekulareDiagnostik.SonstigeUntersuchung.Hersteller" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.SonstigeUntersuchung.Gen">
+      <path value="MolekulareDiagnostik.SonstigeUntersuchung.Gen" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.SonstigeUntersuchung.Phaenotyp">
+      <path value="MolekulareDiagnostik.SonstigeUntersuchung.Phaenotyp" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="MolekulareDiagnostik.SonstigeUntersuchung.Ergebnis">
+      <path value="MolekulareDiagnostik.SonstigeUntersuchung.Ergebnis" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+      </type>
+      <mustSupport value="true" />
+    </element>
   </differential>
-  <element id="MolekulareDiagnostik.IHC.MIB1.Antikoerper">
-    <path value="MolekulareDiagnostik.IHC.MIB1.Antikoerper" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.IHC.MIB1.Hersteller">
-    <path value="MolekulareDiagnostik.IHC.MIB1.Hersteller" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.IHC.MIB1.Ergebnis">
-    <path value="MolekulareDiagnostik.IHC.MIB1.Ergebnis" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.IHC.NapsinA">
-    <path value="MolekulareDiagnostik.IHC.NapsinA" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="BackboneElement" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.IHC.NapsinA.Phaenotyp">
-    <path value="MolekulareDiagnostik.IHC.NapsinA.Phaenotyp" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.IHC.NapsinA.Antikoerper">
-    <path value="MolekulareDiagnostik.IHC.NapsinA.Antikoerper" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.IHC.NapsinA.Hersteller">
-    <path value="MolekulareDiagnostik.IHC.NapsinA.Hersteller" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.IHC.NapsinA.Ergebnis">
-    <path value="MolekulareDiagnostik.IHC.NapsinA.Ergebnis" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.IHC.P40">
-    <path value="MolekulareDiagnostik.IHC.P40" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="BackboneElement" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.IHC.P40.Phaenotyp">
-    <path value="MolekulareDiagnostik.IHC.P40.Phaenotyp" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.IHC.P40.Antikoerper">
-    <path value="MolekulareDiagnostik.IHC.P40.Antikoerper" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.IHC.P40.Hersteller">
-    <path value="MolekulareDiagnostik.IHC.P40.Hersteller" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.IHC.P40.Ergebnis">
-    <path value="MolekulareDiagnostik.IHC.P40.Ergebnis" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.IHC.Synaptophysin">
-    <path value="MolekulareDiagnostik.IHC.Synaptophysin" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="BackboneElement" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.IHC.Synaptophysin.Phaenotyp">
-    <path value="MolekulareDiagnostik.IHC.Synaptophysin.Phaenotyp" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.IHC.Synaptophysin.Antikoerper">
-    <path value="MolekulareDiagnostik.IHC.Synaptophysin.Antikoerper" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.IHC.Synaptophysin.Hersteller">
-    <path value="MolekulareDiagnostik.IHC.Synaptophysin.Hersteller" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.IHC.Synaptophysin.Ergebnis">
-    <path value="MolekulareDiagnostik.IHC.Synaptophysin.Ergebnis" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.IHC.TTF1">
-    <path value="MolekulareDiagnostik.IHC.TTF1" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="BackboneElement" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.IHC.TTF1.Phaenotyp">
-    <path value="MolekulareDiagnostik.IHC.TTF1.Phaenotyp" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.IHC.TTF1.Antikoerper">
-    <path value="MolekulareDiagnostik.IHC.TTF1.Antikoerper" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.IHC.TTF1.Hersteller">
-    <path value="MolekulareDiagnostik.IHC.TTF1.Hersteller" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.IHC.TTF1.Ergebnis">
-    <path value="MolekulareDiagnostik.IHC.TTF1.Ergebnis" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.IHC.ALK">
-    <path value="MolekulareDiagnostik.IHC.ALK" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="BackboneElement" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.IHC.ALK.Phaenotyp">
-    <path value="MolekulareDiagnostik.IHC.ALK.Phaenotyp" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.IHC.ALK.IHC">
-    <path value="MolekulareDiagnostik.IHC.ALK.IHC" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="BackboneElement" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.IHC.ALK.IHC.Antikoerper">
-    <path value="MolekulareDiagnostik.IHC.ALK.IHC.Antikoerper" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.IHC.ALK.IHC.Hersteller">
-    <path value="MolekulareDiagnostik.IHC.ALK.IHC.Hersteller" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.IHC.ALK.IHC.Ergebnis">
-    <path value="MolekulareDiagnostik.IHC.ALK.IHC.Ergebnis" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.IHC.MET">
-    <path value="MolekulareDiagnostik.IHC.MET" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="BackboneElement" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.IHC.MET.Phaenotyp">
-    <path value="MolekulareDiagnostik.IHC.MET.Phaenotyp" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.IHC.MET.IHC">
-    <path value="MolekulareDiagnostik.IHC.MET.IHC" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="BackboneElement" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.IHC.MET.IHC.Antikoerper">
-    <path value="MolekulareDiagnostik.IHC.MET.IHC.Antikoerper" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.IHC.MET.IHC.Hersteller">
-    <path value="MolekulareDiagnostik.IHC.MET.IHC.Hersteller" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.IHC.MET.IHC.Ergebnis">
-    <path value="MolekulareDiagnostik.IHC.MET.IHC.Ergebnis" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.IHC.MET.IHC.Klassifikation">
-    <path value="MolekulareDiagnostik.IHC.MET.IHC.Klassifikation" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.IHC.MET.IHC.ExpressionHighLevel">
-    <path value="MolekulareDiagnostik.IHC.MET.IHC.ExpressionHighLevel" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.IHC.PD-L1">
-    <path value="MolekulareDiagnostik.IHC.PD-L1" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="BackboneElement" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.IHC.PD-L1.Phaenotyp">
-    <path value="MolekulareDiagnostik.IHC.PD-L1.Phaenotyp" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.IHC.PD-L1.Antikoerper">
-    <path value="MolekulareDiagnostik.IHC.PD-L1.Antikoerper" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.IHC.PD-L1.Hersteller">
-    <path value="MolekulareDiagnostik.IHC.PD-L1.Hersteller" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.IHC.PD-L1.Ergebnis">
-    <path value="MolekulareDiagnostik.IHC.PD-L1.Ergebnis" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.IHC.PD-L1.MengeDerTumorzellen">
-    <path value="MolekulareDiagnostik.IHC.PD-L1.MengeDerTumorzellen" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.IHC.PD-L1.FlaechePositiverImmunzellen">
-    <path value="MolekulareDiagnostik.IHC.PD-L1.FlaechePositiverImmunzellen" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.IHC.ROS1">
-    <path value="MolekulareDiagnostik.IHC.ROS1" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="BackboneElement" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.IHC.ROS1.Phaenotyp">
-    <path value="MolekulareDiagnostik.IHC.ROS1.Phaenotyp" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.IHC.ROS1.IHC">
-    <path value="MolekulareDiagnostik.IHC.ROS1.IHC" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="BackboneElement" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.IHC.ROS1.IHC.KitBezeichnung">
-    <path value="MolekulareDiagnostik.IHC.ROS1.IHC.KitBezeichnung" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.IHC.ROS1.IHC.Hersteller">
-    <path value="MolekulareDiagnostik.IHC.ROS1.IHC.Hersteller" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.IHC.ROS1.IHC.Ergebnis">
-    <path value="MolekulareDiagnostik.IHC.ROS1.IHC.Ergebnis" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.IHC.StatusDurchfuehrung">
-    <path value="MolekulareDiagnostik.IHC.StatusDurchfuehrung" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.IHC.StatusAbschluss">
-    <path value="MolekulareDiagnostik.IHC.StatusAbschluss" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.IHC.DatumDesAbschlusses">
-    <path value="MolekulareDiagnostik.IHC.DatumDesAbschlusses" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.LiquidBiopsy">
-    <path value="MolekulareDiagnostik.LiquidBiopsy" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="BackboneElement" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.LiquidBiopsy.Primaermutation">
-    <path value="MolekulareDiagnostik.LiquidBiopsy.Primaermutation" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="BackboneElement" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.LiquidBiopsy.Primaermutation.Gen">
-    <path value="MolekulareDiagnostik.LiquidBiopsy.Gen" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.LiquidBiopsy.Primaermutation.Phaenotyp">
-    <path value="MolekulareDiagnostik.LiquidBiopsy.Primaermutation.Phaenotyp" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.LiquidBiopsy.Primaermutation.Exon">
-    <path value="MolekulareDiagnostik.LiquidBiopsy.Primaermutation.Exon" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.LiquidBiopsy.Primaermutation.HGVSc">
-    <path value="MolekulareDiagnostik.LiquidBiopsy.Primaermutation.HGVSc" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.LiquidBiopsy.Primaermutation.HGVSp">
-    <path value="MolekulareDiagnostik.LiquidBiopsy.Primaermutation.HGVSp" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.LiquidBiopsy.Primaermutation.Ergebnis">
-    <path value="MolekulareDiagnostik.LiquidBiopsy.Primaermutation.Ergebnis" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.LiquidBiopsy.Resistenztestung">
-    <path value="MolekulareDiagnostik.LiquidBiopsy.Resistenztestung" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="BackboneElement" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.LiquidBiopsy.Resistenztestung.Gen">
-    <path value="MolekulareDiagnostik.LiquidBiopsy.Resistenztestung.Gen" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.LiquidBiopsy.Resistenztestung.Phaenotyp">
-    <path value="MolekulareDiagnostik.LiquidBiopsy.Resistenztestung.Phaenotyp" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.LiquidBiopsy.Resistenztestung.Exon">
-    <path value="MolekulareDiagnostik.LiquidBiopsy.Resistenztestung.Exon" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.LiquidBiopsy.Resistenztestung.HGVSc">
-    <path value="MolekulareDiagnostik.LiquidBiopsy.Resistenztestung.HGVSc" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.LiquidBiopsy.Resistenztestung.HGVSp">
-    <path value="MolekulareDiagnostik.LiquidBiopsy.Resistenztestung.HGVSp" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.LiquidBiopsy.Resistenztestung.Ergebnis">
-    <path value="MolekulareDiagnostik.LiquidBiopsy.Resistenztestung.Ergebnis" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.LiquidBiopsy.StatusDurchfuehrung">
-    <path value="MolekulareDiagnostik.LiquidBiopsy.Resistenztestung.StatusDurchfuehrung" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.LiquidBiopsy.StatusAbschluss">
-    <path value="MolekulareDiagnostik.LiquidBiopsy.Resistenztestung.StatusAbschluss" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.LiquidBiopsy.DatumDesAbschlusses">
-    <path value="MolekulareDiagnostik.LiquidBiopsy.Resistenztestung.DatumDesAbschlusses" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.NgsLungPanel">
-    <path value="MolekulareDiagnostik.NgsLungPanel" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="BackboneElement" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.NgsLungPanel.Standort">
-    <path value="MolekulareDiagnostik.NgsLungPanel.Standort" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.NgsLungPanel.SOPVersionsnummerDesStandorts">
-    <path value="MolekulareDiagnostik.NgsLungPanel.SOPVersionsnummerDesStandorts" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.NgsLungPanel.NgsLungPanelVersion">
-    <path value="MolekulareDiagnostik.NgsLungPanel.NgsLungPanelVersion" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.NgsLungPanel.NGSSequencer">
-    <path value="MolekulareDiagnostik.NgsLungPanel.NGSSequencer" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.NgsLungPanel.Hersteller">
-    <path value="MolekulareDiagnostik.NgsLungPanel.Hersteller" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.NgsLungPanel.PanelGen">
-    <path value="MolekulareDiagnostik.NgsLungPanel.PanelGen" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.NgsLungPanel.PanelGen.Gen">
-    <path value="MolekulareDiagnostik.NgsLungPanel.PanelGen.Gen" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.NgsLungPanel.PanelGen.Exon">
-    <path value="MolekulareDiagnostik.NgsLungPanel.PanelGen.Exon" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.NgsLungPanel.PanelGen.HGVSc">
-    <path value="MolekulareDiagnostik.NgsLungPanel.PanelGen.HGVSc" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.NgsLungPanel.PanelGen.HGVSp">
-    <path value="MolekulareDiagnostik.NgsLungPanel.PanelGen.HGVSp" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.NgsLungPanel.PanelGen.AllelicFraction">
-    <path value="MolekulareDiagnostik.NgsLungPanel.PanelGen.AllelicFraction" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.NgsLungPanel.PanelGen.ReadsRefAllel">
-    <path value="MolekulareDiagnostik.NgsLungPanel.PanelGen.ReadsRefAllel" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.NgsLungPanel.PanelGen.ReadsAltAllel">
-    <path value="MolekulareDiagnostik.NgsLungPanel.PanelGen.ReadsAltAllel" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.NgsLungPanel.PanelGen.GenomeBuild">
-    <path value="MolekulareDiagnostik.NgsLungPanel.PanelGen.GenomeBuild" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.NgsLungPanel.PanelGen.Chromosom">
-    <path value="MolekulareDiagnostik.NgsLungPanel.PanelGen.Chromosom" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.NgsLungPanel.PanelGen.PositionStart">
-    <path value="MolekulareDiagnostik.NgsLungPanel.PanelGen.PositionStart" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.NgsLungPanel.PanelGen.PositionStop">
-    <path value="MolekulareDiagnostik.NgsLungPanel.PanelGen.PositionStop" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.NgsLungPanel.PanelGen.RefAlleleNukleotid">
-    <path value="MolekulareDiagnostik.NgsLungPanel.PanelGen.RefAlleleNukleotid" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.NgsLungPanel.PanelGen.AltAlleleNukleotid">
-    <path value="MolekulareDiagnostik.NgsLungPanel.PanelGen.AltAlleleNukleotid" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.NgsLungPanel.PanelGen.BiologischeMolekulareBewertung">
-    <path value="MolekulareDiagnostik.NgsLungPanel.PanelGen.BiologischeMolekulareBewertung" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.NgsLungPanel.PanelGen.Kommentar">
-    <path value="MolekulareDiagnostik.NgsLungPanel.PanelGen.Kommentar" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.NgsLungPanel.StatusDurchfuehrung">
-    <path value="MolekulareDiagnostik.NgsLungPanel.StatusDurchfuehrung" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.NgsLungPanel.StatusAbschluss">
-    <path value="MolekulareDiagnostik.NgsLungPanel.StatusAbschluss" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.NgsLungPanel.DatumDesAbschlusses">
-    <path value="MolekulareDiagnostik.NgsLungPanel.DatumDesAbschlusses" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.Molekularpathologie">
-    <path value="MolekulareDiagnostik.Molekularpathologie" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="BackboneElement" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.Molekularpathologie.Standort">
-    <path value="MolekulareDiagnostik.Molekularpathologie.Standort" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.Molekularpathologie.SOPVersionsnummerDesStandorts">
-    <path value="MolekulareDiagnostik.Molekularpathologie.SOPVersionsnummerDesStandorts" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.Molekularpathologie.Untersuchungen">
-    <path value="MolekulareDiagnostik.Molekularpathologie.Untersuchungen" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.Molekularpathologie.ALK">
-    <path value="MolekulareDiagnostik.Molekularpathologie.ALK" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="BackboneElement" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.Molekularpathologie.ALK.Phaenotyp">
-    <path value="MolekulareDiagnostik.Molekularpathologie.ALK.Phaenotyp" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.Molekularpathologie.ALK.Phaenotyp.ISH">
-    <path value="MolekulareDiagnostik.Molekularpathologie.ALK.Phaenotyp.ISH" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.Molekularpathologie.ALK.Phaenotyp.ISH.KitBezeichnung">
-    <path value="MolekulareDiagnostik.Molekularpathologie.ALK.Phaenotyp.ISH.KitBezeichnung" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.Molekularpathologie.ALK.Phaenotyp.ISH.Hersteller">
-    <path value="MolekulareDiagnostik.Molekularpathologie.ALK.Phaenotyp.ISH.Hersteller" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.Molekularpathologie.ALK.Phaenotyp.ISH.Ergebnis">
-    <path value="MolekulareDiagnostik.Molekularpathologie.ALK.Phaenotyp.ISH.Ergebnis" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.Molekularpathologie.ALK.Phaenotyp.ISH.PositiveTumorzellen">
-    <path value="MolekulareDiagnostik.Molekularpathologie.ALK.Phaenotyp.ISH.PositiveTumorzellen" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.Molekularpathologie.ALK.Phaenotyp.FISH">
-    <path value="MolekulareDiagnostik.Molekularpathologie.ALK.Phaenotyp.FISH" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="BackboneElement" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.Molekularpathologie.ALK.Phaenotyp.FISH.KitBezeichnung">
-    <path value="MolekulareDiagnostik.Molekularpathologie.ALK.Phaenotyp.FISH.KitBezeichnung" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.Molekularpathologie.ALK.Phaenotyp.FISH.Hersteller">
-    <path value="MolekulareDiagnostik.Molekularpathologie.ALK.Phaenotyp.FISH.Hersteller" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.Molekularpathologie.ALK.Phaenotyp.FISH.Ergebnis">
-    <path value="MolekulareDiagnostik.Molekularpathologie.ALK.Phaenotyp.FISH.Ergebnis" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.Molekularpathologie.ALK.Phaenotyp.FISH.PositiveTumorzellen">
-    <path value="MolekulareDiagnostik.Molekularpathologie.ALK.Phaenotyp.FISH.PositiveTumorzellen" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.Molekularpathologie.ALK.Phaenotyp.FISH.Polysomie">
-    <path value="MolekulareDiagnostik.Molekularpathologie.ALK.Phaenotyp.FISH.Polysomie" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.Molekularpathologie.MET">
-    <path value="MolekulareDiagnostik.Molekularpathologie.MET" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="BackboneElement" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.Molekularpathologie.MET.Phaenotyp">
-    <path value="MolekulareDiagnostik.Molekularpathologie.MET.Phaenotyp" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.Molekularpathologie.MET.ISH">
-    <path value="MolekulareDiagnostik.Molekularpathologie.MET.ISH" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="BackboneElement" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.Molekularpathologie.MET.ISH.KitBezeichnung">
-    <path value="MolekulareDiagnostik.Molekularpathologie.MET.ISH.KitBezeichnung" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.Molekularpathologie.MET.ISH.Hersteller">
-    <path value="MolekulareDiagnostik.Molekularpathologie.MET.ISH.Hersteller" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.Molekularpathologie.MET.ISH.Ergebnis">
-    <path value="MolekulareDiagnostik.Molekularpathologie.MET.ISH.Ergebnis" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.Molekularpathologie.MET.ISH.Amplifikation">
-    <path value="MolekulareDiagnostik.Molekularpathologie.MET.ISH.Amplifikation" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.Molekularpathologie.MET.FISH.KitBezeichnung">
-    <path value="MolekulareDiagnostik.Molekularpathologie.MET.FISH.KitBezeichnung" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.Molekularpathologie.MET.FISH.Hersteller">
-    <path value="MolekulareDiagnostik.Molekularpathologie.MET.FISH.Hersteller" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.Molekularpathologie.MET.FISH.Ergebnis">
-    <path value="MolekulareDiagnostik.Molekularpathologie.MET.FISH.Ergebnis" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.Molekularpathologie.MET.FISH.Amplifikation">
-    <path value="MolekulareDiagnostik.Molekularpathologie.MET.FISH.Amplifikation" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.Molekularpathologie.MET.FISH.Prozentzahl15METSignale">
-    <path value="MolekulareDiagnostik.Molekularpathologie.MET.FISH.Prozentzahl15METSignale" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.Molekularpathologie.MET.FISH.Prozentzahl5METSignale">
-    <path value="MolekulareDiagnostik.Molekularpathologie.MET.FISH.Prozentzahl15METSignale" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.Molekularpathologie.MET.FISH.Prozentzahl4METSignale">
-    <path value="MolekulareDiagnostik.Molekularpathologie.MET.FISH.Prozentzahl15METSignale" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.Molekularpathologie.MET.FISH.GezaehlteTumorzellen">
-    <path value="MolekulareDiagnostik.Molekularpathologie.MET.FISH.GezaehlteTumorzellen" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.Molekularpathologie.MET.FISH.METSignale">
-    <path value="MolekulareDiagnostik.Molekularpathologie.MET.FISH.METSignale" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.Molekularpathologie.MET.FISH.CENSignale">
-    <path value="MolekulareDiagnostik.Molekularpathologie.MET.FISH.CENSignale" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.Molekularpathologie.MET.FISH.QuotientMETCENSignale">
-    <path value="MolekulareDiagnostik.Molekularpathologie.MET.FISH.QuotientMETCENSignale" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.Molekularpathologie.MET.FISH.DurchschnittMETGenkopiezahl">
-    <path value="MolekulareDiagnostik.Molekularpathologie.MET.FISH.DurchschnittMETGenkopiezahl" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.Molekularpathologie.MET.FISH.Polysomie">
-    <path value="MolekulareDiagnostik.Molekularpathologie.MET.FISH.Polysomie" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.Molekularpathologie.RET">
-    <path value="MolekulareDiagnostik.Molekularpathologie.RET" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="BackboneElement" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.Molekularpathologie.RET.Phaenotyp">
-    <path value="MolekulareDiagnostik.Molekularpathologie.RET.Phaenotyp" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.Molekularpathologie.RET.ISH">
-    <path value="MolekulareDiagnostik.Molekularpathologie.RET.ISH" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="BackboneElement" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.Molekularpathologie.RET.ISH.KitBezeichnung">
-    <path value="MolekulareDiagnostik.Molekularpathologie.RET.ISH.KitBezeichnung" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.Molekularpathologie.RET.ISH.Hersteller">
-    <path value="MolekulareDiagnostik.Molekularpathologie.RET.ISH.Hersteller" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.Molekularpathologie.RET.ISH.Ergebnis">
-    <path value="MolekulareDiagnostik.Molekularpathologie.RET.ISH.Ergebnis" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.Molekularpathologie.RET.ISH.PositiveTumorzellen">
-    <path value="MolekulareDiagnostik.Molekularpathologie.RET.ISH.PositiveTumorzellen" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.Molekularpathologie.RET.FISH">
-    <path value="MolekulareDiagnostik.Molekularpathologie.RET.FISH" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.Molekularpathologie.RET.FISH.KitBezeichnung">
-    <path value="MolekulareDiagnostik.Molekularpathologie.RET.FISH.KitBezeichnung" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.Molekularpathologie.RET.FISH.Hersteller">
-    <path value="MolekulareDiagnostik.Molekularpathologie.RET.FISH.Hersteller" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.Molekularpathologie.RET.FISH.Ergebnis">
-    <path value="MolekulareDiagnostik.Molekularpathologie.RET.FISH.Ergebnis" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.Molekularpathologie.RET.FISH.PositiveTumorzellen">
-    <path value="MolekulareDiagnostik.Molekularpathologie.RET.FISH.PositiveTumorzellen" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.Molekularpathologie.RET.FISH.Polysomie">
-    <path value="MolekulareDiagnostik.Molekularpathologie.RET.FISH.Polysomie" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.Molekularpathologie.ROS1">
-    <path value="MolekulareDiagnostik.Molekularpathologie.ROS1" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="BackboneElement" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.Molekularpathologie.ROS1.Phaenotyp">
-    <path value="MolekulareDiagnostik.Molekularpathologie.ROS1.Phaenotyp" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.Molekularpathologie.ROS1.ISH">
-    <path value="MolekulareDiagnostik.Molekularpathologie.ROS1.ISH" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="BackboneElement" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.Molekularpathologie.ROS1.ISH.KitBezeichnung">
-    <path value="MolekulareDiagnostik.Molekularpathologie.ROS1.ISH.KitBezeichnung" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.Molekularpathologie.ROS1.ISH.Hersteller">
-    <path value="MolekulareDiagnostik.Molekularpathologie.ROS1.ISH.Hersteller" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.Molekularpathologie.ROS1.ISH.Ergebnis">
-    <path value="MolekulareDiagnostik.Molekularpathologie.ROS1.ISH.Ergebnis" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.Molekularpathologie.ROS1.ISH.PositiveTumorzellen">
-    <path value="MolekulareDiagnostik.Molekularpathologie.ROS1.ISH.PositiveTumorzellen" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.Molekularpathologie.ROS1.ISH.Polysomie">
-    <path value="MolekulareDiagnostik.Molekularpathologie.ROS1.ISH.Polysomie" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.Molekularpathologie.ROS1.FISH">
-    <path value="MolekulareDiagnostik.Molekularpathologie.ROS1.FISH" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="BackboneElement" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.Molekularpathologie.ROS1.FISH.KitBezeichnung">
-    <path value="MolekulareDiagnostik.Molekularpathologie.ROS1.FISH.KitBezeichnung" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="BackboneElement" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.Molekularpathologie.ROS1.FISH.Hersteller">
-    <path value="MolekulareDiagnostik.Molekularpathologie.ROS1.FISH.Hersteller" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="BackboneElement" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.Molekularpathologie.ROS1.FISH.Ergebnis">
-    <path value="MolekulareDiagnostik.Molekularpathologie.ROS1.FISH.Ergebnis" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="BackboneElement" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.Molekularpathologie.ROS1.FISH.PositiveTumorzellen">
-    <path value="MolekulareDiagnostik.Molekularpathologie.ROS1.FISH.PositiveTumorzellen" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="BackboneElement" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.Molekularpathologie.ROS1.FISH.Polysomie">
-    <path value="MolekulareDiagnostik.Molekularpathologie.ROS1.FISH.Polysomie" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="BackboneElement" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.Molekularpathologie.StatusDurchfueherung">
-    <path value="MolekulareDiagnostik.Molekularpathologie.StatusDurchfueherung" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="BackboneElement" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.Molekularpathologie.StatusAbschluss">
-    <path value="MolekulareDiagnostik.Molekularpathologie.StatusAbschluss" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="BackboneElement" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.Molekularpathologie.DatumDesAbschlusses">
-    <path value="MolekulareDiagnostik.Molekularpathologie.DatumDesAbschlusses" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="BackboneElement" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.NGSFusion.Standort">
-    <path value="MolekulareDiagnostik.NGSFusion.Standort" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.NGSFusion.SOPVersionsnummerDesStandorts">
-    <path value="MolekulareDiagnostik.NGSFusion.SOPVersionsnummerDesStandorts" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.NGSFusion.Methodik">
-    <path value="MolekulareDiagnostik.NGSFusion.Methodik" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="BackboneElement" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.NGSFusion.Methodik.Assay">
-    <path value="MolekulareDiagnostik.NGSFusion.Methodik.Assay" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.NGSFusion.Methodik.Hersteller">
-    <path value="MolekulareDiagnostik.NGSFusion.Methodik.Hersteller" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.NGSFusion.Methodik.Untersuchungen">
-    <path value="MolekulareDiagnostik.NGSFusion.Methodik.Untersuchungen" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.NGSFusion.ALK">
-    <path value="MolekulareDiagnostik.NGSFusion.ALK" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="BackboneElement" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.NGSFusion.ALK.Phaenotyp">
-    <path value="MolekulareDiagnostik.NGSFusion.ALK.Phaenotyp" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="BackboneElement" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.NGSFusion.ALK.NGSFusion">
-    <path value="MolekulareDiagnostik.NGSFusion.ALK.NGSFusion" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="BackboneElement" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.NGSFusion.ALK.NGSFusion.Ergebnis">
-    <path value="MolekulareDiagnostik.NGSFusion.ALK.NGSFusion.Ergebnis" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.NGSFusion.ALK.NGSFusion.TranksriptID">
-    <path value="MolekulareDiagnostik.NGSFusion.ALK.NGSFusion.TranksriptID" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.NGSFusion.ALK.NGSFusion.Fusionspartner">
-    <path value="MolekulareDiagnostik.NGSFusion.ALK.NGSFusion.Fusionspartner" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.NGSFusion.ALK.NGSFusion.FusionspartnerTranskriptID">
-    <path value="MolekulareDiagnostik.NGSFusion.ALK.NGSFusion.FusionspartnerTranskriptID" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.NGSFusion.ALK.NGSFusion.AnzahlDerFusionsreads">
-    <path value="MolekulareDiagnostik.NGSFusion.ALK.NGSFusion.AnzahlDerFusionsreads" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.NGSFusion.ALK.NGSFusion.5FusionspartnerExon">
-    <path value="MolekulareDiagnostik.NGSFusion.ALK.NGSFusion.5FusionspartnerExon" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.NGSFusion.ALK.NGSFusion.Exon">
-    <path value="MolekulareDiagnostik.NGSFusion.ALK.NGSFusion.Exon" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.NGSFusion.RET">
-    <path value="MolekulareDiagnostik.NGSFusion.RET" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="BackboneElement" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.NGSFusion.RET.Phaenotyp">
-    <path value="MolekulareDiagnostik.NGSFusion.RET.Phaenotyp" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="BackboneElement" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.NGSFusion.RET.NGSFusion">
-    <path value="MolekulareDiagnostik.NGSFusion.RET.NGSFusion" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="BackboneElement" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.NGSFusion.RET.NGSFusion.Ergebnis">
-    <path value="MolekulareDiagnostik.NGSFusion.RET.NGSFusion.Ergebnis" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.NGSFusion.RET.NGSFusion.TranksriptID">
-    <path value="MolekulareDiagnostik.NGSFusion.RET.NGSFusion.TranksriptID" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.NGSFusion.RET.NGSFusion.Fusionspartner">
-    <path value="MolekulareDiagnostik.NGSFusion.RET.NGSFusion.Fusionspartner" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.NGSFusion.RET.NGSFusion.FusionspartnerTranskriptID">
-    <path value="MolekulareDiagnostik.NGSFusion.RET.NGSFusion.FusionspartnerTranskriptID" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.NGSFusion.RET.NGSFusion.AnzahlDerFusionsreads">
-    <path value="MolekulareDiagnostik.NGSFusion.RET.NGSFusion.AnzahlDerFusionsreads" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.NGSFusion.RET.NGSFusion.5FusionspartnerExon">
-    <path value="MolekulareDiagnostik.NGSFusion.RET.NGSFusion.5FusionspartnerExon" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.NGSFusion.RET.NGSFusion.Exon">
-    <path value="MolekulareDiagnostik.NGSFusion.RET.NGSFusion.Exon" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.NGSFusion.ROS1">
-    <path value="MolekulareDiagnostik.NGSFusion.ROS1" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="BackboneElement" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.NGSFusion.ROS1.Phaenotyp">
-    <path value="MolekulareDiagnostik.NGSFusion.ROS1.Phaenotyp" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="BackboneElement" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.NGSFusion.ROS1.NGSFusion">
-    <path value="MolekulareDiagnostik.NGSFusion.ROS1.NGSFusion" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="BackboneElement" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.NGSFusion.ROS1.NGSFusion.Ergebnis">
-    <path value="MolekulareDiagnostik.NGSFusion.ROS1.NGSFusion.Ergebnis" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.NGSFusion.ROS1.NGSFusion.TranksriptID">
-    <path value="MolekulareDiagnostik.NGSFusion.ROS1.NGSFusion.TranksriptID" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.NGSFusion.ROS1.NGSFusion.Fusionspartner">
-    <path value="MolekulareDiagnostik.NGSFusion.ROS1.NGSFusion.Fusionspartner" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.NGSFusion.ROS1.NGSFusion.FusionspartnerTranskriptID">
-    <path value="MolekulareDiagnostik.NGSFusion.ROS1.NGSFusion.FusionspartnerTranskriptID" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.NGSFusion.ROS1.NGSFusion.AnzahlDerFusionsreads">
-    <path value="MolekulareDiagnostik.NGSFusion.ROS1.NGSFusion.AnzahlDerFusionsreads" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.NGSFusion.ROS1.NGSFusion.5FusionspartnerExon">
-    <path value="MolekulareDiagnostik.NGSFusion.ROS1.NGSFusion.5FusionspartnerExon" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.NGSFusion.ROS1.NGSFusion.Exon">
-    <path value="MolekulareDiagnostik.NGSFusion.ROS1.NGSFusion.Exon" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.NGSFusion.NTRK1">
-    <path value="MolekulareDiagnostik.NGSFusion.NTRK1" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="BackboneElement" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.NGSFusion.NTRK1.Phaenotyp">
-    <path value="MolekulareDiagnostik.NGSFusion.NTRK1.Phaenotyp" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="BackboneElement" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.NGSFusion.NTRK1.NGSFusion">
-    <path value="MolekulareDiagnostik.NGSFusion.NTRK1.NGSFusion" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="BackboneElement" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.NGSFusion.NTRK1.NGSFusion.Ergebnis">
-    <path value="MolekulareDiagnostik.NGSFusion.NTRK1.NGSFusion.Ergebnis" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.NGSFusion.NTRK1.NGSFusion.TranksriptID">
-    <path value="MolekulareDiagnostik.NGSFusion.NTRK1.NGSFusion.TranksriptID" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.NGSFusion.NTRK1.NGSFusion.Fusionspartner">
-    <path value="MolekulareDiagnostik.NGSFusion.NTRK1.NGSFusion.Fusionspartner" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.NGSFusion.NTRK1.NGSFusion.FusionspartnerTranskriptID">
-    <path value="MolekulareDiagnostik.NGSFusion.NTRK1.NGSFusion.FusionspartnerTranskriptID" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.NGSFusion.NTRK1.NGSFusion.AnzahlDerFusionsreads">
-    <path value="MolekulareDiagnostik.NGSFusion.NTRK1.NGSFusion.AnzahlDerFusionsreads" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.NGSFusion.NTRK1.NGSFusion.5FusionspartnerExon">
-    <path value="MolekulareDiagnostik.NGSFusion.NTRK1.NGSFusion.5FusionspartnerExon" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.NGSFusion.NTRK1.NGSFusion.Exon">
-    <path value="MolekulareDiagnostik.NGSFusion.NTRK1.NGSFusion.Exon" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.NGSFusion.NTRK2">
-    <path value="MolekulareDiagnostik.NGSFusion.NTRK2" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="BackboneElement" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.NGSFusion.NTRK2.Phaenotyp">
-    <path value="MolekulareDiagnostik.NGSFusion.NTRK2.Phaenotyp" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="BackboneElement" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.NGSFusion.NTRK2.NGSFusion">
-    <path value="MolekulareDiagnostik.NGSFusion.NTRK2.NGSFusion" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="BackboneElement" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.NGSFusion.NTRK2.NGSFusion.Ergebnis">
-    <path value="MolekulareDiagnostik.NGSFusion.NTRK2.NGSFusion.Ergebnis" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.NGSFusion.NTRK2.NGSFusion.TranksriptID">
-    <path value="MolekulareDiagnostik.NGSFusion.NTRK2.NGSFusion.TranksriptID" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.NGSFusion.NTRK2.NGSFusion.Fusionspartner">
-    <path value="MolekulareDiagnostik.NGSFusion.NTRK2.NGSFusion.Fusionspartner" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.NGSFusion.NTRK2.NGSFusion.FusionspartnerTranskriptID">
-    <path value="MolekulareDiagnostik.NGSFusion.NTRK2.NGSFusion.FusionspartnerTranskriptID" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.NGSFusion.NTRK2.NGSFusion.AnzahlDerFusionsreads">
-    <path value="MolekulareDiagnostik.NGSFusion.NTRK2.NGSFusion.AnzahlDerFusionsreads" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.NGSFusion.NTRK2.NGSFusion.5FusionspartnerExon">
-    <path value="MolekulareDiagnostik.NGSFusion.NTRK2.NGSFusion.5FusionspartnerExon" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.NGSFusion.NTRK2.NGSFusion.Exon">
-    <path value="MolekulareDiagnostik.NGSFusion.NTRK2.NGSFusion.Exon" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.NGSFusion.NTRK3">
-    <path value="MolekulareDiagnostik.NGSFusion.NTRK3" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="BackboneElement" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.NGSFusion.NTRK3.Phaenotyp">
-    <path value="MolekulareDiagnostik.NGSFusion.NTRK3.Phaenotyp" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="BackboneElement" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.NGSFusion.NTRK3.NGSFusion">
-    <path value="MolekulareDiagnostik.NGSFusion.NTRK3.NGSFusion" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="BackboneElement" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.NGSFusion.NTRK3.NGSFusion.Ergebnis">
-    <path value="MolekulareDiagnostik.NGSFusion.NTRK3.NGSFusion.Ergebnis" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.NGSFusion.NTRK3.NGSFusion.TranksriptID">
-    <path value="MolekulareDiagnostik.NGSFusion.NTRK3.NGSFusion.TranksriptID" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.NGSFusion.NTRK3.NGSFusion.Fusionspartner">
-    <path value="MolekulareDiagnostik.NGSFusion.NTRK3.NGSFusion.Fusionspartner" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.NGSFusion.NTRK3.NGSFusion.FusionspartnerTranskriptID">
-    <path value="MolekulareDiagnostik.NGSFusion.NTRK3.NGSFusion.FusionspartnerTranskriptID" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.NGSFusion.NTRK3.NGSFusion.AnzahlDerFusionsreads">
-    <path value="MolekulareDiagnostik.NGSFusion.NTRK3.NGSFusion.AnzahlDerFusionsreads" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.NGSFusion.NTRK3.NGSFusion.5FusionspartnerExon">
-    <path value="MolekulareDiagnostik.NGSFusion.NTRK3.NGSFusion.5FusionspartnerExon" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.NGSFusion.NTRK3.NGSFusion.Exon">
-    <path value="MolekulareDiagnostik.NGSFusion.NTRK3.NGSFusion.Exon" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.NGSFusion.FGFR1">
-    <path value="MolekulareDiagnostik.NGSFusion.FGFR1" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="BackboneElement" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.NGSFusion.FGFR1.Phaenotyp">
-    <path value="MolekulareDiagnostik.NGSFusion.FGFR1.Phaenotyp" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="BackboneElement" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.NGSFusion.FGFR1.NGSFusion">
-    <path value="MolekulareDiagnostik.NGSFusion.FGFR1.NGSFusion" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="BackboneElement" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.NGSFusion.FGFR1.NGSFusion.Ergebnis">
-    <path value="MolekulareDiagnostik.NGSFusion.FGFR1.NGSFusion.Ergebnis" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.NGSFusion.FGFR1.NGSFusion.TranksriptID">
-    <path value="MolekulareDiagnostik.NGSFusion.FGFR1.NGSFusion.TranksriptID" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.NGSFusion.FGFR1.NGSFusion.Fusionspartner">
-    <path value="MolekulareDiagnostik.NGSFusion.FGFR1.NGSFusion.Fusionspartner" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.NGSFusion.FGFR1.NGSFusion.FusionspartnerTranskriptID">
-    <path value="MolekulareDiagnostik.NGSFusion.FGFR1.NGSFusion.FusionspartnerTranskriptID" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.NGSFusion.FGFR1.NGSFusion.AnzahlDerFusionsreads">
-    <path value="MolekulareDiagnostik.NGSFusion.FGFR1.NGSFusion.AnzahlDerFusionsreads" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.NGSFusion.FGFR1.NGSFusion.5FusionspartnerExon">
-    <path value="MolekulareDiagnostik.NGSFusion.FGFR1.NGSFusion.5FusionspartnerExon" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.NGSFusion.FGFR1.NGSFusion.Exon">
-    <path value="MolekulareDiagnostik.NGSFusion.FGFR1.NGSFusion.Exon" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.NGSFusion.FGFR2">
-    <path value="MolekulareDiagnostik.NGSFusion.FGFR2" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="BackboneElement" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.NGSFusion.FGFR2.Phaenotyp">
-    <path value="MolekulareDiagnostik.NGSFusion.FGFR2.Phaenotyp" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="BackboneElement" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.NGSFusion.FGFR2.NGSFusion">
-    <path value="MolekulareDiagnostik.NGSFusion.FGFR2.NGSFusion" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="BackboneElement" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.NGSFusion.FGFR2.NGSFusion.Ergebnis">
-    <path value="MolekulareDiagnostik.NGSFusion.FGFR2.NGSFusion.Ergebnis" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.NGSFusion.FGFR2.NGSFusion.TranksriptID">
-    <path value="MolekulareDiagnostik.NGSFusion.FGFR2.NGSFusion.TranksriptID" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.NGSFusion.FGFR2.NGSFusion.Fusionspartner">
-    <path value="MolekulareDiagnostik.NGSFusion.FGFR2.NGSFusion.Fusionspartner" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.NGSFusion.FGFR2.NGSFusion.FusionspartnerTranskriptID">
-    <path value="MolekulareDiagnostik.NGSFusion.FGFR2.NGSFusion.FusionspartnerTranskriptID" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.NGSFusion.FGFR2.NGSFusion.AnzahlDerFusionsreads">
-    <path value="MolekulareDiagnostik.NGSFusion.FGFR2.NGSFusion.AnzahlDerFusionsreads" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.NGSFusion.FGFR2.NGSFusion.3FusionspartnerExon">
-    <path value="MolekulareDiagnostik.NGSFusion.FGFR2.NGSFusion.3FusionspartnerExon" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.NGSFusion.FGFR2.NGSFusion.Exon">
-    <path value="MolekulareDiagnostik.NGSFusion.FGFR2.NGSFusion.Exon" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.NGSFusion.FGFR3">
-    <path value="MolekulareDiagnostik.NGSFusion.FGFR3" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="BackboneElement" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.NGSFusion.FGFR3.Phaenotyp">
-    <path value="MolekulareDiagnostik.NGSFusion.FGFR3.Phaenotyp" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="BackboneElement" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.NGSFusion.FGFR3.NGSFusion">
-    <path value="MolekulareDiagnostik.NGSFusion.FGFR3.NGSFusion" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="BackboneElement" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.NGSFusion.FGFR3.NGSFusion.Ergebnis">
-    <path value="MolekulareDiagnostik.NGSFusion.FGFR3.NGSFusion.Ergebnis" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.NGSFusion.FGFR3.NGSFusion.TranksriptID">
-    <path value="MolekulareDiagnostik.NGSFusion.FGFR3.NGSFusion.TranksriptID" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.NGSFusion.FGFR3.NGSFusion.Fusionspartner">
-    <path value="MolekulareDiagnostik.NGSFusion.FGFR3.NGSFusion.Fusionspartner" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.NGSFusion.FGFR3.NGSFusion.FusionspartnerTranskriptID">
-    <path value="MolekulareDiagnostik.NGSFusion.FGFR3.NGSFusion.FusionspartnerTranskriptID" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.NGSFusion.FGFR3.NGSFusion.AnzahlDerFusionsreads">
-    <path value="MolekulareDiagnostik.NGSFusion.FGFR3.NGSFusion.AnzahlDerFusionsreads" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.NGSFusion.FGFR3.NGSFusion.3FusionspartnerExon">
-    <path value="MolekulareDiagnostik.NGSFusion.FGFR3.NGSFusion.3FusionspartnerExon" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.NGSFusion.FGFR3.NGSFusion.Exon">
-    <path value="MolekulareDiagnostik.NGSFusion.FGFR3.NGSFusion.Exon" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.NGSFusion.SonstigeFusionNGS">
-    <path value="MolekulareDiagnostik.NGSFusion.SonstigeFusionNGS" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="BackboneElement" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.NGSFusion.SonstigeFusionNGS.Phaenotyp">
-    <path value="MolekulareDiagnostik.NGSFusion.SonstigeFusionNGS.Phaenotyp" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="BackboneElement" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.NGSFusion.SonstigeFusionNGS.NGSFusion">
-    <path value="MolekulareDiagnostik.NGSFusion.SonstigeFusionNGS.NGSFusion" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="BackboneElement" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.NGSFusion.SonstigeFusionNGS.NGSFusion.Ergebnis">
-    <path value="MolekulareDiagnostik.NGSFusion.SonstigeFusionNGS.NGSFusion.Ergebnis" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.NGSFusion.SonstigeFusionNGS.NGSFusion.TranksriptID">
-    <path value="MolekulareDiagnostik.NGSFusion.SonstigeFusionNGS.NGSFusion.TranksriptID" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.NGSFusion.SonstigeFusionNGS.NGSFusion.Fusionspartner">
-    <path value="MolekulareDiagnostik.NGSFusion.SonstigeFusionNGS.NGSFusion.Fusionspartner" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.NGSFusion.SonstigeFusionNGS.NGSFusion.FusionspartnerTranskriptID">
-    <path value="MolekulareDiagnostik.NGSFusion.SonstigeFusionNGS.NGSFusion.FusionspartnerTranskriptID" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.NGSFusion.SonstigeFusionNGS.NGSFusion.AnzahlDerFusionsreads">
-    <path value="MolekulareDiagnostik.NGSFusion.SonstigeFusionNGS.NGSFusion.AnzahlDerFusionsreads" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.NGSFusion.SonstigeFusionNGS.NGSFusion.ErsterFusionspartnerExon">
-    <path value="MolekulareDiagnostik.NGSFusion.SonstigeFusionNGS.NGSFusion.ErsterFusionspartnerExon" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.NGSFusion.SonstigeFusionNGS.NGSFusion.ZweiterFusionspartnerExon">
-    <path value="MolekulareDiagnostik.NGSFusion.SonstigeFusionNGS.NGSFusion.ZweiterFusionspartnerExon" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.NGSFusion.StatusDurchfueherung">
-    <path value="MolekulareDiagnostik.NGSFusion.StatusDurchfueherung" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.NGSFusion.StatusAbschluss">
-    <path value="MolekulareDiagnostik.NGSFusion.StatusAbschluss" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.NGSFusion.DatumDesAbschlusses">
-    <path value="MolekulareDiagnostik.NGSFusion.DatumDesAbschlusses" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.FastTrack">
-    <path value="MolekulareDiagnostik.FastTrack" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="BackboneElement" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.FastTrack.Standort">
-    <path value="MolekulareDiagnostik.FastTrack" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.FastTrack.SOPVersionsnummerDesStandorts">
-    <path value="MolekulareDiagnostik.FastTrack.SOPVersionsnummerDesStandorts" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.FastTrack.Untersuchungen">
-    <path value="MolekulareDiagnostik.FastTrack.Untersuchungen" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.FastTrack.Methodik">
-    <path value="MolekulareDiagnostik.FastTrack.Methodik" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="BackboneElement" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.FastTrack.Methodik.Assay">
-    <path value="MolekulareDiagnostik.FastTrack.Methodik.Assay" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="BackboneElement" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.FastTrack.Methodik.Hersteller">
-    <path value="MolekulareDiagnostik.FastTrack.Methodik.Hersteller" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="BackboneElement" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.FastTrack.Exon">
-    <path value="MolekulareDiagnostik.FastTrack.Exon" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="BackboneElement" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.FastTrack.Exon.Ergebnis">
-    <path value="MolekulareDiagnostik.FastTrack.Exon.Ergebnis" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="BackboneElement" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.FastTrack.Exon.ChangeDNA">
-    <path value="MolekulareDiagnostik.FastTrack.Exon.ChangeDNA" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="BackboneElement" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.FastTrack.Exon.ChangeProtein">
-    <path value="MolekulareDiagnostik.FastTrack.Exon.ChangeProtein" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="BackboneElement" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.FastTrack.StatusDurchfueherung">
-    <path value="MolekulareDiagnostik.FastTrack.StatusDurchfueherung" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.FastTrack.StatusAbschluss">
-    <path value="MolekulareDiagnostik.FastTrack.StatusAbschluss" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.FastTrack.DatumDesAbschlusses">
-    <path value="MolekulareDiagnostik.FastTrack.DatumDesAbschlusses" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.FastTrack.DatumDesAbschlusses">
-    <path value="MolekulareDiagnostik.FastTrack.DatumDesAbschlusses" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.SonstigeUntersuchung">
-    <path value="MolekulareDiagnostik.SonstigeUntersuchung" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="BackboneElement" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.SonstigeUntersuchung.Standort">
-    <path value="MolekulareDiagnostik.SonstigeUntersuchung.Standort" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.SonstigeUntersuchung.SOPVersionsnummerDesStandorts">
-    <path value="MolekulareDiagnostik.SonstigeUntersuchung.SOPVersionsnummerDesStandorts" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.SonstigeUntersuchung.BezeichnungDerUntersuchung">
-    <path value="MolekulareDiagnostik.SonstigeUntersuchung.BezeichnungDerUntersuchung" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.SonstigeUntersuchung.Assay">
-    <path value="MolekulareDiagnostik.SonstigeUntersuchung.Assay" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.SonstigeUntersuchung.Hersteller">
-    <path value="MolekulareDiagnostik.SonstigeUntersuchung.Hersteller" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.SonstigeUntersuchung.Gen">
-    <path value="MolekulareDiagnostik.SonstigeUntersuchung.Gen" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.SonstigeUntersuchung.Phaenotyp">
-    <path value="MolekulareDiagnostik.SonstigeUntersuchung.Phaenotyp" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-  <element id="MolekulareDiagnostik.SonstigeUntersuchung.Ergebnis">
-    <path value="MolekulareDiagnostik.SonstigeUntersuchung.Ergebnis" />
-    <min value="0" />
-    <max value="*" />
-    <type>
-      <code value="string" />
-    </type>
-    <mustSupport value="true" />
-  </element>
-</differential>
 </StructureDefinition>
