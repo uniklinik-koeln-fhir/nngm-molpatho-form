@@ -179,6 +179,11 @@
         "min": 1
       },
       {
+        "id": "Observation.performer",
+        "path": "Observation.performer",
+        "mustSupport": true
+      },
+      {
         "id": "Observation.effective[x]",
         "path": "Observation.effective[x]",
         "type": [
