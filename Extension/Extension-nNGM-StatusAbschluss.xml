@@ -17,6 +17,10 @@
     <type value="element" />
     <expression value="ServiceRequest.status" />
   </context>
+  <context>
+    <type value="element" />
+    <expression value="DiagnosticReport.status" />
+  </context>
   <type value="Extension" />
   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension" />
   <derivation value="constraint" />

@@ -64,6 +64,20 @@
         "mustSupport": true
       },
       {
+        "id": "DiagnosticReport.extension:statusAbschluss",
+        "path": "DiagnosticReport.extension",
+        "sliceName": "statusAbschluss",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://uk-koeln.de/fhir/StructureDefinition/Extension/nNGM/statusAbschluss"
+            ]
+          }
+        ],
+        "mustSupport": true
+      },
+      {
         "id": "DiagnosticReport.status",
         "path": "DiagnosticReport.status",
         "mustSupport": true
