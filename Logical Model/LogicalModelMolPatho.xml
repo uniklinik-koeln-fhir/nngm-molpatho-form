@@ -746,7 +746,7 @@
       <mustSupport value="true" />
     </element>
     <element id="MolekulareDiagnostik.LiquidBiopsy.StatusDurchfuehrung">
-      <path value="MolekulareDiagnostik.LiquidBiopsy.Resistenztestung.StatusDurchfuehrung" />
+      <path value="MolekulareDiagnostik.LiquidBiopsy.StatusDurchfuehrung" />
       <min value="0" />
       <max value="*" />
       <type>
@@ -755,7 +755,7 @@
       <mustSupport value="true" />
     </element>
     <element id="MolekulareDiagnostik.LiquidBiopsy.StatusAbschluss">
-      <path value="MolekulareDiagnostik.LiquidBiopsy.Resistenztestung.StatusAbschluss" />
+      <path value="MolekulareDiagnostik.LiquidBiopsy.StatusAbschluss" />
       <min value="0" />
       <max value="*" />
       <type>
@@ -763,7 +763,7 @@
       </type>
     </element>
     <element id="MolekulareDiagnostik.LiquidBiopsy.DatumDesAbschlusses">
-      <path value="MolekulareDiagnostik.LiquidBiopsy.Resistenztestung.DatumDesAbschlusses" />
+      <path value="MolekulareDiagnostik.LiquidBiopsy.DatumDesAbschlusses" />
       <min value="0" />
       <max value="*" />
       <type>
