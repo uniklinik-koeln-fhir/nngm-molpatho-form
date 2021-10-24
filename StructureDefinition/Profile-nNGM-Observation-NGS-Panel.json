@@ -690,14 +690,18 @@
         "path": "Observation.component.value[x]",
         "type": [
           {
-            "code": "string"
+            "code": "valueCodeableConcept"
           }
         ]
       },
       {
-        "id": "Observation.component:referenztranskript.value[x].coding.system",
+        "id": "Observation.component:referenztranskript.value[x]:valueCodeableConcept",
+        "sliceName": "valueCodeableConcept",
         "path": "Observation.component.value[x].coding.system",
-        "fixedUri": "http://www.ncbi.nlm.nih.gov/refseq"
+        "binding": {
+          "strength": "required",
+          "valueSet": ""
+        }
       },
       {
         "id": "Observation.component:coverage",
