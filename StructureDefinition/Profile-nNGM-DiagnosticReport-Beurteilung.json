@@ -124,6 +124,12 @@
         "mustSupport": true
       },
       {
+        "id": "DiagnosticReport.specimen",
+        "path": "DiagnosticReport.specimen",
+        "mustSupport": true,
+        "min": "1"
+      },
+      {
         "id": "DiagnosticReport.conclusion",
         "path": "DiagnosticReport.conclusion",
         "mustSupport": true
