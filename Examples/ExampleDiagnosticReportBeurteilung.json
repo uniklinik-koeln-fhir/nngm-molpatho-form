@@ -1,0 +1,53 @@
+{
+    "resourceType": "DiagnosticReport",
+    "id": "ExampleDiagnosticReportBeurteilung",
+    "meta": {
+        "profile": [
+            "http://uk-koeln.de/fhir/StructureDefinition/DiagnosticReport/nNGM/beurteilung"
+        ]
+    },
+    "extension": [
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/workflow-episodeOfCare",
+            "valueReference": "EpisodeOfCare/ExampleEpisodeOfCareVersorgungsfall"
+        },
+        {
+            "url": "http://uk-koeln.de/fhir/StructureDefinition/Extension/nNGM/statusAbschluss",
+            "extension": [
+                {
+                    "url": "status",
+                    "valueCodeableConcept": {
+                        "coding": [
+                            {
+                                "code": "vollständig",
+                                "system": "http://uk-koeln.de/fhir/CodeSystem/NNGM/statusAbschluss"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "url": "datum",
+                    "valueDateTime": "2021-01-01"
+                }
+            ]
+        }
+    ],
+    "status": "final",
+    "code": {
+        "coding": [
+            {
+                "system": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl",
+                "code": "C125009",
+                "display": "Clinical Interpretation"
+            }
+        ]
+    },
+    "effectiveDateTime": "2021-01-01",
+    "issued": "2021-03-01",
+    "performer": {
+        "reference": "Organization/ExampleOrganizationOrganisationNetzwerkzentrum"
+    },
+    "specimen": {
+        "reference": "Specimen/ExampleSpecimenTumormaterial"
+    }
+}
