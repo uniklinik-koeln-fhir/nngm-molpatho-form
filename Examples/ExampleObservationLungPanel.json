@@ -1,0 +1,202 @@
+{
+    "resourceType": "Observation",
+    "id": "ExampleObservationLungPanel",
+    "meta": {
+        "profile": [
+            "http://uk-koeln.de/fhir/StructureDefinition/Observation/ngs-panel"
+        ]
+    },
+    "status": "final",
+    "_status": {
+        "extension": [
+            {
+                "url": "http://uk-koeln.de/fhir/StructureDefinition/Extension/nNGM/statusAbschluss",
+                "extension": [
+                    {
+                        "url": "status",
+                        "valueCodeableConcept": {
+                            "coding": [
+                                {
+                                    "code": "vollständig",
+                                    "system": "http://uk-koeln.de/fhir/CodeSystem/NNGM/statusAbschluss"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "url": "datum",
+                        "valueDateTime": "2021-01-01"
+                    }
+                ]
+            }
+        ]
+    },
+    "category": [
+        {
+            "coding": [
+                {
+                    "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                    "code": "laboratory"
+                }
+            ]
+        }
+    ],
+    "code": {
+        "coding": [
+            {
+                "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/molpatho-obs-codes",
+                "code": "NGS Panel"
+            }
+        ]
+    },
+    "subject": {
+        "reference": "Patient/ExamplePatientPatient"
+    },
+    "performer": {
+        "reference": "Organization/ExampleOrganizationOrganisationNetzwerkzentrum"
+    },
+    "method": [
+        {
+            "coding": [
+                {
+                    "system": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl",
+                    "code": "C101293",
+                    "display": "Next Generation Sequencing"
+                }
+            ]
+        }
+    ],
+    "specimen": {
+        "reference": "Specimen/ExampleSpecimenTumormaterial"
+    },
+    "component": [
+        {
+            "code": {
+                "coding": [
+                    {
+                        "system": "http://ncit.nci.nih.gov",
+                        "code": "C48443",
+                        "display": "Standard Operating Procedure"
+                    }
+                ]
+            },
+            "valueString": "1.0"
+        },
+        {
+            "code": {
+                "coding": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://loinc.org",
+                                "code": "48018-6",
+                                "display": "Gene studied [ID]"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "valueCodeableConcept": {
+                "coding": [
+                    {
+                        "system": "http://www.genenames.org/geneId",
+                        "code": "EGFR"
+                    }
+                ]
+            }
+        },
+        {
+            "code": {
+                "coding": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://ncit.nci.nih.gov",
+                                "code": "C13231",
+                                "display": "Exon"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "valueString": "16"
+        },
+        {
+            "code": {
+                "coding": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://loinc.org",
+                                "code": "48004-6",
+                                "display": "DNA change (c.HGVS)"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "valueString": "7"
+        },
+        {
+            "code": {
+                "coding": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://loinc.org",
+                                "code": "48005-3",
+                                "display": "Amino acid change (pHGVS)"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "valueString": "6"
+        },
+        {
+            "code": {
+                "coding": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://ncit.nci.nih.gov",
+                                "code": "C154665",
+                                "display": "Variant Allele Frequency"
+                              }
+                        ]
+                    }
+                ]
+            },
+            "valueQuantity": {
+                "value": 25,
+                "unit": "%",
+                "system": "http://unitsofmeasure.org",
+                "code": "%"
+            }
+        },
+        {
+            "code": {
+                "coding": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://loinc.org",
+                                "code": "51958-7",
+                                "display": "Transcript reference sequence"
+                              }
+                        ]
+                    }
+                ]
+            },
+            "valueCodeableConcept": {
+                "coding": [
+                    {
+                        "system": "http://www.ncbi.nlm.nih.gov/refseq",
+                        "code": "NM_005228.3",
+                        "display": "EGFR"
+                    }
+                ]
+            }
+        }
+    ]
+}
