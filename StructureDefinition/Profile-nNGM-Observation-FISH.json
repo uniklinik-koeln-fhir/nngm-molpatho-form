@@ -724,35 +724,6 @@
             "code": "integer"
           }
         ]
-      },
-      {
-        "id": "Observation.component:gezaehlteTumorzellen",
-        "path": "Observation.component",
-        "sliceName": "gezaehlteTumorzellen",
-        "max": "1",
-        "mustSupport": true
-      },
-      {
-        "id": "Observation.component:gezaehlteTumorzellen.code",
-        "path": "Observation.component.code",
-        "patternCodeableConcept": {
-          "coding": [
-            {
-              "system": "http://ncit.nci.nih.gov",
-              "code": "C0007584"
-            }
-          ]
-        }
-      },
-      {
-        "id": "Observation.component:gezaehlteTumorzellen.value[x]",
-        "path": "Observation.component.value[x]",
-        "min": 1,
-        "type": [
-          {
-            "code": "integer"
-          }
-        ]
       }
     ]
   }
