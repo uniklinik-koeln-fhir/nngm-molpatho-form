@@ -704,8 +704,8 @@
         "sliceName": "valueCodeableConcept",
         "path": "Observation.component.value[x].coding.system",
         "binding": {
-          "strength": "required",
-          "valueSet": ""
+          "strength": "extensible",
+          "valueSet": "http://uk-koeln.de/fhir/ValueSet/nNGM/refseqId"
         }
       },
       {

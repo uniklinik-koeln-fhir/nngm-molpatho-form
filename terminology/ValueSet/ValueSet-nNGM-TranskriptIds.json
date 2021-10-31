@@ -1,0 +1,126 @@
+{
+    "resourceType": "ValueSet",
+    "id": "ValueSet-nNGM-TranskriptIds",
+    "url": "http://uk-koeln.de/fhir/ValueSet/nNGM/refseqId",
+    "version": "1.0.0",
+    "name": "ValueSet_nNGM_TranskriptIds",
+    "title": "ValueSet - nNGM - Transkript-IDs",
+    "status": "draft",
+    "compose": {
+      "include": [
+        {
+          "system": "http://www.ncbi.nlm.nih.gov/refseq",
+          "concept": [
+            {
+              "code": "NM_004304.4",
+              "display": "Homo sapiens ALK receptor tyrosine kinase (ALK), transcript variant 1, mRNA"
+            },
+            {
+              "code": "NM_004333.4",
+              "display": "Homo sapiens B-Raf proto-oncogene, serine/threonine kinase (BRAF), mRNA"
+            },
+            {
+              "code": "NM_001904.3",
+              "display": "Homo sapiens catenin beta 1 (CTNNB1), transcript variant 1, mRNA"
+            },
+            {
+              "code": "NM_005228.3",
+              "display": "Homo sapiens epidermal growth factor receptor (EGFR), transcript variant 1, mRNA"
+            },
+            {
+              "code": "NM_004448.2",
+              "display": "Homo sapiens v-erb-b2 avian erythroblastic leukemia viral oncogene homolog 2 (ERBB2), transcript variant 1, mRNA"
+            },
+            {
+              "code": "NM_023110.2",
+              "display": "Homo sapiens fibroblast growth factor receptor 1 (FGFR1), transcript variant 1, mRNA"
+            },
+            {
+              "code": "NM_000141.4",
+              "display": "Homo sapiens fibroblast growth factor receptor 2 (FGFR2), transcript variant 1, mRNA"
+            },
+            {
+              "code": "NM_022970.3",
+              "display": "Homo sapiens fibroblast growth factor receptor 2 (FGFR2), transcript variant 2, mRNA"
+            },
+            {
+              "code": "NM_000142.4",
+              "display": "Homo sapiens fibroblast growth factor receptor 3 (FGFR3), transcript variant 1, mRNA"
+            },
+            {
+              "code": "NM_213647.1",
+              "display": "Homo sapiens fibroblast growth factor receptor 4 (FGFR4), transcript variant 3, mRNA"
+            },
+            {
+              "code": "NM_005896.2",
+              "display": "Homo sapiens isocitrate dehydrogenase 1 (NADP+), soluble (IDH1), mRNA"
+            },
+            {
+              "code": "NM_002168.2",
+              "display": "Homo sapiens isocitrate dehydrogenase 2 (NADP+), mitochondrial (IDH2), transcript variant 1, mRNA"
+            },
+            {
+              "code": "NM_033360.2",
+              "display": "Homo sapiens Kirsten rat sarcoma viral oncogene homolog (KRAS), transcript variant a, mRNA"
+            },
+            {
+              "code": "NM_002755.3",
+              "display": "Homo sapiens mitogen-activated protein kinase kinase 1 (MAP2K1), mRNA"
+            },
+            {
+              "code": "NM_001127500.2",
+              "display": "Homo sapiens MET proto-oncogene, receptor tyrosine kinase (MET), transcript variant 1, mRNA"
+            },
+            {
+              "code": "NM_002524.4",
+              "display": "Homo sapiens NRAS proto-oncogene, GTPase (NRAS), mRNA"
+            },
+            {
+              "code": "NM_006218.2",
+              "display": "Homo sapiens phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha (PIK3CA), mRNA"
+            },
+            {
+              "code": "NM_000314.4",
+              "display": "Homo sapiens phosphatase and tensin homolog (PTEN), mRNA"
+            },
+            {
+              "code": "NM_002944.2",
+              "display": "Homo sapiens ROS proto-oncogene 1, receptor tyrosine kinase (ROS1), mRNA"
+            },
+            {
+              "code": "NM_000546.5",
+              "display": "Homo sapiens tumor protein p53 (TP53), transcript variant 1, mRNA"
+            },
+            {
+              "code": "NM_002529.3",
+              "display": "Homo sapiens neurotrophic receptor tyrosine kinase 1 (NTRK1), transcript variant 2, mRNA"
+            },
+            {
+              "code": "NM_006180.3",
+              "display": "Homo sapiens neurotrophic tyrosine kinase, receptor, type 2 (NTRK2), transcript variant a, mRNA"
+            },
+            {
+              "code": "NM_001012338.2",
+              "display": "Homo sapiens neurotrophic receptor tyrosine kinase 3 (NTRK3), transcript variant 1, mRNA"
+            },
+            {
+              "code": "NM_020975.6",
+              "display": "Homo sapiens ret proto-oncogene (RET), transcript variant 2, mRNA"
+            },
+            {
+              "code": "NM_001130442.1",
+              "display": "Homo sapiens Harvey rat sarcoma viral oncogene homolog (HRAS), transcript variant 3, mRNA"
+            },
+            {
+              "code": "NM_000455.4",
+              "display": "Homo sapiens serine/threonine kinase 11 (STK11), mRNA"
+            },
+            {
+              "code": "NM_203500.2",
+              "display": "Homo sapiens kelch like ECH associated protein 1 (KEAP1), transcript variant 1, mRNA"
+            }
+          ]
+        }
+      ]
+    }
+  }
