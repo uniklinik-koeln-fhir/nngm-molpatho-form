@@ -7,29 +7,33 @@
             "valueReference": {
                 "reference": "EpisodeOfCare/ExampleEpisodeOfCareVersorgungsfall"
             }
-        },
-        {
-            "url": "http://uk-koeln.de/fhir/StructureDefinition/Extension/nNGM/statusAbschluss",
-            "extension": [
-                {
-                    "url": "status",
-                    "valueCodeableConcept": {
-                        "coding": [
-                            {
-                                "code": "vollständig",
-                                "system": "http://uk-koeln.de/fhir/CodeSystem/NNGM/statusAbschluss"
-                            }
-                        ]
-                    }
-                },
-                {
-                    "url": "datum",
-                    "valueDateTime": "2021-01-01"
-                }
-            ]
         }
     ],
     "status": "final",
+    "_status": {
+        "extension": [
+            {
+                "url": "http://uk-koeln.de/fhir/StructureDefinition/Extension/nNGM/statusAbschluss",
+                "extension": [
+                    {
+                        "url": "status",
+                        "valueCodeableConcept": {
+                            "coding": [
+                                {
+                                    "code": "vollständig",
+                                    "system": "http://uk-koeln.de/fhir/CodeSystem/NNGM/statusAbschluss"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "url": "datum",
+                        "valueDateTime": "2021-01-01"
+                    }
+                ]
+            }
+        ]
+    },
     "code": {
         "coding": [
             {
