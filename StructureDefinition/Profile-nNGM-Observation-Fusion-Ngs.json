@@ -175,36 +175,13 @@
         "mustSupport": true
       },
       {
-        "id": "Observation.value[x]",
-        "path": "Observation.value[x]",
-        "min": 1,
-        "type": [
-          {
-            "code": "CodeableConcept"
-          }
-        ],
-        "mustSupport": true
-      },
-      {
-        "id": "Observation.value[x]:valueCodeableConcept",
-        "path": "Observation.value[x]",
-        "min": 1,
-        "sliceName": "valueCodeableConcept",
-        "type": [
-          {
-            "code": "CodeableConcept"
-          }
-        ],
+        "id": "Observation.interpretation",
+        "path": "Observation.interpretation",
         "mustSupport": true,
         "binding": {
           "strength": "required",
           "valueSet": "http://loinc.org/vs/LL2451-4"
         }
-      },
-      {
-        "id": "Observation.interpretation",
-        "path": "Observation.interpretation",
-        "mustSupport": true
       },
       {
         "id": "Observation.interpretation.coding",
@@ -691,6 +668,94 @@
             "code": "string"
           }
         ]
+      },
+      {
+        "id": "Observation.component:transkript-id",
+        "path": "Observation.component",
+        "sliceName": "transkript-id",
+        "max": "1",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.component:transkript-id.code",
+        "path": "Observation.component.code",
+        "patternCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "51958-7"
+            }
+          ]
+        }
+      },
+      {
+        "id": "Observation.component:transkript-id.value[x]",
+        "path": "Observation.component.value[x]",
+        "min": 1,
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ]
+      },
+      {
+        "id": "Observation.component:transkript-id.value[x]:valueCodeableConcept",
+        "path": "Observation.component.value[x]",
+        "sliceName": "valueCodeableConcept",
+        "min": 1,
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ],
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://uk-koeln.de/fhir/ValueSet/nNGM/TranskriptIdFusion"
+        }
+      },
+      {
+        "id": "Observation.component:fusionspartner-transkript-id",
+        "path": "Observation.component",
+        "sliceName": "fusionspartner-transkript-id",
+        "max": "1",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.component:fusionspartner-transkript-id.code",
+        "path": "Observation.component.code",
+        "patternCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/tbd-codes",
+              "code": "2ndGenTranskript"
+            }
+          ]
+        }
+      },
+      {
+        "id": "Observation.component:fusionspartner-transkript-id.value[x]",
+        "path": "Observation.component.value[x]",
+        "min": 1,
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ]
+      },
+      {
+        "id": "Observation.component:fusionspartner-transkript-id.value[x]:valueCodeableConcept",
+        "path": "Observation.component.value[x]",
+        "sliceName": "valueCodeableConcept",
+        "min": 1,
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ],
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://uk-koeln.de/fhir/ValueSet/nNGM/TranskriptIdFusion"
+        }
       }
     ]
   }
