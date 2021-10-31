@@ -695,7 +695,7 @@
         "path": "Observation.component.value[x]",
         "type": [
           {
-            "code": "valueCodeableConcept"
+            "code": "CodeableConcept"
           }
         ]
       },
