@@ -64,8 +64,27 @@
         "mustSupport": true
       },
       {
-        "id": "DiagnosticReport.extension:statusAbschluss",
-        "path": "DiagnosticReport.extension",
+        "id": "DiagnosticReport.status",
+        "path": "DiagnosticReport.status",
+        "mustSupport": true
+      },
+      {
+        "id": "DiagnosticReport.status.extension",
+        "path": "DiagnosticReport.status.extension",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "url"
+            }
+          ],
+          "rules": "open"
+        },
+        "mustSupport": true
+      },
+      {
+        "id": "DiagnosticReport.status.extension:statusAbschluss",
+        "path": "DiagnosticReport.status.extension",
         "sliceName": "statusAbschluss",
         "type": [
           {
@@ -75,11 +94,6 @@
             ]
           }
         ],
-        "mustSupport": true
-      },
-      {
-        "id": "DiagnosticReport.status",
-        "path": "DiagnosticReport.status",
         "mustSupport": true
       },
       {
