@@ -1,0 +1,348 @@
+{
+  "resourceType": "ValueSet",
+  "id": "ValueSet-nNGM-TranskriptIdFusion",
+  "url": "http://uk-koeln.de/fhir/ValueSet/nNGM/TranskriptIdFusion",
+  "version": "1.0.0",
+  "name": "ValueSet_nNGM_TranskriptIdFusion",
+  "title": "ValueSet - nNGM - TranskriptIdFusion",
+  "status": "active",
+  "compose": {
+    "include": [
+      {
+        "system": "http://www.ncbi.nlm.nih.gov/refseq",
+        "concept": [
+          {
+            "code": "NM_005164",
+            "display": "Homo sapiens ATP binding cassette subfamily D member 2 (ABCD2), mRNA"
+          },
+          {
+            "code": "NM_001282925",
+            "display": "Homo sapiens abl interactor 2 (ABI2), transcript variant 1, mRNA"
+          },
+          {
+            "code": "NM_145004",
+            "display": "Homo sapiens ADAM metallopeptidase domain 32 (ADAM32), transcript variant 1, mRNA"
+          },
+          {
+            "code": "NM_006721",
+            "display": "Homo sapiens adenosine kinase (ADK), transcript variant 2, mRNA"
+          },
+          {
+            "code": "NM_018238",
+            "display": "Homo sapiens acylglycerol kinase (AGK), transcript variant 1, mRNA; nuclear gene for mitochondrial product"
+          },
+          {
+            "code": "NM_004304",
+            "display": "Homo sapiens ALK receptor tyrosine kinase (ALK), transcript variant 1, mRNA"
+          },
+          {
+            "code": "NM_032823",
+            "display": "Homo sapiens aminopeptidase O (putative) (AOPEP), transcript variant 2, mRNA"
+          },
+          {
+            "code": "NM_001699",
+            "display": "Homo sapiens AXL receptor tyrosine kinase (AXL), transcript variant 2, mRNA"
+          },
+          {
+            "code": "NM_014753",
+            "display": "Homo sapiens BMS1 ribosome biogenesis factor (BMS1), mRNA"
+          },
+          {
+            "code": "NM_004333",
+            "display": "Homo sapiens B-Raf proto-oncogene, serine/threonine kinase (BRAF), transcript variant 1, mRNA"
+          },
+          {
+            "code": "NM_015215",
+            "display": "Homo sapiens calmodulin binding transcription activator 1 (CAMTA1), transcript variant 1, mRNA"
+          },
+          {
+            "code": "NM_005436",
+            "display": "Homo sapiens coiled-coil domain containing 6 (CCDC6), mRNA"
+          },
+          {
+            "code": "NM_018999",
+            "display": "Homo sapiens coiled-coil serine rich protein 2 (CCSER2), transcript variant 2, mRNA"
+          },
+          {
+            "code": "NM_004355",
+            "display": "Homo sapiens CD74 molecule (CD74), transcript variant 2, mRNA"
+          },
+          {
+            "code": "NM_181552",
+            "display": "Homo sapiens cut like homeobox 1 (CUX1), transcript variant 1, mRNA"
+          },
+          {
+            "code": "NM_005228",
+            "display": "Homo sapiens epidermal growth factor receptor (EGFR), transcript variant 1, mRNA"
+          },
+          {
+            "code": "NM_019063",
+            "display": "Homo sapiens EMAP like 4 (EML4), transcript variant 1, mRNA"
+          },
+          {
+            "code": "NM_178039",
+            "display": "Homo sapiens ELKS/RAB6-interacting/CAST family member 1 (ERC1), transcript variant delta, mRNA"
+          },
+          {
+            "code": "NM_004449",
+            "display": "Homo sapiens ETS transcription factor ERG (ERG), transcript variant 2, mRNA"
+          },
+          {
+            "code": "NM_001987",
+            "display": "Homo sapiens ETS variant transcription factor 6 (ETV6), mRNA"
+          },
+          {
+            "code": "NM_005243",
+            "display": "Homo sapiens EWS RNA binding protein 1 (EWSR1), transcript variant 2, mRNA"
+          },
+          {
+            "code": "NM_001111077",
+            "display": "Homo sapiens ezrin (EZR), transcript variant 2, mRNA"
+          },
+          {
+            "code": "NM_016946",
+            "display": "Homo sapiens F11 receptor (F11R), transcript variant 1, mRNA"
+          },
+          {
+            "code": "NM_015850",
+            "display": "Homo sapiens fibroblast growth factor receptor 1 (FGFR1), transcript variant 2, mRNA"
+          },
+          {
+            "code": "NM_000141",
+            "display": "Homo sapiens fibroblast growth factor receptor 2 (FGFR2), transcript variant 1, mRNA"
+          },
+          {
+            "code": "NM_000142",
+            "display": "Homo sapiens fibroblast growth factor receptor 3 (FGFR3), transcript variant 1, mRNA"
+          },
+          {
+            "code": "NM_002017",
+            "display": "Homo sapiens Fli-1 proto-oncogene, ETS transcription factor (FLI1), transcript variant 1, mRNA"
+          },
+          {
+            "code": "NM_002026",
+            "display": "Homo sapiens fibronectin 1 (FN1), transcript variant 3, mRNA"
+          },
+          {
+            "code": "NM_003483",
+            "display": "Homo sapiens high mobility group AT-hook 2 (HMGA2), transcript variant 1, mRNA"
+          },
+          {
+            "code": "NM_003483",
+            "display": "Homo sapiens high mobility group AT-hook 2 (HMGA2), transcript variant 1, mRNA"
+          },
+          {
+            "code": "NM_032410",
+            "display": "Homo sapiens hook microtubule tethering protein 3 (HOOK3), mRNA"
+          },
+          {
+            "code": "NM_0016556"
+          },
+          {
+            "code": "NM_175061",
+            "display": "Homo sapiens JAZF zinc finger 1 (JAZF1), mRNA"
+          },
+          {
+            "code": "NM_020910",
+            "display": "Homo sapiens KIAA1549 (KIAA1549), transcript variant 1, mRNA"
+          },
+          {
+            "code": "NM_004521",
+            "display": "Homo sapiens kinesin family member 5B (KIF5B), mRNA"
+          },
+          {
+            "code": "NM_022756",
+            "display": "Homo sapiens MYST/Esa1 associated factor 6 (MEAF6), transcript variant 1, mRNA"
+          },
+          {
+            "code": "NM_001127500",
+            "display": "Homo sapiens MET proto-oncogene, receptor tyrosine kinase (MET), transcript variant 1, mRNA"
+          },
+          {
+            "code": "NM_000245",
+            "display": "Homo sapiens MET proto-oncogene, receptor tyrosine kinase (MET), transcript variant 2, mRNA"
+          },
+          {
+            "code": "NM_012224",
+            "display": "Homo sapiens NIMA related kinase 1 (NEK1), transcript variant 2, mRNA"
+          },
+          {
+            "code": "NM_000268",
+            "display": "Homo sapiens NF2, moesin-ezrin-radixin like (MERLIN) tumor suppressor (NF2), transcript variant 1, mRNA"
+          },
+          {
+            "code": "NM_002523",
+            "display": "Homo sapiens neuronal pentraxin 2 (NPTX2), mRNA"
+          },
+          {
+            "code": "NM_004495",
+            "display": "Homo sapiens neuregulin 1 (NRG1), transcript variant HRG-gamma, mRNA"
+          },
+          {
+            "code": "NM_002529",
+            "display": "Homo sapiens neurotrophic receptor tyrosine kinase 1 (NTRK1), transcript variant 2, mRNA"
+          },
+          {
+            "code": "NM_006180",
+            "display": "Homo sapiens neurotrophic receptor tyrosine kinase 2 (NTRK2), transcript variant a, mRNA"
+          },
+          {
+            "code": "NM_002530",
+            "display": "Homo sapiens neurotrophic receptor tyrosine kinase 3 (NTRK3), transcript variant 2, mRNA"
+          },
+          {
+            "code": "NM_001278495",
+            "display": "Homo sapiens NUT family member 2B (NUTM2B), mRNA"
+          },
+          {
+            "code": "NM_181457",
+            "display": "Homo sapiens paired box 3 (PAX3), transcript variant PAX3, mRNA"
+          },
+          {
+            "code": "NM_002584",
+            "display": "Homo sapiens paired box 7 (PAX7), transcript variant 1, mRNA"
+          },
+          {
+            "code": "NM_002636",
+            "display": "Homo sapiens PHD finger protein 1 (PHF1), transcript variant 1, mRNA"
+          },
+          {
+            "code": "NM_016112",
+            "display": "Homo sapiens polycystin 2 like 1, transient receptor potential cation channel (PKD2L1), transcript variant 1, mRNA"
+          },
+          {
+            "code": "NM_002655",
+            "display": "Homo sapiens PLAG1 zinc finger (PLAG1), transcript variant 1, mRNA"
+          },
+          {
+            "code": "NM_000535",
+            "display": "Homo sapiens PMS1 homolog 2, mismatch repair system component (PMS2), transcript variant 1, mRNA"
+          },
+          {
+            "code": "NM_015869",
+            "display": "Homo sapiens peroxisome proliferator activated receptor gamma (PPARG), transcript variant 2, mRNA"
+          },
+          {
+            "code": "NM_138711",
+            "display": "Homo sapiens peroxisome proliferator activated receptor gamma (PPARG), transcript variant 3, mRNA"
+          },
+          {
+            "code": "NM_005037",
+            "display": "Homo sapiens peroxisome proliferator activated receptor gamma (PPARG), transcript variant 4, mRNA"
+          },
+          {
+            "code": "NM_002736",
+            "display": "Homo sapiens protein kinase cAMP-dependent type II regulatory subunit beta (PRKAR2B), mRNA"
+          },
+          {
+            "code": "NM_002821",
+            "display": "Homo sapiens protein tyrosine kinase 7 (inactive) (PTK7), transcript variant PTK7-1, mRNA"
+          },
+          {
+            "code": "NM_022456",
+            "display": "Homo sapiens RAB3A interacting protein (RAB3IP), transcript variant alpha 1, mRNA"
+          },
+          {
+            "code": "NM_020165",
+            "display": "Homo sapiens RAD18 E3 ubiquitin protein ligase (RAD18), mRNA"
+          },
+          {
+            "code": "NM_002880",
+            "display": "Homo sapiens Raf-1 proto-oncogene, serine/threonine kinase (RAF1), transcript variant 2, mRNA"
+          },
+          {
+            "code": "NM_020630",
+            "display": "Homo sapiens ret proto-oncogene (RET), transcript variant 4, mRNA"
+          },
+          {
+            "code": "NM_002944",
+            "display": "Homo sapiens ROS proto-oncogene 1, receptor tyrosine kinase (ROS1), transcript variant 1, mRNA"
+          },
+          {
+            "code": "NM_207366",
+            "display": "Homo sapiens septin 14 (SEPTIN14), mRNA"
+          },
+          {
+            "code": "NM_003930",
+            "display": "Homo sapiens src kinase associated phosphoprotein 2 (SKAP2), transcript variant 1, mRNA"
+          },
+          {
+            "code": "NM_005637",
+            "display": "Homo sapiens SS18 subunit of BAF chromatin remodeling complex (SS18), transcript variant 2, mRNA"
+          },
+          {
+            "code": "NM_003147",
+            "display": "Homo sapiens SSX family member 2 (SSX2), transcript variant 1, mRNA"
+          },
+          {
+            "code": "NM_021908",
+            "display": "Homo sapiens suppression of tumorigenicity 7 (ST7), transcript variant 8, mRNA"
+          },
+          {
+            "code": "NM_003169",
+            "display": "Homo sapiens SPT5 homolog, DSIF elongation factor subunit (SUPT5H), transcript variant 1, mRNA"
+          },
+          {
+            "code": "NM_006997",
+            "display": "Homo sapiens transforming acidic coiled-coil containing protein 2 (TACC2), transcript variant 4, mRNA"
+          },
+          {
+            "code": "NM_006342",
+            "display": "Homo sapiens transforming acidic coiled-coil containing protein 3 (TACC3), mRNA"
+          },
+          {
+            "code": "NM_006070",
+            "display": "Homo sapiens trafficking from ER to golgi regulator (TFG), transcript variant 1, mRNA"
+          },
+          {
+            "code": "NM_0227481"
+          },
+          {
+            "code": "NM_153649",
+            "display": "Homo sapiens tropomyosin 3 (TPM3), transcript variant Tpm3.1, mRNA"
+          },
+          {
+            "code": "NM_007118",
+            "display": "Homo sapiens trio Rho guanine nucleotide exchange factor (TRIO), transcript variant 1, mRNA"
+          },
+          {
+            "code": "NM_030796",
+            "display": "Homo sapiens VOPP1 WW domain binding protein (VOPP1), transcript variant 1, mRNA"
+          },
+          {
+            "code": "NM_023034",
+            "display": "Homo sapiens nuclear receptor binding SET domain protein 3 (NSD3), transcript variant long, mRNA"
+          },
+          {
+            "code": "NM_015472",
+            "display": "Homo sapiens WW domain containing transcription regulator 1 (WWTR1), transcript variant 1, mRNA"
+          },
+          {
+            "code": "NM_006761",
+            "display": "Homo sapiens tyrosine 3-monooxygenase/tryptophan 5-monooxygenase activation protein epsilon (YWHAE), transcript variant 1, mRNA"
+          },
+          {
+            "code": "NM_017612",
+            "display": "Homo sapiens zinc finger CCHC-type containing 8 (ZCCHC8), transcript variant 1, mRNA"
+          },
+          {
+            "code": "NM_144982",
+            "display": "Homo sapiens zinc finger C3H1-type containing (ZFC3H1), mRNA"
+          },
+          {
+            "code": "NM_024645",
+            "display": "Homo sapiens zinc finger matrin-type 4 (ZMAT4), transcript variant 1, mRNA"
+          },
+          {
+            "code": "NM_001556",
+            "display": "Homo sapiens inhibitor of nuclear factor kappa B kinase subunit beta (IKBKB), transcript variant 1, mRNA"
+          },
+          {
+            "code": "NM_022748",
+            "display": "Homo sapiens tensin 3 (TNS3), mRNA"
+          }
+        ]
+      }
+    ]
+  }
+}
