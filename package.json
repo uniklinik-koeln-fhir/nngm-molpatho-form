@@ -2,7 +2,7 @@
   "name": "de.uk-koeln.nngm.molpathoform",
   "version": "0.1.0",
   "dependencies": {
-    "de.uk-koeln.nngm.registrationform": "0.3.1"
+    "de.uk-koeln.nngm.registrationform": "0.3.4"
   },
   "fhirVersions": [
     "4.0.1"
