@@ -2,6 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "Profile-nNGM-Observation-IHC",
   "url": "http://uk-koeln.de/fhir/StructureDefinition/Observation/ihc",
+  "version": "1.0.0",
   "name": "Profile_nNGM_Observation_IHC",
   "title": "Profile - nNGM - Observation - IHC",
   "status": "active",
@@ -199,7 +200,7 @@
         "path": "Observation.method.coding",
         "min": 1,
         "patternCoding": {
-          "system": "http://ncit.nci.nih.gov",
+          "system": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl",
           "code": "C23020"
         }
       },
@@ -230,7 +231,7 @@
         "patternCodeableConcept": {
           "coding": [
             {
-              "system": "http://ncit.nci.nih.gov",
+              "system": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl",
               "code": "C16977"
             }
           ]
@@ -263,7 +264,7 @@
         "patternCodeableConcept": {
           "coding": [
             {
-              "system": "http://ncit.nci.nih.gov",
+              "system": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl",
               "code": "C16295"
             }
           ]
@@ -296,7 +297,7 @@
         "patternCodeableConcept": {
           "coding": [
             {
-              "system": "http://ncit.nci.nih.gov",
+              "system": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl",
               "code": "C25392"
             }
           ]
@@ -329,7 +330,7 @@
         "patternCodeableConcept": {
           "coding": [
             {
-              "system": "http://ncit.nci.nih.gov",
+              "system": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl",
               "code": "C48443"
             }
           ]
@@ -357,7 +358,7 @@
         "patternCodeableConcept": {
           "coding": [
             {
-              "system": "http://ncit.nci.nih.gov",
+              "system": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl",
               "code": "C25341"
             }
           ]
@@ -386,7 +387,7 @@
         "patternCodeableConcept": {
           "coding": [
             {
-              "system": "http://ncit.nci.nih.gov",
+              "system": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl",
               "code": "C25161"
             }
           ]
@@ -462,7 +463,7 @@
         "patternCodeableConcept": {
           "coding": [
             {
-              "system": "http://ncit.nci.nih.gov",
+              "system": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl",
               "code": "C42793"
             }
           ]
@@ -493,7 +494,7 @@
         "patternCodeableConcept": {
           "coding": [
             {
-              "system": "http://ncit.nci.nih.gov",
+              "system": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl",
               "code": "C129474"
             }
           ]

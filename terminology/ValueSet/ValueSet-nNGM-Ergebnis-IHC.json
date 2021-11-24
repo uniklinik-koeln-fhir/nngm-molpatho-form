@@ -1,12 +1,11 @@
 {
     "resourceType": "ValueSet",
+    "id": "ValueSet-nNGM-Ergebnis-IHC",
     "url": "http://uk-koeln.de/fhir/ValueSet/nNGM/ergebnis-ihc",
-    "version": "1.0",
-    "name": "IHC-Untersuchungsergebnis",
-    "status": "draft",
-    "date": "2018-10-31",
-    "publisher": "Uniklinik Köln",
-    "description": "Untersuchungsergebnis IHC",
+    "version": "1.0.0",
+    "name": "ValueSet_nNGM_Ergebnis_IHC",
+    "title": "ValueSet - nNGM - Ergebnis - IHC",
+    "status": "active",
     "compose": {
         "include": [
             {

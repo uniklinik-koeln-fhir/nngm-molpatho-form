@@ -1,13 +1,10 @@
 {
     "resourceType": "CodeSystem",
+    "id": "CodeSystem-nNGM-IHC-Antikoerper",
     "url": "http://uk-koeln.de/fhir/CodeSystem/ihc-antikoerper",
-    "name": "IhcAntikoerper",
-    "title": "IHC Antikoerper",
-    "experimental": false,
-    "status": "draft",
-    "date": "2020-03-16",
-    "publisher": "Uniklinik Köln",
-    "description": "IHC Antikoerper",
+    "name": "CodeSystem_nNGM_IHC_Antikoerper",
+    "title": "CodeSystem - nNGM - IHC - Antikörper",
+    "status": "active",
     "content": "complete",
     "concept": [
         {

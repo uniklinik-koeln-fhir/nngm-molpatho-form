@@ -1,14 +1,11 @@
 {
     "resourceType": "ValueSet",
+    "id": "ValueSet-nNGM-IHC-Antikoerper",
     "url": "http://uk-koeln.de/fhir/ValueSet/ihc-antikoerper",
     "version": "1.0.0",
-    "name": "IhcAntikoerper",
-    "title": "IHC Antikoerper",
-    "status": "draft",
-    "experimental": false,
-    "date": "2020-03-16",
-    "publisher": "Uniklinik Köln",
-    "description": "IHC Antikoerper",
+    "name": "ValueSet_nNGM_IHC_Antikoerper",
+    "title": "ValueSet - nNGM - IHC - Antikörper",
+    "status": "active",
     "compose": {
         "include": [
             {
