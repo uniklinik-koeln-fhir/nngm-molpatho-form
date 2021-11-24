@@ -180,11 +180,6 @@
         }
       },
       {
-        "id": "Observation.value[x].coding",
-        "path": "Observation.value[x].coding",
-        "min": 1
-      },
-      {
         "id": "Observation.interpretation",
         "path": "Observation.interpretation",
         "mustSupport": true
@@ -338,34 +333,6 @@
       },
       {
         "id": "Observation.component:sop.value[x]",
-        "path": "Observation.component.value[x]",
-        "min": 1,
-        "type": [
-          {
-            "code": "string"
-          }
-        ]
-      },
-      {
-        "id": "Observation.component:standort",
-        "path": "Observation.component",
-        "sliceName": "standort",
-        "max": "1"
-      },
-      {
-        "id": "Observation.component:standort.code",
-        "path": "Observation.component.code",
-        "patternCodeableConcept": {
-          "coding": [
-            {
-              "system": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl",
-              "code": "C25341"
-            }
-          ]
-        }
-      },
-      {
-        "id": "Observation.component:standort.value[x]",
         "path": "Observation.component.value[x]",
         "min": 1,
         "type": [
