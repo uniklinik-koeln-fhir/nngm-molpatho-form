@@ -445,8 +445,8 @@
           }
         ],
         "binding": {
-          "strength": "required",
-          "valueSet": "http://uk-koeln.de/fhir/ValueSet/ish-fish-kits"
+          "strength": "extensible",
+          "valueSet": "http://uk-koeln.de/fhir/ValueSet/nNGM/ish-fish-kits"
         }
       },
       {
