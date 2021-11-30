@@ -243,7 +243,7 @@
         ],
         "binding": {
           "strength": "required",
-          "valueSet": "http://uk-koeln.de/fhir/ValueSet/phenotypes"
+          "valueSet": "http://uk-koeln.de/fhir/ValueSet/nNGM/phenotypes"
         }
       },
       {
