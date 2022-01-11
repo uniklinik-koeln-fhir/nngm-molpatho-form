@@ -249,6 +249,12 @@
       {
         "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/molpatho-obs-codes",
         "version": "1.0.0",
+        "code": "EGFR Exon 18",
+        "display": "EGFR Exon 18"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/molpatho-obs-codes",
+        "version": "1.0.0",
         "code": "EGFR Exon 20",
         "display": "EGFR Exon 20"
       },
